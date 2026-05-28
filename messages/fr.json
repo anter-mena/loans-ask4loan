@@ -1,0 +1,781 @@
+{
+  "homepage": {
+    "hero": {
+      "trustBadge": "La confiance de plus de 50 000 Canadiens",
+      "headline": {
+        "part1": "Prêts Personnels Rapides",
+        "part2": "Jusqu'à 5 000 $"
+      },
+      "description": "Comparez les offres de plus de 50 prêteurs. Aucuns frais cachés. Aucun impact sur la cote de crédit. Obtenez des fonds en seulement 24 heures.",
+      "features": {
+        "ssl": "Sécurisé SSL 256 bits",
+        "funding": "Fonds en 24 Heures",
+        "credit": "Tout Crédit Accepté"
+      },
+      "socialProof": {
+        "trusted": "La confiance de plus de 50 000 emprunteurs",
+        "noImpact": "Aucun impact sur votre cote de crédit pour vérifier votre taux"
+      },
+      "cta": "Postuler Maintenant"
+    },
+    "benefits": {
+      "badge": "Avantages",
+      "title": "Pourquoi Choisir Ask4loan pour les Prêts Personnels",
+      "description": "Ask4loan Canada vous met en relation avec les meilleurs prêteurs, afin que vous puissiez trouver les meilleurs taux sans les tracas bancaires.",
+      "items": {
+        "lowRates": {
+          "title": "Taux d'Intérêt Bas",
+          "description": "Accédez à des taux compétitifs de plusieurs prêteurs, souvent inférieurs aux cartes de crédit."
+        },
+        "secure": {
+          "title": "Sûr et Sécurisé",
+          "description": "Vos données sont protégées par un chiffrement SSL 256 bits de niveau bancaire."
+        },
+        "fastFunding": {
+          "title": "Financement Rapide",
+          "description": "Obtenez l'approbation en quelques minutes et recevez des fonds dès le prochain jour ouvrable."
+        },
+        "noFees": {
+          "title": "Aucuns Frais Cachés",
+          "description": "Conditions transparentes sans frais surprises. Ce que vous voyez est ce que vous obtenez."
+        },
+        "allCredit": {
+          "title": "Tout Crédit Bienvenu",
+          "description": "Que votre crédit soit excellent ou qu'il nécessite du travail, nous avons des options pour vous."
+        },
+        "personalized": {
+          "title": "Offres Personnalisées",
+          "description": "Obtenez des offres de prêt adaptées à vos besoins spécifiques et à votre situation financière."
+        }
+      },
+      "cta": "Commencez Votre Demande"
+    },
+    "howItWorks": {
+      "badge": "Processus Simple",
+      "title": "Comment Obtenir un Prêt Personnel en 3 Étapes Faciles",
+      "description": "Notre processus rationalisé vous permet de passer de la demande au financement plus rapidement que les banques traditionnelles.",
+      "steps": {
+        "step1": {
+          "number": "01",
+          "title": "Demande Rapide",
+          "description": "Remplissez notre simple formulaire en ligne en seulement 2 minutes. Aucune paperasse, aucun tracas."
+        },
+        "step2": {
+          "number": "02",
+          "title": "Comparez les Offres",
+          "description": "Nous vous mettons en relation avec des offres de prêt personnalisées de notre réseau de prêteurs de confiance."
+        },
+        "step3": {
+          "number": "03",
+          "title": "Obtenez Vos Fonds",
+          "description": "Choisissez la meilleure offre pour vous et recevez les fonds directement dans votre compte bancaire."
+        }
+      },
+      "ctaQuestion": "Prêt à commencer?",
+      "cta": "Commencez Votre Demande"
+    },
+    "requirements": {
+      "badge": "Exigences",
+      "title": {
+        "part1": "Exigences de Prêt Personnel: ",
+        "part2": "Simple et Rapide"
+      },
+      "description": "Nous avons simplifié le processus d'emprunt pour le rendre accessible à tous. Aucune paperasse compliquée, aucun délai d'approbation prolongé.",
+      "list": [
+        "Être citoyen canadien ou résident permanent, et avoir plus de 18 ans",
+        "Avoir un compte chèque valide à votre nom",
+        "Fournir une adresse courriel et un numéro de téléphone valides"
+      ],
+      "features": {
+        "loanAmounts": {
+          "title": "Montants de Prêt",
+          "value": "200 $ – 5 000 $",
+          "desc": "Empruntez ce dont vous avez besoin, rien de plus"
+        },
+        "requirements": {
+          "title": "Exigences",
+          "value": "Minimales",
+          "desc": "Citoyen canadien, 18+, compte chèque"
+        },
+        "creditCheck": {
+          "title": "Vérification de Crédit",
+          "value": "Vérification Douce Seulement",
+          "desc": "Aucun impact sur votre cote de crédit"
+        }
+      },
+      "cta": "Postuler Maintenant"
+    },
+    "partners": {
+      "badge": "Partenaires de Confiance"
+    },
+    "loanTypes": {
+      "badge": "Types de Prêts",
+      "title": "Trouvez le Prêt Qui Vous Convient",
+      "description": "Explorez nos ressources complètes pour prendre des décisions d'emprunt éclairées",
+      "categories": {
+        "popular": {
+          "title": "Types de Prêts Populaires",
+          "items": {
+            "personal": {
+              "name": "Prêts Personnels",
+              "desc": "Conditions flexibles jusqu'à 5 000 $"
+            },
+            "badCredit": {
+              "name": "Prêts Mauvais Crédit",
+              "desc": "Toutes les cotes de crédit sont les bienvenues"
+            },
+            "emergency": {
+              "name": "Prêts d'Urgence",
+              "desc": "Financement rapide quand vous en avez besoin"
+            },
+            "debtConsolidation": {
+              "name": "Consolidation de Dettes",
+              "desc": "Simplifiez vos paiements"
+            }
+          }
+        },
+        "provinces": {
+          "title": "Prêts par Province",
+          "items": {
+            "ontario": {
+              "name": "Prêts Ontario",
+              "desc": "Toronto, Ottawa et plus"
+            },
+            "quebec": {
+              "name": "Prêts Québec",
+              "desc": "Montréal, Ville de Québec et plus"
+            },
+            "bc": {
+              "name": "Prêts Colombie-Britannique",
+              "desc": "Vancouver, Victoria et plus"
+            },
+            "alberta": {
+              "name": "Prêts Alberta",
+              "desc": "Calgary, Edmonton et plus"
+            }
+          }
+        },
+        "resources": {
+          "title": "Ressources Utiles",
+          "items": {
+            "creditGuide": {
+              "name": "Guide de Pointage de Crédit",
+              "desc": "Apprenez ce que les prêteurs recherchent"
+            },
+            "howLoansWork": {
+              "name": "Comment Fonctionnent les Prêts",
+              "desc": "Guide complet"
+            },
+            "faq": {
+              "name": "FAQ",
+              "desc": "Questions courantes répondues"
+            }
+          }
+        }
+      },
+      "ctaQuestion": "Prêt à commencer?",
+      "cta": "Obtenez Votre Prêt Aujourd'hui"
+    },
+    "testimonials": {
+      "badge": "Témoignages",
+      "title": "Avis des Clients: Ce que les Canadiens Disent d'Ask4Loan",
+      "description": "Rejoignez des milliers d'emprunteurs satisfaits qui ont trouvé de meilleures options de prêt avec nous",
+      "reviews": {
+        "review1": {
+          "quote": "En tant qu'emprunteur pour la première fois au Canada, j'étais nerveux à propos du processus. Ask4Loan l'a rendu incroyablement simple. J'ai été approuvé rapidement et les fonds étaient dans mon compte le lendemain!",
+          "amount": "3 000 $",
+          "purpose": "Consolidation de Dettes",
+          "name": "Sarah Thompson",
+          "location": "Toronto, ON"
+        },
+        "review2": {
+          "quote": "Après que ma banque ait refusé ma demande, Ask4Loan m'a mis en contact avec un prêteur prêt à travailler avec ma situation. Tout le processus était transparent et professionnel.",
+          "amount": "2 500 $",
+          "purpose": "Dépenses d'Urgence",
+          "name": "Jean-Pierre Dubois",
+          "location": "Montréal, QC"
+        },
+        "review3": {
+          "quote": "Pouvoir comparer plusieurs offres de prêt en un seul endroit m'a fait gagner beaucoup de temps. Les taux étaient compétitifs et le processus de demande était simple. Je recommande vivement!",
+          "amount": "4 500 $",
+          "purpose": "Rénovation Domiciliaire",
+          "name": "Michelle Chen",
+          "location": "Vancouver, BC"
+        }
+      },
+      "ctaQuestion": "Prêt à rejoindre des milliers de clients satisfaits?",
+      "cta": "Obtenez Votre Prêt Aujourd'hui"
+    },
+    "faq": {
+      "badge": "FAQ",
+      "title": "Questions Fréquemment Posées sur les Prêts Personnels au CANADA",
+      "description": "Trouvez des réponses aux questions courantes sur notre processus de prêt, nos taux et nos exigences.",
+      "questions": {
+        "q1": {
+          "question": "Combien de temps avant d'obtenir mon prêt?",
+          "answer": "Une fois approuvés, les fonds peuvent être déposés dans votre compte bancaire dès le prochain jour ouvrable. Beaucoup de nos prêteurs partenaires offrent un financement le jour même pour les demandes soumises tôt le matin."
+        },
+        "q2": {
+          "question": "La vérification de mon taux affectera-t-elle ma cote de crédit?",
+          "answer": "Non! Nous utilisons une vérification de crédit douce pour vérifier votre taux, ce qui n'affecte pas votre cote de crédit. Ce n'est que lorsque vous acceptez une offre de prêt et procédez avec un prêteur spécifique qu'une enquête rigoureuse sera effectuée."
+        },
+        "q3": {
+          "question": "Quelle cote de crédit ai-je besoin pour me qualifier?",
+          "answer": "Nous travaillons avec un vaste réseau de prêteurs qui acceptent tous les types de crédit. Que vous ayez un excellent crédit, un crédit acceptable ou que vous soyez encore en train de construire votre historique de crédit, nous avons des options pour vous."
+        },
+        "q4": {
+          "question": "Combien puis-je emprunter?",
+          "answer": "Nos prêteurs partenaires offrent des prêts personnels allant de 200 $ à 5 000 $. Le montant pour lequel vous vous qualifiez dépend de vos revenus, de votre profil de crédit et d'autres facteurs."
+        },
+        "q5": {
+          "question": "Y a-t-il des frais cachés?",
+          "answer": "Aucuns frais cachés! Toutes les conditions, y compris les taux d'intérêt et les frais, sont divulguées à l'avance avant que vous acceptiez une offre de prêt. Nous croyons en une transparence totale."
+        },
+        "q6": {
+          "question": "Mes informations personnelles sont-elles sécurisées?",
+          "answer": "Absolument. Nous utilisons un chiffrement SSL 256 bits de niveau bancaire pour protéger vos données. Vos informations ne sont jamais vendues à des tiers et ne sont partagées qu'avec les prêteurs avec lesquels vous choisissez de travailler."
+        },
+        "q7": {
+          "question": "Dois-je être citoyen canadien pour postuler?",
+          "answer": "Vous devez être soit citoyen canadien soit résident permanent avec un numéro d'assurance sociale valide. Vous devez également avoir au moins 18 ans."
+        },
+        "q8": {
+          "question": "Quelles provinces desservez-vous?",
+          "answer": "Nous mettons en relation les emprunteurs avec des prêteurs dans la plupart des provinces canadiennes. La disponibilité des prêts et les conditions peuvent varier selon la province en raison des réglementations locales."
+        }
+      },
+      "ctaQuestion": "Vous avez encore des questions?",
+      "cta": "Contacter le Support"
+    },
+    "cta": {
+      "badge": "Offre à Durée Limitée",
+      "title": "Demandez Votre Prêt Personnel Aujourd'hui",
+      "description": "Rejoignez des milliers de Canadiens qui ont trouvé de meilleures options de prêt avec Ask4Loan Canada. Postulez maintenant et obtenez vos offres personnalisées en quelques minutes.",
+      "button": "Postuler Maintenant",
+      "trustIndicator": {
+        "title": "Vérification de Crédit Sans Impact:",
+        "description": "Comparer les offres n'affectera pas votre cote de crédit."
+      },
+      "footer": "Aucune obligation • 100% Gratuit"
+    }
+  },
+
+  "contact": {
+    "breadcrumb": {
+      "home": "Accueil",
+      "contact": "Contact"
+    },
+    "hero": {
+      "title": "Contactez-Nous",
+      "description": "Vous avez des questions? Nous sommes là pour vous aider. Contactez notre équipe et nous vous répondrons dès que possible."
+    },
+    "form": {
+      "title": "Envoyez-nous un message",
+      "name": {
+        "label": "Nom",
+        "placeholder": "Votre nom"
+      },
+      "email": {
+        "label": "Courriel",
+        "placeholder": "votre@email.com"
+      },
+      "subject": {
+        "label": "Sujet",
+        "placeholder": "Comment pouvons-nous vous aider?"
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Parlez-nous de votre demande..."
+      },
+      "submit": "Envoyer le Message"
+    }
+  },
+
+  "about": {
+    "breadcrumb": {
+      "home": "Accueil",
+      "about": "À Propos"
+    },
+    "hero": {
+      "title": "À Propos d'Ask4Loan",
+      "description": "Aider les Canadian à trouver le bon prêt personnel depuis 2020. Nous nous engageons à la transparence, la rapidité et à vous connecter avec des prêteurs de confiance."
+    },
+    "stats": {
+      "americansHelped": "Canadian Aidés",
+      "lenderPartners": "Partenaires Prêteurs Vérifiés",
+      "yearsInBusiness": "Années d'Activité",
+      "bbbRating": "Note BBB"
+    },
+    "story": {
+      "title": "Notre Histoire : 5+ Ans à Aider les Américains",
+      "paragraph1": "Ask4Loan a été fondé en 2020 avec un objectif simple : aider les Canadian ordinaires à accéder aux fonds dont ils ont besoin sans les tracas et la confusion qui accompagnent souvent les prêts traditionnels.",
+      "paragraph2": "Au cours des 5 dernières années, nous sommes passés d'une petite startup à une plateforme de comparaison de prêts de confiance, aidant plus de 50 000 Canadian à trouver des prêts personnels adaptés à leurs besoins. Notre succès repose sur un principe :",
+      "paragraph2Bold": "placer les consommateurs en premier",
+      "paragraph3": "Nous comprenons que la vie ne se déroule pas toujours comme prévu. Qu'il s'agisse d'une facture médicale imprévue, d'une réparation de voiture ou simplement de joindre les deux bouts, parfois vous avez besoin d'un peu d'aide supplémentaire. C'est là que nous intervenons.",
+      "paragraph4": "Notre plateforme vous connecte avec un réseau de plus de 40 prêteurs vérifiés spécialisés dans les prêts personnels allant de 300 $ à 5 000 $. Contrairement à certains sites de comparaison, nous ne listons pas n'importe quel prêteur – chaque partenaire passe par notre processus de vérification rigoureux."
+    },
+    "team": {
+      "title": "Notre Équipe d'Experts",
+      "subtitle": "Notre contenu et nos recommandations sont soutenus par des professionnels de la finance ayant des décennies d'expérience combinée.",
+      "teamName": "Équipe Éditoriale d'Ask4Loan",
+      "teamDescription": "Notre équipe éditoriale examine tout le contenu pour en vérifier l'exactitude, la conformité réglementaire et la pertinence pour les consommateurs.",
+      "credentialsTitle": "Les Qualifications de l'Équipe Incluent :",
+      "credentials": {
+        "cfp": "Planificateurs Financiers Certifiés (CFP)",
+        "professionals": "Professionnels du crédit à la consommation avec plus de 10 ans d'expérience",
+        "compliance": "Spécialistes de la conformité familiers avec les réglementations CFPB",
+        "executives": "Anciens cadres bancaires et fintech"
+      },
+      "independenceTitle": "Indépendance Éditoriale :",
+      "independenceText": "Notre contenu est créé grâce à une vérification indépendante de nos partenaires prêteurs. Nous maintenons une séparation stricte entre nos opérations commerciales et nos opérations de contenu pour garantir la transparence."
+    },
+    "vetting": {
+      "title": "Comment Nous Vérifions Nos Partenaires Prêteurs",
+      "subtitle": "Tous les prêteurs ne font pas partie de notre réseau. Voici notre processus de vérification rigoureux en 4 étapes.",
+      "items": {
+        "licensing": {
+          "title": "Vérification des Licences d'État",
+          "description": "Chaque prêteur doit détenir des licences valides dans chaque État où il opère. Nous vérifions auprès de l'autorité réglementaire appropriée."
+        },
+        "compliance": {
+          "title": "Vérification de la Conformité Fédérale",
+          "description": "Tous les partenaires doivent se conformer à la CCPA américaine et aux autres réglementations fédérales en matière de prêts."
+        },
+        "complaints": {
+          "title": "Examen des Plaintes des Consommateurs",
+          "description": "Nous examinons toutes les plaintes CFPB, les notes BBB et les plaintes des barreaux d'État pour tout grief de consommateur."
+        },
+        "monitoring": {
+          "title": "Surveillance Continue",
+          "description": "Des examens trimestriels garantissent le respect continu des règles de prêt et des réglementations du secteur."
+        }
+      }
+    },
+    "values": {
+      "title": "Nos Valeurs Fondamentales",
+      "subtitle": "Ce qui nous distingue des autres sites de comparaison de prêts.",
+      "items": {
+        "transparency": {
+          "title": "Transparence d'Abord",
+          "description": "Nous croyons en une communication claire. Pas de frais cachés. Pas de surprises. Juste un jumelage de prêts simple."
+        },
+        "customer": {
+          "title": "Axé sur le Client",
+          "description": "Le temps est essentiel pour nos clients. Nous travaillons pour vous connecter avec des prêts qui correspondent à votre situation unique."
+        },
+        "speed": {
+          "title": "Rapidité et Efficacité",
+          "description": "Le temps compte lorsque vous avez besoin de fonds. Nos processus rationalisés vous mettent en relation avec des prêteurs immédiatement. Aucun délai."
+        },
+        "quality": {
+          "title": "Partenaires de Qualité",
+          "description": "Nous nous associons avec des prêteurs Canadian réputés qui respectent de véritables réglementations anti-prédation."
+        }
+      }
+    },
+    "sources": {
+      "title": "Sources Officielles",
+      "subtitle": "Notre contenu est éclairé par les organismes de réglementation financière officiels des États-Unis :",
+      "cfpb": "Bureau de Protection Financière des Consommateurs (CFPB)",
+      "ftc": "Commission Fédérale du Commerce (FTC)"
+    }
+  },
+
+
+  "chatbot": {
+    "greeting": "Bonjour! Je suis là pour vous aider à trouver le prêt parfait. Comment puis-je vous aider aujourd'hui?",
+    "header": {
+      "title": "Assistant Ask4Loan",
+      "status": "Répond généralement instantanément",
+      "open": "Ouvrir le chat",
+      "close": "Fermer le chat"
+    },
+    "quickRepliesLabel": "Questions rapides:",
+    "quickReplies": {
+      "apply": "Comment demander un prêt?",
+      "rates": "Quels sont vos taux d'intérêt?",
+      "funding": "À quelle vitesse puis-je obtenir des fonds?",
+      "documents": "Quels documents ai-je besoin?"
+    },
+    "inputPlaceholder": "Tapez votre message...",
+    "responses": {
+      "apply": [
+        "Excellente question! La demande est simple - cliquez sur 'Demander maintenant' et remplissez notre formulaire rapide de 3 minutes. Vous serez jumelé avec des prêteurs instantanément!",
+        "Facile! Appuyez sur le bouton 'Demander maintenant', complétez notre courte application, et nous vous connecterons avec les meilleurs prêteurs pour votre situation.",
+        "Pour postuler, cliquez sur 'Demander maintenant' en haut de la page. Notre processus simplifié ne prend que quelques minutes et vous verrez vos offres immédiatement!"
+      ],
+      "rates": [
+        "Les taux d'intérêt varient selon le prêteur et votre profil de crédit, généralement entre 5,99% et 35,99% APR. Postulez pour voir des taux personnalisés sans impact sur votre crédit!",
+        "Les taux dépendent de votre solvabilité et du prêteur choisi. La plupart de nos partenaires offrent des taux entre 5,99% - 35,99% APR. Vérifiez votre taux en quelques minutes!",
+        "Notre réseau offre des taux compétitifs de 5,99% à 35,99% APR basés sur votre cote de crédit et situation financière. Obtenez votre taux personnalisé maintenant!"
+      ],
+      "funding": [
+        "Beaucoup de nos prêteurs peuvent vous financer dans les 24 heures suivant l'approbation! Certains offrent même un financement le jour même si vous postulez tôt dans la journée.",
+        "Rapide! La plupart des candidats approuvés reçoivent des fonds dans un délai d'un jour ouvrable. Certains prêteurs offrent même des dépôts le jour même!",
+        "Vous pourriez être financé dès le jour ouvrable suivant l'approbation. Certains prêteurs offrent un financement le jour même pour les candidats qualifiés!"
+      ],
+      "documents": [
+        "Vous aurez généralement besoin de: une pièce d'identité valide, une preuve de revenu (talons de paie ou relevés bancaires), et vos informations bancaires. C'est aussi simple que ça!",
+        "La plupart des prêteurs exigent une pièce d'identité émise par le gouvernement, des talons de paie récents ou des relevés bancaires, et les détails de votre compte bancaire. Ayez-les prêts pour accélérer le processus!",
+        "Documents de base nécessaires: pièce d'identité avec photo, preuve de revenu (2-3 derniers talons de paie), et vos informations de compte bancaire. Certains prêteurs peuvent demander une vérification supplémentaire."
+      ],
+      "default": [
+        "Je suis là pour vous aider! Vous pouvez me poser des questions sur notre processus de demande, les taux d'intérêt, les délais de financement ou les documents requis. Que voulez-vous savoir?",
+        "Heureux de vous aider! N'hésitez pas à poser des questions sur la demande de prêt, nos taux, la rapidité du financement ou les documents nécessaires.",
+        "Je peux vous aider avec des questions sur les demandes de prêt, les taux, la vitesse de financement ou les exigences. Quelles informations recherchez-vous?"
+      ]
+    }
+  },
+
+
+  "cookieBanner": {
+    "message": "Nous utilisons des cookies et des technologies similaires pour améliorer votre expérience, analyser le trafic du site et à des fins marketing.",
+    "learnMore": "En savoir plus",
+    "decline": "Refuser",
+    "acceptAll": "Tout Accepter"
+  },
+
+  "comingSoon": {
+    "badge": "Quelque chose d'excitant arrive",
+    "headline": {
+      "part1": "Nous Construisons Quelque Chose",
+      "part2": "d'Incroyable"
+    },
+    "description": "Notre équipe travaille dur pour vous apporter de nouvelles fonctionnalités et une meilleure expérience de prêt. Soyez le premier à savoir quand nous lancerons.",
+    "countdown": {
+      "days": "Jours",
+      "hours": "Heures",
+      "minutes": "Minutes",
+      "seconds": "Secondes"
+    },
+    "email": {
+      "placeholder": "Entrez votre adresse courriel",
+      "button": "Me Notifier",
+      "successTitle": "Vous êtes sur la liste!",
+      "successMessage": "Nous vous notifierons à",
+      "successMessageEnd": "lors du lancement.",
+      "disclaimer": "Aucun spam, jamais. Nous vous enverrons un courriel uniquement lors du lancement."
+    },
+    "backToHome": "Retour à l'Accueil"
+  },
+
+  "notFound": {
+    "title": "Page Non Trouvée",
+    "description": "Désolé, nous n'avons pas pu trouver la page que vous recherchez. Elle a peut-être été déplacée ou n'existe pas.",
+    "backToHome": "Retour à l'Accueil",
+    "contactSupport": "Contacter le Support",
+    "quickLinks": {
+      "title": "Ou essayez ces pages populaires:",
+      "applyLoan": "Demander un Prêt",
+      "about": "À Propos",
+      "contact": "Nous Contacter"
+    }
+  },
+
+  "privacy": {
+    "breadcrumb": {
+      "home": "Accueil",
+      "privacy": "Politique de Confidentialité"
+    },
+    "hero": {
+      "title": "Votre Vie Privée Compte",
+      "description": "Nous reconnaissons l'importance de protéger vos données personnelles et apprécions la confiance que vous nous accordez. Cette politique explique notre approche pour collecter, utiliser et protéger les informations que vous fournissez lors de l'utilisation de nos services.",
+      "acceptance": "Votre utilisation de notre plateforme constitue l'acceptation des pratiques de confidentialité décrites ci-dessous."
+    },
+    "protectionFeatures": {
+      "encryption": "Chiffrement 256 bits",
+      "ccpa": "Conforme CCPA",
+      "noSelling": "Aucune Vente de Données"
+    },
+    "sections": {
+      "section1": {
+        "number": "1",
+        "title": "Mesures de Protection des Données",
+        "content": [
+          "Notre engagement envers la sécurité des données comprend la mise en œuvre de protocoles de chiffrement avancés qui respectent les normes de l'industrie financière. Nous utilisons la technologie SSL pour protéger la transmission d'informations sensibles, y compris les détails financiers et personnels.",
+          "Nous examinons et améliorons régulièrement notre infrastructure de sécurité pour maintenir le plus haut niveau de protection des données pour nos utilisateurs."
+        ]
+      },
+      "section2": {
+        "number": "2",
+        "title": "Accès Restreint aux Informations Internes",
+        "content": [
+          "Seul le personnel désigné avec une autorisation appropriée peut accéder aux informations des clients. Chaque membre de l'équipe ayant des privilèges d'accès aux données doit compléter une vérification approfondie des antécédents avant de recevoir l'autorisation.",
+          "Ce cadre d'accès contrôlé garantit que les informations sont traitées exclusivement à des fins commerciales légitimes, notamment:"
+        ],
+        "list": [
+          "Traitement des demandes",
+          "Amélioration du service",
+          "Évaluation du crédit",
+          "Support client"
+        ]
+      },
+      "section3": {
+        "number": "3",
+        "title": "Divulgation d'Informations à des Tiers",
+        "content": [
+          "Pour traiter votre demande, maintenir votre compte et fournir nos services efficacement, nous pouvons divulguer vos informations à des partenaires externes sélectionnés. Ceux-ci peuvent inclure:"
+        ],
+        "list": [
+          "Institutions de prêt",
+          "Agences d'évaluation du crédit",
+          "Agences de recouvrement",
+          "Fournisseurs de services marketing",
+          "Autres partenaires commerciaux pertinents à nos opérations"
+        ],
+        "footer": "Toutes les parties externes sont contractuellement tenues de maintenir la confidentialité des données et ne peuvent utiliser vos informations qu'à des fins autorisées liées à votre demande ou aux services associés."
+      },
+      "section4": {
+        "number": "4",
+        "title": "Réseau de Demandes Multi-Prêteurs",
+        "content": [
+          "Les demandes soumises via notre réseau de partenaires sont distribuées à diverses institutions de prêt et services de courtage pour maximiser votre probabilité d'approbation. Les informations traitées via ce réseau peuvent être stockées dans des juridictions en dehors de votre état.",
+          "Les participants au réseau et leurs affiliés peuvent vous contacter par courriel, téléphone ou messagerie texte (les tarifs du transporteur s'appliquent). Vous conservez le droit d'arrêter ces communications en répondant AIDE pour le support ou STOP pour cesser les messages."
+        ]
+      },
+      "section5": {
+        "number": "5",
+        "title": "Autorisation de Téléphone et Message Texte",
+        "content": [
+          "Soumettre votre numéro de téléphone nous accorde la permission de vous contacter par appels vocaux et messages texte. Les communications peuvent inclure:"
+        ],
+        "list": [
+          "Confirmations de transaction",
+          "Offres spéciales",
+          "Notifications de compte",
+          "Demandes de commentaires",
+          "Autres informations pertinentes à votre demande ou statut de compte"
+        ],
+        "footer": "Vous pouvez retirer ce consentement à tout moment en suivant les instructions de désinscription incluses dans les messages texte ou en nous contactant directement en utilisant les coordonnées fournies ci-dessous."
+      },
+      "section6": {
+        "number": "6",
+        "title": "Autorisation de Communication par Courriel",
+        "content": [
+          "Fournir votre adresse courriel constitue un consentement à recevoir une correspondance électronique de notre part. Les communications par courriel peuvent inclure:"
+        ],
+        "list": [
+          "Messages liés aux transactions",
+          "Contenu promotionnel",
+          "Informations de compte",
+          "Invitations à des sondages",
+          "Autres documents pertinents à votre relation avec notre entreprise"
+        ],
+        "footer": "Vous conservez le droit de révoquer le consentement par courriel quand vous le souhaitez. Les options de désinscription sont disponibles via les liens dans nos courriels, ou vous pouvez nous contacter directement en utilisant les informations ci-dessous."
+      },
+      "section7": {
+        "number": "7",
+        "title": "Période de Conservation des Informations",
+        "content": [
+          "Les données personnelles seront conservées pendant la durée nécessaire pour atteindre les objectifs décrits dans cette politique et pour se conformer aux exigences légales et réglementaires.",
+          "Si vous souhaitez demander la suppression de vos informations, veuillez nous contacter en utilisant nos coordonnées ci-dessous."
+        ]
+      },
+      "section8": {
+        "number": "8",
+        "title": "Analytique Web et Cookies",
+        "content": [
+          "Nous pouvons déployer des cookies et des technologies similaires pour améliorer votre expérience sur le site Web et analyser les modèles d'utilisation.",
+          "Des détails supplémentaires sont disponibles dans notre politique de cookies séparée."
+        ]
+      }
+    },
+    "rights": {
+      "title": "Vos Droits à la Vie Privée",
+      "description": "Vous conservez le droit d'examiner, de corriger ou de demander la suppression des informations personnelles que nous détenons à votre sujet. Pour exercer ces droits ou si vous avez des questions concernant vos données, veuillez nous contacter en utilisant les informations fournies ci-dessous."
+    },
+    "contact": {
+      "title": "Contactez-Nous",
+      "description": "Pour des questions, préoccupations ou demandes concernant votre vie privée ou cette politique, veuillez nous contacter à:",
+      "email": "privacy@ask4loan.com"
+    },
+    "lastUpdated": "Dernière Mise à Jour: Février 2026"
+  },
+
+  "terms": {
+    "breadcrumb": {
+      "home": "Accueil",
+      "terms": "Conditions d'Utilisation"
+    },
+    "hero": {
+      "title": "Document Légal",
+      "subtitle": "Conditions d'Utilisation",
+      "description": "Veuillez lire attentivement ces conditions avant d'utiliser nos services."
+    },
+    "lastUpdated": "Dernière Mise à Jour: 16 Janvier 2026",
+    "sections": {
+      "section1": {
+        "number": "1",
+        "title": "Avis de Juridiction",
+        "content": [
+          "Toutes les transactions financières effectuées via cette plateforme sont considérées comme ayant lieu à notre siège social principal, quelle que soit la localisation géographique de l'utilisateur."
+        ]
+      },
+      "section2": {
+        "number": "2",
+        "title": "Informations Importantes",
+        "content": [
+          "Nos microprêts sont conçus pour répondre aux besoins financiers immédiats à court terme. Les clients doivent rembourser intégralement leur prêt existant avant d'être éligibles à un financement supplémentaire."
+        ]
+      },
+      "section3": {
+        "number": "3",
+        "title": "Définitions",
+        "content": [
+          "Dans ces Conditions d'Utilisation (\"Conditions\"), les références à \"Client\", \"vous\" ou \"votre\" identifient l'individu demandant nos services. Les références à \"Entreprise\", \"nous\" ou \"notre\" se réfèrent à Ask4Loan."
+        ]
+      },
+      "section4": {
+        "number": "4",
+        "title": "Votre Accord avec ces Conditions",
+        "content": [
+          "En autorisant les prélèvements automatiques depuis votre compte bancaire désigné pour le remboursement du prêt, vous reconnaissez l'acceptation de ces Conditions. Ces Conditions vous ont été rendues accessibles via plusieurs canaux—y compris notre emplacement physique, notre site Web à ask4loan.com, et via communication directe avec nos représentants—avant que vous finalisiez votre transaction."
+        ]
+      },
+      "section5": {
+        "number": "5",
+        "title": "Autorisation de Transaction Électronique",
+        "content": [
+          "Vous consentez à notre utilisation de méthodes électroniques pour collecter les montants dus en vertu de votre accord de prêt. Cela inclut notre droit de soumettre à nouveau les tentatives de collecte si les efforts initiaux échouent, que ce soit pour des montants partiels ou le solde complet dû, plus tous les frais de paiement retournés applicables que nous sommes légalement autorisés à facturer."
+        ]
+      },
+      "section6": {
+        "number": "6",
+        "title": "Résolution Individuelle des Litiges",
+        "content": [
+          "Dans la mesure maximale permise par la loi applicable, vous acceptez de résoudre tout litige avec nous sur une base individuelle et renoncez à la participation à un litige collectif ou à des procédures consolidées impliquant plusieurs demandeurs. Si vous rejoignez de telles procédures, vous consentez à des mesures injonctives pour votre retrait. Cette disposition ne limite pas votre droit de poursuivre des recours légaux individuels qui vous sont disponibles."
+        ]
+      },
+      "section7": {
+        "number": "7",
+        "title": "Dossiers Électroniques",
+        "content": [
+          "Vous reconnaissez que les communications numériques, les formulaires en ligne, les documents numérisés et les transmissions par télécopieur ont le même poids juridique que les documents papier original. Votre acceptation peut être démontrée par diverses méthodes, y compris la confirmation verbale (en personne ou par téléphone), la signature électronique, le nom tapé ou d'autres méthodes d'acceptation indiquées, toutes créant des obligations contraignantes en vertu de ces Conditions."
+        ]
+      },
+      "section8": {
+        "number": "8",
+        "title": "Vérification et Certification de la Demande",
+        "content": [
+          "En soumettant votre demande électroniquement ou par téléphone, vous certifiez sous peine de parjure que toutes les informations fournies sont exactes et complètes. Vous confirmez que vous n'êtes pas actuellement soumis à une procédure de faillite ni ne prévoyez de déclarer faillite.",
+          "Vous nous autorisez à vérifier les détails de votre demande via des agences d'évaluation du consommateur et d'autres méthodes de vérification appropriées. Nous conservons la discrétion exclusive de refuser les demandes en fonction de notre évaluation des risques suite à une diligence raisonnable.",
+          "Vous comprenez que le traitement nécessite la vérification de votre statut d'emploi, de vos informations bancaires et d'autres détails pertinents. Vous acceptez la responsabilité exclusive de protéger tout numéro d'identification personnel ou identifiant de compte qui vous est délivré."
+        ]
+      }
+    },
+    "importantNotice": {
+      "title": "Avis Important",
+      "description": "En utilisant les services d'Ask4Loan, vous reconnaissez avoir lu, compris et accepté d'être lié par ces Conditions d'Utilisation. Ces conditions constituent un accord juridiquement contraignant entre vous et Ask4Loan. Si vous n'acceptez pas ces conditions, please do not use our services."
+    },
+    "questions": {
+      "title": "Questions sur nos Conditions?",
+      "description": "Notre équipe juridique est là pour aider à clarifier toute question que vous pourriez avoir.",
+      "email": "legal@ask4loan.com"
+    },
+    "acceptanceReminder": "En continuant à utiliser les services d'Ask4Loan, vous confirmez votre acceptation de ces Conditions d'Utilisation et de toute modification future. Nous recommandons de consulter ces conditions périodiquement pour toute mise à jour."
+  },
+
+  "header": {
+    "nav": {
+      "loans": "Prêts",
+      "resources": "Ressources",
+      "aboutUs": "À Propos",
+      "contact": "Contact",
+      "applyNow": "Postuler Maintenant"
+    },
+    "loansDropdown": {
+      "byAmount": {
+        "title": "Par Montant",
+        "description": "Prêts de 300 $ à 5 000 $"
+      },
+      "byPurpose": {
+        "title": "Par Objectif",
+        "description": "Consolidation de dettes, urgences et plus"
+      },
+      "byCreditScore": {
+        "title": "Par Cote de Crédit",
+        "description": "Trouvez des prêts pour votre gamme de crédit"
+      },
+      "byType": {
+        "title": "Par Type",
+        "description": "Prêts personnels, d'urgence, le jour même"
+      },
+      "byLocation": {
+        "title": "Par Lieu",
+        "description": "Prêts au Canada"
+      },
+      "allOptions": {
+        "title": "Toutes les Options de Prêt",
+        "description": "Parcourir tous les prêts disponibles"
+      }
+    },
+    "resourcesDropdown": {
+      "tools": {
+        "title": "Outils",
+        "description": "Calculatrices et outils utiles"
+      },
+      "comparisons": {
+        "title": "Comparaisons",
+        "description": "Comparez les options d'emprunt"
+      },
+      "guides": {
+        "title": "Guides",
+        "description": "Guides de prêt étape par étape"
+      },
+      "faq": {
+        "title": "FAQ",
+        "description": "Questions courantes répondues"
+      },
+      "allResources": {
+        "title": "Toutes les Ressources",
+        "description": "Parcourir tous les outils et guides"
+      }
+    }
+  },
+
+  "countdownBanner": {
+    "message": "Postulez maintenant pour un dépôt vendredi!",
+    "timeLeft": "Temps restant:",
+    "timeShort": "Temps:"
+  } ,
+
+  "footer": {
+    "description": "Connecter les Canadian avec les meilleures offres de prêts personnels des meilleurs prêteurs depuis 2020.",
+    "sections": {
+      "loanTypes": {
+        "title": "Types de Prêts",
+        "personalLoans": "Prêts Personnels",
+        "badCreditLoans": "Prêts Mauvais Crédit",
+        "emergencyLoans": "Prêts d'Urgence",
+        "debtConsolidation": "Consolidation de Dettes"
+      },
+      "resources": {
+        "title": "Ressources",
+        "calculator": "Calculateur de Prêt",
+        "creditGuide": "Guide de Pointage de Crédit",
+        "howLoansWork": "Comment Fonctionnent les Prêts",
+        "faq": "FAQ"
+      },
+      "company": {
+        "title": "Entreprise",
+        "about": "À Propos",
+        "contact": "Contact",
+        "guides": "Guides Financiers"
+      },
+      "legal": {
+        "title": "Légal",
+        "privacy": "Politique de Confidentialité",
+        "terms": "Conditions d'Utilisation"
+      }
+    },
+    "copyright": "© 2024 Ask4Loan. Tous droits réservés.",
+    "disclaimer": "Ask4Loan connecte emprunteurs et prêteurs. Les conditions sont fixées par ces derniers."
+  },
+  
+  "loanApproval": {
+    "from": "de",
+    "approvedFor": "Approuvé pour",
+    "minAgo": "min passées"
+  
+}
+}
