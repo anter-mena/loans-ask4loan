@@ -86,7 +86,7 @@ const Requirements = () => {
 
             {/* Desktop CTA Button */}
             <a
-              href="https://cmi.rocks/go/6a0768c8e9dee"
+              href="https://cmi.rocks/go/6a0768c8e9dee?affiliate_sub1=ask4loan"
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => {
@@ -164,7 +164,7 @@ const Requirements = () => {
         {/* Mobile CTA Button */}
         <div className="mt-8 lg:hidden flex justify-center">
           <a
-            href="https://cmi.rocks/go/6a0768c8e9dee"
+            href="https://cmi.rocks/go/6a0768c8e9dee?affiliate_sub1=ask4loan"
             target="_blank"
             rel="noopener noreferrer"
             onClick={() => {

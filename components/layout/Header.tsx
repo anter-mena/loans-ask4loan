@@ -240,7 +240,7 @@ const Header = () => {
 
             {/* Desktop Apply Button */}
             <a
-              href="https://cmi.rocks/go/6a0768c8e9dee"
+              href="https://cmi.rocks/go/6a0768c8e9dee?affiliate_sub1=ask4loan"
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => {
@@ -412,7 +412,7 @@ const Header = () => {
             {/* Mobile Apply Button */}
             <div className="pt-4 border-t" style={{ borderColor: '#F1F5F9' }}>
               <a
-                href="https://cmi.rocks/go/6a0768c8e9dee"
+              href="https://cmi.rocks/go/6a0768c8e9dee?affiliate_sub1=ask4loan"
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => {
