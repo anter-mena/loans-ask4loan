@@ -4,6 +4,17 @@ import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import { Toaster } from 'sonner';
 import Script from 'next/script';
+import { Geist, Geist_Mono } from "next/font/google";
+
+const geistSans = Geist({
+  variable: "--font-geist-sans",
+  subsets: ["latin"],
+});
+
+const geistMono = Geist_Mono({
+  variable: "--font-geist-mono",
+  subsets: ["latin"],
+});
 
 // Components
 import Header from '@/components/layout/Header';
@@ -26,14 +37,7 @@ export const metadata: Metadata = {
   keywords: ["ask4loan", "personal loans Canada", "quick loans", "fast approval", "competitive rates", "online loan application", "instant loans", "Canadian lending", "financial solutions", "secure loans"],
   authors: [{ name: "Ask4Loan" }],
   robots: "index, follow",
-  alternates: {
-    canonical: "https://ask4loan.ca/",
-    languages: {
-      "en-ca": "https://ask4loan.ca/en",
-      "fr-ca": "https://ask4loan.ca/fr",
-      "x-default": "https://ask4loan.ca/en",
-    },
-  },
+  metadataBase: new URL("https://ask4loan.ca"),
   openGraph: {
     type: "website",
     url: "https://ask4loan.ca/",
@@ -254,13 +258,13 @@ export default async function RootLayout({
   return (
     <html
       lang={locale}
-      className="h-full antialiased"
+      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
       suppressHydrationWarning
     >
       <body className="min-h-full flex flex-col font-sans" suppressHydrationWarning>
         {/* Google Analytics */}
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-6JVHLMZS9Y"
+          src="https://www.googletagmanager.com/gtag/js?id=G-3FBX7QL507"
           strategy="afterInteractive"
         />
         <Script id="google-analytics" strategy="afterInteractive">
@@ -268,7 +272,7 @@ export default async function RootLayout({
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-6JVHLMZS9Y', {
+            gtag('config', 'G-3FBX7QL507', {
               anonymize_ip: true,
               allow_google_signals: false,
               allow_ad_personalization_signals: false

@@ -88,6 +88,7 @@ const CookieBanner = () => {
                 href="/privacy" 
                 className="hover:underline font-medium"
                 style={{ color: '#10B981' }}
+                aria-label="Read our Privacy Policy to learn more"
               >
                 {t('learnMore')}
               </Link>

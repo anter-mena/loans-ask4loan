@@ -7,6 +7,25 @@ import Testimonials from "@/components/home/Testimonials";
 import Requirements from "@/components/home/Requirements";
 import FAQ from "@/components/home/FAQ";
 import CTASection from "@/components/home/CTASection";
+import { Metadata } from 'next';
+
+type Props = {
+  params: Promise<{ locale: string }>;
+};
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+  return {
+    alternates: {
+      canonical: `/${locale}`,
+      languages: {
+        en: '/en',
+        fr: '/fr',
+        'x-default': '/en'
+      },
+    },
+  };
+}
 
 export default function HomePage() {
   return (
