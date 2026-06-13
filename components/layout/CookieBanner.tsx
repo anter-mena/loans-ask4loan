@@ -85,7 +85,7 @@ const CookieBanner = () => {
             >
               {t('message')}{" "}
               <Link 
-                href="/privacy" 
+                href="/privacy-policy"
                 className="hover:underline font-medium"
                 style={{ color: '#10B981' }}
                 title="Read our Privacy Policy"

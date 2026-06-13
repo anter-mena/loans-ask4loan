@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: `${t('hero.title')} | Ask4Loan Canada`,
     description: t('hero.description'),
     alternates: {
-      canonical: `https://ask4loan.ca/${locale}/privacy`,
+      canonical: `https://ask4loan.ca/${locale}/privacy-policy`,
     },
   };
 }

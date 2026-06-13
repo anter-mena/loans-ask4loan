@@ -37,8 +37,8 @@ const Footer = () => {
     "legal": {
       title: t('sections.legal.title'),
       links: [
-        { name: t('sections.legal.privacy'), to: "/privacy" },
-        { name: t('sections.legal.terms'), to: "/terms" },
+        { name: t('sections.legal.privacy'), to: "/privacy-policy" },
+        { name: t('sections.legal.terms'), to: "/terms-of-use" },
       ]
     }
   };
