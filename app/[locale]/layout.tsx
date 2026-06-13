@@ -60,10 +60,6 @@ export const metadata: Metadata = {
     description: "Get instant personal loans with competitive rates and fast approval. Simple online application, secure process, and trusted lending solutions.",
     images: ["https://ask4loan.ca/og-image.jpg"],
   },
-  icons: {
-    icon: "/favicon.svg",
-    apple: "/favicon.svg",
-  },
   manifest: "/site.webmanifest",
   other: {
     "revisit-after": "7 days",
