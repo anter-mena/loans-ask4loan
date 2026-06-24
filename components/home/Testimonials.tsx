@@ -3,38 +3,35 @@
 import { Star, Quote } from "lucide-react";
 import Image from "next/image";
 import { Badge } from "@/components/ui/badge";
-import { useTranslations } from 'next-intl';
 
 const Testimonials = () => {
-  const t = useTranslations('homepage.testimonials');
-
   const testimonials = [
     {
-      quote: t('reviews.review1.quote'),
-      amount: t('reviews.review1.amount'),
-      purpose: t('reviews.review1.purpose'),
-      name: t('reviews.review1.name'),
-      location: t('reviews.review1.location'),
+      quote: "As a first-time borrower in Canada, I was nervous about the process. Ask4Loan made it incredibly simple. Got approved quickly and the funds were in my account the next business day!",
+      amount: "$3,000",
+      purpose: "Debt Consolidation",
+      name: "Sarah Thompson",
+      location: "Toronto, ON",
       avatar:
         "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&crop=face",
       rating: 5,
     },
     {
-      quote: t('reviews.review2.quote'),
-      amount: t('reviews.review2.amount'),
-      purpose: t('reviews.review2.purpose'),
-      name: t('reviews.review2.name'),
-      location: t('reviews.review2.location'),
+      quote: "After my bank declined my application, Ask4Loan connected me with a lender who was willing to work with my situation. The whole process was transparent and professional.",
+      amount: "$2,500",
+      purpose: "Emergency Expenses",
+      name: "Jean-Pierre Dubois",
+      location: "Montreal, QC",
       avatar:
         "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face",
       rating: 5,
     },
     {
-      quote: t('reviews.review3.quote'),
-      amount: t('reviews.review3.amount'),
-      purpose: t('reviews.review3.purpose'),
-      name: t('reviews.review3.name'),
-      location: t('reviews.review3.location'),
+      quote: "Being able to compare multiple loan offers in one place saved me so much time. The rates were competitive and the application process was straightforward. Highly recommend!",
+      amount: "$4,500",
+      purpose: "Home Renovation",
+      name: "Michelle Chen",
+      location: "Vancouver, BC",
       avatar:
         "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face",
       rating: 5,
@@ -54,20 +51,20 @@ const Testimonials = () => {
               variant="secondary"
               className="font-semibold text-sm uppercase tracking-wider bg-emerald-50 text-emerald-700 border-emerald-200 hover:bg-emerald-100"
             >
-              {t('badge')}
+              Testimonials
             </Badge>
           </div>
           <h2
             className="text-2xl sm:text-3xl lg:text-4xl font-bold mt-2 px-4 sm:px-0"
             style={{ color: "#1F2937" }}
           >
-            {t('title')}
+            Customer Reviews: What Canadians Say About Ask4Loan
           </h2>
           <p
             className="mt-4 max-w-2xl mx-auto leading-relaxed px-4 sm:px-0"
             style={{ color: "#64748B" }}
           >
-            {t('description')}
+            Join thousands of satisfied borrowers who found better loan options with us
           </p>
         </div>
 
@@ -108,7 +105,7 @@ const Testimonials = () => {
                   className="leading-relaxed text-sm sm:text-base italic"
                   style={{ color: "#1F2937" }}
                 >
-                  "{testimonial.quote}"
+                  &quot;{testimonial.quote}&quot;
                 </p>
               </div>
 
@@ -162,7 +159,7 @@ const Testimonials = () => {
         {/* Bottom CTA */}
         <div className="text-center mt-10 sm:mt-12 lg:mt-16">
           <p className="text-sm sm:text-base mb-4" style={{ color: "#64748B" }}>
-            {t('ctaQuestion')}
+            Ready to join thousands of happy customers?
           </p>
           <a
             href="https://cmi.rocks/go/6a0768c8e9dee?affiliate_sub1=ask4loan"
@@ -186,7 +183,7 @@ const Testimonials = () => {
                 color: "#FFFFFF",
               }}
             >
-              {t('cta')}
+              Get Your Loan Today
             </button>
           </a>
         </div>

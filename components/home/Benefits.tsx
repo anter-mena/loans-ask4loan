@@ -10,41 +10,38 @@ import {
   ArrowRight,
 } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
-import { useTranslations } from 'next-intl';
 
 const Benefits = () => {
-  const t = useTranslations('homepage.benefits');
-
   const benefits = [
     {
       icon: Percent,
-      title: t('items.lowRates.title'),
-      description: t('items.lowRates.description'),
+      title: "Low Interest Rates",
+      description: "Access competitive rates from multiple lenders, often lower than credit cards.",
     },
     {
       icon: Shield,
-      title: t('items.secure.title'),
-      description: t('items.secure.description'),
+      title: "Safe & Secure",
+      description: "Your data is protected with bank-level 256-bit SSL encryption.",
     },
     {
       icon: Zap,
-      title: t('items.fastFunding.title'),
-      description: t('items.fastFunding.description'),
+      title: "Fast Funding",
+      description: "Get approved in minutes and receive funds as soon as the next business day.",
     },
     {
       icon: FileX,
-      title: t('items.noFees.title'),
-      description: t('items.noFees.description'),
+      title: "No Hidden Fees",
+      description: "Transparent terms with no surprise charges. What you see is what you get.",
     },
     {
       icon: UserCheck,
-      title: t('items.allCredit.title'),
-      description: t('items.allCredit.description'),
+      title: "All Credit Welcome",
+      description: "Whether your credit is excellent or needs work, we have options for you.",
     },
     {
       icon: Sparkles,
-      title: t('items.personalized.title'),
-      description: t('items.personalized.description'),
+      title: "Personalized Offers",
+      description: "Get loan offers tailored to your specific needs and financial situation.",
     },
   ];
 
@@ -61,20 +58,20 @@ const Benefits = () => {
               variant="secondary"
               className="font-semibold text-sm uppercase tracking-wider bg-emerald-50 text-emerald-700 border-emerald-200 hover:bg-emerald-100"
             >
-              {t('badge')}
+              Benefits
             </Badge>
           </div>
           <h2
             className="text-2xl sm:text-3xl lg:text-4xl font-bold mt-2 px-4 sm:px-0"
             style={{ color: "#1F2937" }}
           >
-            {t('title')}
+            Why Choose Ask4loan for Personal Loans
           </h2>
           <p
             className="mt-4 max-w-2xl mx-auto leading-relaxed px-4 sm:px-0"
             style={{ color: "#64748B" }}
           >
-            {t('description')}
+            Ask4loan Canada connects you with top lenders, so you can find the best rates without the bank runaround.
           </p>
         </div>
 
@@ -154,7 +151,7 @@ const Benefits = () => {
                 color: "#FFFFFF",
               }}
             >
-              {t('cta')}
+              Start Your Application
               <ArrowRight className="w-5 h-5 sm:w-6 sm:h-6" />
             </button>
           </a>

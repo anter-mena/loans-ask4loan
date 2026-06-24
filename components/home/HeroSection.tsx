@@ -3,10 +3,8 @@
 import { useState } from "react";
 import Image from "next/image";
 import { Shield, Clock, CheckCircle2, ArrowRight } from "lucide-react";
-import { useTranslations } from 'next-intl';
 
 const HeroSection = () => {
-  const t = useTranslations('homepage.hero');
   const [showWizard, setShowWizard] = useState(false);
   const [formData, setFormData] = useState({
     amount: "",
@@ -76,9 +74,8 @@ const HeroSection = () => {
               borderColor: "#E2E8F0",
             }}
           >
-            {/* <span className="text-lg">ca</span> */}
             <span style={{ color: "#64748B" }}>
-              {t('trustBadge')}
+              Trusted by 50,000+ Canadians
             </span>
           </div>
 
@@ -88,15 +85,15 @@ const HeroSection = () => {
               className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight"
               style={{ color: "#1F2937" }}
             >
-              {t('headline.part1')}
+              Fast Personal Loans
               <br />
-              <span style={{ color: "#10B981" }}>{t('headline.part2')}</span>
+              <span style={{ color: "#10B981" }}>Up to $5,000</span>
             </h1>
             <p
               className="text-base sm:text-lg max-w-2xl mx-auto px-4 sm:px-0"
               style={{ color: "#64748B" }}
             >
-              {t('description')}
+              Compare offers from 50+ lenders. No hidden fees. No credit score impact. Get funded as fast as 24 hours.
             </p>
           </div>
 
@@ -110,7 +107,7 @@ const HeroSection = () => {
               }}
             >
               <Shield className="w-4 h-4" style={{ color: "#10B981" }} />
-              <span style={{ color: "#1F2937" }}>{t('features.ssl')}</span>
+              <span style={{ color: "#1F2937" }}>256-bit SSL Secured</span>
             </div>
             <div
               className="inline-flex items-center gap-2 rounded-full px-4 py-2 text-sm shadow-sm border"
@@ -120,7 +117,7 @@ const HeroSection = () => {
               }}
             >
               <Clock className="w-4 h-4" style={{ color: "#10B981" }} />
-              <span style={{ color: "#1F2937" }}>{t('features.funding')}</span>
+              <span style={{ color: "#1F2937" }}>Funds in 24 Hours</span>
             </div>
             <div
               className="inline-flex items-center gap-2 rounded-full px-4 py-2 text-sm shadow-sm border"
@@ -130,7 +127,7 @@ const HeroSection = () => {
               }}
             >
               <CheckCircle2 className="w-4 h-4" style={{ color: "#10B981" }} />
-              <span style={{ color: "#1F2937" }}>{t('features.credit')}</span>
+              <span style={{ color: "#1F2937" }}>Any Credit Accepted</span>
             </div>
           </div>
 
@@ -151,10 +148,10 @@ const HeroSection = () => {
             </div>
             <div className="text-center sm:text-left">
               <p className="text-sm font-medium" style={{ color: "#1F2937" }}>
-                {t('socialProof.trusted')}
+                Trusted by 50,000+ borrowers
               </p>
               <p className="text-xs" style={{ color: "#64748B" }}>
-                {t('socialProof.noImpact')}
+                No credit score impact to check your rate
               </p>
             </div>
           </div>
@@ -182,7 +179,7 @@ const HeroSection = () => {
                   color: "#FFFFFF",
                 }}
               >
-                {t('cta') || "Postuler Maintenant"}
+                Apply Now
                 <ArrowRight className="w-5 h-5 sm:w-6 sm:h-6" />
               </button>
             </a>

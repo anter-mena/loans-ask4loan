@@ -2,28 +2,18 @@
 
 import { useState, useRef, useEffect } from "react";
 import Image from "next/image";
-import { useTranslations, useLocale } from 'next-intl';
-import { Link, usePathname, useRouter } from '@/i18n/routing';
-import { 
-  Menu, X, ChevronDown, ChevronRight, DollarSign, Target, 
-  CreditCard, FileText, MapPin, List, Calculator, Scale, 
-  BookOpen, HelpCircle, Grid3x3 
+import Link from "next/link";
+import {
+  Menu, X, ChevronDown, ChevronRight, DollarSign, Target,
+  CreditCard, FileText, MapPin, List, Calculator, Scale,
+  BookOpen, HelpCircle, Grid3x3
 } from "lucide-react";
 
 const Header = () => {
-  const t = useTranslations('header');
-  const locale = useLocale();
-  const router = useRouter();
-  const pathname = usePathname();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
   const [mobileAccordions, setMobileAccordions] = useState<Record<string, boolean>>({});
   const timeoutRef = useRef<NodeJS.Timeout | null>(null);
-
-  const toggleLanguage = () => {
-    const newLocale = locale === 'en' ? 'fr' : 'en';
-    router.replace(pathname, { locale: newLocale });
-  };
 
   const handleDropdownEnter = (dropdown: string) => {
     if (timeoutRef.current) clearTimeout(timeoutRef.current);
@@ -50,20 +40,20 @@ const Header = () => {
   }, []);
 
   const loansDropdownItems = [
-    { icon: DollarSign, title: t('loansDropdown.byAmount.title'), description: t('loansDropdown.byAmount.description'), to: "/loans/by-amount" },
-    { icon: Target, title: t('loansDropdown.byPurpose.title'), description: t('loansDropdown.byPurpose.description'), to: "/loans/by-purpose" },
-    { icon: CreditCard, title: t('loansDropdown.byCreditScore.title'), description: t('loansDropdown.byCreditScore.description'), to: "/loans/by-credit-score" },
-    { icon: FileText, title: t('loansDropdown.byType.title'), description: t('loansDropdown.byType.description'), to: "/loans/by-type" },
-    { icon: MapPin, title: t('loansDropdown.byLocation.title'), description: t('loansDropdown.byLocation.description'), to: "/loans/by-location" },
-    { icon: List, title: t('loansDropdown.allOptions.title'), description: t('loansDropdown.allOptions.description'), to: "/loans" }
+    { icon: DollarSign, title: "By Amount", description: "$300 - $5,000 loans", to: "/loans/by-amount" },
+    { icon: Target, title: "By Purpose", description: "Debt consolidation, emergencies & more", to: "/loans/by-purpose" },
+    { icon: CreditCard, title: "By Credit Score", description: "Find loans for your credit range", to: "/loans/by-credit-score" },
+    { icon: FileText, title: "By Type", description: "Personal, emergency, same-day loans", to: "/loans/by-type" },
+    { icon: MapPin, title: "By Location", description: "Loans in Canada", to: "/loans/by-location" },
+    { icon: List, title: "All Loan Options", description: "Browse all available loans", to: "/loans" }
   ];
 
   const resourcesDropdownItems = [
-    { icon: Calculator, title: t('resourcesDropdown.tools.title'), description: t('resourcesDropdown.tools.description'), to: "/resources/tools" },
-    { icon: Scale, title: t('resourcesDropdown.comparisons.title'), description: t('resourcesDropdown.comparisons.description'), to: "/resources/comparisons" },
-    { icon: BookOpen, title: t('resourcesDropdown.guides.title'), description: t('resourcesDropdown.guides.description'), to: "/resources/guides" },
-    { icon: HelpCircle, title: t('resourcesDropdown.faq.title'), description: t('resourcesDropdown.faq.description'), to: "/resources/faq" },
-    { icon: Grid3x3, title: t('resourcesDropdown.allResources.title'), description: t('resourcesDropdown.allResources.description'), to: "/resources" }
+    { icon: Calculator, title: "Tools", description: "Calculators & helpful tools", to: "/resources/tools" },
+    { icon: Scale, title: "Comparisons", description: "Compare borrowing options", to: "/resources/comparisons" },
+    { icon: BookOpen, title: "Guides", description: "Step-by-step loan guides", to: "/resources/guides" },
+    { icon: HelpCircle, title: "FAQ", description: "Common questions answered", to: "/resources/faq" },
+    { icon: Grid3x3, title: "All Resources", description: "Browse all tools & guides", to: "/resources" }
   ];
 
   return (
@@ -99,7 +89,7 @@ const Header = () => {
                   aria-haspopup="true"
                   aria-expanded={activeDropdown === 'loans'}
                 >
-                  {t('nav.loans')} <ChevronDown className={`w-4 h-4 transition-transform duration-200 ${activeDropdown === 'loans' ? 'rotate-180' : ''}`} />
+                  Loans <ChevronDown className={`w-4 h-4 transition-transform duration-200 ${activeDropdown === 'loans' ? 'rotate-180' : ''}`} />
                 </button>
 
                 <div
@@ -119,7 +109,7 @@ const Header = () => {
                       return (
                         <Link
                           key={index}
-                          href={item.to as string}
+                          href={item.to}
                           className="dropdown-link flex items-start gap-3 p-3 rounded-md transition-all duration-200"
                           onClick={() => setActiveDropdown(null)}
                         >
@@ -156,7 +146,7 @@ const Header = () => {
                   aria-haspopup="true"
                   aria-expanded={activeDropdown === 'resources'}
                 >
-                  {t('nav.resources')} <ChevronDown className={`w-4 h-4 transition-transform duration-200 ${activeDropdown === 'resources' ? 'rotate-180' : ''}`} />
+                  Resources <ChevronDown className={`w-4 h-4 transition-transform duration-200 ${activeDropdown === 'resources' ? 'rotate-180' : ''}`} />
                 </button>
 
                 <div
@@ -176,7 +166,7 @@ const Header = () => {
                       return (
                         <Link
                           key={index}
-                          href={item.to as string}
+                          href={item.to}
                           className="dropdown-link flex items-start gap-3 p-3 rounded-md transition-all duration-200"
                           onClick={() => setActiveDropdown(null)}
                         >
@@ -207,7 +197,7 @@ const Header = () => {
                 className="text-sm font-medium transition-colors py-2 hover:text-[#1F2937]"
                 style={{ color: '#64748B' }}
               >
-                {t('nav.aboutUs')}
+                About Us
               </Link>
 
               {/* Contact Link */}
@@ -216,28 +206,14 @@ const Header = () => {
                 className="text-sm font-medium transition-colors py-2 hover:text-[#1F2937]"
                 style={{ color: '#64748B' }}
               >
-                {t('nav.contact')}
+                Contact
               </Link>
 
             </div>
           </nav>
 
-          {/* Right Side - Language Toggle & CTA */}
+          {/* Right Side - CTA */}
           <div className="flex items-center gap-3 sm:gap-4">
-            {/* Language Toggle */}
-            <button
-              onClick={toggleLanguage}
-              className="flex items-center gap-1.5 px-3 py-1.5 rounded-md border transition-all font-medium hover:border-[#10B981] hover:text-[#10B981]"
-              style={{
-                backgroundColor: '#FFFFFF',
-                borderColor: '#E2E8F0',
-                color: '#64748B'
-              }}
-              aria-label={locale === 'en' ? 'Passer en français' : 'Switch to English'}
-            >
-              <span className="text-sm">{locale === 'fr' ? 'FR' : 'EN'}</span>
-            </button>
-
             {/* Desktop Apply Button */}
             <a
               href="https://cmi.rocks/go/6a0768c8e9dee?affiliate_sub1=ask4loan"
@@ -258,7 +234,7 @@ const Header = () => {
                 color: '#FFFFFF'
               }}
             >
-              {t('nav.applyNow')}
+              Apply Now
             </a>
 
             {/* Mobile Menu Toggle */}
@@ -300,7 +276,7 @@ const Header = () => {
                 className="w-full flex items-center justify-between px-2 py-2 text-sm font-semibold rounded-md transition-colors"
                 style={{ color: '#1F2937' }}
               >
-                <span>{t('nav.loans')}</span>
+                <span>Loans</span>
                 <ChevronRight
                   className={`w-4 h-4 transition-transform duration-300 ${mobileAccordions.loans ? 'transform rotate-90' : ''
                     }`}
@@ -317,7 +293,7 @@ const Header = () => {
                     return (
                       <Link
                         key={index}
-                        href={item.to as string}
+                        href={item.to}
                         className="mobile-dropdown-link flex items-center gap-3 px-2 py-2 rounded-md transition-all duration-200"
                         style={{
                           color: '#64748B',
@@ -346,7 +322,7 @@ const Header = () => {
                 className="w-full flex items-center justify-between px-2 py-2 text-sm font-semibold rounded-md transition-colors"
                 style={{ color: '#1F2937' }}
               >
-                <span>{t('nav.resources')}</span>
+                <span>Resources</span>
                 <ChevronRight
                   className={`w-4 h-4 transition-transform duration-300 ${mobileAccordions.resources ? 'transform rotate-90' : ''
                     }`}
@@ -363,7 +339,7 @@ const Header = () => {
                     return (
                       <Link
                         key={index}
-                        href={item.to as string}
+                        href={item.to}
                         className="mobile-dropdown-link flex items-center gap-3 px-2 py-2 rounded-md transition-all duration-200"
                         style={{
                           color: '#64748B',
@@ -393,7 +369,7 @@ const Header = () => {
                 style={{ color: '#1F2937', textDecoration: 'none' }}
                 onClick={() => setIsMenuOpen(false)}
               >
-                {t('nav.aboutUs')}
+                About Us
               </Link>
             </div>
 
@@ -405,7 +381,7 @@ const Header = () => {
                 style={{ color: '#1F2937', textDecoration: 'none' }}
                 onClick={() => setIsMenuOpen(false)}
               >
-                {t('nav.contact')}
+                Contact
               </Link>
             </div>
 
@@ -432,7 +408,7 @@ const Header = () => {
                   textDecoration: 'none'
                 }}
               >
-                {t('nav.applyNow')}
+                Apply Now
               </a>
             </div>
 

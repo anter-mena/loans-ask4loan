@@ -2,35 +2,32 @@
 
 import { Check, ArrowRight, DollarSign, FileCheck, Shield } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
-import { useTranslations } from 'next-intl';
 
 const Requirements = () => {
-  const t = useTranslations('homepage.requirements');
-
   const requirements = [
-    t('list.0'),
-    t('list.1'),
-    t('list.2'),
+    "Be a CA citizen or permanent resident, and over 18",
+    "Have a valid checking account in your name",
+    "Provide a valid email address and phone number",
   ];
 
   const features = [
     {
       icon: DollarSign,
-      title: t('features.loanAmounts.title'),
-      value: t('features.loanAmounts.value'),
-      desc: t('features.loanAmounts.desc'),
+      title: "Loan Amounts",
+      value: "$200 – $5,000",
+      desc: "Borrow what you need, nothing more",
     },
     {
       icon: FileCheck,
-      title: t('features.requirements.title'),
-      value: t('features.requirements.value'),
-      desc: t('features.requirements.desc'),
+      title: "Requirements",
+      value: "Minimal",
+      desc: "CA citizen, 18+, checking account",
     },
     {
       icon: Shield,
-      title: t('features.creditCheck.title'),
-      value: t('features.creditCheck.value'),
-      desc: t('features.creditCheck.desc'),
+      title: "Credit Check",
+      value: "Soft Pull Only",
+      desc: "No impact to your credit score",
     },
   ];
 
@@ -48,20 +45,20 @@ const Requirements = () => {
                 variant="secondary"
                 className="font-semibold text-sm uppercase tracking-wider bg-emerald-50 text-emerald-700 border-emerald-200 hover:bg-emerald-100"
               >
-                {t('badge')}
+                Requirements
               </Badge>
             </div>
             <h2 className="text-center lg:text-left text-2xl sm:text-3xl lg:text-4xl font-bold mt-2 mb-4">
               <span style={{ color: "#1E293B" }}>
-                {t('title.part1')}
+                Personal Loan Requirements:{" "}
               </span>
-              <span style={{ color: "#10B981" }}>{t('title.part2')}</span>
+              <span style={{ color: "#10B981" }}>Simple & Fast</span>
             </h2>
             <p
               className="text-center lg:text-left mb-6 sm:mb-8 leading-relaxed"
               style={{ color: "#64748B" }}
             >
-              {t('description')}
+              We&apos;ve simplified the borrowing process to make it accessible for everyone. No complicated paperwork, no lengthy approval times.
             </p>
 
             {/* Requirements List */}
@@ -107,7 +104,7 @@ const Requirements = () => {
                   color: "#FFFFFF",
                 }}
               >
-                {t('cta')}
+                Apply Now
                 <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5" />
               </button>
             </a>
@@ -185,7 +182,7 @@ const Requirements = () => {
                 color: "#FFFFFF",
               }}
             >
-              {t('cta')}
+              Apply Now
               <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5" />
             </button>
           </a>

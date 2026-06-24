@@ -3,45 +3,43 @@
 import { useState } from "react";
 import { ChevronDown } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
-import { useTranslations } from 'next-intl';
-import { Link } from '@/i18n/routing';
+import Link from "next/link";
 
 const FAQ = () => {
-  const t = useTranslations('homepage.faq');
   const [openItem, setOpenItem] = useState<number | null>(null);
 
   const faqs = [
     {
-      question: t('questions.q1.question'),
-      answer: t('questions.q1.answer'),
+      question: "How quickly can I get my loan?",
+      answer: "Once approved, funds can be deposited into your bank account as soon as the next business day. Many of our partner lenders offer same-day funding for applications submitted early in the morning.",
     },
     {
-      question: t('questions.q2.question'),
-      answer: t('questions.q2.answer'),
+      question: "Will checking my rate affect my credit score?",
+      answer: "No! We use a soft credit pull to check your rate, which does not impact your credit score. Only when you accept a loan offer and proceed with a specific lender will a hard inquiry be made.",
     },
     {
-      question: t('questions.q3.question'),
-      answer: t('questions.q3.answer'),
+      question: "What credit score do I need to qualify?",
+      answer: "We work with a wide network of lenders who accept all credit types. Whether you have excellent credit, fair credit, or are still building your credit history, we have options for you.",
     },
     {
-      question: t('questions.q4.question'),
-      answer: t('questions.q4.answer'),
+      question: "How much can I borrow?",
+      answer: "Our partner lenders offer personal loans ranging from $200 to $5,000. The amount you qualify for depends on your income, credit profile, and other factors.",
     },
     {
-      question: t('questions.q5.question'),
-      answer: t('questions.q5.answer'),
+      question: "Are there any hidden fees?",
+      answer: "No hidden fees! All terms, including interest rates and fees, are disclosed upfront before you accept any loan offer. We believe in complete transparency.",
     },
     {
-      question: t('questions.q6.question'),
-      answer: t('questions.q6.answer'),
+      question: "Is my personal information secure?",
+      answer: "Absolutely. We use bank-level 256-bit SSL encryption to protect your data. Your information is never sold to third parties and is only shared with lenders you choose to work with.",
     },
     {
-      question: t('questions.q7.question'),
-      answer: t('questions.q7.answer'),
+      question: "Do I need to be a Canadian citizen to apply?",
+      answer: "You must be either a Canadian citizen or a permanent resident with a valid Social Security Number. You must also be at least 18 years old.",
     },
     {
-      question: t('questions.q8.question'),
-      answer: t('questions.q8.answer'),
+      question: "Which provinces do you serve?",
+      answer: "We connect borrowers with lenders in most Canadian provinces. Loan availability and terms may vary by province due to local regulations.",
     },
   ];
 
@@ -62,20 +60,20 @@ const FAQ = () => {
               variant="secondary"
               className="font-semibold text-sm uppercase tracking-wider bg-emerald-50 text-emerald-700 border-emerald-200 hover:bg-emerald-100"
             >
-              {t('badge')}
+              FAQ
             </Badge>
           </div>
           <h2
             className="text-2xl sm:text-3xl lg:text-4xl font-bold mt-2 px-4 sm:px-0"
             style={{ color: "#1F2937" }}
           >
-            {t('title')}
+            Frequently Asked Questions About Personal Loans in CANADA
           </h2>
           <p
             className="mt-4 leading-relaxed px-4 sm:px-0"
             style={{ color: "#64748B" }}
           >
-            {t('description')}
+            Find answers to common questions about our loan process, rates, and requirements.
           </p>
         </div>
 
@@ -158,7 +156,7 @@ const FAQ = () => {
         {/* Bottom CTA */}
         <div className="text-center mt-10 sm:mt-12 lg:mt-16">
           <p className="text-sm sm:text-base mb-4" style={{ color: "#64748B" }}>
-            {t('ctaQuestion')}
+            Still have questions?
           </p>
           <Link href='/contact'>
             <button
@@ -168,7 +166,7 @@ const FAQ = () => {
                 color: "#FFFFFF",
               }}
             >
-              {t('cta')}
+              Contact Support
             </button>
           </Link>
         </div>

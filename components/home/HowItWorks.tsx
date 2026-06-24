@@ -2,29 +2,26 @@
 
 import { FileText, GitCompare, Wallet } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
-import { useTranslations } from 'next-intl';
 
 const HowItWorks = () => {
-  const t = useTranslations('homepage.howItWorks');
-
   const steps = [
     {
-      number: t('steps.step1.number'),
+      number: "01",
       icon: FileText,
-      title: t('steps.step1.title'),
-      description: t('steps.step1.description'),
+      title: "Quick Application",
+      description: "Fill out our simple online form in just 2 minutes. No paperwork, no hassle.",
     },
     {
-      number: t('steps.step2.number'),
+      number: "02",
       icon: GitCompare,
-      title: t('steps.step2.title'),
-      description: t('steps.step2.description'),
+      title: "Compare Offers",
+      description: "We match you with personalized loan offers from our network of trusted lenders.",
     },
     {
-      number: t('steps.step3.number'),
+      number: "03",
       icon: Wallet,
-      title: t('steps.step3.title'),
-      description: t('steps.step3.description'),
+      title: "Get Your Funds",
+      description: "Choose the best offer for you and receive funds directly to your bank account.",
     },
   ];
 
@@ -41,20 +38,20 @@ const HowItWorks = () => {
               variant="secondary"
               className="font-semibold text-sm uppercase tracking-wider bg-emerald-50 text-emerald-700 border-emerald-200 hover:bg-emerald-100"
             >
-              {t('badge')}
+              Simple Process
             </Badge>
           </div>
           <h2
             className="text-2xl sm:text-3xl lg:text-4xl font-bold mt-2 px-4 sm:px-0"
             style={{ color: "#1F2937" }}
           >
-            {t('title')}
+            How to Get a Personal Loan in 3 Easy Steps
           </h2>
           <p
             className="mt-4 max-w-2xl mx-auto leading-relaxed px-4 sm:px-0"
             style={{ color: "#64748B" }}
           >
-            {t('description')}
+            Our streamlined process gets you from application to funding faster than traditional banks.
           </p>
         </div>
 
@@ -131,7 +128,7 @@ const HowItWorks = () => {
         {/* Bottom CTA */}
         <div className="text-center mt-12 sm:mt-16">
           <p className="text-sm mb-4" style={{ color: "#64748B" }}>
-            {t('ctaQuestion')}
+            Ready to get started?
           </p>
           <a
             href="https://cmi.rocks/go/6a0768c8e9dee?affiliate_sub1=ask4loan"
@@ -155,7 +152,7 @@ const HowItWorks = () => {
                 color: "#FFFFFF",
               }}
             >
-              {t('cta')}
+              Start Your Application
             </button>
           </a>
         </div>

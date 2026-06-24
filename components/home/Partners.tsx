@@ -4,10 +4,8 @@ import { useState } from "react";
 import Image from "next/image";
 import { Marquee } from "@/components/ui/marquee";
 import { Badge } from "@/components/ui/badge";
-import { useTranslations } from 'next-intl';
 
 const Partners = () => {
-  const t = useTranslations('homepage.partners');
   const [isPaused, setIsPaused] = useState(false);
 
   // Real bank logos pointing to the public folder
@@ -23,15 +21,15 @@ const Partners = () => {
   return (
     <section className="text-center py-12 sm:py-16 lg:py-20" style={{ backgroundColor: '#FFFFFF' }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         {/* Header */}
         <div className="text-center mb-10 sm:mb-12">
           <div className="flex justify-center mb-4">
-            <Badge 
-              variant="secondary" 
+            <Badge
+              variant="secondary"
               className="font-semibold text-sm uppercase tracking-wider bg-emerald-50 text-emerald-700 border-emerald-200 hover:bg-emerald-100"
             >
-              {t('badge')}
+              Trusted Partners
             </Badge>
           </div>
         </div>
@@ -49,12 +47,12 @@ const Partners = () => {
                   onMouseEnter={() => setIsPaused(true)}
                   onMouseLeave={() => setIsPaused(false)}
                 >
-                  <Image 
-                    src={partner.src} 
-                    alt={partner.name} 
+                  <Image
+                    src={partner.src}
+                    alt={partner.name}
                     width={160}
                     height={48}
-                    className="partner-logo max-h-12 w-auto grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all duration-300" 
+                    className="partner-logo max-h-12 w-auto grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all duration-300"
                   />
                 </div>
               ))}

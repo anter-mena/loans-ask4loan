@@ -1,7 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import "../globals.css";
-import { NextIntlClientProvider } from 'next-intl';
-import { getMessages } from 'next-intl/server';
+import "./globals.css";
 import { Toaster } from 'sonner';
 import Script from 'next/script';
 import { Geist, Geist_Mono } from "next/font/google";
@@ -72,16 +70,11 @@ export const metadata: Metadata = {
   },
 };
 
-export default async function RootLayout({
+export default function RootLayout({
   children,
-  params,
 }: Readonly<{
   children: React.ReactNode;
-  params: Promise<{ locale: string }>;
 }>) {
-  const { locale } = await params;
-  const messages = await getMessages();
-
   const financialServiceJsonLd = {
     "@context": "https://schema.org",
     "@type": "FinancialService",
@@ -164,7 +157,7 @@ export default async function RootLayout({
         "telephone": "+1-800-ASK-LOAN",
         "contactType": "customer service",
         "areaServed": "CA",
-        "availableLanguage": ["English", "French"]
+        "availableLanguage": ["English"]
       },
       {
         "@type": "ContactPoint",
@@ -253,7 +246,7 @@ export default async function RootLayout({
 
   return (
     <html
-      lang={locale}
+      lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
       suppressHydrationWarning
     >
@@ -287,19 +280,17 @@ export default async function RootLayout({
           {JSON.stringify(faqJsonLd)}
         </Script>
 
-        <NextIntlClientProvider messages={messages} locale={locale}>
-          <Toaster position="bottom-left" expand={false} richColors />
-          <ScrollToTop />
-          <LoanApprovalToasts />
-          <CountdownBanner />
-          <Header />
-          <main className="flex-grow">
-            {children}
-          </main>
-          <ChatBot />
-          <CookieBanner />
-          <Footer />
-        </NextIntlClientProvider>
+        <Toaster position="bottom-left" expand={false} richColors />
+        <ScrollToTop />
+        <LoanApprovalToasts />
+        <CountdownBanner />
+        <Header />
+        <main className="flex-grow">
+          {children}
+        </main>
+        <ChatBot />
+        <CookieBanner />
+        <Footer />
       </body>
     </html>
   );

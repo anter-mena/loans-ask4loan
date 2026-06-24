@@ -7,80 +7,77 @@ import {
   HelpCircle,
 } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
-import { useTranslations } from 'next-intl';
 
 const LoanTypes = () => {
-  const t = useTranslations('homepage.loanTypes');
-
   const loanCategories = [
     {
-      title: t('categories.popular.title'),
+      title: "Popular Loan Types",
       items: [
         {
-          name: t('categories.popular.items.personal.name'),
-          desc: t('categories.popular.items.personal.desc'),
+          name: "Personal Loans",
+          desc: "Flexible terms up to $5,000",
           href: "#",
         },
         {
-          name: t('categories.popular.items.badCredit.name'),
-          desc: t('categories.popular.items.badCredit.desc'),
+          name: "Bad Credit Loans",
+          desc: "All credit scores welcome",
           href: "#",
         },
         {
-          name: t('categories.popular.items.emergency.name'),
-          desc: t('categories.popular.items.emergency.desc'),
+          name: "Emergency Loans",
+          desc: "Fast funding when you need it",
           href: "#",
         },
         {
-          name: t('categories.popular.items.debtConsolidation.name'),
-          desc: t('categories.popular.items.debtConsolidation.desc'),
+          name: "Debt Consolidation",
+          desc: "Simplify your payments",
           href: "#",
         },
       ],
     },
     {
-      title: t('categories.provinces.title'),
+      title: "Loans by Province",
       items: [
         {
-          name: t('categories.provinces.items.ontario.name'),
-          desc: t('categories.provinces.items.ontario.desc'),
+          name: "Ontario Loans",
+          desc: "Toronto, Ottawa & more",
           href: "#",
         },
         {
-          name: t('categories.provinces.items.quebec.name'),
-          desc: t('categories.provinces.items.quebec.desc'),
+          name: "Quebec Loans",
+          desc: "Montreal, Quebec City & more",
           href: "#",
         },
         {
-          name: t('categories.provinces.items.bc.name'),
-          desc: t('categories.provinces.items.bc.desc'),
+          name: "British Columbia Loans",
+          desc: "Vancouver, Victoria & more",
           href: "#",
         },
         {
-          name: t('categories.provinces.items.alberta.name'),
-          desc: t('categories.provinces.items.alberta.desc'),
+          name: "Alberta Loans",
+          desc: "Calgary, Edmonton & more",
           href: "#",
         },
       ],
     },
     {
-      title: t('categories.resources.title'),
+      title: "Helpful Resources",
       items: [
         {
-          name: t('categories.resources.items.creditGuide.name'),
-          desc: t('categories.resources.items.creditGuide.desc'),
+          name: "Credit Score Guide",
+          desc: "Learn what lenders look for",
           icon: BookOpen,
           href: "#",
         },
         {
-          name: t('categories.resources.items.howLoansWork.name'),
-          desc: t('categories.resources.items.howLoansWork.desc'),
+          name: "How Loans Work",
+          desc: "Complete guide",
           icon: CreditCard,
           href: "#",
         },
         {
-          name: t('categories.resources.items.faq.name'),
-          desc: t('categories.resources.items.faq.desc'),
+          name: "FAQ",
+          desc: "Common questions answered",
           icon: HelpCircle,
           href: "#",
         },
@@ -101,20 +98,20 @@ const LoanTypes = () => {
               variant="secondary"
               className="font-semibold text-sm uppercase tracking-wider bg-emerald-50 text-emerald-700 border-emerald-200 hover:bg-emerald-100"
             >
-              {t('badge')}
+              Loan Types
             </Badge>
           </div>
           <h2
             className="text-2xl sm:text-3xl lg:text-4xl font-bold px-4 sm:px-0"
             style={{ color: "#1F2937" }}
           >
-            {t('title')}
+            Find the Right Loan for You
           </h2>
           <p
             className="mt-4 max-w-2xl mx-auto leading-relaxed px-4 sm:px-0"
             style={{ color: "#64748B" }}
           >
-            {t('description')}
+            Explore our comprehensive resources to make informed borrowing decisions
           </p>
         </div>
 
@@ -172,7 +169,7 @@ const LoanTypes = () => {
         {/* Bottom CTA */}
         <div className="text-center mt-10 sm:mt-12 lg:mt-16">
           <p className="text-sm sm:text-base mb-4" style={{ color: "#64748B" }}>
-            {t('ctaQuestion')}
+            Ready to get started?
           </p>
           <a
             href="https://cmi.rocks/go/6a0768c8e9dee?affiliate_sub1=ask4loan"
@@ -196,7 +193,7 @@ const LoanTypes = () => {
                 color: "#FFFFFF",
               }}
             >
-              {t('cta')}
+              Get Your Loan Today
             </button>
           </a>
         </div>

@@ -1,69 +1,66 @@
 'use client';
 
 import { ChevronRight, FileText, Shield, Users, Award, CheckCircle, Star, Search, Clock } from "lucide-react";
-import { useTranslations } from 'next-intl';
-import { Link } from '@/i18n/routing';
+import Link from "next/link";
 
 const AboutClient = () => {
-  const t = useTranslations('about');
-
   const stats = [
-    { value: "50,000+", label: t('stats.americansHelped') },
-    { value: "40+", label: t('stats.lenderPartners') },
-    { value: "5+", label: t('stats.yearsInBusiness') },
-    { value: "A+", label: t('stats.bbbRating') },
+    { value: "50,000+", label: "Canadian Helped" },
+    { value: "40+", label: "Vetted Lender Partners" },
+    { value: "5+", label: "Years in Business" },
+    { value: "A+", label: "BBB Rating" },
   ];
 
   const credentials = [
-    t('team.credentials.cfp'),
-    t('team.credentials.professionals'),
-    t('team.credentials.compliance'),
-    t('team.credentials.executives'),
+    "Certified Financial Planners (CFP)",
+    "Consumer lending professionals with 10+ years experience",
+    "Compliance specialists familiar with CFPB regulations",
+    "Former banking and fintech executives",
   ];
 
   const vettingProcess = [
     {
       icon: FileText,
-      title: t('vetting.items.licensing.title'),
-      description: t('vetting.items.licensing.description')
+      title: "State Licensing Verification",
+      description: "Every lender must hold valid licenses in each state they operate. We verify through the appropriate regulatory."
     },
     {
       icon: Shield,
-      title: t('vetting.items.compliance.title'),
-      description: t('vetting.items.compliance.description')
+      title: "Federal Compliance Check",
+      description: "All partners must comply with U.S. CCPA, and other federal lending regulations."
     },
     {
       icon: Star,
-      title: t('vetting.items.complaints.title'),
-      description: t('vetting.items.complaints.description')
+      title: "Consumer Complaint Review",
+      description: "We review all CFPB complaints, BBB ratings, and state bar complaints for any consumer grievances."
     },
     {
       icon: Search,
-      title: t('vetting.items.monitoring.title'),
-      description: t('vetting.items.monitoring.description')
+      title: "Ongoing Monitoring",
+      description: "Quarterly reviews ensure continued compliance with lending rules and industry regulations."
     }
   ];
 
   const coreValues = [
     {
       icon: Shield,
-      title: t('values.items.transparency.title'),
-      description: t('values.items.transparency.description')
+      title: "Transparency First",
+      description: "We believe in clear communication. No hidden fees. No surprises. Just straightforward lending matching."
     },
     {
       icon: Users,
-      title: t('values.items.customer.title'),
-      description: t('values.items.customer.description')
+      title: "Customer Focused",
+      description: "Time means everything to our clients. We work to connect you with lending that fit your unique situation."
     },
     {
       icon: Clock,
-      title: t('values.items.speed.title'),
-      description: t('values.items.speed.description')
+      title: "Speed & Efficiency",
+      description: "Time matters when you need funds. Our streamlined processes get you matched with lenders immediately. No delays."
     },
     {
       icon: Award,
-      title: t('values.items.quality.title'),
-      description: t('values.items.quality.description')
+      title: "Quality Partners",
+      description: "We partner with reputable US lenders who provide true anti-predatory lending regulations."
     }
   ];
 
@@ -88,10 +85,10 @@ const AboutClient = () => {
                 className="transition-colors"
                 style={{ color: '#64748B' }}
               >
-                {t('breadcrumb.home')}
+                Home
               </Link>
               <ChevronRight className="w-4 h-4" style={{ color: '#64748B' }} />
-              <span style={{ color: '#1F2937' }}>{t('breadcrumb.about')}</span>
+              <span style={{ color: '#1F2937' }}>About Us</span>
             </nav>
           </div>
         </div>
@@ -110,14 +107,14 @@ const AboutClient = () => {
               className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4"
               style={{ color: '#1F2937' }}
             >
-              {t('hero.title')}
+              About Ask4Loan
             </h1>
 
             <p
               className="text-base sm:text-lg max-w-2xl mx-auto px-4 sm:px-0 leading-relaxed"
               style={{ color: '#64748B' }}
             >
-              {t('hero.description')}
+              Helping Canadian find the right personal loan since 2020. We&apos;re committed to transparency, speed, and connecting you with trusted lenders.
             </p>
           </div>
         </section>
@@ -150,21 +147,21 @@ const AboutClient = () => {
               className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6 sm:mb-8"
               style={{ color: '#1F2937' }}
             >
-              {t('story.title')}
+              Our Story: 5+ Years Helping Canadian
             </h2>
 
             <div className="space-y-4 sm:space-y-6 leading-relaxed" style={{ color: '#64748B' }}>
               <p>
-                {t('story.paragraph1')}
+                Ask4Loan was founded in 2020 with a simple goal: to help everyday Canadian access the funds they need without the hassle and confusion that often comes with traditional lending.
               </p>
               <p>
-                {t('story.paragraph2')} <strong style={{ color: '#1F2937' }}>{t('story.paragraph2Bold')}</strong>.
+                Over the past 5+ years, we&apos;ve grown from a small startup to a trusted loan comparison platform, helping over 50,000 Canadian find personal loans that fit their needs. Our success is built on one principle: <strong style={{ color: '#1F2937' }}>putting consumers first</strong>.
               </p>
               <p>
-                {t('story.paragraph3')}
+                We understand that life doesn&apos;t always go as planned. Whether it&apos;s an unexpected medical bill, a car repair, or simply making ends meet, sometimes you need a little extra help. That&apos;s where we come in.
               </p>
               <p>
-                {t('story.paragraph4')}
+                Our platform connects you with a network of 40+ vetted lenders who specialize in personal loans ranging from $300 to $5,000. Unlike some comparison sites, we don&apos;t just list any lender – every partner goes through our rigorous vetting process.
               </p>
             </div>
           </div>
@@ -177,11 +174,11 @@ const AboutClient = () => {
               className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4"
               style={{ color: '#1F2937' }}
             >
-              {t('team.title')}
+              Our Expert Team
             </h2>
 
             <p className="mb-6 sm:mb-8" style={{ color: '#64748B' }}>
-              {t('team.subtitle')}
+              Our content and recommendations are backed by financial professionals with decades of combined experience.
             </p>
 
             <div
@@ -200,16 +197,16 @@ const AboutClient = () => {
                     className="text-lg sm:text-xl font-bold mb-2"
                     style={{ color: '#1F2937' }}
                   >
-                    {t('team.teamName')}
+                    Ask4Loan Editorial Team
                   </h3>
                   <p style={{ color: '#64748B' }}>
-                    {t('team.teamDescription')}
+                    Our editorial team reviews all content for accuracy, regulatory compliance, and consumer relevance.
                   </p>
                 </div>
               </div>
 
               <h4 className="font-semibold mb-4" style={{ color: '#1F2937' }}>
-                {t('team.credentialsTitle')}
+                Team Credentials Include:
               </h4>
 
               <ul className="space-y-3">
@@ -225,10 +222,10 @@ const AboutClient = () => {
 
               <div className="mt-6 pt-6 border-t" style={{ borderColor: '#E2E8F0' }}>
                 <h4 className="font-semibold mb-2" style={{ color: '#1F2937' }}>
-                  {t('team.independenceTitle')}
+                  Editorial Independence:
                 </h4>
                 <p className="text-sm" style={{ color: '#64748B' }}>
-                  {t('team.independenceText')}
+                  Our content is created through independent vetting of our lender partners. We maintain strict separation between our business operations and content operations to ensure transparency.
                 </p>
               </div>
             </div>
@@ -242,11 +239,11 @@ const AboutClient = () => {
               className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 text-center"
               style={{ color: '#1F2937' }}
             >
-              {t('vetting.title')}
+              How We Vet Our Lender Partners
             </h2>
 
             <p className="text-center mb-8 sm:mb-12 max-w-2xl mx-auto" style={{ color: '#64748B' }}>
-              {t('vetting.subtitle')}
+              Not every lender makes it into our network. Here&apos;s our rigorous 4-step vetting process.
             </p>
 
             <div className="grid sm:grid-cols-2 gap-6 sm:gap-8">
@@ -285,11 +282,11 @@ const AboutClient = () => {
               className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 text-center"
               style={{ color: '#1F2937' }}
             >
-              {t('values.title')}
+              Our Core Values
             </h2>
 
             <p className="text-center mb-8 sm:mb-12 max-w-2xl mx-auto" style={{ color: '#64748B' }}>
-              {t('values.subtitle')}
+              What sets us apart from other loan comparison sites.
             </p>
 
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -340,12 +337,12 @@ const AboutClient = () => {
                   className="text-xl font-bold"
                   style={{ color: '#1F2937' }}
                 >
-                  {t('sources.title')}
+                  Authoritative Sources
                 </h2>
               </div>
 
               <p className="mb-6" style={{ color: '#64748B' }}>
-                {t('sources.subtitle')}
+                Our content is informed by official US financial regulatory bodies:
               </p>
 
               <div className="space-y-4">
@@ -360,7 +357,7 @@ const AboutClient = () => {
                     backgroundColor: 'white',
                   }}
                 >
-                  <span className="font-medium">{t('sources.cfpb')}</span>
+                  <span className="font-medium">Consumer Financial Protection Bureau (CFPB)</span>
                   <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                   </svg>
@@ -377,7 +374,7 @@ const AboutClient = () => {
                     backgroundColor: 'white',
                   }}
                 >
-                  <span className="font-medium">{t('sources.ftc')}</span>
+                  <span className="font-medium">Federal Trade Commission (FTC)</span>
                   <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                   </svg>

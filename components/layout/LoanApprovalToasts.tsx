@@ -3,10 +3,8 @@
 import { useEffect, useRef, useCallback, useMemo } from 'react';
 import { toast } from 'sonner';
 import { CheckCircle2 } from 'lucide-react';
-import { useTranslations } from 'next-intl';
 
 const LoanApprovalToasts = () => {
-  const t = useTranslations('loanApproval');
   const toastCount = useRef(0);
 
   // 150+ varied messages - Canadian cities and names
@@ -184,13 +182,13 @@ const LoanApprovalToasts = () => {
         </div>
         <div className="flex-1 pt-0.5 min-w-0">
           <p className="text-sm font-semibold text-gray-900 truncate">
-            {randomMessage.name} {t('from')} {randomMessage.city}, {randomMessage.province}
+            {randomMessage.name} from {randomMessage.city}, {randomMessage.province}
           </p>
           <p className="text-sm text-gray-600 mt-0.5">
-            {t('approvedFor')} ${randomMessage.amount.toLocaleString()}
+            Approved for ${randomMessage.amount.toLocaleString()}
           </p>
           <p className="text-xs text-gray-400 mt-1">
-            {randomMessage.time} {t('minAgo')}
+            {randomMessage.time} min ago
           </p>
         </div>
         <button
@@ -214,7 +212,7 @@ const LoanApprovalToasts = () => {
         margin: 0,
       },
     });
-  }, [approvalMessages, t]);
+  }, [approvalMessages]);
 
   useEffect(() => {
     // First toast after 10 seconds

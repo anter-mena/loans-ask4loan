@@ -1,8 +1,7 @@
 'use client';
 
-import { useState, useEffect, useRef } from "react";
+import { useState } from "react";
 import { MessageCircle, X, Send, Bot, User } from "lucide-react";
-import { useTranslations, useLocale } from 'next-intl';
 
 interface Message {
   id: number;
@@ -11,76 +10,74 @@ interface Message {
   timestamp: Date;
 }
 
+const RESPONSES = {
+  apply: [
+    "Great question! Applying is simple - just click 'Apply Now' and fill out our quick 3-minute form. You'll get matched with lenders instantly!",
+    "Easy! Hit the 'Apply Now' button, complete our short application, and we'll connect you with the best lenders for your situation.",
+    "To apply, click 'Apply Now' at the top of the page. Our streamlined process takes just a few minutes and you'll see your offers right away!"
+  ],
+  rates: [
+    "Interest rates vary by lender and your credit profile, typically ranging from 5.99% to 35.99% APR. Apply to see personalized rates with no credit impact!",
+    "Rates depend on your creditworthiness and chosen lender. Most of our partners offer rates between 5.99% - 35.99% APR. Check your rate in minutes!",
+    "Our network offers competitive rates from 5.99% to 35.99% APR based on your credit score and financial situation. Get your personalized rate now!"
+  ],
+  funding: [
+    "Many of our lenders can fund you within 24 hours of approval! Some even offer same-day funding if you apply early in the day.",
+    "Fast! Most approved applicants receive funds within 1 business day. Some lenders even offer same-day deposits!",
+    "You could get funded as soon as the next business day after approval. Some lenders offer same-day funding for qualifying applicants!"
+  ],
+  documents: [
+    "You'll typically need: valid ID, proof of income (pay stubs or bank statements), and your banking information. It's that simple!",
+    "Most lenders require a government-issued ID, recent pay stubs or bank statements, and your bank account details. Have these ready to speed up the process!",
+    "Basic documents needed: photo ID, proof of income (last 2-3 pay stubs), and your bank account info. Some lenders may ask for additional verification."
+  ],
+  default: [
+    "I'm here to help! You can ask me about our application process, interest rates, funding times, or required documents. What would you like to know?",
+    "Happy to assist! Feel free to ask about applying for a loan, our rates, how quickly you can get funded, or what documents you'll need.",
+    "I can help with questions about loan applications, rates, funding speed, or requirements. What information are you looking for?"
+  ]
+};
+
+const GREETING = "Hello! I'm here to help you find the perfect loan. How can I assist you today?";
+
+const QUICK_REPLIES = [
+  "How do I apply for a loan?",
+  "What are your interest rates?",
+  "How fast can I get funded?",
+  "What documents do I need?",
+];
+
 const ChatBot = () => {
-  const t = useTranslations('chatbot');
-  const locale = useLocale();
   const [isOpen, setIsOpen] = useState(false);
   const [inputValue, setInputValue] = useState("");
   const [isTyping, setIsTyping] = useState(false);
-  const [messages, setMessages] = useState<Message[]>([]);
-  const hasInitialized = useRef(false);
-  
-  // Initialize greeting message properly
-  useEffect(() => {
-    const greetingText = t('greeting');
-    
-    if (greetingText) {
-      if (!hasInitialized.current) {
-        // First time initialization
-        setMessages([
-          {
-            id: 1,
-            text: greetingText,
-            isBot: true,
-            timestamp: new Date(),
-          },
-        ]);
-        hasInitialized.current = true;
-      } else {
-        // Update existing greeting when language changes
-        setMessages(prev => {
-          if (prev.length > 0) {
-            const newMessages = [...prev];
-            newMessages[0] = {
-              ...newMessages[0],
-              text: greetingText,
-            };
-            return newMessages;
-          }
-          return prev;
-        });
-      }
-    }
-  }, [t, locale]);
+  const [messages, setMessages] = useState<Message[]>([
+    {
+      id: 1,
+      text: GREETING,
+      isBot: true,
+      timestamp: new Date(),
+    },
+  ]);
 
-  // Quick replies from translations
-  const quickReplies = [
-    t('quickReplies.apply'),
-    t('quickReplies.rates'),
-    t('quickReplies.funding'),
-    t('quickReplies.documents'),
-  ];
-
-  // Function to get a random response variation from translations
+  // Function to get a random response variation
   const getRandomResponse = (questionText: string) => {
     const lowerText = questionText.toLowerCase().trim();
-    
+
     let responses: string[];
-    
-    // Match question to response key
-    if (lowerText.includes('apply') || lowerText.includes('demander') || lowerText.includes('postuler')) {
-      responses = t.raw('responses.apply');
-    } else if (lowerText.includes('interest') || lowerText.includes('rate') || lowerText.includes('taux') || lowerText.includes('intérêt')) {
-      responses = t.raw('responses.rates');
-    } else if (lowerText.includes('fast') || lowerText.includes('fund') || lowerText.includes('rapide') || lowerText.includes('vitesse')) {
-      responses = t.raw('responses.funding');
+
+    if (lowerText.includes('apply')) {
+      responses = RESPONSES.apply;
+    } else if (lowerText.includes('interest') || lowerText.includes('rate')) {
+      responses = RESPONSES.rates;
+    } else if (lowerText.includes('fast') || lowerText.includes('fund')) {
+      responses = RESPONSES.funding;
     } else if (lowerText.includes('document') || lowerText.includes('need')) {
-      responses = t.raw('responses.documents');
+      responses = RESPONSES.documents;
     } else {
-      responses = t.raw('responses.default');
+      responses = RESPONSES.default;
     }
-    
-    // Get random response from array
+
     const randomIndex = Math.floor(Math.random() * responses.length);
     return responses[randomIndex];
   };
@@ -102,7 +99,7 @@ const ChatBot = () => {
     // Simulate bot response with variation
     setTimeout(() => {
       const response = getRandomResponse(text);
-      
+
       const botMessage: Message = {
         id: messages.length + 2,
         text: response,
@@ -125,7 +122,7 @@ const ChatBot = () => {
         onClick={() => setIsOpen(!isOpen)}
         className="fixed bottom-6 right-6 z-[80] w-14 h-14 rounded-full shadow-2xl transition-all duration-300 flex items-center justify-center hover:scale-110 active:scale-95 group"
         style={{ backgroundColor: '#10B981' }}
-        aria-label={isOpen ? t('header.close') || "Close chat" : t('header.open') || "Open chat"}
+        aria-label={isOpen ? "Close chat" : "Open chat"}
         aria-expanded={isOpen}
       >
         {isOpen ? (
@@ -134,7 +131,7 @@ const ChatBot = () => {
           <MessageCircle className="w-6 h-6 text-white" />
         )}
         {!isOpen && (
-          <span 
+          <span
             className="absolute -top-1 -right-1 w-4 h-4 rounded-full animate-pulse border-2 border-white"
             style={{ backgroundColor: '#EF4444' }}
           />
@@ -143,34 +140,34 @@ const ChatBot = () => {
 
       {/* Chat Window */}
       {isOpen && (
-        <div 
+        <div
           className="fixed bottom-24 right-6 z-[80] w-96 max-w-[calc(100vw-3rem)] rounded-3xl shadow-2xl border overflow-hidden animate-in slide-in-from-bottom-10 zoom-in-95 duration-300"
-          style={{ 
-            backgroundColor: '#FFFFFF', 
-            borderColor: '#E2E8F0' 
+          style={{
+            backgroundColor: '#FFFFFF',
+            borderColor: '#E2E8F0'
           }}
           role="dialog"
           aria-labelledby="chatbot-title"
         >
           {/* Header */}
-          <div 
+          <div
             className="p-6 flex items-center gap-3"
             style={{ backgroundColor: '#10B981' }}
           >
-            <div 
+            <div
               className="w-10 h-10 rounded-xl flex items-center justify-center"
               style={{ backgroundColor: 'rgba(255, 255, 255, 0.2)' }}
             >
               <Bot className="w-6 h-6 text-white" />
             </div>
             <div>
-              <h3 id="chatbot-title" className="font-bold text-white">{t('header.title')}</h3>
-              <p className="text-xs text-white/80">{t('header.status')}</p>
+              <h3 id="chatbot-title" className="font-bold text-white">Ask4Loan Assistant</h3>
+              <p className="text-xs text-white/80">Usually replies instantly</p>
             </div>
           </div>
 
           {/* Messages */}
-          <div 
+          <div
             className="h-80 overflow-y-auto p-6 space-y-4 bg-slate-50/50"
           >
             {messages.map((message) => (
@@ -180,7 +177,7 @@ const ChatBot = () => {
               >
                 <div
                   className={`w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm`}
-                  style={{ 
+                  style={{
                     backgroundColor: message.isBot ? '#FFFFFF' : '#10B981',
                     border: message.isBot ? '1px solid #E2E8F0' : 'none'
                   }}
@@ -202,12 +199,12 @@ const ChatBot = () => {
             ))}
             {isTyping && (
               <div className="flex gap-2">
-                <div 
+                <div
                   className="w-8 h-8 rounded-full bg-white border border-slate-100 flex items-center justify-center shadow-sm"
                 >
                   <Bot className="w-4 h-4 text-emerald-600" />
                 </div>
-                <div 
+                <div
                   className="rounded-2xl rounded-tl-none px-4 py-3 bg-white border border-slate-100 shadow-sm"
                 >
                   <div className="flex gap-1">
@@ -221,13 +218,13 @@ const ChatBot = () => {
           </div>
 
           {/* Quick Replies */}
-          <div 
+          <div
             className="px-6 py-4 border-t bg-white"
             style={{ borderColor: '#F1F5F9' }}
           >
-            <p className="text-[10px] uppercase font-bold tracking-wider mb-3 text-slate-400">{t('quickRepliesLabel')}</p>
+            <p className="text-[10px] uppercase font-bold tracking-wider mb-3 text-slate-400">Quick questions:</p>
             <div className="flex flex-wrap gap-2">
-              {quickReplies.map((reply, index) => (
+              {QUICK_REPLIES.map((reply, index) => (
                 <button
                   key={index}
                   onClick={() => handleQuickReply(reply)}
@@ -240,7 +237,7 @@ const ChatBot = () => {
           </div>
 
           {/* Input */}
-          <div 
+          <div
             className="p-4 border-t bg-white"
             style={{ borderColor: '#F1F5F9' }}
           >
@@ -254,18 +251,18 @@ const ChatBot = () => {
               <input
                 value={inputValue}
                 onChange={(e) => setInputValue(e.target.value)}
-                placeholder={t('inputPlaceholder')}
+                placeholder="Type your message..."
                 className="flex-1 h-10 px-4 rounded-full border border-slate-200 bg-slate-50 text-slate-700 text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-all"
-                aria-label={t('inputPlaceholder')}
+                aria-label="Type your message..."
               />
-              
+
               <button
                 type="submit"
                 className={`h-10 w-10 rounded-full flex items-center justify-center transition-all ${
                   inputValue.trim() ? "bg-emerald-600 text-white shadow-lg shadow-emerald-100" : "bg-slate-100 text-slate-400"
                 }`}
                 disabled={!inputValue.trim()}
-                aria-label={t('send') || "Send message"}
+                aria-label="Send message"
               >
                 <Send className="w-4 h-4" />
               </button>

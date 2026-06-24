@@ -2,11 +2,8 @@
 
 import { ArrowRight, Sparkles, CheckCircle } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
-import { useTranslations } from 'next-intl';
 
 const CTASection = () => {
-  const t = useTranslations('homepage.cta');
-
   return (
     <section
       className="py-16 sm:py-20 lg:py-24 relative overflow-hidden"
@@ -29,7 +26,7 @@ const CTASection = () => {
             className="font-semibold text-sm tracking-wider bg-emerald-50 text-emerald-700 border-emerald-200 hover:bg-emerald-100 px-4 py-2 gap-2"
           >
             <Sparkles className="w-4 h-4" />
-            {t('badge')}
+            Limited Time Offer
           </Badge>
         </div>
 
@@ -39,14 +36,14 @@ const CTASection = () => {
             className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6"
             style={{ color: "#1F2937" }}
           >
-            {t('title')}
+            Apply for Your Personal Loan Today
           </h2>
 
           <p
             className="text-lg sm:text-xl leading-relaxed mb-8 max-w-3xl mx-auto"
             style={{ color: "#64748B" }}
           >
-            {t('description')}
+            Join thousands of Canadians who have found better loan options with Ask4Loan Canada. Apply now and get your personalized offers in minutes.
           </p>
 
           {/* CTA Button */}
@@ -73,7 +70,7 @@ const CTASection = () => {
                   color: "#FFFFFF",
                 }}
               >
-                {t('button')}
+                Apply Now
                 <ArrowRight className="w-4 h-4" />
               </button>
             </a>
@@ -84,11 +81,11 @@ const CTASection = () => {
             <div className="flex items-center justify-center gap-2">
               <CheckCircle className="w-4 h-4 text-emerald-600" />
               <p className="text-sm" style={{ color: "#64748B" }}>
-                <strong>{t('trustIndicator.title')}</strong> {t('trustIndicator.description')}
+                <strong>No-Impact Credit Check:</strong> Comparing offers will not affect your credit score.
               </p>
             </div>
             <p className="text-sm" style={{ color: "#64748B" }}>
-              {t('footer')}
+              No obligation • 100% Free
             </p>
           </div>
         </div>

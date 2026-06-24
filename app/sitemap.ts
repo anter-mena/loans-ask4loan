@@ -1,6 +1,5 @@
 import { MetadataRoute } from 'next';
 
-const locales = ['en', 'fr'];
 const host = 'https://ask4loan.ca';
 
 type PageConfig = {
@@ -19,12 +18,10 @@ const pages: PageConfig[] = [
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  return pages.flatMap((page) =>
-    locales.map((locale) => ({
-      url: `${host}/${locale}${page.path}`,
-      lastModified: new Date(),
-      changeFrequency: page.changeFrequency,
-      priority: page.priority,
-    }))
-  );
+  return pages.map((page) => ({
+    url: `${host}${page.path}`,
+    lastModified: new Date(),
+    changeFrequency: page.changeFrequency,
+    priority: page.priority,
+  }));
 }

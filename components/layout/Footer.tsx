@@ -1,44 +1,41 @@
 'use client';
 
 import Image from "next/image";
-import { Link } from '@/i18n/routing';
-import { useTranslations } from 'next-intl';
+import Link from "next/link";
 
 const Footer = () => {
-  const t = useTranslations('footer');
-
   const footerLinks = {
     "loanTypes": {
-      title: t('sections.loanTypes.title'),
+      title: "Loan Types",
       links: [
-        { name: t('sections.loanTypes.personalLoans'), to: "/loans/personal" },
-        { name: t('sections.loanTypes.badCreditLoans'), to: "/loans/bad-credit" },
-        { name: t('sections.loanTypes.emergencyLoans'), to: "/loans/emergency" },
-        { name: t('sections.loanTypes.debtConsolidation'), to: "/loans/debt-consolidation" },
+        { name: "Personal Loans", to: "/loans/personal" },
+        { name: "Bad Credit Loans", to: "/loans/bad-credit" },
+        { name: "Emergency Loans", to: "/loans/emergency" },
+        { name: "Debt Consolidation", to: "/loans/debt-consolidation" },
       ]
     },
     "resources": {
-      title: t('sections.resources.title'),
+      title: "Resources",
       links: [
-        { name: t('sections.resources.calculator'), to: "/resources/calculator" },
-        { name: t('sections.resources.creditGuide'), to: "/resources/credit-guide" },
-        { name: t('sections.resources.howLoansWork'), to: "/resources/how-loans-work" },
-        { name: t('sections.resources.faq'), to: "/resources/faq" },
+        { name: "Loan Calculator", to: "/resources/calculator" },
+        { name: "Credit Score Guide", to: "/resources/credit-guide" },
+        { name: "How Loans Work", to: "/resources/how-loans-work" },
+        { name: "FAQ", to: "/resources/faq" },
       ]
     },
     "company": {
-      title: t('sections.company.title'),
+      title: "Company",
       links: [
-        { name: t('sections.company.about'), to: "/about" },
-        { name: t('sections.company.contact'), to: "/contact" },
-        { name: t('sections.company.guides'), to: "/resources/guides" },
+        { name: "About Us", to: "/about" },
+        { name: "Contact", to: "/contact" },
+        { name: "Financial Guides", to: "/resources/guides" },
       ]
     },
     "legal": {
-      title: t('sections.legal.title'),
+      title: "Legal",
       links: [
-        { name: t('sections.legal.privacy'), to: "/privacy-policy" },
-        { name: t('sections.legal.terms'), to: "/terms-of-use" },
+        { name: "Privacy Policy", to: "/privacy-policy" },
+        { name: "Terms of Service", to: "/terms-of-use" },
       ]
     }
   };
@@ -57,7 +54,7 @@ const Footer = () => {
               className="text-sm mb-6 leading-relaxed"
               style={{ color: '#9CA3AF' }}
             >
-              {t('description')}
+              Connecting Canadian with the best personal loan offers from top lenders since 2020.
             </p>
 
             {/* Social Icons */}
@@ -128,7 +125,7 @@ const Footer = () => {
                 {section.links.map((link) => (
                   <li key={link.name}>
                     <Link
-                      href={link.to as string}
+                      href={link.to}
                       className="footer-link text-sm transition-colors duration-200"
                       style={{
                         color: '#9CA3AF',
@@ -156,13 +153,13 @@ const Footer = () => {
               className="text-sm"
               style={{ color: '#9CA3AF' }}
             >
-              {t('copyright')}
+              © 2024 Ask4Loan. All rights reserved.
             </p>
             <p
               className="text-xs max-w-lg text-center md:text-right leading-relaxed"
               style={{ color: '#6B7280' }}
             >
-              {t('disclaimer')}
+              Ask4Loan connects borrowers with lenders. Loan terms are determined by lenders.
             </p>
           </div>
         </div>
