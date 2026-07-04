@@ -2,16 +2,16 @@ import type { GuideContent } from "@/lib/guides";
 
 const content: GuideContent = {
   subtitle:
-    "Speed matters when you need funds urgently. Follow this step-by-step guide to minimize delays and get funded as quickly as possible.",
+    "Need funds urgently? Here's how to shave real time off the application-to-funded timeline without cutting corners.",
   blocks: [
-    { type: "heading", level: 2, text: "How Fast Can You Actually Get a Loan?" },
+    { type: "heading", level: 2, text: "How Fast This Can Actually Go" },
     {
       type: "paragraph",
-      text: "With the right preparation and the right lender, it is possible to go from application to funded in as little as a few hours. Most online lenders can approve applications within minutes and fund within one to two business days.",
+      text: "With the right prep and the right lender, application-to-funded can happen in a matter of hours. Most online lenders decide within minutes and fund within one to two business days.",
     },
     {
       type: "paragraph",
-      text: "In Canada, the fastest personal loans are funded via Interac e-Transfer, which delivers funds within minutes of the lender initiating the transfer. Direct deposit takes slightly longer—typically one business day. The overall timeline depends on how quickly you apply, how complete your documentation is, and when during the day you submit.",
+      text: "In Canada, Interac e-Transfer is what makes same-day funding possible — money can move within minutes of a lender releasing it, while direct deposit usually takes a full business day. How fast you actually get funded depends on how early you apply, how complete your documents are, and the time of day you submit.",
     },
     {
       type: "table",
@@ -25,85 +25,81 @@ const content: GuideContent = {
       ],
     },
 
-    { type: "heading", level: 2, text: "Step 1: Prepare Your Documents Before Applying" },
+    { type: "heading", level: 2, text: "Step 1: Have Your Documents Ready Before You Start" },
     {
       type: "paragraph",
-      text: "The single biggest delay in the loan process is missing or unclear documentation. Having everything ready before you start saves significant time.",
+      text: "The single biggest source of delay is missing or unclear paperwork. Get ahead of it before you even open the application.",
     },
     {
       type: "paragraph",
-      text: "Required documents include government-issued photo ID, recent pay stub or proof of income, bank statement from the past 60 days, proof of current address, Social Insurance Number, and contact information for your employer.",
+      text: "You'll typically need: government photo ID, a recent pay stub or income proof, a bank statement from the last 60 days, proof of address, your SIN, and your employer's contact info.",
     },
     {
       type: "paragraph",
-      text: "Save all documents as PDF or clear photos on your phone before starting. Most online applications accept uploaded files, and having them ready prevents mid-application delays.",
-    },
-
-    { type: "heading", level: 2, text: "Step 2: Use an Online Lender or Comparison Platform" },
-    {
-      type: "paragraph",
-      text: "Online lenders and comparison platforms offer the fastest processing times. Unlike banks that may require branch visits and multi-day review processes, online platforms are designed for speed.",
-    },
-    {
-      type: "paragraph",
-      text: "Using a comparison platform like 365 Loans is particularly efficient because you submit one application and receive offers from multiple lenders simultaneously.",
-    },
-    {
-      type: "paragraph",
-      text: "Canadian online lenders have significantly reduced processing times in recent years. Many use automated underwriting that can make decisions in minutes, with human review only for edge cases.",
+      text: "Save everything as PDFs or clear phone photos before you begin. Most applications accept direct uploads, and having files ready prevents a mid-application scramble.",
     },
 
-    { type: "heading", level: 2, text: "Step 3: Apply at the Right Time" },
+    { type: "heading", level: 2, text: "Step 2: Go With an Online Lender or Comparison Platform" },
     {
       type: "paragraph",
-      text: "When you apply matters almost as much as how you apply. Timing can make the difference between same-day and next-day funding.",
+      text: "Online lenders and comparison platforms simply move faster than a branch visit and multi-day bank review process — speed is built into how they're designed.",
+    },
+    {
+      type: "paragraph",
+      text: "A comparison platform is especially efficient here: one application generates offers from several lenders at once instead of applying to each one separately.",
+    },
+    {
+      type: "paragraph",
+      text: "Automated underwriting has cut processing times considerably in recent years — decisions in minutes are common, with human review reserved for edge cases.",
+    },
+
+    { type: "heading", level: 2, text: "Step 3: Time It Right" },
+    {
+      type: "paragraph",
+      text: "When you apply matters almost as much as how. The difference between same-day and next-day funding often comes down to timing.",
     },
     {
       type: "list",
       items: [
-        "Apply early in the morning on a weekday (before noon) for same-day processing",
-        "Avoid applying Friday evening, Saturday, or Sunday—processing resumes Monday",
-        "Be aware of bank holidays when Interac e-Transfer may be delayed",
-        "If the lender requests additional information, respond within the hour",
-        "Monitor your email and phone for verification calls during the application process",
+        "Apply early on a weekday morning, ideally before noon",
+        "Skip Friday evening, Saturday, or Sunday — processing picks back up Monday",
+        "Watch for bank holidays, which can delay Interac e-Transfer",
+        "Reply to any lender follow-up within the hour",
+        "Keep an eye on your phone and email for verification calls during processing",
       ],
     },
 
-    { type: "heading", level: 2, text: "Step 4: Choose the Right Loan Amount" },
+    { type: "heading", level: 2, text: "Step 4: Ask for the Right Amount" },
     {
       type: "paragraph",
-      text: "Applying for the right amount can speed up approval. Requesting a smaller loan relative to your income is generally approved faster than requesting the maximum amount a lender offers.",
+      text: "A smaller amount relative to your income tends to clear faster than requesting the maximum a lender offers.",
     },
     {
       type: "paragraph",
-      text: "Lenders have automated approval limits below which applications receive instant decisions. Requesting amounts above those limits may trigger manual review, adding hours or days to the process.",
+      text: "Lenders often have automated approval thresholds — stay under them and you get an instant decision; go above and you risk manual review, which adds hours or days.",
     },
     {
       type: "paragraph",
-      text: "Only borrow what you need. A smaller loan is approved faster, costs less in interest, and is easier to repay—all while getting you funded sooner.",
+      text: "Borrow only what you actually need — it approves faster, costs less in interest, and gets you funded sooner besides.",
     },
 
-    { type: "heading", level: 2, text: "Step 5: Complete the Application Accurately" },
+    { type: "heading", level: 2, text: "Step 5: Fill Out Every Field Accurately" },
     {
       type: "paragraph",
-      text: "Errors and inconsistencies in your application are one of the most common causes of delays. Lenders flag discrepancies for manual review, which can add significant processing time.",
+      text: "Small errors or mismatches are one of the most common causes of delay, since lenders flag inconsistencies for manual review.",
     },
     {
       type: "list",
       items: [
-        "Ensure your name matches your ID exactly, including middle names or initials",
-        "Enter your income accurately without rounding up or exaggerating",
-        "List your correct employer name, address, and phone number",
-        "Double-check your bank account and routing numbers for fund deposit",
-        "Provide a working email and phone number that you monitor actively",
+        "Match your name to your ID exactly, middle names included",
+        "Enter income precisely — no rounding up",
+        "Double-check your employer's name, address, and phone number",
+        "Verify your bank account details before submitting",
+        "Use contact info you're actually monitoring",
       ],
     },
 
-    { type: "heading", level: 2, text: "Common Delays and How to Avoid Them" },
-    {
-      type: "paragraph",
-      text: "Understanding what causes delays helps you proactively avoid them.",
-    },
+    { type: "heading", level: 2, text: "What Usually Causes a Delay" },
     {
       type: "table",
       headers: ["Common Delay", "Why It Happens", "How to Prevent It"],
@@ -116,19 +112,19 @@ const content: GuideContent = {
       ],
     },
 
-    { type: "heading", level: 2, text: "Other Fast Funding Options" },
+    { type: "heading", level: 2, text: "If a Loan Isn't Fast Enough" },
     {
       type: "paragraph",
-      text: "If a personal loan is not fast enough or is not available for your situation, consider these alternatives.",
+      text: "If a personal loan won't move quickly enough — or isn't available to you — a few other options are worth considering.",
     },
     {
       type: "list",
       items: [
-        "Credit card (if you have available credit—instant access)",
-        "Employer payroll advance (no application process, no interest)",
-        "Interac e-Transfer from a family member or friend",
-        "Line of credit (if you already have one established)",
-        "Pawnshop loan (if you have valuable items—no credit check, immediate cash)",
+        "A credit card, if you have room on it",
+        "A payroll advance from your employer, if offered",
+        "An Interac e-Transfer from someone you know",
+        "An existing line of credit",
+        "A pawnshop loan, if you have something of value to put up",
       ],
     },
 
@@ -138,27 +134,27 @@ const content: GuideContent = {
         {
           question: "What is the fastest way to get a personal loan?",
           answer:
-            "Use an online lender or comparison platform, have your documents ready before you start, apply early on a weekday morning, and choose Interac e-Transfer for funding. Together, these steps can take you from application to funded in as little as a few hours.",
+            "Use an online lender or comparison platform, have documents ready beforehand, apply early on a weekday morning, and choose e-Transfer for funding. Together that can get you from application to funded in hours.",
         },
         {
           question: "Can I get a loan in 1 hour?",
           answer:
-            "It's possible in some cases. Many online lenders offer instant to five-minute pre-qualification decisions, and e-Transfer can deliver funds within minutes of the lender releasing them. Reaching the one-hour mark depends on having complete documentation, applying during business hours, and responding immediately to any lender requests.",
+            "Sometimes, yes. Many lenders give pre-qualification decisions in minutes, and e-Transfer can move funds within minutes once released. Hitting the one-hour mark depends on complete documents, business-hours timing, and quick responses to any lender requests.",
         },
         {
           question: "Does applying quickly mean I will get a worse rate?",
           answer:
-            "No—speed comes from being prepared, not from cutting corners. Your rate is still based on your credit profile, income, and the lender you choose. Having accurate documents ready and comparing offers through a platform like 365 Loans lets you get both a fast decision and a competitive rate.",
+            "No — speed comes from being prepared, not from taking a worse deal. Your rate still reflects your credit and income; comparing offers through a platform gets you both speed and a competitive rate.",
         },
         {
           question: "What if I am declined?",
           answer:
-            "If a personal loan application is declined, consider alternatives such as a line of credit you already have, an employer payroll advance, an Interac e-Transfer from family or friends, or a pawnshop loan. Double-check your application for errors or mismatched information before reapplying elsewhere.",
+            "Consider a line of credit you already have, an employer payroll advance, borrowing from someone you know, or a pawnshop loan. Also double-check your application for errors before trying elsewhere.",
         },
         {
           question: "What documents should I have ready to avoid delays?",
           answer:
-            "Have your government-issued photo ID, a recent pay stub or proof of income, a bank statement from the past 60 days, proof of address, your SIN, and your employer's contact information saved as PDFs or clear photos before you start the application.",
+            "Government photo ID, a recent pay stub, a bank statement from the last 60 days, proof of address, your SIN, and your employer's contact info — all saved as PDFs or clear photos before you start.",
         },
       ],
     },

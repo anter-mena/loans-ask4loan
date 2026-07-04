@@ -2,58 +2,58 @@ import type { GuideContent } from "@/lib/guides";
 
 const content: GuideContent = {
   subtitle:
-    "Start the new year right with a complete financial reset plan for Canadians. Set budgets, tackle debt, and improve your credit score in 2026.",
+    "A practical, no-nonsense plan to start the year with your finances actually under control — debt, budget, savings, and credit, all reviewed.",
   blocks: [
-    { type: "heading", level: 2, text: "Step-by-Step Guide" },
+    { type: "heading", level: 2, text: "Working the Reset" },
 
-    { type: "heading", level: 3, text: "1. Review Your Debt Situation" },
+    { type: "heading", level: 3, text: "1. Face Your Debt Head-On" },
     {
       type: "paragraph",
-      text: "List all debts: credit cards, loans, lines of credit. Note balances, interest rates, and minimum payments. Calculate your total debt-to-income ratio. If it's above 40%, prioritize paying down high-interest debt first.",
+      text: "List every debt — cards, loans, lines of credit — with balance, rate, and minimum payment. Add it up and check your overall debt-to-income ratio. Above 40%? Attack the highest-rate balance first.",
     },
     {
       type: "callout",
-      text: "Pro Tip: Use the CRA's My Account to review your tax situation alongside your debt review.",
+      text: "Pull up CRA My Account while you're at it, to review your tax situation alongside your debt.",
     },
 
-    { type: "heading", level: 3, text: "2. Set a Realistic Budget" },
+    { type: "heading", level: 3, text: "2. Build a Budget You'll Actually Use" },
     {
       type: "paragraph",
-      text: "Use the 50/30/20 rule: 50% needs, 30% wants, 20% savings/debt. Track spending for January to establish a baseline. Free tools like Mint or YNAB can automate tracking.",
+      text: "The 50/30/20 split — needs, wants, savings/debt — is a solid frame. Track a full month of spending first to know your real starting point, using a free tracking app if that helps.",
     },
     {
       type: "callout",
-      text: "Pro Tip: Canadians can use the FCAC's free budget planner at canada.ca/financial-tools.",
+      text: "The FCAC offers a free budget planner at canada.ca/financial-tools.",
     },
 
-    { type: "heading", level: 3, text: "3. Build an Emergency Fund" },
+    { type: "heading", level: 3, text: "3. Get an Emergency Fund Going" },
     {
       type: "paragraph",
-      text: "Aim for 3–6 months of expenses. Start with $1,000 as a first milestone. Set up automatic transfers to a high-interest savings account on payday.",
+      text: "3-6 months of expenses is the long-term target, but $1,000 is a reasonable first milestone. Automate a transfer to a high-interest savings account every payday.",
     },
     {
       type: "callout",
-      text: "Pro Tip: EQ Bank and Tangerine typically offer the highest savings rates in Canada.",
+      text: "Shop around — several Canadian online banks consistently offer the best savings rates.",
     },
 
-    { type: "heading", level: 3, text: "4. Check Your Credit Report" },
+    { type: "heading", level: 3, text: "4. Pull Your Credit Report" },
     {
       type: "paragraph",
-      text: "Request free reports from Equifax and TransUnion. Dispute any errors. Your credit score is the foundation of better borrowing terms throughout the year.",
+      text: "Get your free report from both Equifax and TransUnion and dispute anything that looks wrong. Your score is what shapes every borrowing decision you make the rest of the year.",
     },
     {
       type: "callout",
-      text: "Pro Tip: Borrowell (Equifax) and Credit Karma Canada (TransUnion) provide free ongoing credit monitoring.",
+      text: "Free ongoing monitoring tools can track your score between annual checks.",
     },
 
-    { type: "heading", level: 2, text: "Additional Tips for Success" },
+    { type: "heading", level: 2, text: "A Few More Things to Do" },
     {
       type: "list",
       items: [
-        "Automate savings transfers so they happen before you can spend",
-        "Review and cancel unused subscriptions",
-        "Set specific financial goals with deadlines",
-        "Schedule a mid-year financial check-in for July",
+        "Automate savings so it moves before you're tempted to spend it",
+        "Cancel subscriptions you're not actually using",
+        "Set specific goals with real deadlines, not vague intentions",
+        "Put a mid-year check-in on the calendar for July",
       ],
     },
 
@@ -63,27 +63,27 @@ const content: GuideContent = {
         {
           question: "Where do I start with a financial reset?",
           answer:
-            "Start by listing all your debts — credit cards, loans, lines of credit — with their balances, interest rates, and minimum payments, then calculate your debt-to-income ratio. If it's above 40%, prioritize paying down your highest-interest debt first.",
+            "List every debt with its balance, rate, and minimum payment, then calculate your overall debt-to-income ratio. If it's above 40%, focus first on paying down the highest-rate balance.",
         },
         {
           question: "What budgeting rule should I follow?",
           answer:
-            "The 50/30/20 rule is a solid starting point: 50% of after-tax income for needs, 30% for wants, and 20% for savings and debt repayment. Track your spending for a month to establish a baseline before adjusting.",
+            "50/30/20 — needs, wants, savings/debt — is a solid starting frame. Track a month of real spending first to set an accurate baseline.",
         },
         {
           question: "How much should I have in an emergency fund?",
           answer:
-            "Aim for 3–6 months of expenses over time, but start with a first milestone of $1,000. Setting up automatic transfers to a high-interest savings account on payday makes this easier to build consistently.",
+            "3-6 months of expenses is the eventual goal, but start with $1,000 as a first milestone and automate the transfers so it builds consistently.",
         },
         {
           question: "How can I check my credit score for free in Canada?",
           answer:
-            "You can request free credit reports directly from Equifax and TransUnion, and use free ongoing monitoring services like Borrowell (Equifax) or Credit Karma Canada (TransUnion). Dispute any errors you find — your credit score is the foundation for better borrowing terms.",
+            "Request free reports directly from Equifax and TransUnion, and use a free monitoring tool to track changes between checks. Dispute any errors you find.",
         },
         {
           question: "What's a good debt-to-income ratio?",
           answer:
-            "Generally, your total monthly debt payments should stay below 40% of your gross income. If your debt-to-income ratio is above that, focus your reset on paying down high-interest balances before taking on any new credit.",
+            "Generally under 40% of gross income going to debt payments. Above that, prioritize paying down high-interest balances before taking on anything new.",
         },
       ],
     },

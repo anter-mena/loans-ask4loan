@@ -1,22 +1,9 @@
 'use client';
 
-import { useState } from "react";
 import Image from "next/image";
 import { Shield, Clock, CheckCircle2, ArrowRight } from "lucide-react";
 
 const HeroSection = () => {
-  const [showWizard, setShowWizard] = useState(false);
-  const [formData, setFormData] = useState({
-    amount: "",
-    firstName: "",
-    email: "",
-  });
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    console.log("Form submitted:", formData);
-  };
-
   const avatars = [
     "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&crop=face",
     "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face",
@@ -160,7 +147,7 @@ const HeroSection = () => {
             <a
               href="https://cmi.rocks/go/6a0768c8e9dee?affiliate_sub1=ask4loan"
               target="_blank"
-              rel="noopener noreferrer"
+              rel="sponsored noopener noreferrer"
               onClick={() => {
                 if (typeof window !== 'undefined' && window.gtag) {
                   window.gtag('event', 'loan_application_click', {

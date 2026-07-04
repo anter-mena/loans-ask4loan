@@ -2,91 +2,91 @@ import type { GuideContent } from "@/lib/guides";
 
 const content: GuideContent = {
   subtitle:
-    "Learn when and how to refinance your personal loan in Canada. Understand the benefits, process, and key considerations for lower rates and debt reduction.",
+    "When refinancing a Canadian personal loan actually pays off, and how to do it without losing money to fees or a longer term.",
   blocks: [
-    { type: "heading", level: 2, text: "Step-by-Step Guide" },
+    { type: "heading", level: 2, text: "Working Through It" },
 
-    { type: "heading", level: 3, text: "1. Understand What Loan Refinancing Means" },
+    { type: "heading", level: 3, text: "1. What Refinancing Actually Means" },
     {
       type: "paragraph",
-      text: "Loan refinancing involves taking out a new loan to pay off an existing one. The primary goal is often to secure more favourable terms, such as a lower interest rate, a different repayment schedule, or to consolidate several debts into a single, more manageable payment.",
+      text: "Refinancing means taking a new loan to pay off an old one — usually chasing a lower rate, a different schedule, or folding several debts into a single payment.",
     },
     {
       type: "callout",
-      text: "Pro Tip: Distinguish between refinancing (new loan to replace old) and loan modification (changing terms of existing loan with current lender).",
+      text: "Refinancing (a new loan replacing the old) is different from a modification (changing terms on the existing loan with the same lender).",
     },
 
-    { type: "heading", level: 3, text: "2. Identify Your Reasons for Refinancing" },
+    { type: "heading", level: 3, text: "2. Get Clear on Why You're Doing It" },
     {
       type: "paragraph",
-      text: "Common reasons Canadian borrowers consider refinancing include obtaining a lower interest rate, reducing monthly payments to free up cash flow, consolidating high-interest debts (like credit cards) into a single loan, or shortening/extending the loan term. Clearly define your financial goals before proceeding.",
+      text: "Common reasons: a lower rate, a smaller payment to free up cash flow, consolidating high-interest debt like cards, or adjusting the term. Know your actual goal before you start comparing offers.",
     },
     {
       type: "callout",
-      text: "Pro Tip: Calculate the potential savings: Use an online loan refinancing calculator to estimate how much you could save on interest over the life of the loan.",
+      text: "Run a refinancing calculator first to estimate the real interest savings over the life of the loan.",
     },
 
-    { type: "heading", level: 3, text: "3. Evaluate Your Current Financial Situation" },
+    { type: "heading", level: 3, text: "3. Take Stock of Where You Stand" },
     {
       type: "paragraph",
-      text: "Before applying, assess your credit score, income, and debt-to-income ratio. Lenders will review these factors to determine your eligibility and the interest rate they can offer. A higher credit score (checked via Equifax Canada or TransUnion Canada) typically leads to better loan terms.",
+      text: "Check your credit score, income, and debt-to-income ratio before applying — these are exactly what a lender will use to set your new rate. A stronger score generally means better terms.",
     },
     {
       type: "callout",
-      text: "Pro Tip: Check your credit report from Equifax Canada and TransUnion Canada annually. Dispute any errors promptly to ensure your score is accurate.",
+      text: "Pull your Equifax and TransUnion reports annually and dispute anything wrong right away.",
     },
 
-    { type: "heading", level: 3, text: "4. Research Available Refinancing Options in Canada" },
+    { type: "heading", level: 3, text: "4. Shop the Market" },
     {
       type: "paragraph",
-      text: "Explore different lenders, including banks, credit unions, and online lenders, as they may offer varying rates and terms for personal loans. Compare not only interest rates but also fees, repayment flexibility, and customer service. Ensure the new loan amount covers your existing debt and any associated fees.",
+      text: "Banks, credit unions, and online lenders all price differently. Compare more than just the headline rate — fees, repayment flexibility, and service quality all matter. Make sure the new loan covers the old balance plus any fees.",
     },
     {
       type: "callout",
-      text: "Pro Tip: Don't just look at the advertised interest rate; compare the Annual Percentage Rate (APR), which includes fees, for a true cost comparison.",
+      text: "Compare APR, not just the advertised rate — APR includes fees and gives you the real cost.",
     },
 
-    { type: "heading", level: 3, text: "5. Prepare Your Application and Gather Documentation" },
+    { type: "heading", level: 3, text: "5. Get Your Documents Together" },
     {
       type: "paragraph",
-      text: "When you're ready to apply, you'll typically need to provide proof of identity, income verification (pay stubs, tax returns), employment history, and details of the loan(s) you wish to refinance. Having all documents ready can expedite the application process.",
+      text: "Expect to provide ID, income proof, employment history, and details on the loan you're refinancing. Having it ready in advance moves things along faster.",
     },
     {
       type: "callout",
-      text: "Pro Tip: Be transparent with all financial information. Lenders conduct due diligence, and withholding information can lead to application delays or rejection.",
+      text: "Be upfront about your full financial picture — withholding anything just risks delays or a rejection.",
     },
 
-    { type: "heading", level: 3, text: "6. Review the Loan Offer and Understand the Terms" },
+    { type: "heading", level: 3, text: "6. Read the New Offer Carefully" },
     {
       type: "paragraph",
-      text: "Carefully read the new loan agreement before signing. Pay close attention to the interest rate, term length, monthly payment, and any prepayment penalties or other fees. Ensure the new loan aligns with your refinancing goals and is truly more beneficial than your current loan.",
+      text: "Check the rate, term, payment, and any prepayment penalties or fees before signing. Confirm the new deal genuinely beats what you currently have.",
     },
     {
       type: "callout",
-      text: "Pro Tip: Ask questions if anything is unclear. A reputable lender should be able to explain all terms and conditions in an easy-to-understand manner.",
+      text: "Ask questions if anything's unclear — a legitimate lender will explain every term plainly.",
     },
 
-    { type: "heading", level: 3, text: "7. Finalize and Execute the Refinancing" },
+    { type: "heading", level: 3, text: "7. Close It Out Properly" },
     {
       type: "paragraph",
-      text: "Once you've accepted the new loan, the funds will typically be disbursed to pay off your old loan(s) directly. Confirm that your previous loan accounts are closed and that you receive confirmation of their zero balance. Then, ensure you begin making payments on your new, refinanced loan as scheduled.",
+      text: "Once accepted, the new funds typically pay off the old loan directly. Confirm the old account actually closes with a zero balance, then start paying the new loan on schedule.",
     },
     {
       type: "callout",
-      text: "Pro Tip: Keep records of all communication and documentation related to both your old and new loans for future reference, including proof of closure for the original loan.",
+      text: "Keep records of everything — both old and new loan documents, including proof the original was closed.",
     },
 
-    { type: "heading", level: 2, text: "Additional Tips for Success" },
+    { type: "heading", level: 2, text: "A Few More Things to Watch" },
     {
       type: "list",
       items: [
-        "Consider your current loan's prepayment penalties; these can erode potential savings from refinancing.",
-        "A slight improvement in your credit score can make a significant difference in the interest rate offered.",
-        "Refinancing for a longer term can lower monthly payments but may increase total interest paid over time.",
-        "If consolidating debt, ensure the new loan's interest rate is lower than your existing high-interest debts.",
-        "Don't apply to too many lenders simultaneously, as multiple hard credit checks can temporarily lower your credit score.",
-        "Ensure the lender is provincially licensed and reputable in Canada.",
-        "Always plan how you will use the extra cash flow if your monthly payments decrease – ideally for debt reduction or savings.",
+        "Check for prepayment penalties on your current loan — they can eat the savings",
+        "A modest credit score improvement can shift your rate meaningfully",
+        "A longer term lowers the payment but can raise total interest",
+        "If consolidating, make sure the new rate genuinely beats your existing debts",
+        "Don't apply to too many lenders at once — multiple hard checks add up",
+        "Confirm the lender is properly licensed",
+        "Have a plan for any freed-up cash flow — ideally more debt paydown or savings",
       ],
     },
 
@@ -96,27 +96,27 @@ const content: GuideContent = {
         {
           question: "What is loan refinancing?",
           answer:
-            "Refinancing means taking out a new loan to pay off an existing one, usually to secure more favourable terms such as a lower interest rate, a different repayment schedule, or to consolidate several debts into a single payment.",
+            "Taking out a new loan to pay off an existing one, usually to get a better rate, a different schedule, or to consolidate multiple debts into one payment.",
         },
         {
           question: "Will refinancing hurt my credit score?",
           answer:
-            "Applying to a single lender for refinancing typically causes only a small, temporary dip from the hard inquiry. However, applying to too many lenders at once results in multiple hard checks that can lower your score more noticeably, so compare offers carefully rather than applying everywhere at once.",
+            "Applying to one lender usually causes only a small, temporary dip. Applying to several at once stacks up hard checks and can lower your score more noticeably, so compare carefully rather than applying everywhere.",
         },
         {
           question: "What should I compare between refinancing offers?",
           answer:
-            "Look beyond the advertised interest rate and compare the full APR (which includes fees), repayment flexibility, and customer service across banks, credit unions, and online lenders. Make sure the new loan amount covers your existing debt plus any associated fees.",
+            "The full APR (fees included), not just the advertised rate, plus repayment flexibility and lender reputation. Confirm the new loan covers the old balance plus any fees.",
         },
         {
           question: "Are there penalties for refinancing my current loan?",
           answer:
-            "Possibly. Check your current loan for prepayment penalties before refinancing, since these fees can erode or eliminate the savings you'd gain from a lower rate on the new loan.",
+            "Possibly — check for prepayment penalties before refinancing, since they can offset or erase the savings from a lower rate.",
         },
         {
           question: "How do I know if refinancing is worth it?",
           answer:
-            "Use a loan refinancing calculator to estimate your interest savings over the life of the loan, and weigh those savings against any prepayment penalty on your existing loan. Refinancing is generally worth it if the new APR is meaningfully lower and the fees don't cancel out the benefit.",
+            "Run a refinancing calculator to estimate interest savings, then weigh that against any prepayment penalty on your current loan. It's generally worth it if the new APR is meaningfully lower and fees don't cancel it out.",
         },
       ],
     },

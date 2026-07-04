@@ -1,7 +1,7 @@
 'use client';
 
 import Link from "next/link";
-import { ArrowRight, Calculator, CheckCircle2, Clock, ShieldCheck, Target } from "lucide-react";
+import { ArrowRight, Calculator, CheckCircle2, ShieldCheck, Target } from "lucide-react";
 import Breadcrumb from "@/components/shared/Breadcrumb";
 import TrustBadges from "@/components/shared/TrustBadges";
 import PurposeLoanCalculator from "@/components/shared/PurposeLoanCalculator";
@@ -112,9 +112,6 @@ const PurposeArticleClient = ({
 
           <div className="flex flex-wrap items-center justify-center gap-4 mt-4 text-xs" style={{ color: "#94A3B8" }}>
             <span className="inline-flex items-center gap-1">
-              <Clock className="w-3.5 h-3.5" /> Last updated: Jul 4, 2026
-            </span>
-            <span className="inline-flex items-center gap-1">
               <ShieldCheck className="w-3.5 h-3.5" /> All credit types welcome
             </span>
             <span className="inline-flex items-center gap-1">
@@ -132,7 +129,7 @@ const PurposeArticleClient = ({
               <a
                 href="https://cmi.rocks/go/6a0768c8e9dee?affiliate_sub1=ask4loan"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="sponsored noopener noreferrer"
                 onClick={() => trackClick("Purpose Page Top CTA", entry.slug)}
               >
                 Apply Now

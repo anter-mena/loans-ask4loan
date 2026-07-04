@@ -79,7 +79,7 @@ const ComparisonArticleClient = ({ entry }: { entry: ComparisonEntry }) => {
               <a
                 href="https://cmi.rocks/go/6a0768c8e9dee?affiliate_sub1=ask4loan"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="sponsored noopener noreferrer"
                 onClick={() => {
                   if (typeof window !== 'undefined' && window.gtag) {
                     window.gtag('event', 'loan_application_click', {

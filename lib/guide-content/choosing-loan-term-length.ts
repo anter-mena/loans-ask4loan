@@ -2,105 +2,105 @@ import type { GuideContent } from "@/lib/guides";
 
 const content: GuideContent = {
   subtitle:
-    "Learn how to select the optimal loan for your situation. Balance monthly payments, total interest costs, and your financial goals.",
+    "Shorter term, less interest. Longer term, smaller payment. Here's how to actually pick the one that fits your situation.",
   blocks: [
     {
       type: "paragraph",
-      text: "Choosing the right loan term length is one of the most important decisions you'll make when borrowing. A shorter term means higher monthly payments but less interest overall, while a longer term offers lower payments but costs more in the long run. This guide will help you find the perfect balance for your financial situation.",
+      text: "The term you choose shapes both your monthly payment and what the loan ultimately costs you. Go short and you'll pay more each month but less overall; go long and the reverse is true. There's no universal right answer — just the one that fits your numbers.",
     },
 
-    { type: "heading", level: 2, text: "Step-by-Step Guide" },
+    { type: "heading", level: 2, text: "Working Through the Decision" },
 
-    { type: "heading", level: 3, text: "Step 1: Calculate Your Monthly Budget" },
+    { type: "heading", level: 3, text: "1. Start With What You Can Actually Afford Monthly" },
     {
       type: "paragraph",
-      text: "Before choosing a loan term, determine exactly how much you can comfortably afford each month. Review your income, existing expenses, and savings goals. A good rule is that total debt payments shouldn't exceed 36% of your gross monthly income.",
+      text: "Before picking a term, get concrete about your monthly capacity — income, fixed expenses, savings targets. A reasonable ceiling: total debt payments at or under 36% of gross monthly income.",
     },
     {
       type: "callout",
-      text: "Pro Tip: Use our loan calculator to see how different terms affect your monthly payment.",
+      text: "Run a loan calculator with a few different terms side by side before deciding.",
     },
 
-    { type: "heading", level: 3, text: "Step 2: Understand the Trade-offs" },
+    { type: "heading", level: 3, text: "2. See the Trade-Off in Real Numbers" },
     {
       type: "paragraph",
-      text: "Shorter terms (12-36 months) have higher monthly payments but lower total interest. Longer terms (48-84 months) have lower monthly payments but significantly higher total interest. For example, a $10,000 loan at 10% costs $1,074 in interest over 2 years but $2,748 over 5 years.",
+      text: "Short terms (12-36 months) mean a bigger payment but noticeably less interest paid; long terms (48-84 months) ease the payment but cost more in total. A $10,000 loan at 10% runs about $1,074 in interest over 2 years versus $2,748 over 5.",
     },
     {
       type: "callout",
-      text: "Pro Tip: Calculate the total cost of the loan, not just the monthly payment.",
+      text: "Look at the total repayment amount, not just the monthly figure.",
     },
 
-    { type: "heading", level: 3, text: "Step 3: Consider Your Financial Goals" },
+    { type: "heading", level: 3, text: "3. Weigh It Against Your Broader Goals" },
     {
       type: "paragraph",
-      text: "If you want to be debt-free quickly and save money on interest, choose the shortest term you can afford. If you need cash flow flexibility for other goals (emergency fund, investments), a longer term might make sense even though it costs more.",
+      text: "If getting debt-free fast and minimizing interest is the priority, take the shortest term you can manage. If you need breathing room for other goals — an emergency fund, investing — a longer term can be the more sensible trade despite the extra cost.",
     },
     {
       type: "callout",
-      text: "Pro Tip: Some people choose longer terms for lower required payments, then pay extra when possible.",
+      text: "Some borrowers deliberately pick a longer term for the lower required payment, then pay extra whenever they can.",
     },
 
-    { type: "heading", level: 3, text: "Step 4: Evaluate Prepayment Options" },
+    { type: "heading", level: 3, text: "4. Check Whether You Can Prepay Without a Penalty" },
     {
       type: "paragraph",
-      text: "Check if your lender allows early payoff without penalties. If so, you can choose a longer term for payment flexibility, then pay it off faster when you have extra money. This gives you the best of both worlds.",
+      text: "If your lender allows early payoff at no cost, you can take a longer term for flexibility now and pay it down faster later when your budget allows — getting the best of both approaches.",
     },
     {
       type: "callout",
-      text: "Pro Tip: Always ask about prepayment penalties before signing your loan agreement.",
+      text: "Confirm there's no prepayment penalty before you sign anything.",
     },
 
-    { type: "heading", level: 3, text: "Step 5: Factor in Interest Rate Differences" },
+    { type: "heading", level: 3, text: "5. Notice How Rates Shift With Term Length" },
     {
       type: "paragraph",
-      text: "Shorter-term loans often have lower interest rates because they're less risky for lenders. Compare the APR offered for different terms—the rate difference can significantly impact your total cost.",
+      text: "Shorter terms are lower-risk for the lender, so they often come with a better rate. Compare the APR at each term length — the difference can matter more than it looks.",
     },
     {
       type: "callout",
-      text: "Pro Tip: A 3-year loan at 8% APR may cost less than a 5-year loan at 10% APR, even with higher monthly payments.",
+      text: "A 3-year loan at 8% can end up cheaper overall than a 5-year loan at 10%, even with a higher monthly payment.",
     },
 
-    { type: "heading", level: 3, text: "Step 6: Match the Term to the Purpose" },
+    { type: "heading", level: 3, text: "6. Match the Term to What You're Financing" },
     {
       type: "paragraph",
-      text: "Consider what you're borrowing for. Debt consolidation often works best with 3-5 year terms. Car repairs might suit 1-2 years. Home improvements could justify 5-7 years. Match the loan term to how long you'll benefit from what you're financing.",
+      text: "Think about how long you'll actually benefit from the thing you're borrowing for. Debt consolidation tends to suit 3-5 years, a car repair maybe 1-2, and a home improvement project could justify 5-7.",
     },
     {
       type: "callout",
-      text: "Pro Tip: Avoid financing something for longer than its useful life (e.g., a 7-year loan for a 5-year-old car).",
+      text: "Avoid financing something for longer than it will realistically last — a 7-year loan on a car that's already 5 years old rarely makes sense.",
     },
 
-    { type: "heading", level: 3, text: "Step 7: Plan for Life Changes" },
+    { type: "heading", level: 3, text: "7. Leave Room for Life to Change" },
     {
       type: "paragraph",
-      text: "Think about potential income changes, career moves, or major expenses in the coming years. If uncertainty exists, a longer term with lower payments provides more flexibility. You can always pay extra when times are good.",
+      text: "If your income or job situation feels uncertain over the next few years, a longer term with a lower required payment gives you more room to maneuver — you can always throw extra at it when things are going well.",
     },
     {
       type: "callout",
-      text: "Pro Tip: Build in a cushion—choose a payment you can handle even if income drops by 10-20%.",
+      text: "Pick a payment you could still handle with a 10-20% drop in income.",
     },
 
-    { type: "heading", level: 3, text: "Step 8: Make Your Decision" },
+    { type: "heading", level: 3, text: "8. Land on a Decision" },
     {
       type: "paragraph",
-      text: "Choose the shortest term where the monthly payment is comfortable AND leaves room for savings and unexpected expenses. If you're stretched too thin with a short term, go longer—financial stress isn't worth the interest savings.",
+      text: "Go with the shortest term where the payment is genuinely comfortable and still leaves room for savings and the unexpected. If a shorter term stretches you too thin, take the longer one — the interest savings aren't worth the financial stress.",
     },
     {
       type: "callout",
-      text: "Pro Tip: Run the numbers: if a 3-year term saves you $1,500 in interest but leaves you with $50/month for emergencies, the longer term may be wiser.",
+      text: "If a shorter term saves $1,500 in interest but leaves you $50/month for emergencies, the longer term is probably the smarter call.",
     },
 
-    { type: "heading", level: 2, text: "Additional Tips for Success" },
+    { type: "heading", level: 2, text: "A Few More Things to Keep in Mind" },
     {
       type: "list",
       items: [
-        "The \"right\" term depends on your situation—there's no universal answer",
-        "Use loan calculators to compare total costs across different terms",
-        "Factor in your emergency fund—don't drain it to afford higher payments",
-        "Consider auto-pay discounts, which often reduce your rate by 0.25%",
-        "Review your budget honestly before committing to any payment amount",
-        "If choosing between similar options, shorter is usually better for total cost",
+        "There's no universal right term — it depends entirely on your situation",
+        "Run the total-cost numbers across a few term lengths before deciding",
+        "Don't drain your emergency fund just to afford a shorter term's payment",
+        "Ask about autopay discounts — often around 0.25% off your rate",
+        "Be honest with your budget before committing to any payment",
+        "When two options are close, the shorter term usually wins on total cost",
       ],
     },
 
@@ -110,27 +110,27 @@ const content: GuideContent = {
         {
           question: "What loan term should I choose?",
           answer:
-            "There's no universal answer — it depends on your budget and goals. As a starting point, total debt payments shouldn't exceed 36% of your gross monthly income. Choose the shortest term you can comfortably afford; if that leaves too little room for savings or emergencies, a longer term may be the wiser choice.",
+            "It depends on your budget and goals more than any fixed rule — though total debt payments at or under 36% of gross monthly income is a reasonable ceiling. Take the shortest term you can comfortably manage; if that leaves too little breathing room, go longer.",
         },
         {
           question: "Does a shorter loan term really save me money?",
           answer:
-            "Yes. Shorter terms (12-36 months) mean higher monthly payments but much less total interest, while longer terms (48-84 months) lower your payment but cost more overall. For example, a $10,000 loan at 10% costs about $1,074 in interest over 2 years versus $2,748 over 5 years.",
+            "Yes. A $10,000 loan at 10% costs roughly $1,074 in interest over 2 years compared to $2,748 over 5 — shorter terms mean a bigger payment but meaningfully less total interest.",
         },
         {
           question: "Can I choose a longer term and just pay it off early?",
           answer:
-            "Often, yes — if your lender allows prepayment without penalty. This lets you take a longer term for payment flexibility now, then pay extra whenever you have room in your budget, effectively getting a shorter payoff without the higher required payment. Always confirm there's no prepayment penalty before signing.",
+            "Often, if your lender permits prepayment without penalty. That lets you take a longer term for flexibility now and pay extra whenever your budget allows. Always confirm there's no penalty before signing.",
         },
         {
           question: "Do shorter terms come with lower interest rates too?",
           answer:
-            "Often, yes. Shorter-term loans are typically less risky for lenders, so they may come with a lower APR. It's worth comparing the rate offered at different terms, since a shorter term at a lower rate can cost meaningfully less than a longer term at a higher one, even before accounting for the extra interest from a longer payoff period.",
+            "Frequently, yes — shorter terms are less risky for lenders, so the APR is often better. It's worth comparing rates across term lengths, since a shorter term at a lower rate can beat a longer term at a higher one even before factoring in the extra interest from a longer payoff.",
         },
         {
           question: "How should the loan term match what I'm borrowing for?",
           answer:
-            "Match the term to how long you'll benefit from the expense. Debt consolidation often works best with 3-5 year terms, car repairs typically suit 1-2 years, and home improvements can justify 5-7 years. Avoid financing something for longer than its useful life.",
+            "Match it to how long you'll benefit from the expense — 3-5 years for debt consolidation, 1-2 for a car repair, 5-7 for home improvements. Try not to finance something longer than it will realistically last.",
         },
       ],
     },

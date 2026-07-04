@@ -2,82 +2,82 @@ import type { GuideContent } from "@/lib/guides";
 
 const content: GuideContent = {
   subtitle:
-    "Learn how to budget and manage your finances after taking a personal loan in Canada. Practical repayment tips to stay on track and avoid default.",
+    "A personal loan is easier to manage once you build it into a real budget. Practical steps for staying on track after you sign.",
   blocks: [
-    { type: "heading", level: 2, text: "Step-by-Step Guide" },
+    { type: "heading", level: 2, text: "Getting Your Budget in Order" },
 
-    { type: "heading", level: 3, text: "1. Calculate Your True Monthly Obligation" },
+    { type: "heading", level: 3, text: "1. Know Your True Monthly Number" },
     {
       type: "paragraph",
-      text: "Start by understanding exactly how much your loan costs per month, including any fees. Add this to your existing fixed expenses: rent/mortgage, utilities, insurance, phone, transportation, and groceries.",
+      text: "Add up your full loan payment, fees included, and stack it against your existing fixed costs — housing, utilities, insurance, phone, transportation, groceries.",
     },
     {
       type: "paragraph",
-      text: "Use the 50/30/20 budgeting framework as a starting point: 50% of after-tax income for needs, 30% for wants, and 20% for savings and debt repayment. Your loan payment falls in the 'needs' category.",
+      text: "The 50/30/20 split is a reasonable starting framework: 50% of after-tax income to needs, 30% to wants, 20% to savings and debt. Your loan payment lives in the needs bucket.",
     },
     {
       type: "callout",
-      text: "Pro Tip: Your total debt payments (including the new loan) should not exceed 40% of your gross monthly income.",
+      text: "Keep total debt payments, loan included, under roughly 40% of your gross monthly income.",
     },
 
-    { type: "heading", level: 3, text: "2. Set Up Automatic Payments" },
+    { type: "heading", level: 3, text: "2. Automate the Payment" },
     {
       type: "paragraph",
-      text: "The most effective way to never miss a loan payment is to automate it. Set up automatic withdrawals timed with your payday. Most Canadian lenders offer automatic payment options at no extra cost. Schedule the payment for 1–2 days after your regular payday to ensure funds are available. Late payments incur fees and damage your credit score.",
+      text: "The simplest way to never miss a payment is to stop relying on remembering it. Set up an automatic withdrawal timed 1-2 days after payday, so funds are guaranteed to be there. Most Canadian lenders offer this at no cost, and a missed manual payment costs you both fees and credit damage.",
     },
     {
       type: "callout",
-      text: "Pro Tip: Some lenders offer a 0.25%–0.50% interest rate discount for setting up automatic payments.",
+      text: "Some lenders shave 0.25%-0.50% off your rate just for enrolling in autopay.",
     },
 
-    { type: "heading", level: 3, text: "3. Build a Lean Emergency Fund" },
+    { type: "heading", level: 3, text: "3. Build a Small Cushion Alongside It" },
     {
       type: "paragraph",
-      text: "Even while repaying a loan, aim to set aside a small emergency fund. Start with $500–$1,000 to cover unexpected expenses without needing additional borrowing. Even $25–$50 per pay period adds up. An emergency fund prevents you from spiralling into more debt when surprises happen — car repairs, medical costs, or a temporary income disruption.",
+      text: "Even while repaying, try to set aside something for emergencies — $500-$1,000 is a reasonable first target. $25-$50 a pay period adds up faster than it feels like, and it keeps a car repair or medical bill from turning into more borrowing.",
     },
     {
       type: "callout",
-      text: "Pro Tip: Keep your emergency fund in a separate high-interest savings account so you're not tempted to spend it on non-emergencies.",
+      text: "Keep that cushion in a separate high-interest account so it's not sitting next to your everyday spending money.",
     },
 
-    { type: "heading", level: 3, text: "4. Cut Discretionary Spending Strategically" },
+    { type: "heading", level: 3, text: "4. Trim Spending With a Purpose" },
     {
       type: "paragraph",
-      text: "Review your spending for the past 3 months and identify areas to reduce. Common Canadian expense-cutting opportunities include: switching to a cheaper cell phone plan (providers like Public Mobile, Lucky Mobile offer plans from $25/month), reducing streaming subscriptions, meal prepping instead of ordering delivery, and using cashback apps like Rakuten or Checkout 51 for groceries.",
+      text: "Look back three months and find the fat: a cheaper phone plan (several Canadian providers start around $25/month), fewer streaming subscriptions, meal prep instead of delivery, cashback apps for groceries.",
     },
     {
       type: "callout",
-      text: "Pro Tip: Track every purchase for one month using a free app like Mint or YNAB. Most Canadians discover $200–$400 in monthly spending they can reduce.",
+      text: "Track every purchase for a month with a free app — most people find $200-$400 a month they didn't realize they were spending.",
     },
 
-    { type: "heading", level: 3, text: "5. Explore Ways to Increase Income" },
+    { type: "heading", level: 3, text: "5. Look for Ways to Bring In More" },
     {
       type: "paragraph",
-      text: "Temporarily boosting income can accelerate loan repayment. Consider: selling unused items on Facebook Marketplace or Kijiji, freelancing skills on platforms like Upwork, part-time gig work through apps like Uber, DoorDash, or Instacart, or asking your employer about overtime opportunities. Direct any extra income toward your loan principal for faster payoff.",
+      text: "A temporary income bump accelerates everything. Selling things you don't use, freelance gigs, delivery apps, or asking about overtime can all help — and any extra should go straight at the loan's principal.",
     },
     {
       type: "callout",
-      text: "Pro Tip: Even an extra $200/month toward your loan principal can save hundreds in interest and shorten your repayment term by months.",
+      text: "An extra $200/month toward principal can save hundreds in interest and knock months off the term.",
     },
 
-    { type: "heading", level: 3, text: "6. Plan for Early Payoff" },
+    { type: "heading", level: 3, text: "6. Plan to Finish Early if You Can" },
     {
       type: "paragraph",
-      text: "Many Canadian personal loans allow penalty-free prepayment. If your budget allows, making extra payments — even small ones — reduces total interest significantly. Use a loan payoff calculator to see how extra payments impact your timeline. Prioritize paying off higher-interest debt first (debt avalanche method) for maximum savings.",
+      text: "Most Canadian personal loans allow penalty-free early payments. Even small extra amounts reduce total interest meaningfully — run a payoff calculator to see the effect, and if you're juggling multiple debts, put extra toward whichever has the highest rate first.",
     },
     {
       type: "callout",
-      text: "Pro Tip: Applying your tax refund, work bonus, or birthday money directly to your loan principal is one of the most effective acceleration strategies.",
+      text: "A tax refund or work bonus applied straight to principal is one of the most effective ways to accelerate payoff.",
     },
 
-    { type: "heading", level: 2, text: "Additional Tips for Success" },
+    { type: "heading", level: 2, text: "A Few More Things to Keep in Mind" },
     {
       type: "list",
       items: [
-        "Review your budget monthly and adjust as needed",
-        "Use the debt avalanche method — pay minimums on all debts and put extra toward the highest-rate one",
-        "Avoid taking on new debt while repaying your loan",
-        "Celebrate milestones — paying off 25%, 50%, 75% keeps you motivated",
+        "Revisit your budget monthly, not just once",
+        "Pay minimums everywhere, extra toward the highest-rate debt",
+        "Avoid taking on new debt while this one's still outstanding",
+        "Mark milestones — 25%, 50%, 75% paid off — it helps with motivation",
       ],
     },
 
@@ -87,27 +87,27 @@ const content: GuideContent = {
         {
           question: "How much of my income should go toward loan payments?",
           answer:
-            "As a general rule, your total debt payments — including your new loan — shouldn't exceed 40% of your gross monthly income. Using the 50/30/20 framework, your loan payment falls into the 'needs' category, which should make up about 50% of your after-tax income.",
+            "Keep total debt payments, including the new loan, under roughly 40% of gross monthly income. Under the 50/30/20 framework, the loan payment falls into the 50% needs bucket.",
         },
         {
           question: "What's the best way to avoid missing a loan payment?",
           answer:
-            "Set up automatic withdrawals timed 1–2 days after your payday to make sure funds are available. Most Canadian lenders offer automatic payments at no extra cost, and some even offer a 0.25%–0.50% rate discount for enrolling.",
+            "Automate it — set the withdrawal for 1-2 days after payday so funds are always there. Most lenders offer this free, and some even discount your rate for enrolling.",
         },
         {
           question: "Should I build an emergency fund while repaying a loan?",
           answer:
-            "Yes. Even a lean emergency fund of $500–$1,000, built up $25–$50 per pay period, can keep you from needing to borrow again when unexpected expenses like car repairs or medical costs come up.",
+            "Yes — even a lean $500-$1,000 fund, built $25-$50 at a time, can keep an unexpected expense from turning into more borrowing.",
         },
         {
           question: "Can I pay off my personal loan early?",
           answer:
-            "Many Canadian personal loans allow penalty-free prepayment. Making extra payments toward your principal — even small ones, or a lump sum like a tax refund or bonus — can meaningfully reduce your total interest and shorten your repayment term.",
+            "Most Canadian personal loans allow penalty-free prepayment. Extra payments, even modest ones, or a lump sum like a tax refund can meaningfully cut your total interest and shorten the term.",
         },
         {
           question: "What budgeting method works best after taking a loan?",
           answer:
-            "The 50/30/20 rule (50% needs, 30% wants, 20% savings/debt repayment) is a solid starting point. Pair it with the debt avalanche method — paying minimums on all debts while putting any extra toward the highest-interest one — for the fastest, lowest-cost payoff.",
+            "50/30/20 is a solid starting framework. Combine it with paying minimums everywhere and directing extra cash at your highest-rate debt for the fastest, cheapest payoff.",
         },
       ],
     },

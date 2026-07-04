@@ -2,86 +2,86 @@ import type { GuideContent } from "@/lib/guides";
 
 const content: GuideContent = {
   subtitle:
-    "Learn how to build an emergency fund in Canada. This comprehensive guide provides practical steps to create your financial safety net and achieve peace of mind.",
+    "A practical, no-jargon walkthrough of how to build a real emergency fund in Canada, one paycheque at a time.",
   blocks: [
-    { type: "heading", level: 2, text: "Introduction" },
+    { type: "heading", level: 2, text: "Why This Matters" },
     {
       type: "paragraph",
-      text: "Life is unpredictable, and unexpected expenses can arise at any moment. Building an emergency fund is a critical step towards financial stability, offering a safety net that protects you from debt when faced with unforeseen circumstances.",
+      text: "You can't predict when the furnace dies or the hours get cut. An emergency fund is what stands between a bad week and months of scrambling to catch up on debt — it's the buffer that keeps a surprise expense from turning into a crisis.",
     },
 
-    { type: "heading", level: 2, text: "Step-by-Step Guide" },
+    { type: "heading", level: 2, text: "Building It, Step by Step" },
 
-    { type: "heading", level: 3, text: "1. Understand What an Emergency Fund Is (and Isn't)" },
+    { type: "heading", level: 3, text: "1. Know What It's For (and What It Isn't)" },
     {
       type: "paragraph",
-      text: "An emergency fund is a dedicated savings account specifically for unexpected expenses such as job loss, medical emergencies, or significant home repairs. It is not for planned spending like a vacation or a down payment on a house, but rather a financial buffer to prevent you from going into debt during difficult times.",
+      text: "This fund exists for genuine surprises — a layoff, a medical bill, a major repair. It's not for a vacation or a planned purchase. Its whole job is keeping you out of debt when something unexpected hits.",
     },
     {
       type: "callout",
-      text: "Pro Tip: Distinguish between 'wants' and 'needs' when considering what qualifies as an emergency expense.",
+      text: "Before dipping in, ask honestly whether this is a real emergency or just a want dressed up as one.",
     },
 
-    { type: "heading", level: 3, text: "2. Determine Your Emergency Fund Goal" },
+    { type: "heading", level: 3, text: "2. Set a Real Target" },
     {
       type: "paragraph",
-      text: "Most financial experts recommend saving 3-6 months' worth of essential living expenses. Essential expenses include housing, utilities, groceries, transportation, and insurance. Calculate your monthly essential spending to establish a realistic target.",
+      text: "The common benchmark is 3-6 months of essential expenses — housing, utilities, groceries, transportation, insurance. Add those up to get a number that actually reflects your life, not a generic rule of thumb.",
     },
     {
       type: "callout",
-      text: "Pro Tip: Start small! Aim for a mini-emergency fund of $1,000-$2,000 CAD first, then gradually increase it to your full goal.",
+      text: "If 3-6 months feels miles away, start with a mini-goal of $1,000-$2,000 CAD and build from there.",
     },
 
-    { type: "heading", level: 3, text: "3. Create a Separate, Accessible Savings Account" },
+    { type: "heading", level: 3, text: "3. Give It Its Own Account" },
     {
       type: "paragraph",
-      text: "Open a dedicated high-interest savings account for your emergency fund. This keeps the money separate from your everyday spending and helps avoid accidental use. Ensure the account is easily accessible but not so convenient that you're tempted to dip into it for non-emergencies.",
+      text: "Open a separate high-interest savings account just for this money. Keeping it apart from your everyday chequing makes it much less likely you'll accidentally spend it — but it should still be reachable within a day or two when a real emergency hits.",
     },
     {
       type: "callout",
-      text: "Pro Tip: Look for Canadian banks or credit unions offering competitive interest rates on savings accounts with no monthly fees.",
+      text: "Shop around — several Canadian banks and credit unions offer no-fee savings accounts with genuinely competitive rates.",
     },
 
-    { type: "heading", level: 3, text: "4. Automate Your Savings Contributions" },
+    { type: "heading", level: 3, text: "4. Make the Saving Automatic" },
     {
       type: "paragraph",
-      text: "Set up automatic transfers from your chequing account to your emergency fund savings account on each paycheque. This 'pay yourself first' strategy ensures consistent savings and removes the temptation to spend the money elsewhere. Even small, regular contributions add up over time.",
+      text: "Set up a standing transfer from chequing to your emergency account on payday. Paying yourself first, before the money has a chance to disappear elsewhere, is what makes this actually stick.",
     },
     {
       type: "callout",
-      text: "Pro Tip: Treat your emergency fund contribution like a non-negotiable bill in your budget.",
+      text: "Treat the transfer like a fixed bill in your budget, not an optional extra.",
     },
 
-    { type: "heading", level: 3, text: "5. Cut Expenses and Boost Income to Accelerate Savings" },
+    { type: "heading", level: 3, text: "5. Free Up More Room When You Can" },
     {
       type: "paragraph",
-      text: "Look for areas in your budget where you can reduce spending, even temporarily, to funnel more money into your emergency fund. Consider increasing your income through a side hustle, selling unused items, or taking on extra shifts to reach your savings goal faster. Every extra dollar contributes to your financial safety.",
+      text: "Look for spending you can trim, even temporarily, and redirect it toward the fund. A side gig, selling things you don't use, or picking up extra shifts can all speed things along — every bit helps close the gap faster.",
     },
     {
       type: "callout",
-      text: "Pro Tip: Review your bank statements for recurring subscriptions or unused memberships you can cancel.",
+      text: "Scan your statements for subscriptions or memberships you'd forgotten you were paying for.",
     },
 
-    { type: "heading", level: 3, text: "6. Regularly Review and Replenish Your Fund" },
+    { type: "heading", level: 3, text: "6. Keep It Topped Up" },
     {
       type: "paragraph",
-      text: "Your financial situation may change, so it's important to regularly review your emergency fund balance and essential expenses. If you use part of your fund for a true emergency, prioritize replenishing it as quickly as possible to maintain your financial safety net. A robust emergency fund can also positively impact your overall credit health by reducing reliance on credit cards in crises, which credit bureaus like Equifax and TransUnion Canada track.",
+      text: "Life changes, so revisit your target periodically. If you ever tap the fund for a genuine emergency, make rebuilding it a priority — a healthy fund also reduces how much you lean on credit cards during a crunch, which is exactly the kind of thing Equifax and TransUnion track.",
     },
     {
       type: "callout",
-      text: "Pro Tip: Once a year, re-evaluate your essential expenses and adjust your emergency fund goal if needed.",
+      text: "Once a year, recheck your essential expenses and adjust your target if your life has changed.",
     },
 
-    { type: "heading", level: 2, text: "Additional Tips for Success" },
+    { type: "heading", level: 2, text: "A Few More Pointers" },
     {
       type: "list",
       items: [
-        "Start small; even $25 CAD per paycheque makes a difference.",
-        "Keep your emergency fund in a separate, easily accessible account.",
-        "Automate transfers to ensure consistent savings.",
-        "Avoid using your emergency fund for non-emergencies.",
-        "Consider a high-interest savings account to grow your money faster.",
-        "Review your fund size annually to ensure it still meets your needs.",
+        "Even $25 CAD a paycheque adds up faster than you'd think",
+        "Keep it in a separate, reasonably accessible account",
+        "Automate the transfer so it happens without a decision every time",
+        "Resist using it for anything that isn't a real emergency",
+        "A high-interest account helps the balance grow a little faster on its own",
+        "Recheck the target size once a year",
       ],
     },
 
@@ -91,27 +91,27 @@ const content: GuideContent = {
         {
           question: "How much should I have in my emergency fund?",
           answer:
-            "Most financial experts recommend 3-6 months' worth of essential living expenses, covering housing, utilities, groceries, transportation, and insurance. If that feels out of reach, start with a mini-emergency fund of $1,000-$2,000 CAD and build from there.",
+            "3-6 months of essential expenses is the common benchmark — housing, utilities, groceries, transportation, insurance. If that feels out of reach right now, start with a mini-goal of $1,000-$2,000 CAD.",
         },
         {
           question: "Where should I keep my emergency fund?",
           answer:
-            "Keep it in a dedicated, high-interest savings account that's separate from your everyday chequing account. It should be accessible in a genuine emergency but not so convenient that you're tempted to dip into it for non-emergencies.",
+            "A dedicated, high-interest savings account separate from your everyday chequing — reachable when you genuinely need it, but not so convenient you're tempted to dip in for non-emergencies.",
         },
         {
           question: "What counts as a true emergency?",
           answer:
-            "A true emergency is an unexpected expense like job loss, a medical emergency, or a significant home repair. Planned spending, such as a vacation or a down payment, doesn't qualify—your emergency fund exists to prevent you from going into debt during genuinely unforeseen circumstances.",
+            "Something unexpected — a layoff, a medical bill, a major repair. Planned spending like a vacation or a down payment doesn't qualify; the fund exists specifically to keep you out of debt during genuine surprises.",
         },
         {
           question: "How do I build an emergency fund on a tight budget?",
           answer:
-            "Automate a small, consistent transfer from your chequing account each paycheque—even $25 CAD makes a difference over time. Treat it like a non-negotiable bill, and look for recurring subscriptions or unused memberships you can cancel to free up more.",
+            "Automate a small, consistent transfer every payday — even $25 CAD adds up. Treat it as a fixed bill, and look for subscriptions or memberships you can cancel to free up more.",
         },
         {
           question: "What should I do after using my emergency fund?",
           answer:
-            "Prioritize replenishing it as quickly as possible once the emergency has passed. Regularly reviewing your fund and essential expenses—at least once a year—helps ensure it stays large enough to cover your actual needs.",
+            "Make rebuilding it a priority as soon as the emergency has passed. Revisit your target at least once a year to make sure it still matches your actual expenses.",
         },
       ],
     },

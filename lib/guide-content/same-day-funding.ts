@@ -2,52 +2,52 @@ import type { GuideContent } from "@/lib/guides";
 
 const content: GuideContent = {
   subtitle:
-    "When you need money urgently, every hour counts. Learn how same-day funding works in Canada and compare your fastest loan options.",
+    "When every hour counts, here's how same-day funding actually works in Canada, and how to give yourself the best shot at getting it.",
   blocks: [
-    { type: "heading", level: 2, text: "How Same Day Loans Work" },
+    { type: "heading", level: 2, text: "How Same-Day Loans Actually Work" },
     {
       type: "paragraph",
-      text: "Same day loans are personal loans where the entire process—from application to funding—can be completed within a single business day. Thanks to advances in online lending technology, many lenders can now evaluate applications, make approval decisions, and transfer funds within hours.",
+      text: "A same-day loan is simply a personal loan where the whole journey — application to funds in your account — happens within one business day. Online underwriting has made this genuinely routine, not a special product.",
     },
     {
       type: "paragraph",
-      text: "In Canada, same-day funding is typically facilitated through Interac e-Transfer, which provides near-instant access to funds once the lender initiates the transfer. Some lenders also offer direct deposit, though this may take slightly longer depending on your bank.",
+      text: "In Canada, Interac e-Transfer is what makes it possible — near-instant once the lender initiates it. Direct deposit is also offered by some lenders, though it can take a bit longer depending on your bank.",
     },
     {
       type: "paragraph",
-      text: "To maximize your chances of same-day funding, apply early in the business day—ideally before noon—with all required documents ready. Applications submitted late in the afternoon or on weekends typically process the following business day.",
+      text: "To maximize your odds, apply early on a weekday, ideally before noon, with every document ready. Anything submitted late afternoon or on a weekend typically processes the next business day.",
     },
 
-    { type: "heading", level: 2, text: "Eligibility and Requirements" },
+    { type: "heading", level: 2, text: "What You'll Need to Qualify" },
     {
       type: "paragraph",
-      text: "Same day loan eligibility mirrors standard personal loan requirements, but the documentation needs to be readily available to avoid processing delays.",
+      text: "Eligibility mirrors a standard personal loan — the difference is having documentation ready to go so nothing stalls the process.",
     },
     {
       type: "list",
       items: [
-        "Canadian citizen or permanent resident, age 18-19+",
-        "Active bank account (preferably with the same bank for 3+ months)",
-        "Regular income of at least $1,000 per month",
-        "Government-issued photo ID ready to upload",
-        "Recent pay stub or bank statement showing income",
-        "Valid email address and phone number for verification",
+        "Canadian citizen or permanent resident, 18-19+",
+        "An active bank account, ideally with 3+ months of history at the same bank",
+        "Regular income of at least $1,000/month",
+        "Government photo ID ready to upload",
+        "A recent pay stub or bank statement showing income",
+        "A valid email and phone number for verification",
       ],
     },
-    { type: "heading", level: 3, text: "Speed Tip" },
+    { type: "heading", level: 3, text: "The One Thing That Saves the Most Time" },
     {
       type: "paragraph",
-      text: "Have your documents scanned and ready to upload before starting the application. This can shave hours off the process.",
+      text: "Scan or photograph every document before you even open the application. That single habit shaves real hours off the process.",
     },
 
-    { type: "heading", level: 2, text: "Interest Rates and Costs" },
+    { type: "heading", level: 2, text: "Does Speed Cost More?" },
     {
       type: "paragraph",
-      text: "Same day loans do not necessarily cost more than standard personal loans. The speed of funding is a feature of the lender's technology, not a premium service in most cases. Your rate depends on your credit profile, income, and the lender's underwriting criteria.",
+      text: "Not inherently. Same-day funding is a feature of the lender's technology, not a premium tier — your rate still comes down to credit, income, and the lender's own underwriting.",
     },
     {
       type: "paragraph",
-      text: "However, be cautious of products marketed as \"instant cash\" that are actually payday loans in disguise. These carry dramatically higher costs than personal loans. A legitimate same-day personal loan should have an APR in the range of 6% to 35%, not hundreds of percent.",
+      text: "The exception to watch for: products marketed as \"instant cash\" that are actually payday loans wearing a different label. A genuine same-day personal loan runs 6%-35% APR — not the hundreds of percent a payday product can hit.",
     },
     {
       type: "table",
@@ -60,70 +60,58 @@ const content: GuideContent = {
       ],
     },
 
-    { type: "heading", level: 2, text: "The Same-Day Application Process" },
-    {
-      type: "paragraph",
-      text: "Getting funded the same day requires a streamlined process. Here is what to expect from start to finish.",
-    },
+    { type: "heading", level: 2, text: "What the Process Actually Looks Like" },
     {
       type: "list",
       ordered: true,
       items: [
-        "Submit your application online with basic personal and financial details (5-10 minutes)",
-        "Get pre-qualified through a soft credit check—no impact on your credit score",
-        "Review and compare loan offers from multiple lenders",
-        "Choose an offer and submit any additional required documentation",
-        "Receive final approval (often within 1-2 hours of document submission)",
-        "Funds sent via Interac e-Transfer—available within minutes to hours",
+        "Submit the online application — 5-10 minutes of basic personal and financial details",
+        "Get pre-qualified via a soft check, no credit score impact",
+        "Compare offers from multiple lenders",
+        "Pick one and send over any additional documents requested",
+        "Get final approval, often within 1-2 hours of submitting documents",
+        "Funds arrive via Interac e-Transfer — minutes to hours after that",
       ],
     },
 
-    { type: "heading", level: 2, text: "What Affects Approval Speed" },
+    { type: "heading", level: 2, text: "What Slows It Down" },
     {
       type: "paragraph",
-      text: "Several factors can either speed up or slow down the same-day loan process. Understanding these helps you avoid delays.",
+      text: "A complete, accurate application is the single biggest factor. Missing info, blurry document photos, or inconsistencies trigger manual review, which adds hours or days.",
     },
     {
       type: "paragraph",
-      text: "Completeness of your application is the single biggest factor. Missing information, unclear document photos, or inconsistencies between your application and documents will trigger manual review, adding hours or even days to the process.",
+      text: "Timing matters a lot too — applications before noon on a weekday have the best odds of same-day funding; evenings, weekends, and holidays push things to the next business day.",
     },
     {
       type: "paragraph",
-      text: "The time of day matters significantly. Applications submitted before noon on a weekday have the highest likelihood of same-day funding. Applications submitted in the evening, on weekends, or on holidays will typically process the following business day.",
-    },
-    {
-      type: "paragraph",
-      text: "Your bank also plays a role. Interac e-Transfer is widely supported by Canadian banks and provides near-instant access. If your bank has processing delays, you may receive funds the next morning even if the lender sends them same-day.",
+      text: "Your own bank plays a role as well — Interac e-Transfer is widely supported and near-instant, but if your bank has its own processing delay, funds might not show up until the next morning even if the lender sent them same-day.",
     },
 
-    { type: "heading", level: 2, text: "Risks and Responsible Borrowing" },
+    { type: "heading", level: 2, text: "Borrowing Responsibly Under Time Pressure" },
     {
       type: "paragraph",
-      text: "The speed of same-day loans can be both a benefit and a risk. The urgency of needing money quickly can lead to hasty decisions without fully considering the terms and costs.",
+      text: "Speed cuts both ways — the urgency of needing cash fast can lead to skipping the fine print.",
     },
     {
       type: "paragraph",
-      text: "Even when you need funds urgently, take time to read the loan agreement carefully. Understand the interest rate, repayment schedule, total cost of borrowing, and any penalties for late payments or early repayment.",
+      text: "Even under pressure, take the two minutes to actually read the agreement: rate, schedule, total cost, and any penalties.",
     },
     {
       type: "paragraph",
-      text: "If you find yourself regularly needing same-day loans, it may indicate a broader financial issue that could benefit from professional guidance. Free credit counselling is available through organizations like Credit Counselling Canada.",
+      text: "If same-day loans become a regular need, that's usually a sign of a bigger budget issue worth addressing — free credit counselling through a non-profit is a good place to start.",
     },
 
-    { type: "heading", level: 2, text: "Alternatives for Fast Cash" },
-    {
-      type: "paragraph",
-      text: "Depending on your situation, there may be faster or cheaper alternatives to same-day personal loans.",
-    },
+    { type: "heading", level: 2, text: "Faster or Cheaper Alternatives" },
     {
       type: "list",
       items: [
-        "Credit card cash advance (if you already have a card with available credit)",
-        "Employer payroll advance (no interest, no credit check)",
-        "Interac e-Transfer from family or friends",
-        "Selling items you no longer need through online marketplaces",
+        "A credit card cash advance, if you already have room",
+        "An employer payroll advance — no interest, no credit check",
+        "An Interac e-Transfer from someone you know",
+        "Selling something you don't need through an online marketplace",
         "Provincial emergency assistance programs",
-        "Negotiating a payment plan with the entity you owe money to",
+        "Negotiating a payment plan directly with whoever you owe",
       ],
     },
 
@@ -133,27 +121,27 @@ const content: GuideContent = {
         {
           question: "Can I really get a loan the same day I apply?",
           answer:
-            "Yes. Same day loans are personal loans where the entire process—from application to funding—can be completed within a single business day, typically funded via Interac e-Transfer once approved.",
+            "Yes — same-day loans complete the full journey, application to funding, within one business day, typically via Interac e-Transfer once approved.",
         },
         {
           question: "Do same day loans cost more?",
           answer:
-            "Not necessarily. Same-day funding is a feature of the lender's technology, not a premium service. A legitimate same-day personal loan should carry an APR between 6% and 35%, based on your credit profile, not a rate premium for speed.",
+            "Not inherently. Speed is a feature of the lender's technology, not a premium charge — a legitimate same-day loan runs 6%-35% APR based on your credit, not a rate markup for speed.",
         },
         {
           question: "Can I get same day funding with bad credit?",
           answer:
-            "Yes, select lenders offer same-day funding even for poor credit, typically at rates around 28% to 35% APR. Options are more limited than for good or fair credit, but they exist.",
+            "Yes — select lenders offer it even for weaker credit, typically around 28%-35% APR. Fewer options than for good credit, but they exist.",
         },
         {
           question: "What documents do I need for same-day approval?",
           answer:
-            "Have a government-issued photo ID, a recent pay stub or bank statement showing income, and your bank account details ready to upload, along with a valid email and phone number for verification. Having these ready before applying can shave hours off the process.",
+            "Government photo ID, a recent pay stub or bank statement, your bank details, and a valid email and phone. Having them ready before you start can shave hours off the process.",
         },
         {
           question: "What if I apply on a weekend or holiday?",
           answer:
-            "Applications submitted in the evening, on weekends, or on holidays typically process the following business day. For the best chance of same-day funding, apply before noon on a weekday.",
+            "It'll typically process the next business day. For the best shot at same-day funding, apply before noon on a weekday.",
         },
       ],
     },

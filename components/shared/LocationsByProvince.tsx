@@ -3,7 +3,9 @@
 import Link from "next/link";
 import { MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { provinceLocations, LOCATION_PREVIEW_COUNT } from "@/lib/locations";
+import { canadaLocations } from "@/lib/canada-locations";
+
+const LOCATION_PREVIEW_COUNT = 10;
 
 const LocationsByProvince = ({ heading }: { heading: string }) => {
   return (
@@ -16,10 +18,10 @@ const LocationsByProvince = ({ heading }: { heading: string }) => {
       </p>
 
       <div className="space-y-3">
-        {provinceLocations.map((province) => {
+        {canadaLocations.map((province) => {
           const preview = province.cities.slice(0, LOCATION_PREVIEW_COUNT);
           return (
-            <div key={province.name} className="rounded-2xl border p-5" style={{ borderColor: "#E2E8F0" }}>
+            <div key={province.slug} className="rounded-2xl border p-5" style={{ borderColor: "#E2E8F0" }}>
               <div className="flex items-center gap-2 mb-3">
                 <MapPin className="w-4 h-4" style={{ color: "#10B981" }} />
                 <h3 className="font-bold text-sm" style={{ color: "#1F2937" }}>
@@ -33,7 +35,7 @@ const LocationsByProvince = ({ heading }: { heading: string }) => {
                 {preview.map((city) => (
                   <Link
                     key={city}
-                    href="/loans/by-location"
+                    href={`/loans/by-location/${province.slug}`}
                     className="rounded-full border px-3 py-1 text-xs transition-colors hover:border-emerald-300"
                     style={{ borderColor: "#E2E8F0", color: "#64748B" }}
                   >

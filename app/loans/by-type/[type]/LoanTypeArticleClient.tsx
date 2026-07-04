@@ -5,7 +5,6 @@ import {
   ArrowRight,
   Calculator,
   CheckCircle2,
-  Clock,
   FileText,
   Lock,
   ShieldCheck,
@@ -133,9 +132,6 @@ const LoanTypeArticleClient = ({
 
           <div className="flex flex-wrap items-center justify-center gap-4 mt-4 text-xs" style={{ color: "#94A3B8" }}>
             <span className="inline-flex items-center gap-1">
-              <Clock className="w-3.5 h-3.5" /> Last updated: Jul 4, 2026
-            </span>
-            <span className="inline-flex items-center gap-1">
               <ShieldCheck className="w-3.5 h-3.5" /> All credit types welcome
             </span>
             <span className="inline-flex items-center gap-1">
@@ -156,7 +152,7 @@ const LoanTypeArticleClient = ({
               <a
                 href="https://cmi.rocks/go/6a0768c8e9dee?affiliate_sub1=ask4loan"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="sponsored noopener noreferrer"
                 onClick={() => trackClick("Loan Type Page Top CTA", entry.slug)}
               >
                 Apply Now

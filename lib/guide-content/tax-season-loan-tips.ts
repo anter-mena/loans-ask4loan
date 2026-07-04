@@ -2,58 +2,58 @@ import type { GuideContent } from "@/lib/guides";
 
 const content: GuideContent = {
   subtitle:
-    "Smart strategies for managing loans during Canadian tax season. Learn about CRA payment plans, using refunds strategically, and avoiding tax debt traps.",
+    "Smart moves for managing a loan during Canadian tax season — refunds, CRA payment arrangements, and avoiding a tax debt spiral.",
   blocks: [
-    { type: "heading", level: 2, text: "Step-by-Step Guide" },
+    { type: "heading", level: 2, text: "Working Through Tax Season" },
 
-    { type: "heading", level: 3, text: "1. Is Your Loan Interest Tax-Deductible?" },
+    { type: "heading", level: 3, text: "1. Is Your Loan Interest Actually Deductible?" },
     {
       type: "paragraph",
-      text: "In Canada, personal loan interest is generally NOT tax-deductible unless the borrowed funds are used for investment or business purposes. If you used a personal loan to invest in income-producing assets, the interest may be deductible under CRA rules. Consult a tax professional for your specific situation.",
+      text: "In most cases, no — personal loan interest isn't tax-deductible in Canada unless the funds went toward an investment or business purpose. If you used the loan to invest in something income-producing, the interest may qualify under CRA rules. Worth a conversation with a tax professional for your specific case.",
     },
     {
       type: "callout",
-      text: "Pro Tip: Keep detailed records of how loan proceeds were used. The CRA may request proof that funds were used for deductible purposes.",
+      text: "Keep records of exactly how you used the loan proceeds — the CRA may ask for proof if you're claiming a deduction.",
     },
 
-    { type: "heading", level: 3, text: "2. Use Your Tax Refund Strategically" },
+    { type: "heading", level: 3, text: "2. Put Your Refund to Work" },
     {
       type: "paragraph",
-      text: "The average Canadian tax refund is approximately $2,000. Apply it directly to your highest-interest debt for maximum impact. Even a partial lump-sum payment reduces total interest significantly.",
+      text: "The average Canadian refund runs around $2,000. Send it straight to your highest-interest debt — even a partial lump sum meaningfully cuts the total interest you'll pay.",
     },
     {
       type: "callout",
-      text: "Pro Tip: Making a $2,000 lump payment on a $5,000 loan at 25% APR saves over $500 in interest.",
+      text: "A $2,000 lump payment on a $5,000 loan at 25% APR can save over $500 in interest.",
     },
 
-    { type: "heading", level: 3, text: "3. Handle a Tax Bill You Can't Afford" },
+    { type: "heading", level: 3, text: "3. If You Owe the CRA More Than You Can Pay" },
     {
       type: "paragraph",
-      text: "If you owe the CRA, options include: CRA payment arrangements (interest at prescribed rate), a personal loan (may be cheaper than CRA interest), or using your RRSP refund to offset the bill. The CRA charges compound daily interest on unpaid balances.",
+      text: "A CRA payment arrangement (interest at the prescribed rate), a personal loan (potentially cheaper than CRA interest), or an RRSP refund applied to the bill are all options. The CRA compounds interest daily on unpaid balances, so moving fast matters.",
     },
     {
       type: "callout",
-      text: "Pro Tip: The CRA's prescribed interest rate for overdue taxes changes quarterly. Compare it to personal loan rates before deciding.",
+      text: "The CRA's prescribed rate changes quarterly — compare it against personal loan rates before deciding how to handle the bill.",
     },
 
-    { type: "heading", level: 3, text: "4. RRSP Contribution Strategy" },
+    { type: "heading", level: 3, text: "4. The RRSP Contribution Play" },
     {
       type: "paragraph",
-      text: "Contributing to your RRSP reduces taxable income and may result in a refund. The deadline is 60 days after year-end. If you don't have cash, some use a short-term loan to make the contribution, then repay with the refund.",
+      text: "An RRSP contribution lowers your taxable income and can generate a refund — the deadline is 60 days after year-end. Some people use a short-term loan to make the contribution, then repay it once the refund lands.",
     },
     {
       type: "callout",
-      text: "Pro Tip: This RRSP loan strategy only works if you repay quickly. The tax savings must exceed the loan interest cost.",
+      text: "This only works if you repay quickly and the tax savings genuinely exceed what the loan costs in interest.",
     },
 
-    { type: "heading", level: 2, text: "Additional Tips for Success" },
+    { type: "heading", level: 2, text: "A Few More Things to Keep in Mind" },
     {
       type: "list",
       items: [
-        "Personal loan interest is only deductible if used for investment/business",
-        "Apply tax refunds to highest-interest debt first",
-        "Compare CRA interest rates to personal loan rates before borrowing",
-        "Keep records of how all borrowed funds are used",
+        "Loan interest is only deductible if the funds went to investment or business use",
+        "Send tax refunds to your highest-interest debt first",
+        "Compare CRA's prescribed rate to personal loan rates before borrowing to cover a bill",
+        "Keep records of how every borrowed dollar was actually used",
       ],
     },
 
@@ -63,22 +63,22 @@ const content: GuideContent = {
         {
           question: "Is interest on my personal loan tax-deductible?",
           answer:
-            "Generally, no. Personal loan interest is not tax-deductible in Canada unless the borrowed funds were used for investment or business purposes. If you used the loan to invest in income-producing assets, the interest may be deductible under CRA rules — consult a tax professional and keep detailed records of how the funds were used.",
+            "Generally no, unless the funds were used for investment or business purposes — in that case it may qualify under CRA rules. Consult a tax professional and keep records of how the funds were used.",
         },
         {
           question: "What should I do with my tax refund if I have loan debt?",
           answer:
-            "Apply it directly to your highest-interest debt. The average Canadian tax refund is around $2,000, and even a partial lump-sum payment toward your loan principal can significantly reduce the total interest you pay.",
+            "Send it to your highest-interest debt. The average refund is around $2,000, and even a partial lump sum toward principal meaningfully cuts your total interest.",
         },
         {
           question: "What if I can't afford my CRA tax bill?",
           answer:
-            "Options include setting up a CRA payment arrangement (interest charged at the CRA's prescribed rate), taking out a personal loan if its rate is cheaper than the CRA's, or using an RRSP refund to offset the bill. Compare the CRA's prescribed rate, which changes quarterly, to personal loan rates before deciding.",
+            "A CRA payment arrangement, a personal loan if it's cheaper than the CRA's prescribed rate, or an RRSP refund applied to the bill are all worth considering. Compare the CRA's rate, which changes quarterly, against personal loan rates first.",
         },
         {
           question: "Should I take out a loan to make an RRSP contribution?",
           answer:
-            "This strategy only makes sense if you can repay the loan quickly and the resulting tax savings exceed the loan's interest cost. The RRSP contribution deadline is 60 days after year-end, and some people use a short-term loan to make the contribution, then repay it with the tax refund it generates.",
+            "Only if you can repay it quickly and the resulting tax savings beat the loan's interest cost. Some people use a short-term loan to make the contribution before the 60-day deadline, then repay it with the refund it generates.",
         },
       ],
     },

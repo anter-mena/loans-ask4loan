@@ -2,50 +2,50 @@ import type { GuideContent } from "@/lib/guides";
 
 const content: GuideContent = {
   subtitle:
-    "Complete guide to Manitoba lending regulations, the Consumer Protection Office payday loan caps, and borrower protections when borrowing in MB.",
+    "What Manitoba's Consumer Protection Office rules mean for payday and personal loan borrowers, and where to turn if a lender crosses a line.",
   blocks: [
-    { type: "heading", level: 2, text: "Payday Lending Regulations" },
+    { type: "heading", level: 2, text: "Payday Lending Rules" },
     {
       type: "paragraph",
-      text: "Manitoba's Consumer Protection Act regulates payday lending with a maximum cost of $17 per $100 borrowed. All payday lenders must be licensed by the Consumer Protection Office. Manitoba limits payday loans to 30% of the borrower's net pay. A 48-hour cooling-off period applies, and repeat borrowing is restricted.",
+      text: "Manitoba's Consumer Protection Act sets the payday loan cost ceiling at $17 per $100 borrowed — every lender needs a license from the Consumer Protection Office. Loans can't exceed 30% of your net pay, a 48-hour cooling-off period applies, and repeat borrowing is restricted.",
     },
     {
       type: "callout",
-      text: "Pro Tip: Manitoba's payday loan costs are slightly higher than Ontario and BC ($17 vs $15 per $100).",
+      text: "Manitoba's cap runs a bit higher than Ontario's or BC's ($17 vs $15 per $100).",
     },
 
-    { type: "heading", level: 2, text: "Criminal Rate and Consumer Credit" },
+    { type: "heading", level: 2, text: "The Federal Rate Cap and Consumer Credit" },
     {
       type: "paragraph",
-      text: "The federal 35% APR criminal rate cap applies in Manitoba. Manitoba's consumer protection legislation requires clear disclosure of all lending costs, prohibits misleading advertising, and provides remedies for unfair lending practices.",
+      text: "The 35% APR criminal rate ceiling applies here too. Provincial legislation on top of that requires clear disclosure of every lending cost, bans misleading advertising, and gives borrowers remedies against unfair practices.",
     },
 
-    { type: "heading", level: 2, text: "Consumer Protection Office Role" },
+    { type: "heading", level: 2, text: "What the Consumer Protection Office Does" },
     {
       type: "paragraph",
-      text: "Manitoba's Consumer Protection Office (CPO) licenses and monitors payday lenders, investigates complaints, educates consumers, and can take enforcement action. They maintain a public registry of licensed payday lenders and publish educational resources on borrowing safely.",
+      text: "The CPO licenses and monitors payday lenders, investigates complaints, runs consumer education, and can pursue enforcement. It maintains a public registry of licensed lenders and publishes its own resources on borrowing safely.",
     },
 
     { type: "heading", level: 2, text: "Debt Collection Rules" },
     {
       type: "paragraph",
-      text: "Manitoba's Consumer Protection Act regulates debt collection. Collectors must be licensed, cannot call at unreasonable hours, cannot use threats or harassment, and must identify themselves. Manitoba's general limitation period for debt collection is 6 years.",
+      text: "Manitoba's Consumer Protection Act governs collectors too: licensing is mandatory, calls outside reasonable hours are banned, threats and harassment aren't allowed, and collectors must identify themselves. The general limitation period for debt collection in the province is 6 years.",
     },
 
-    { type: "heading", level: 2, text: "Manitoba Resources" },
+    { type: "heading", level: 2, text: "Where to Get Help in Manitoba" },
     {
       type: "paragraph",
-      text: "The Consumer Protection Office (204-945-3800 or 1-800-782-0067) handles complaints. Community Financial Counselling Services (CFCS) of Manitoba provides free credit counselling. Legal Aid Manitoba assists qualifying residents with debt-related legal issues.",
+      text: "The Consumer Protection Office (204-945-3800 or 1-800-782-0067) fields complaints. Community Financial Counselling Services (CFCS) of Manitoba offers free credit counselling, and Legal Aid Manitoba helps qualifying residents with debt-related legal matters.",
     },
 
-    { type: "heading", level: 2, text: "Additional Tips for Success" },
+    { type: "heading", level: 2, text: "Quick Reference" },
     {
       type: "list",
       items: [
-        "Payday loans in Manitoba are capped at $17 per $100 borrowed",
-        "Payday loans cannot exceed 30% of your net pay",
-        "A 48-hour cooling-off period applies to payday loans",
-        "Free credit counselling is available through CFCS of Manitoba",
+        "Payday loans capped at $17 per $100 borrowed",
+        "Loans can't exceed 30% of your net pay",
+        "48-hour cooling-off period on payday loans",
+        "Free credit counselling through CFCS of Manitoba",
       ],
     },
 
@@ -55,27 +55,27 @@ const content: GuideContent = {
         {
           question: "What's the maximum cost of a payday loan in Manitoba?",
           answer:
-            "Manitoba's Consumer Protection Act caps payday loan costs at $17 per $100 borrowed — slightly higher than Ontario and BC's $15 per $100. A payday loan also cannot exceed 30% of your net pay.",
+            "$17 per $100 borrowed under the Consumer Protection Act — slightly above Ontario and BC's $15 — and the loan can't exceed 30% of your net pay.",
         },
         {
           question: "Can I cancel a payday loan after signing in Manitoba?",
           answer:
-            "Yes. Manitoba applies a 48-hour cooling-off period for payday loans, and repeat borrowing is restricted. All payday lenders must be licensed by the Consumer Protection Office.",
+            "Yes — a 48-hour cooling-off period applies, and repeat borrowing is restricted. Every payday lender must be licensed by the Consumer Protection Office.",
         },
         {
           question: "Is there a cap on interest rates for personal loans in Manitoba?",
           answer:
-            "Yes. The federal 35% APR criminal rate cap applies in Manitoba. Provincial consumer protection legislation also requires clear disclosure of all lending costs and prohibits misleading advertising.",
+            "Yes — the federal 35% APR cap applies, and provincial legislation separately requires clear cost disclosure and bans misleading advertising.",
         },
         {
           question: "What are debt collectors allowed to do in Manitoba?",
           answer:
-            "Collectors in Manitoba must be licensed, cannot call at unreasonable hours, cannot use threats or harassment, and must identify themselves. Manitoba's general limitation period for debt collection is 6 years.",
+            "Collectors must be licensed, can't call at unreasonable hours, can't use threats or harassment, and must identify themselves. The general debt collection limitation period in Manitoba is 6 years.",
         },
         {
           question: "Where can I get free help with debt in Manitoba?",
           answer:
-            "Community Financial Counselling Services (CFCS) of Manitoba provides free credit counselling. You can also contact the Consumer Protection Office (204-945-3800 or 1-800-782-0067) or Legal Aid Manitoba for qualifying residents.",
+            "Community Financial Counselling Services (CFCS) of Manitoba offers free counselling. The Consumer Protection Office (204-945-3800 or 1-800-782-0067) and Legal Aid Manitoba are also available.",
         },
       ],
     },

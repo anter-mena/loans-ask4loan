@@ -6,7 +6,6 @@ import {
   Calculator,
   Check,
   CheckCircle2,
-  Clock,
   FileCheck,
   Lock,
   ShieldCheck,
@@ -132,9 +131,6 @@ const CreditScoreArticleClient = ({ entry }: { entry: CreditScoreRange }) => {
 
           <div className="flex flex-wrap items-center justify-center gap-4 mt-4 text-xs" style={{ color: "#94A3B8" }}>
             <span className="inline-flex items-center gap-1">
-              <Clock className="w-3.5 h-3.5" /> Last updated: Jul 4, 2026
-            </span>
-            <span className="inline-flex items-center gap-1">
               <FileCheck className="w-3.5 h-3.5" /> Specialized lenders available
             </span>
             <span className="inline-flex items-center gap-1">
@@ -155,7 +151,7 @@ const CreditScoreArticleClient = ({ entry }: { entry: CreditScoreRange }) => {
               <a
                 href="https://cmi.rocks/go/6a0768c8e9dee?affiliate_sub1=ask4loan"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="sponsored noopener noreferrer"
                 onClick={() => trackClick("Credit Score Page Top CTA", entry.slug)}
               >
                 Check Your Options

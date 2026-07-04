@@ -9,6 +9,11 @@ import { canadaLocations } from '@/lib/canada-locations';
 
 const host = 'https://ask4loan.ca';
 
+// Fixed publish date for the current content set. Bump this manually only when
+// page content actually changes — recomputing it on every request/build (e.g.
+// `new Date()`) makes Search Console distrust the sitemap's freshness signal.
+const lastModified = '2026-06-15';
+
 type PageConfig = {
   path: string;
   priority: number;
@@ -67,13 +72,12 @@ const pages: PageConfig[] = [
   })),
   { path: '/privacy-policy', priority: 0.4, changeFrequency: 'yearly' },
   { path: '/terms-of-use', priority: 0.4, changeFrequency: 'yearly' },
-  { path: '/coming-soon', priority: 0.5, changeFrequency: 'monthly' },
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return pages.map((page) => ({
     url: `${host}${page.path}`,
-    lastModified: new Date(),
+    lastModified,
     changeFrequency: page.changeFrequency,
     priority: page.priority,
   }));

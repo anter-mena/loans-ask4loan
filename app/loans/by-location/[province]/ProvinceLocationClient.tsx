@@ -1,7 +1,7 @@
 'use client';
 
 import Link from "next/link";
-import { MapPin, Clock, ShieldCheck, CheckCircle2 } from "lucide-react";
+import { MapPin, ShieldCheck, CheckCircle2 } from "lucide-react";
 import Breadcrumb from "@/components/shared/Breadcrumb";
 import TrustBadges from "@/components/shared/TrustBadges";
 import ContentBlocks, { findFaqBlock } from "@/components/shared/ContentBlocks";
@@ -117,9 +117,6 @@ const ProvinceLocationClient = ({
 
           <div className="flex flex-wrap items-center justify-center gap-4 mt-4 text-xs" style={{ color: "#94A3B8" }}>
             <span className="inline-flex items-center gap-1">
-              <Clock className="w-3.5 h-3.5" /> Last updated: Jul 4, 2026
-            </span>
-            <span className="inline-flex items-center gap-1">
               <ShieldCheck className="w-3.5 h-3.5" /> All credit types welcome
             </span>
           </div>
@@ -137,7 +134,7 @@ const ProvinceLocationClient = ({
             <strong style={{ color: "#1F2937" }}>First Published:</strong> April 13, 2026
           </span>
           <span style={{ color: "#64748B" }}>
-            <strong style={{ color: "#1F2937" }}>Last Updated:</strong> July 4, 2026
+            <strong style={{ color: "#1F2937" }}>Last Updated:</strong> April 13, 2026
           </span>
           <span style={{ color: "#64748B" }}>
             <strong style={{ color: "#1F2937" }}>Reviewed by:</strong> Ask4Loan Editorial Team

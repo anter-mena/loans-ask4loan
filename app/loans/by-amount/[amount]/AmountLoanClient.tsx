@@ -6,7 +6,6 @@ import {
   Calculator,
   Check,
   CheckCircle2,
-  Clock,
   DollarSign,
   Lock,
   ShieldCheck,
@@ -198,9 +197,6 @@ const AmountLoanClient = ({ entry }: { entry: LoanAmountEntry }) => {
 
           <div className="flex flex-wrap items-center justify-center gap-4 mt-4 text-xs" style={{ color: "#94A3B8" }}>
             <span className="inline-flex items-center gap-1">
-              <Clock className="w-3.5 h-3.5" /> Last updated: Jul 4, 2026
-            </span>
-            <span className="inline-flex items-center gap-1">
               <Zap className="w-3.5 h-3.5" /> Same-day funding
             </span>
             <span className="inline-flex items-center gap-1">
@@ -218,7 +214,7 @@ const AmountLoanClient = ({ entry }: { entry: LoanAmountEntry }) => {
               <a
                 href="https://cmi.rocks/go/6a0768c8e9dee?affiliate_sub1=ask4loan"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="sponsored noopener noreferrer"
                 onClick={() => trackClick("Amount Page Top CTA", slug)}
               >
                 Apply Now
@@ -482,7 +478,7 @@ const AmountLoanClient = ({ entry }: { entry: LoanAmountEntry }) => {
             <a
               href="https://cmi.rocks/go/6a0768c8e9dee?affiliate_sub1=ask4loan"
               target="_blank"
-              rel="noopener noreferrer"
+              rel="sponsored noopener noreferrer"
               onClick={() => trackClick("Amount Page Ready to Apply", slug)}
             >
               Check Your Rate Now

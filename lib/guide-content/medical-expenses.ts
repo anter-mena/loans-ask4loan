@@ -2,102 +2,97 @@ import type { GuideContent } from "@/lib/guides";
 
 const content: GuideContent = {
   subtitle:
-    "Explore personal loans for medical expenses in Canada. Learn about typical costs, application process, and responsible loan management for healthcare financing.",
+    "Even with strong public healthcare, out-of-pocket medical costs add up fast in Canada. Here's how a personal loan can help cover the gap.",
   blocks: [
     {
       type: "paragraph",
-      text: "Navigating unexpected medical expenses in Canada can be stressful, even with our excellent healthcare system. While many essential services are covered, there are often out-of-pocket costs for a variety of treatments, procedures, and medications. This is where a personal loan for medical expenses can become a valuable financial tool.",
+      text: "Canada's healthcare system covers a lot, but not everything — dental work, fertility treatment, elective procedures, and specialized therapies often come with real out-of-pocket costs. A personal loan is one practical way to cover that gap without draining savings or delaying care.",
     },
     {
       type: "paragraph",
-      text: "A personal loan provides a lump sum of money you repay over a set period, with interest. For Canadians facing significant medical bills, it can offer a way to access necessary care without depleting savings or delaying treatment. Whether it's for dental work, fertility treatments, elective surgeries, or specialized therapies not fully covered by provincial health plans, a personal loan can bridge the financial gap.",
+      text: "You get a lump sum upfront and repay it over time at a fixed rate, which for many Canadians is the difference between getting treatment now versus waiting until they've saved enough.",
     },
 
-    { type: "heading", level: 2, text: "Typical Costs for Medical Expenses in Canada" },
+    { type: "heading", level: 2, text: "What Common Procedures Actually Cost" },
     {
       type: "list",
       items: [
-        "Dental Work: Major dental procedures like root canals, crowns, or braces can range from $1,000 to $8,000 or more, depending on the complexity and your location.",
-        "Vision Care: Laser eye surgery (LASIK/PRK) typically costs between $1,800 to $5,000 per eye.",
-        "Fertility Treatments: In-vitro fertilization (IVF) cycles can cost $10,000 to $20,000 per cycle, before medication, which can add another $5,000 to $10,000. Some provinces offer partial funding, but out-of-pocket costs remain high.",
-        "Elective Surgeries: Procedures like cosmetic surgery, certain types of bariatric surgery not deemed medically essential, or specialized joint replacements can range from $5,000 to $25,000+.",
-        "Private Nursing or Home Care: If you need care beyond what's provided by public health, this can be $30-$60 per hour, adding up quickly.",
-        "Prescription Medications: While many plans cover some meds, chronic conditions or specialized drugs can mean significant monthly out-of-pocket expenses.",
-        "Medical Equipment: Custom orthotics, mobility aids, or CPAP machines can cost hundreds to thousands of dollars.",
+        "Dental work: root canals, crowns, or braces can run $1,000-$8,000+ depending on complexity and location",
+        "Vision correction: LASIK/PRK typically runs $1,800-$5,000 per eye",
+        "Fertility treatment: IVF cycles run $10,000-$20,000, plus another $5,000-$10,000 in medication — provincial coverage varies and rarely covers it all",
+        "Elective surgery: cosmetic procedures or specialized joint replacements can range $5,000-$25,000+",
+        "Private nursing or home care: typically $30-$60/hour, which adds up fast",
+        "Prescription medications: chronic conditions or specialized drugs can mean significant ongoing out-of-pocket cost",
+        "Medical equipment: custom orthotics, mobility aids, or CPAP machines can run into the thousands",
       ],
     },
 
-    { type: "heading", level: 2, text: "Loan Amount Recommendations for Medical Expenses" },
+    { type: "heading", level: 2, text: "How Much to Borrow" },
     {
       type: "paragraph",
-      text: "When considering a personal loan for medical expenses, it's crucial to borrow only what you need. Based on the typical costs outlined above, a loan amount between $3,000 and $25,000 is often appropriate. Always get a detailed cost estimate from your healthcare provider before applying for a loan. This ensures you cover all costs without over-borrowing.",
+      text: "Only borrow what the procedure actually costs. Based on the ranges above, $3,000 to $25,000 covers most situations — get a firm quote from your provider first so you're not over- or under-borrowing.",
     },
 
-    { type: "heading", level: 2, text: "Pros and Cons: Personal Loan vs. Other Options" },
-    { type: "heading", level: 3, text: "Personal Loan Pros" },
+    { type: "heading", level: 2, text: "Loan vs. Other Ways to Pay" },
+    { type: "heading", level: 3, text: "In favour of a loan" },
     {
       type: "list",
       items: [
-        "Quick Access to Funds: Can provide funds rapidly, crucial for urgent treatments.",
-        "Fixed Payments: Predictable monthly payments make budgeting easier.",
-        "Lower Interest Rates than Credit Cards: Generally, personal loan rates are lower than typical credit card rates.",
-        "Versatile: Funds can be used for various medical costs, including procedures, medications, and travel to appointments.",
+        "Funds can arrive quickly when treatment can't wait",
+        "A fixed, predictable payment",
+        "Generally cheaper than a credit card balance",
+        "Usable across procedures, medication, and even travel to appointments",
       ],
     },
-    { type: "heading", level: 3, text: "Personal Loan Cons" },
+    { type: "heading", level: 3, text: "Trade-offs" },
     {
       type: "list",
       negative: true,
       items: [
-        "Adds to Debt: You're taking on new debt with interest.",
-        "Impact on Credit Score: Missed payments can negatively affect your credit.",
-        "Not Always the Cheapest: If you have assets, a secured line of credit might offer lower rates.",
+        "It's new debt with interest attached",
+        "A missed payment affects your credit",
+        "If you own property, a HELOC might beat it on rate",
       ],
     },
-
-    { type: "heading", level: 3, text: "Other Financing Options" },
+    { type: "heading", level: 3, text: "Other ways to cover it" },
     {
       type: "list",
       items: [
-        "Credit Cards: Convenient but often have high-interest rates, making them expensive for large medical bills.",
-        "Medical Payment Plans: Some clinics offer interest-free payment plans, which are an excellent option if available.",
-        "Line of Credit (HELOC): If you own a home, a Home Equity Line of Credit (HELOC) usually offers lower interest rates but puts your home at risk.",
-        "Savings: Using your savings is ideal if you have an emergency fund, as it incurs no interest.",
+        "A credit card — convenient, but usually the most expensive option for a large bill",
+        "A clinic payment plan — often interest-free where available",
+        "A HELOC — cheaper if you own a home, at the cost of putting it up as collateral",
+        "Savings — the cheapest option by far if you have enough set aside",
       ],
     },
     {
       type: "callout",
-      text: "Provincial & Private Insurance: Always exhaust your provincial health coverage and any private insurance (employer-provided or purchased) first! They are your best defence against high costs.",
+      text: "Always exhaust provincial coverage and any private insurance first — they're your best defence against the full cost before a loan even enters the picture.",
     },
 
-    { type: "heading", level: 2, text: "How to Apply and What You'll Need" },
+    { type: "heading", level: 2, text: "Applying" },
     {
       type: "list",
       ordered: true,
       items: [
-        "Research Lenders: Compare interest rates, terms, and fees from different banks, credit unions, and online lenders.",
-        "Gather Documents: You'll typically need government-issued ID (e.g., Canadian passport, driver's license), proof of income (pay stubs, employment letter, tax Notice of Assessment), proof of residency (utility bill, lease agreement), and bank statements.",
-        "Submit Application: You can often apply online in minutes.",
-        "Credit Check: Lenders will perform a credit check to assess your creditworthiness.",
-        "Receive Funds: If approved, funds can be deposited directly into your bank account, sometimes within 1-2 business days.",
+        "Compare rates and fees across banks, credit unions, and online lenders",
+        "Gather ID, income proof, proof of address, and bank statements",
+        "Apply — often online in minutes",
+        "Expect a credit check as part of the process",
+        "Once approved, funds can land within 1-2 business days",
       ],
     },
 
-    { type: "heading", level: 2, text: "Tips for Managing Your Loan Responsibly" },
+    { type: "heading", level: 2, text: "Managing the Loan Responsibly" },
     {
       type: "list",
       items: [
-        "Budget Meticulously: Incorporate your loan payments into your monthly budget. Ensure you can comfortably afford them alongside other expenses.",
-        "Understand Terms: Read your loan agreement carefully. Know your interest rate, repayment schedule, and any penalties for late payments or early repayment.",
-        "Make Payments on Time: Timely payments are crucial for maintaining a good credit score and avoiding late fees.",
-        "Consider Auto-Pay: Setting up automatic payments can help you avoid missing due dates.",
-        "Pay More When Possible: If your financial situation improves, paying extra on your principal can help you save on interest and pay off the loan faster.",
-        "Don't Over-Borrow: Only borrow what's absolutely necessary for your medical needs. Unnecessary debt only adds to your financial burden.",
+        "Build the payment into your actual monthly budget before committing",
+        "Read the agreement fully — rate, schedule, and any penalties",
+        "Pay on time to protect your credit and avoid fees",
+        "Set up autopay so nothing slips",
+        "Add extra payments when you can to cut total interest",
+        "Borrow only what the treatment actually requires",
       ],
-    },
-    {
-      type: "paragraph",
-      text: "By carefully considering your options and managing your loan responsibly, a personal loan for medical expenses can be a lifesaver, ensuring you get the care you need when you need it most.",
     },
 
     {
@@ -106,27 +101,27 @@ const content: GuideContent = {
         {
           question: "How do I apply for a loan for medical expenses?",
           answer:
-            "Compare interest rates, terms, and fees from different banks, credit unions, and online lenders. Gather your government-issued ID, proof of income, proof of residency, and bank statements, then submit your application — often online in minutes. Lenders will run a credit check before funding your loan.",
+            "Compare rates and fees across a few lenders, gather your ID, income proof, and bank statements, then apply — often online in minutes. Expect a credit check before funding.",
         },
         {
           question: "What loan amounts are available for medical expenses?",
           answer:
-            "A loan amount between $3,000 and $25,000 is often appropriate, depending on the procedure. Get a detailed cost estimate from your healthcare provider first so you borrow only what you need.",
+            "Typically $3,000 to $25,000, depending on the procedure. Get a firm cost estimate from your provider first so you borrow the right amount.",
         },
         {
           question: "How fast can I get funds for medical expenses?",
           answer:
-            "Once approved, funds can be deposited directly into your bank account, sometimes within 1-2 business days — important when treatment can't wait.",
+            "Once approved, funds can land in your account within 1-2 business days — important when treatment is time-sensitive.",
         },
         {
           question: "Are there alternatives to a personal loan for medical expenses?",
           answer:
-            "Yes. Always exhaust your provincial health coverage and any private insurance first. Beyond that, some clinics offer interest-free medical payment plans, a HELOC may offer a lower rate if you own a home, and using savings avoids interest entirely if you have an emergency fund available.",
+            "Yes — exhaust provincial and private insurance coverage first. Beyond that, some clinics offer interest-free payment plans, a HELOC may offer a lower rate if you own a home, and using savings avoids interest entirely.",
         },
         {
           question: "What kinds of medical costs can this type of loan cover?",
           answer:
-            "Common uses include dental work, vision correction surgery like LASIK, fertility treatments, elective surgeries, private nursing or home care, prescription medications not fully covered by your plan, and medical equipment like CPAP machines or mobility aids.",
+            "Dental work, vision correction like LASIK, fertility treatment, elective surgery, private nursing or home care, medications not fully covered by your plan, and equipment like CPAP machines or mobility aids.",
         },
       ],
     },

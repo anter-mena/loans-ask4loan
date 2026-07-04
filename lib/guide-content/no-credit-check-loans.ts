@@ -2,49 +2,49 @@ import type { GuideContent } from "@/lib/guides";
 
 const content: GuideContent = {
   subtitle:
-    "Understand how loans without a credit check work in Canada, what they really cost, and whether there are better alternatives for your situation.",
+    "No credit check loans sound appealing but usually cost more than the alternative. Here's what they actually are, and why a soft-check loan usually wins.",
   blocks: [
-    { type: "heading", level: 2, text: "What Are No Credit Check Loans?" },
+    { type: "heading", level: 2, text: "What These Loans Actually Are" },
     {
       type: "paragraph",
-      text: "No credit check loans are products where the lender does not perform a traditional credit inquiry through Equifax or TransUnion as part of the approval process. Instead, these lenders may rely on income verification, bank account history, or other criteria.",
+      text: "A no credit check loan skips the traditional pull from Equifax or TransUnion. Instead, the lender leans on income verification, bank history, or other signals to decide.",
     },
     {
       type: "paragraph",
-      text: "While the idea of skipping a credit check may seem appealing—especially if you have a low score—it is important to understand that no credit check often means higher costs. Lenders who do not check your credit take on more risk and compensate for that with higher fees and interest rates.",
+      text: "Skipping the credit check sounds appealing if your score isn't great, but it usually means paying more — a lender taking on that extra unknown compensates with a higher rate.",
     },
     {
       type: "paragraph",
-      text: "In many cases, a soft credit check loan offers the same benefit—no impact on your credit score—while providing better rates and terms. Understanding the difference is crucial to making a smart borrowing decision.",
-    },
-
-    { type: "heading", level: 2, text: "How No Credit Check Loans Work" },
-    {
-      type: "paragraph",
-      text: "Instead of pulling your credit report, these lenders evaluate your application based on other factors such as your current income, employment status, bank account activity, and existing debts. Some use proprietary algorithms that analyze your financial behavior.",
-    },
-    {
-      type: "paragraph",
-      text: "In Canada, no credit check loans are typically offered by alternative lenders and some payday loan companies. Under Canadian law, all consumer lending must still comply with the 35% APR cap for most loan products, though payday loans under $1,500 with terms under 62 days may fall under separate provincial regulations.",
-    },
-    {
-      type: "paragraph",
-      text: "It is essential to distinguish between no credit check loans and soft credit check loans. A soft credit check lets lenders assess your creditworthiness without affecting your score, and these lenders typically offer much better terms.",
-    },
-    { type: "heading", level: 3, text: "Important Distinction" },
-    {
-      type: "paragraph",
-      text: "A soft credit check does NOT affect your credit score, but still allows lenders to offer you competitive rates. This is usually a better option than a true no credit check loan.",
+      text: "Often, a soft-check loan gets you the same benefit — zero score impact — with better pricing. Knowing the difference matters more than it seems.",
     },
 
-    { type: "heading", level: 2, text: "Typical Costs and Interest Rates" },
+    { type: "heading", level: 2, text: "How They Actually Work" },
     {
       type: "paragraph",
-      text: "No credit check loans typically carry the highest interest rates in the personal lending market. Because the lender cannot assess your creditworthiness through traditional means, they price in higher risk through elevated rates and fees.",
+      text: "Instead of a credit report, these lenders look at your income, employment, bank activity, and existing debts — sometimes through their own proprietary scoring model.",
     },
     {
       type: "paragraph",
-      text: "In Canada, legitimate no credit check personal loans are capped at 35% APR. However, payday-style products that fall under provincial payday lending regulations may cost significantly more when the fees are annualized, sometimes equivalent to 300-400% APR.",
+      text: "In Canada, this segment is mostly alternative lenders and some payday operators. Every consumer loan still has to stay under the 35% APR cap, though payday products under $1,500 with terms under 62 days fall under separate provincial rules.",
+    },
+    {
+      type: "paragraph",
+      text: "The key distinction: a soft-check loan lets a lender assess you without touching your score, usually at a much better rate than a true no-check product.",
+    },
+    { type: "heading", level: 3, text: "The Distinction That Matters" },
+    {
+      type: "paragraph",
+      text: "A soft check doesn't affect your score at all, and it still lets a lender offer competitive terms — which is almost always the better route over a genuine no-check loan.",
+    },
+
+    { type: "heading", level: 2, text: "What They Cost" },
+    {
+      type: "paragraph",
+      text: "This category carries some of the highest rates in personal lending, since the lender is pricing in the risk of not being able to check your credit through normal channels.",
+    },
+    {
+      type: "paragraph",
+      text: "Legitimate no-check personal loans in Canada still cap out at 35% APR. But payday-style products under provincial payday rules can cost far more once fees are annualized — sometimes the equivalent of 300-400% APR.",
     },
     {
       type: "table",
@@ -56,82 +56,66 @@ const content: GuideContent = {
       ],
     },
 
-    { type: "heading", level: 2, text: "Typical Eligibility Requirements" },
+    { type: "heading", level: 2, text: "What You'll Still Need to Qualify" },
     {
       type: "paragraph",
-      text: "Even without a credit check, lenders still need to verify basic information to approve your application.",
+      text: "Skipping the credit check doesn't mean skipping every check.",
     },
     {
       type: "list",
       items: [
-        "Canadian citizen or permanent resident",
-        "Active bank account with regular deposits (usually 2-3 months of history)",
-        "Minimum income threshold (typically $1,000+ per month)",
-        "Valid government-issued ID",
-        "Not in active bankruptcy",
-        "Working phone number and email address",
+        "Canadian citizenship or permanent residency",
+        "An active bank account with 2-3 months of regular deposits",
+        "Minimum income, typically $1,000+ a month",
+        "Valid government ID",
+        "No active bankruptcy",
+        "A working phone number and email",
       ],
     },
 
-    { type: "heading", level: 2, text: "Risks of No Credit Check Loans" },
+    { type: "heading", level: 2, text: "The Real Risks" },
     {
       type: "paragraph",
-      text: "No credit check loans carry several risks that borrowers should carefully consider before applying.",
+      text: "The biggest one is simply cost — you'll pay meaningfully more for the same amount borrowed compared to a standard personal loan. On $1,000, the gap between a 25% APR personal loan and a payday-style no-check product can be hundreds of dollars.",
     },
     {
       type: "paragraph",
-      text: "The most significant risk is the cost. Higher interest rates and fees mean you pay substantially more for the same loan amount compared to a traditional personal loan. On a $1,000 loan, the difference in total cost between a 25% APR personal loan and a payday-style no credit check product can be hundreds of dollars.",
-    },
-    {
-      type: "paragraph",
-      text: "Another risk is the debt cycle. Short-term no credit check loans often have balloon payments or very short repayment periods. If you cannot repay on time, you may need to renew or roll over the loan, incurring additional fees each time.",
+      text: "There's also a cycle risk. Short-term no-check products often carry balloon payments or very short terms, and missing the deadline can mean rolling it over with fresh fees each time.",
     },
     {
       type: "list",
       negative: true,
       items: [
-        "Extremely high costs compared to standard personal loans",
-        "Short repayment terms create pressure and risk of rollover",
-        "May not report positive payments to credit bureaus",
-        "Some predatory lenders target vulnerable borrowers",
-        "Payday lenders in some provinces charge up to $15 per $100 borrowed",
+        "Significantly higher cost than a standard personal loan",
+        "Short terms create pressure and rollover risk",
+        "May not report positive payments to the bureaus at all",
+        "The space attracts some genuinely predatory operators",
+        "Payday products in some provinces charge up to $15 per $100 borrowed",
       ],
     },
 
-    { type: "heading", level: 2, text: "Better Alternatives to No Credit Check Loans" },
+    { type: "heading", level: 2, text: "Better Alternatives Worth Trying First" },
     {
       type: "paragraph",
-      text: "For most borrowers, there are better alternatives to no credit check loans that offer more reasonable costs while still being accessible to those with imperfect credit.",
+      text: "For most people, there's a cheaper, still-accessible route.",
     },
     {
       type: "paragraph",
-      text: "Soft credit check loans are the best alternative. These use a credit inquiry that does not affect your score, allowing lenders to still assess your profile and offer competitive rates. Many online lenders and comparison platforms—including 365 Loans—use soft checks for pre-qualification.",
+      text: "Soft-check loans are usually the best alternative — a credit inquiry that doesn't touch your score, letting the lender still assess you properly and price accordingly. Many online lenders and comparison platforms use soft checks for pre-qualification.",
     },
     {
       type: "list",
       items: [
-        "Soft credit check personal loans (no score impact, better rates)",
-        "Credit union lending programs designed for members with poor credit",
-        "Secured loans backed by collateral for lower rates",
+        "Soft credit check personal loans — no score impact, better rates",
+        "Credit union programs built for members with weaker credit",
+        "Secured loans backed by collateral for a lower rate",
         "Provincial emergency assistance programs",
-        "Payment plans negotiated directly with creditors or medical providers",
-        "Employer payroll advances (no interest or fees)",
+        "Payment plans negotiated directly with creditors or providers",
+        "Employer payroll advances — no interest or fees",
       ],
     },
 
-    { type: "heading", level: 2, text: "Soft Credit Check vs No Credit Check: Key Differences" },
-    {
-      type: "paragraph",
-      text: "Understanding the difference between a soft credit check and no credit check is crucial for finding the best loan option.",
-    },
-    {
-      type: "paragraph",
-      text: "A soft credit check, also called a soft inquiry, allows a lender to view a summary of your credit history without it appearing on your credit report or affecting your score. This gives the lender enough information to offer you competitive terms while protecting your credit.",
-    },
-    {
-      type: "paragraph",
-      text: "A true no credit check loan means the lender makes no inquiry whatsoever. While this may sound better, it actually means the lender cannot properly assess risk, which is why they charge much higher rates to compensate.",
-    },
+    { type: "heading", level: 2, text: "Soft Check vs. No Check, Side by Side" },
     {
       type: "table",
       headers: ["Feature", "Soft Credit Check", "No Credit Check"],
@@ -144,21 +128,17 @@ const content: GuideContent = {
       ],
     },
 
-    { type: "heading", level: 2, text: "Responsible Borrowing Tips" },
-    {
-      type: "paragraph",
-      text: "If you do pursue a no credit check or soft credit check loan, take steps to protect yourself and ensure the loan serves your financial well-being.",
-    },
+    { type: "heading", level: 2, text: "Borrowing Responsibly Either Way" },
     {
       type: "list",
       items: [
-        "Compare at least three offers before accepting any loan",
-        "Verify the lender is licensed in your province",
-        "Read the full loan agreement including all fees and penalties",
-        "Calculate the total cost of borrowing before signing",
-        "Set up automatic payments to avoid late fees and credit damage",
-        "Have a clear plan to repay the loan on schedule",
-        "Never borrow more than you absolutely need",
+        "Compare at least three offers before accepting one",
+        "Confirm the lender is licensed in your province",
+        "Read the full agreement, fees and penalties included",
+        "Calculate the total cost before signing",
+        "Automate payments to protect your credit",
+        "Have a clear repayment plan before you borrow",
+        "Never borrow more than you actually need",
       ],
     },
 
@@ -168,27 +148,27 @@ const content: GuideContent = {
         {
           question: "Are no credit check loans safe?",
           answer:
-            "They can be, but they carry more risk than soft credit check loans. Because the lender skips a traditional credit inquiry, it prices in the extra risk with higher rates and fees, and short repayment terms can create pressure to roll the loan over. A soft credit check loan usually offers a safer, cheaper alternative.",
+            "They can be, but they carry more risk and cost than a soft-check loan. Skipping the credit inquiry means the lender prices in that unknown with higher rates, and short terms can create rollover pressure. A soft-check loan is usually the safer, cheaper choice.",
         },
         {
           question: "What is the difference between a soft check and no check?",
           answer:
-            "A soft credit check lets a lender view a summary of your credit history without it affecting your score, so they can still price the loan competitively. A true no credit check loan means the lender makes no inquiry at all, so it cannot assess your risk properly and typically charges much higher rates to compensate.",
+            "A soft check lets a lender view your credit summary without affecting your score, so they can still price competitively. A true no-check loan means no inquiry at all, so the lender can't assess your risk properly and charges more to compensate.",
         },
         {
           question: "Can I get a no credit check loan with no income?",
           answer:
-            "No. Even without a credit check, lenders still verify basic eligibility, including a minimum income threshold (typically $1,000+ per month), an active bank account, and valid ID.",
+            "No — even without a credit check, lenders still verify a minimum income (typically $1,000+/month), an active bank account, and valid ID.",
         },
         {
           question: "Are no credit check loans legal in Canada?",
           answer:
-            "Yes, as long as they comply with the law. Legitimate no credit check personal loans are capped at 35% APR under the Criminal Code. Payday-style products with terms under 62 days fall under separate provincial regulations and can cost far more when fees are annualized.",
+            "Yes, provided they follow the rules. Legitimate no-check personal loans cap at 35% APR under the Criminal Code, while payday-style products under 62 days fall under separate provincial rules and can cost far more once annualized.",
         },
         {
           question: "How quickly can I get a no credit check loan?",
           answer:
-            "Since these lenders skip a credit bureau pull, decisions can sometimes come quickly, but you'll still need to verify income, banking history, and identity, so approval isn't instant. A soft credit check loan often offers similarly fast turnaround with better terms.",
+            "Skipping the bureau pull can speed things up, but income, banking, and identity still need verification, so it's rarely instant. A soft-check loan often moves just as fast with better terms.",
         },
       ],
     },

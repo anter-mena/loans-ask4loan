@@ -2,80 +2,72 @@ import type { GuideContent } from "@/lib/guides";
 
 const content: GuideContent = {
   subtitle:
-    "Payday loans cost Canadians hundreds of millions annually in excessive fees. Here are smarter, cheaper alternatives that can meet your urgent cash needs.",
+    "Payday loans cost Canadians a fortune in fees every year. Here are genuinely cheaper ways to cover an urgent expense.",
   blocks: [
-    { type: "heading", level: 2, text: "Why You Should Avoid Payday Loans" },
+    { type: "heading", level: 2, text: "Why Payday Loans Are Worth Avoiding" },
     {
       type: "paragraph",
-      text: "Payday loans rank among the most costly borrowing options available. While promising quick funds, their high costs create debt cycles many struggle to escape.",
+      text: "Few borrowing products cost as much as a payday loan. The promise of fast cash comes with a price tag that traps a lot of people in a cycle they didn't sign up for.",
     },
     {
       type: "paragraph",
-      text: "In Canada, payday loans typically charge $15 per $100 borrowed for two weeks, equating to roughly 390% annual percentage rate. The average Canadian payday borrower takes out 8+ loans yearly.",
+      text: "In Canada, a typical payday loan runs $15 per $100 over two weeks — roughly 390% annualized. The average payday borrower takes out more than 8 of these a year.",
     },
     {
       type: "paragraph",
-      text: "Multiple alternatives exist providing faster cash access at substantially lower costs. Understanding your options helps you sidestep the payday trap.",
-    },
-
-    { type: "heading", level: 2, text: "Alternative 1: Personal Installment Loans" },
-    {
-      type: "paragraph",
-      text: "Personal installment loans directly replace payday loans. They provide lump sums repaid through fixed monthly installments over several months rather than demanding full repayment in two weeks.",
-    },
-    {
-      type: "paragraph",
-      text: "Even borrowers with poor credit find personal loan rates (up to 35% APR) dramatically lower than payday rates (390%+). On a $500 loan, a 30% APR personal loan over 6 months costs about $50 in interest versus $75+ biweekly with payday loans.",
-    },
-    {
-      type: "paragraph",
-      text: "Comparison platforms let borrowers see offers from multiple lenders through a single soft-check application, simplifying finding optimal options.",
+      text: "Plenty of alternatives get you cash faster and far cheaper. Knowing them is what keeps you out of the cycle in the first place.",
     },
 
-    { type: "heading", level: 2, text: "Alternative 2: Credit Union Loans" },
+    { type: "heading", level: 2, text: "Alternative 1: A Personal Installment Loan" },
     {
       type: "paragraph",
-      text: "Canadian credit unions frequently offer small personal loans with better terms than payday loans. As member-owned entities, they prioritize community service over fee maximization. Many feature short-term loan products specifically designed as payday alternatives.",
+      text: "This is the most direct payday-loan replacement — a lump sum repaid in fixed installments over months instead of all at once in two weeks.",
     },
     {
       type: "paragraph",
-      text: "Credit union access typically requires membership. Joining usually needs living, working, or worshipping in the served community, plus a modest deposit (often $5–$25).",
-    },
-
-    { type: "heading", level: 2, text: "Alternative 3: Cash Advance Apps and Employer Advances" },
-    {
-      type: "paragraph",
-      text: "Several fintech apps now provide small cash advances in Canada. Apps like Koho and Wealthsimple Cash bridge short-term gaps. Employer payroll advance programs—accessing earned wages before payday—are also expanding in Canada.",
+      text: "Even with weak credit, personal loan rates (up to 35% APR) are dramatically cheaper than a payday loan's 390%+. On $500, a 30% APR personal loan over 6 months costs about $50 in interest total, versus $75+ every two weeks with a payday loan.",
     },
     {
       type: "paragraph",
-      text: "These options aren't perfect—some employ tipping models functioning as interest, and subscription fees accumulate. However, they cost vastly less than payday loans for short-term cash bridging.",
+      text: "A comparison platform lets you see multiple offers through one soft-check application, which makes finding the best option a lot less tedious.",
     },
 
-    { type: "heading", level: 2, text: "More Alternatives to Explore" },
+    { type: "heading", level: 2, text: "Alternative 2: A Credit Union Loan" },
     {
       type: "paragraph",
-      text: "Beyond personal loans, credit unions, and apps, several other options help when needing cash quickly:",
+      text: "Canadian credit unions often beat payday lenders on price for small loans — being member-owned, they're not optimizing for fee revenue the same way. Many even offer short-term products designed specifically as a payday alternative.",
     },
+    {
+      type: "paragraph",
+      text: "Membership is usually required, which typically just means living, working, or worshipping in the area they serve, plus a small deposit (often $5-$25).",
+    },
+
+    { type: "heading", level: 2, text: "Alternative 3: Cash Advance Apps or Employer Advances" },
+    {
+      type: "paragraph",
+      text: "A growing set of fintech apps offer small advances to bridge a short gap. Employer payroll advance programs — letting you access wages you've already earned — are also becoming more common in Canada.",
+    },
+    {
+      type: "paragraph",
+      text: "Neither is perfect — some apps use tipping that functions like interest, and subscription fees add up. Still, both cost a fraction of a payday loan.",
+    },
+
+    { type: "heading", level: 2, text: "More Options Worth Trying" },
     {
       type: "list",
       items: [
-        "Negotiate payment plans directly with creditors",
-        "Sell unused items through Kijiji, Facebook Marketplace, or Poshmark",
-        "Borrow from trusted friends or family (document it)",
-        "Contact 211 for local emergency assistance programs",
-        "Provincial emergency social assistance (available within days in many provinces)",
-        "Food banks to free up grocery money for other bills",
-        "Non-profit micro-loans through organizations like Momentum or SEED Winnipeg",
-        "Credit card cash advance (higher rate but far cheaper than payday loans)",
+        "Negotiate a payment plan directly with the creditor",
+        "Sell things you don't need through Kijiji, Marketplace, or Poshmark",
+        "Borrow from someone you trust — put it in writing",
+        "Call 211 for local emergency assistance programs",
+        "Provincial emergency social assistance, often available within days",
+        "Food banks, freeing up grocery money for other bills",
+        "Non-profit micro-loan programs in your community",
+        "A credit card cash advance — pricier than ideal, but still far cheaper than a payday loan",
       ],
     },
 
-    { type: "heading", level: 2, text: "Cost Comparison: Payday vs. Alternatives" },
-    {
-      type: "paragraph",
-      text: "Choosing alternatives over payday loans produces substantial savings. Here's what $500 costs through different borrowing methods:",
-    },
+    { type: "heading", level: 2, text: "What $500 Actually Costs Each Way" },
     {
       type: "table",
       headers: ["Borrowing Method", "Cost on $500", "Repayment Period"],
@@ -89,20 +81,20 @@ const content: GuideContent = {
       ],
     },
 
-    { type: "heading", level: 2, text: "Breaking the Payday Loan Cycle" },
+    { type: "heading", level: 2, text: "Getting Out of the Cycle" },
     {
       type: "paragraph",
-      text: "If currently trapped in a payday loan cycle, concrete steps exist to break free:",
+      text: "If you're already stuck in payday loans, there's a concrete way out:",
     },
     {
       type: "list",
       items: [
-        "Stop taking new payday loans immediately—switch to any alternative above",
-        "Contact a non-profit credit counsellor (free through Credit Counselling Canada)",
-        "Create a basic budget identifying essential versus non-essential expenses",
-        "Consider debt consolidation loans to pay off existing payday loan balances",
-        "Know your rights—some provinces limit rollover fees",
-        "Build a small emergency fund ($500 target) to prevent future payday borrowing",
+        "Stop taking new payday loans — switch to any alternative above immediately",
+        "Talk to a non-profit credit counsellor, free through Credit Counselling Canada",
+        "Build a basic budget separating essential from non-essential spending",
+        "Consider a debt consolidation loan to clear existing payday balances",
+        "Know your rights — several provinces cap rollover fees",
+        "Build a small emergency fund ($500 target) to avoid needing another payday loan",
       ],
     },
 
@@ -112,22 +104,22 @@ const content: GuideContent = {
         {
           question: "What is the cheapest alternative to a payday loan?",
           answer:
-            "Employer payroll advances are typically the cheapest option, often costing $0 since they simply advance wages you've already earned. Credit union loans ($20-$50 total interest) and cash advance apps ($0-$15 in tips or subscription fees) are also far cheaper than a payday loan's $75+ every two weeks.",
+            "Employer payroll advances are usually the cheapest, often free since they just advance wages you've already earned. Credit union loans ($20-$50 total interest) and cash advance apps ($0-$15) are also far below a payday loan's $75+ every two weeks.",
         },
         {
           question: "Can I get a payday loan alternative with bad credit?",
           answer:
-            "Yes. Even borrowers with poor credit can qualify for personal installment loans at rates up to 35% APR — dramatically lower than payday loan rates of 390%+. Credit unions also offer accessible short-term loan products designed specifically as payday alternatives.",
+            "Yes — personal installment loans are available up to 35% APR even with weak credit, dramatically cheaper than payday rates north of 390%. Credit unions also offer short-term products built specifically as payday alternatives.",
         },
         {
           question: "Are payday loans illegal in Canada?",
           answer:
-            "No, payday loans are legal but heavily regulated. They typically charge around $15 per $100 borrowed over two weeks (roughly 390% APR), and some provinces limit rollover fees to reduce the risk of a debt cycle.",
+            "No, they're legal but tightly regulated — typically around $15 per $100 over two weeks (roughly 390% APR), with some provinces capping rollover fees to limit the debt-cycle risk.",
         },
         {
           question: "How do I switch from payday loans to a personal loan?",
           answer:
-            "Stop taking new payday loans and apply for a personal installment loan instead — comparison platforms let you see offers from multiple lenders through a single soft-check application. If you're carrying existing payday balances, a debt consolidation loan can pay them off and replace them with one lower-cost monthly payment.",
+            "Stop taking new payday loans and apply for an installment loan instead — a comparison platform lets you see multiple offers through one soft-check application. If you're carrying existing payday balances, a debt consolidation loan can replace them with one cheaper monthly payment.",
         },
       ],
     },

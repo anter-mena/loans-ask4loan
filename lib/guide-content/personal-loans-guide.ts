@@ -2,141 +2,137 @@ import type { GuideContent } from "@/lib/guides";
 
 const content: GuideContent = {
   subtitle:
-    "Apply for personal loans in Canada with fast approval. Get $300-$5,000 with competitive rates. Bad credit accepted. Apply online in minutes.",
+    "A ground-up look at how personal loans work in Canada, who they're for, and how to find the best rate and terms for your situation.",
   blocks: [
-    { type: "heading", level: 2, text: "What Are Personal Loans and How Do They Work in Canada?" },
+    { type: "heading", level: 2, text: "What a Personal Loan Actually Is" },
     {
       type: "paragraph",
-      text: "A personal loan functions as an unsecured loan providing a lump sum for nearly any purpose. Unlike mortgages or auto loans tied to specific assets, these offerings in Canada emphasize flexibility—whether for debt consolidation, medical expenses, weddings, home improvements, or unexpected costs.",
+      text: "Unlike a mortgage or auto loan tied to a specific asset, a personal loan is unsecured and flexible — the money can go toward debt consolidation, a medical bill, a wedding, a renovation, or an emergency, whatever the need.",
     },
     {
       type: "paragraph",
-      text: "Upon taking out such a loan, borrowers receive the full amount immediately and repay through fixed monthly installments over a set period, typically 12 to 60 months. Most remain unsecured, eliminating collateral requirements like homes or vehicles. This accessibility comes with potentially higher interest rates than secured alternatives.",
+      text: "You get the full amount immediately and repay it through fixed monthly installments, typically over 12 to 60 months. Being unsecured means no collateral requirement — which trades off against a somewhat higher rate than a secured product would carry.",
     },
     {
       type: "paragraph",
-      text: "In Canada, major banks including RBC, TD, Scotiabank, BMO, and CIBC offer these products, alongside credit unions, online lenders, and alternative finance companies. Each maintains distinct qualification criteria, rates, and terms, necessitating comparison shopping.",
+      text: "In Canada, the major banks all offer these products, alongside credit unions, online lenders, and alternative finance companies — each with its own criteria, rates, and terms, which is exactly why comparison shopping matters.",
     },
 
-    { type: "heading", level: 2, text: "Who Benefits Most from Personal Loans in Canada?" },
+    { type: "heading", level: 2, text: "Who These Loans Suit Best" },
     {
       type: "paragraph",
-      text: "Personal loans suit Canadians needing funds for specific purposes with predictable monthly payments. Strong candidates include those who:",
+      text: "Personal loans work well for anyone needing funds for a specific purpose with a predictable payment. Strong candidates include people who:",
     },
     {
       type: "list",
       items: [
-        "Want to consolidate high-interest debt (lower rates than credit cards make them excellent consolidation tools)",
-        "Have major expenses approaching (weddings, renovations, medical procedures, educational costs)",
-        "Prefer predictable payments (fixed monthly amounts versus variable credit card payments)",
-        "Want to build credit (on-time payments demonstrate responsible behavior)",
-        "Lack assets for collateral (unsecured nature protects homes and vehicles)",
+        "Want to consolidate high-interest debt — the rate is usually well below a credit card's",
+        "Have a big expense coming up — a wedding, a reno, a medical procedure, tuition",
+        "Want fixed, predictable payments instead of a variable credit card bill",
+        "Want to build credit through consistent on-time payments",
+        "Don't have an asset to offer as collateral",
       ],
     },
 
-    { type: "heading", level: 2, text: "Typical Interest Rates and Terms for Personal Loans in Canada" },
+    { type: "heading", level: 2, text: "What Rates and Terms Look Like" },
     {
       type: "paragraph",
-      text: "Interest rates vary significantly based on credit score, income, debt-to-income ratio, and lender selection:",
+      text: "Rates vary considerably by credit score, income, debt load, and lender:",
     },
     {
       type: "list",
       items: [
-        "Excellent Credit (760+): Prime rates from major banks, typically 6.99% to 9.99% APR",
-        "Good Credit (700-759): Competitive rates ranging from 9.99% to 14.99% APR",
-        "Fair Credit (650-699): Rates from 14.99% to 24.99% APR",
-        "Poor Credit (Below 650): Rates from 25% to 35% APR through alternative lenders",
+        "Excellent credit (760+): typically 6.99%-9.99% APR from major banks",
+        "Good credit (700-759): 9.99%-14.99% APR",
+        "Fair credit (650-699): 14.99%-24.99% APR",
+        "Poor credit (below 650): 25%-35% APR through alternative lenders",
       ],
     },
     {
       type: "paragraph",
-      text: "Loan terms typically span 12 months to 60 months (5 years), with some lenders offering up to 84 months for larger amounts. Longer terms reduce monthly payments but increase total interest paid.",
+      text: "Terms usually run 12 to 60 months, with some lenders stretching to 84 for larger amounts — longer terms mean a smaller payment but more total interest.",
     },
     {
       type: "paragraph",
-      text: "Amounts generally range from $1,000 to $50,000, depending on lender and qualifications. Some online lenders and alternative companies offer smaller amounts starting at $300-$500 for those with less-than-perfect credit.",
+      text: "Amounts generally range $1,000 to $50,000 depending on lender and qualifications, with some online lenders offering as little as $300-$500 for borrowers with weaker credit.",
     },
 
-    { type: "heading", level: 2, text: "How to Qualify and Apply for Personal Loans in Canada" },
-    { type: "paragraph", text: "Qualifying typically requires:" },
+    { type: "heading", level: 2, text: "Qualifying and Applying" },
+    { type: "paragraph", text: "Generally required:" },
     {
       type: "list",
       items: [
-        "Age: Minimum 18 or 19 years (province-dependent)",
-        "Residency: Canadian citizen or permanent resident status",
-        "Income: Verifiable income from employment, self-employment, or government benefits",
-        "Bank Account: Active Canadian bank account",
-        "Credit History: Lender-dependent; some accept all credit types",
+        "18 or 19+, depending on province",
+        "Canadian citizen or permanent resident",
+        "Verifiable income — employment, self-employment, or benefits",
+        "An active Canadian bank account",
+        "Credit history requirements vary — some lenders work with all credit types",
       ],
     },
-    { type: "paragraph", text: "The application process follows these steps:" },
+    { type: "paragraph", text: "The process generally follows these steps:" },
     {
       type: "list",
       ordered: true,
       items: [
-        "Gather your documents: Prepare government-issued ID, proof of income (pay stubs, tax returns, or bank statements), and proof of address.",
-        "Compare lenders: Research rates, terms, fees, and eligibility requirements from multiple lenders before applying.",
-        "Submit your application: Most lenders provide online applications requiring 5-15 minutes, including personal information, employment details, and credit check consent.",
-        "Receive your decision: Approval may be instant or arrive within 1-2 business days, depending on the lender.",
-        "Review and sign: Carefully examine the loan agreement, including interest rate, fees, and repayment terms before signing.",
-        "Receive your funds: Once approved and signed, funds typically deposit within 1-3 business days. Some online lenders offer same-day or next-day funding.",
+        "Gather your ID, income proof, and address proof",
+        "Compare rates, terms, and fees across a few lenders",
+        "Apply — most online applications take 5-15 minutes",
+        "Get your decision — instant to a couple of business days",
+        "Review the agreement carefully before signing",
+        "Get funded — typically 1-3 business days, some lenders same or next-day",
       ],
     },
 
-    { type: "heading", level: 2, text: "Pros and Cons of Personal Loans Compared to Other Options" },
-    { type: "heading", level: 3, text: "Pros of Personal Loans" },
+    { type: "heading", level: 2, text: "Weighing the Trade-Offs" },
+    { type: "heading", level: 3, text: "In favour" },
     {
       type: "list",
       items: [
-        "Flexibility (funds usable for virtually any purpose)",
-        "Fixed rates and payments (predictable budgeting without surprises)",
-        "No collateral required (assets remain protected)",
-        "Potentially lower rates than credit cards (especially beneficial for debt consolidation)",
-        "Credit building (regular payments help establish positive history)",
-        "Larger amounts (more funds than typical credit cards offer)",
+        "Usable for nearly any purpose",
+        "Fixed rate and payment, easy to budget",
+        "No collateral required",
+        "Often cheaper than carrying a credit card balance",
+        "On-time payments help build credit",
+        "Larger amounts than a typical credit card",
       ],
     },
-    { type: "heading", level: 3, text: "Cons of Personal Loans" },
+    { type: "heading", level: 3, text: "Trade-offs" },
     {
       type: "list",
       negative: true,
       items: [
-        "Higher rates than secured loans (no collateral means elevated rates versus mortgages or auto loans)",
-        "Origination fees (some lenders charge 1-5% of loan amount upfront)",
-        "Credit requirements (better rates require good credit scores)",
-        "Fixed amount (cannot borrow more once issued, unlike lines of credit)",
+        "Higher rate than a secured loan",
+        "Some lenders charge a 1-5% origination fee",
+        "Best rates require strong credit",
+        "Fixed amount — can't borrow more without a new application",
       ],
     },
     {
       type: "paragraph",
-      text: "Compared to Credit Cards: Personal loans typically offer reduced interest rates (especially for good credit), fixed repayment terms, and suit large, planned expenses. Credit cards provide ongoing purchase flexibility and rewards.",
+      text: "Versus credit cards: a personal loan usually beats a card on rate for larger, planned expenses, with a defined schedule instead of ongoing flexibility.",
     },
     {
       type: "paragraph",
-      text: "Compared to Lines of Credit: Personal loans deliver lump sums with fixed payments, while lines of credit offer revolving fund access. Bank lines of credit may feature lower rates but demand stronger credit qualifications.",
+      text: "Versus a line of credit: a loan gives you a lump sum and fixed payments; a LOC gives revolving access, often at a lower rate but requiring stronger credit.",
     },
     {
       type: "paragraph",
-      text: "Compared to Home Equity Loans: Personal loans require no home ownership or equity, increasing accessibility. However, home equity loans typically provide substantially lower rates since property secures them.",
+      text: "Versus a home equity loan: a personal loan doesn't require ownership or equity, but a home equity loan typically offers a meaningfully lower rate since the property secures it.",
     },
 
-    { type: "heading", level: 2, text: "Tips for Finding the Best Personal Loans in Canada" },
+    { type: "heading", level: 2, text: "Finding the Best One" },
     {
       type: "list",
       ordered: true,
       items: [
-        "Check your credit score first: Understanding your score reveals which lenders and rates you qualify for. Equifax and TransUnion Canada provide free credit reports.",
-        "Compare multiple lenders: Avoid settling for first offers. Compare rates, terms, and fees from at least 3-5 lenders, including banks, credit unions, and online lenders.",
-        "Look for pre-qualification: Many lenders offer pre-qualification with soft credit checks that won't affect your score, revealing potential rates before formal applications.",
-        "Watch out for fees: Look beyond interest rates, considering origination fees, prepayment penalties, late payment fees, and other charges.",
-        "Consider the total cost: Lower monthly payments aren't always better if longer terms mean more interest paid overall. Calculate total repayment amounts.",
-        "Read reviews: Research lender reputation, customer service quality, and complaints filed with provincial regulators or the Better Business Bureau.",
-        "Avoid predatory lenders: Be wary of guaranteed approval claims, pressure tactics, or requests for upfront fees before approval.",
+        "Check your credit score first — Equifax and TransUnion both offer free reports",
+        "Compare at least 3-5 lenders — banks, credit unions, and online options",
+        "Use pre-qualification tools that run a soft check, not a hard one",
+        "Look past the rate to origination fees, prepayment penalties, and late fees",
+        "Calculate the total repayment, not just the monthly payment",
+        "Check the lender's reputation and complaint history",
+        "Be wary of guaranteed approval claims or upfront fee requests",
       ],
-    },
-    {
-      type: "paragraph",
-      text: "At 365 Loans Canada, the service connects borrowers with trusted lenders nationwide offering personal loans for all credit types. Whether you possess excellent credit or are rebuilding after financial challenges, their network includes options designed to provide needed funds with terms fitting your budget.",
     },
     {
       type: "callout",
@@ -149,27 +145,27 @@ const content: GuideContent = {
         {
           question: "What is a personal loan in Canada?",
           answer:
-            "A personal loan is an unsecured loan providing a lump sum for nearly any purpose. Unlike mortgages or auto loans tied to a specific asset, funds are typically repaid through fixed monthly installments over 12 to 60 months.",
+            "An unsecured loan for nearly any purpose, repaid through fixed monthly installments over 12 to 60 months — unlike a mortgage or auto loan, it isn't tied to a specific asset.",
         },
         {
           question: "How do I qualify for a personal loan in Canada?",
           answer:
-            "You'll generally need to be at least 18 or 19 (province-dependent), a Canadian citizen or permanent resident, have an active Canadian bank account, and demonstrate verifiable income. Credit history requirements are lender-dependent, and some lenders accept all credit types.",
+            "Generally 18 or 19+ depending on province, Canadian citizenship or permanent residency, an active bank account, and verifiable income. Credit requirements vary by lender, with some accepting all credit types.",
         },
         {
           question: "What interest rates can I expect on personal loans?",
           answer:
-            "Rates vary by credit profile: excellent credit (760+) typically sees 6.99% to 9.99% APR, good credit (700-759) sees 9.99% to 14.99%, fair credit (650-699) sees 14.99% to 24.99%, and poor credit (below 650) sees 25% to 35% APR through alternative lenders.",
+            "Roughly 6.99%-9.99% for excellent credit (760+), 9.99%-14.99% for good (700-759), 14.99%-24.99% for fair (650-699), and 25%-35% for poor credit (below 650) through alternative lenders.",
         },
         {
           question: "How long does it take to get approved for a personal loan?",
           answer:
-            "Approval may be instant or arrive within 1-2 business days, depending on the lender. Once approved and signed, funds typically deposit within 1-3 business days, and some online lenders offer same-day or next-day funding.",
+            "Anywhere from instant to 1-2 business days depending on the lender, with funds typically arriving 1-3 business days after signing — some lenders offer same- or next-day funding.",
         },
         {
           question: "Can I pay off my personal loan early without penalties?",
           answer:
-            "It depends on the lender and the loan agreement. Many personal loans permit early repayment without extra cost, but review your agreement for any prepayment penalties before signing.",
+            "It depends on the lender. Many allow penalty-free early repayment, but check your specific agreement before signing.",
         },
       ],
     },

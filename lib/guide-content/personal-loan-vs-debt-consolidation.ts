@@ -2,23 +2,23 @@ import type { GuideContent } from "@/lib/guides";
 
 const content: GuideContent = {
   subtitle:
-    "Clarifying the relationship between personal loans and debt consolidation — and helping you choose the right debt management strategy.",
+    "A personal loan and debt consolidation aren't quite the same thing. Here's the distinction, and how to pick the right debt strategy.",
   blocks: [
-    { type: "heading", level: 2, text: "Clarifying the Terms" },
+    { type: "heading", level: 2, text: "Two Different Ideas" },
     {
       type: "paragraph",
-      text: "Personal loans and debt consolidation are related but distinct concepts. A personal loan is a financial product — a lump sum you borrow and repay in installments. Debt consolidation is a strategy — combining multiple debts into a single payment.",
+      text: "A personal loan is a product — a lump sum you borrow and repay in installments. Debt consolidation is a strategy — folding multiple debts into a single payment. They overlap, but they're not synonyms.",
     },
     {
       type: "paragraph",
-      text: "A personal loan is one of several tools you can use for debt consolidation. But debt consolidation can also be achieved through balance transfer credit cards, home equity loans, debt management plans, and other methods.",
+      text: "A personal loan is one tool for consolidating debt. You can also get there through a balance transfer card, a home equity loan, a debt management plan, or other routes.",
     },
     {
       type: "paragraph",
-      text: "The question is not really \"personal loan or debt consolidation\" but rather \"is a personal loan the best tool for my debt consolidation strategy?\"",
+      text: "So the real question isn't \"personal loan or consolidation\" — it's \"is a personal loan the right tool for my consolidation strategy?\"",
     },
 
-    { type: "heading", level: 2, text: "Debt Consolidation Methods Compared" },
+    { type: "heading", level: 2, text: "Comparing the Consolidation Routes" },
     {
       type: "table",
       headers: ["Method", "Typical Rate", "Best For", "Risk Level"],
@@ -31,69 +31,53 @@ const content: GuideContent = {
       ],
     },
 
-    { type: "heading", level: 2, text: "When a Personal Loan Is the Best Consolidation Tool" },
-    {
-      type: "paragraph",
-      text: "A personal loan is often the best choice for debt consolidation in these situations.",
-    },
+    { type: "heading", level: 2, text: "When a Personal Loan Is the Right Call" },
     {
       type: "list",
       items: [
-        "You have multiple debts with interest rates higher than the personal loan rate",
-        "You want a fixed payment schedule with a definite payoff date",
-        "You do not own a home (so home equity options are unavailable)",
-        "Your total debt is manageable and you need structure, not crisis intervention",
-        "You want to improve your credit score through consistent installment payments",
+        "Your existing debts all carry higher rates than the personal loan offer",
+        "You want a fixed schedule with a definite end date",
+        "You don't own a home, so equity-based options aren't on the table",
+        "Your debt is manageable and just needs structure, not crisis intervention",
+        "You want the credit-building benefit of consistent installment payments",
       ],
     },
 
-    { type: "heading", level: 2, text: "When Other Methods May Be Better" },
-    {
-      type: "paragraph",
-      text: "A personal loan is not always the best consolidation approach.",
-    },
+    { type: "heading", level: 2, text: "When Something Else Fits Better" },
     {
       type: "list",
       items: [
-        "Small balance you can pay off in 12-21 months — a 0% balance transfer card may be cheaper",
-        "Homeowner with significant debt — a home equity loan may offer lower rates (but carries risk)",
-        "Overwhelmed by debt — a debt management plan or credit counseling may provide relief",
-        "Cannot manage debts at all — a consumer proposal through a Licensed Insolvency Trustee may be appropriate",
-        "Credit is too low to qualify for a reasonable personal loan rate",
+        "A small balance payable in 12-21 months — a 0% balance transfer card is likely cheaper",
+        "A homeowner with significant debt — a home equity loan may beat the rate, at the cost of risk",
+        "Genuinely overwhelmed — a debt management plan or credit counselling may be the better path",
+        "Truly unmanageable debt — a consumer proposal through a Licensed Insolvency Trustee",
+        "Credit too weak to qualify for a reasonable personal loan rate",
       ],
     },
 
-    { type: "heading", level: 2, text: "Making Debt Consolidation Work" },
-    {
-      type: "paragraph",
-      text: "Regardless of the method you choose, successful debt consolidation requires discipline and a plan.",
-    },
+    { type: "heading", level: 2, text: "Making It Actually Work" },
     {
       type: "list",
       items: [
-        "Stop accumulating new debt — cut up cards or freeze them if necessary",
-        "Build an emergency fund to avoid future debt for unexpected expenses",
-        "Set up autopay on your consolidation loan or plan to ensure on-time payments",
-        "Track your progress monthly to stay motivated",
-        "Create and stick to a realistic budget that prevents overspending",
-        "Consider free credit counseling from a non-profit agency like Credit Counselling Canada",
+        "Stop adding new debt — cut up or freeze cards if needed",
+        "Build an emergency fund so surprises don't become new debt",
+        "Automate payments on the consolidation loan or plan",
+        "Track progress monthly to stay motivated",
+        "Build and stick to a real budget",
+        "Free credit counselling is worth a call if you're unsure where to start",
       ],
     },
 
-    { type: "heading", level: 2, text: "Common Consolidation Mistakes" },
-    {
-      type: "paragraph",
-      text: "Avoid these pitfalls to ensure your consolidation strategy succeeds.",
-    },
+    { type: "heading", level: 2, text: "Common Mistakes" },
     {
       type: "list",
       negative: true,
       items: [
-        "Consolidating debt and then running up credit cards again",
-        "Choosing a consolidation loan with a higher rate than your existing average",
-        "Extending the term too long, which can increase total interest even at a lower rate",
-        "Ignoring origination fees that reduce the effective savings",
-        "Not having a budget plan to prevent future debt accumulation",
+        "Consolidating, then running the cards back up",
+        "Choosing a loan rate that's actually higher than your current average",
+        "Stretching the term so long that total interest grows despite a lower rate",
+        "Ignoring origination fees that eat into the savings",
+        "No budget plan to prevent the debt from coming back",
       ],
     },
 
@@ -103,27 +87,27 @@ const content: GuideContent = {
         {
           question: "Is a personal loan the same as a debt consolidation loan?",
           answer:
-            "Not quite. A personal loan is a financial product — a lump sum repaid in installments. Debt consolidation is a strategy of combining multiple debts into one payment, and a personal loan is just one of several tools (alongside balance transfer cards, home equity loans, and debt management plans) that can achieve it.",
+            "Not exactly. A personal loan is a product; debt consolidation is a strategy that a personal loan (among other tools) can achieve.",
         },
         {
           question: "Will debt consolidation hurt my credit?",
           answer:
-            "A new loan application typically involves a hard inquiry, which can cause a small, temporary dip in your score. Over time, consolidating and making consistent on-time installment payments tends to help your credit, especially compared to carrying multiple high-utilization balances.",
+            "Applying triggers a hard inquiry and a small, temporary dip. Over time, consistent on-time payments tend to help, especially compared to carrying multiple high-utilization balances.",
         },
         {
           question: "How do I know if consolidation will save me money?",
           answer:
-            "Compare the interest rate on the new loan against the combined rates of your existing debts. If the personal loan's APR is lower than what you're currently paying and you don't stretch the term out so long that total interest grows, consolidation should save you money.",
+            "Compare the new loan's rate against your current blended rate. If it's genuinely lower and you don't stretch the term out so far that total interest grows anyway, it should save you money.",
         },
         {
           question: "Should I use a consumer proposal instead?",
           answer:
-            "A consumer proposal through a Licensed Insolvency Trustee is generally reserved for situations where you cannot manage your debts through consolidation alone. If a personal loan or other consolidation method can realistically get your debt under control, that's typically the less disruptive option.",
+            "Generally only if consolidation alone can't realistically get your debt under control — a proposal is more disruptive and carries a bigger credit impact.",
         },
         {
           question: "Can I consolidate debt with bad credit?",
           answer:
-            "It's harder to get a favorable rate with low credit, and if your credit is too weak to qualify for a reasonable personal loan rate, a debt management plan or free credit counseling — such as through Credit Counselling Canada — may be a more practical route than a high-rate consolidation loan.",
+            "It's harder to get a good rate, and if your credit is too weak to qualify reasonably, a debt management plan or free credit counselling may be more practical than a high-rate loan.",
         },
       ],
     },

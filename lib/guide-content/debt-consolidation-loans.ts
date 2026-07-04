@@ -2,61 +2,61 @@ import type { GuideContent } from "@/lib/guides";
 
 const content: GuideContent = {
   subtitle:
-    "Combine multiple debts into one manageable monthly payment. Learn how debt consolidation loans work and whether this strategy is right for you.",
+    "Turn several bills into one manageable payment. Here's how debt consolidation loans actually work, and how to tell if the strategy fits your situation.",
   blocks: [
-    { type: "heading", level: 2, text: "What Is a Debt Consolidation Loan?" },
+    { type: "heading", level: 2, text: "What a Debt Consolidation Loan Is" },
     {
       type: "paragraph",
-      text: "A debt consolidation loan is a personal loan used to pay off multiple existing debts—such as credit cards, store cards, medical bills, or other loans—and replace them with a single monthly payment at a potentially lower interest rate.",
+      text: "It's a personal loan used to pay off multiple existing debts — credit cards, store cards, medical bills, other loans — and replace them with one monthly payment, ideally at a better rate than what you're already paying.",
     },
     {
       type: "paragraph",
-      text: "The concept is straightforward: instead of managing five different payments at five different rates with five different due dates, you have one loan, one payment, and one interest rate. This simplification makes budgeting easier and can reduce the total interest you pay.",
+      text: "The appeal is simplicity: instead of five payments at five rates on five different dates, you're down to one of each. That alone makes budgeting easier, and a lower blended rate can cut your total interest on top of it.",
     },
     {
       type: "paragraph",
-      text: "In Canada, debt consolidation is one of the most popular reasons for taking out a personal loan. With average credit card rates hovering around 19.99% to 22.99%, a personal loan at 12% to 25% APR can represent meaningful savings.",
+      text: "It's one of the most common reasons Canadians take out a personal loan in the first place. With typical credit card rates sitting around 19.99%-22.99%, a personal loan at 12%-25% APR can add up to real savings.",
     },
 
-    { type: "heading", level: 2, text: "How Debt Consolidation Works Step by Step" },
+    { type: "heading", level: 2, text: "How It Actually Plays Out" },
     {
       type: "paragraph",
-      text: "The debt consolidation process is straightforward once you understand the steps involved.",
+      text: "The mechanics are simple once you see the sequence:",
     },
     {
       type: "list",
       ordered: true,
       items: [
-        "List all current debts including balances, interest rates, and monthly payments",
-        "Calculate your total debt and average interest rate",
-        "Apply for a personal loan for the total amount (or close to it)",
-        "If approved, use the loan funds to pay off all existing debts immediately",
-        "Make one monthly payment on the consolidation loan going forward",
-        "Avoid accumulating new debt on the accounts you just paid off",
+        "List every debt you're carrying — balance, rate, and monthly payment",
+        "Total it up and work out your blended average rate",
+        "Apply for a personal loan covering that amount, or close to it",
+        "Once approved, use the funds to clear everything immediately",
+        "Make one payment on the new loan going forward",
+        "Don't let the accounts you just paid off start filling back up",
       ],
     },
-    { type: "heading", level: 3, text: "Critical Step" },
+    { type: "heading", level: 3, text: "The Part People Get Wrong" },
     {
       type: "paragraph",
-      text: "After paying off your credit cards with the consolidation loan, resist the urge to charge them up again. Many people end up worse off because they consolidate but then rebuild credit card balances.",
+      text: "The most common way this backfires is straightforward: pay off the cards, then charge them right back up. That leaves you with the new loan payment AND fresh card balances — worse off than before you started.",
     },
 
-    { type: "heading", level: 2, text: "When Debt Consolidation Makes Financial Sense" },
+    { type: "heading", level: 2, text: "When It's Actually Worth Doing" },
     {
       type: "paragraph",
-      text: "Debt consolidation is not always the right strategy. It works best in specific circumstances.",
+      text: "Consolidation isn't automatically the right call — it depends on the specifics.",
     },
     {
       type: "paragraph",
-      text: "It makes sense when your consolidation loan rate is lower than the weighted average rate of your current debts. If you are paying 22% on credit cards and can get a personal loan at 15%, consolidation saves money.",
+      text: "It makes sense when the new rate genuinely beats your current blended rate — going from 22% on cards to 15% on a personal loan is real savings.",
     },
     {
       type: "paragraph",
-      text: "It also makes sense when you are struggling to keep track of multiple payments and due dates. Even if the rate savings are modest, having one payment simplifies your finances and reduces the risk of missed payments.",
+      text: "It also helps just from a simplicity standpoint — even with modest rate savings, collapsing several due dates into one lowers your odds of missing a payment.",
     },
     {
       type: "paragraph",
-      text: "It does NOT make sense if you will extend the repayment period so much that you pay more total interest, even at a lower rate. Or if you will continue using credit cards after consolidating, effectively doubling your debt.",
+      text: "It does NOT make sense if you stretch the term out so far that total interest ends up higher despite the lower rate, or if you keep using the cards you just paid off.",
     },
     {
       type: "table",
@@ -70,50 +70,50 @@ const content: GuideContent = {
     },
     {
       type: "callout",
-      text: "Ready to Compare Your Options? See personalized loan offers from 50+ Canadian lenders — no impact to your credit score.",
+      text: "Compare offers from 50+ Canadian lenders with no impact to your credit score before deciding.",
     },
 
-    { type: "heading", level: 2, text: "Debt Consolidation Loan Rates" },
+    { type: "heading", level: 2, text: "What These Loans Cost" },
     {
       type: "paragraph",
-      text: "Rates on debt consolidation loans follow the same pricing as standard personal loans—they are determined by your credit score, income, and overall financial profile.",
+      text: "Pricing follows the same logic as any personal loan — your rate comes down to credit score, income, and overall profile.",
     },
     {
       type: "paragraph",
-      text: "In Canada, consolidation loan rates range from 8% to 35% APR. For consolidation to be effective, your loan rate needs to be meaningfully lower than the rates on your current debts. A 5% or greater rate reduction typically makes consolidation worthwhile.",
+      text: "In Canada, consolidation loans typically run 8% to 35% APR. For the math to actually work in your favour, the new rate needs to be meaningfully below your current blended rate — a gap of 5 points or more is usually the threshold where it's clearly worthwhile.",
     },
 
-    { type: "heading", level: 2, text: "Risks and Common Mistakes" },
+    { type: "heading", level: 2, text: "Where People Go Wrong" },
     {
       type: "paragraph",
-      text: "While debt consolidation can be an effective strategy, there are risks to be aware of.",
+      text: "A few mistakes show up over and over:",
     },
     {
       type: "list",
       negative: true,
       items: [
-        "Running up credit card balances again after consolidating—the most common mistake",
-        "Extending the repayment term so long that total interest exceeds what you would have paid",
-        "Paying origination fees that offset the interest savings",
-        "Using a consolidation loan to borrow more than you currently owe",
-        "Ignoring the root cause of debt accumulation (overspending, insufficient income)",
+        "Running the credit cards back up after consolidating — the single most common mistake",
+        "Stretching the term so long that total interest ends up higher than before",
+        "Origination fees eating into whatever you saved on rate",
+        "Borrowing more than you actually owed",
+        "Consolidating without ever addressing the spending that created the debt",
       ],
     },
 
-    { type: "heading", level: 2, text: "Alternatives to Debt Consolidation Loans" },
+    { type: "heading", level: 2, text: "Other Ways to Approach It" },
     {
       type: "paragraph",
-      text: "A personal loan is not the only way to consolidate or manage multiple debts.",
+      text: "A personal loan isn't the only path to getting multiple debts under control.",
     },
     {
       type: "list",
       items: [
-        "Balance transfer credit card with 0% introductory APR",
-        "Debt management plan through a non-profit credit counsellor",
-        "Line of credit from your bank (may offer lower rates)",
-        "Consumer proposal (formal debt settlement option in Canada)",
-        "Negotiating directly with creditors for reduced interest rates",
-        "Home equity line of credit (HELOC) if you own property",
+        "A 0% intro-APR balance transfer card",
+        "A non-profit credit counsellor's debt management plan",
+        "A line of credit from your bank, potentially at a better rate",
+        "A consumer proposal, Canada's formal debt-settlement option",
+        "Negotiating directly with your creditors",
+        "A HELOC, if you own property",
       ],
     },
 
@@ -123,22 +123,22 @@ const content: GuideContent = {
         {
           question: "Will a debt consolidation loan hurt my credit?",
           answer:
-            "Formally applying involves a hard credit check, which can cause a small, temporary dip in your score. Over time, consolidation can actually help your credit by simplifying payments and reducing the risk of missing one — as long as you avoid running up new balances on the accounts you paid off.",
+            "The hard check from applying can cause a small, temporary dip. Longer term, consolidation tends to help — simplified payments and lower risk of missing one, plus reduced utilization once revolving balances are cleared, as long as you don't run them back up.",
         },
         {
           question: "How much debt can I consolidate?",
           answer:
-            "Typically, you apply for a personal loan covering the total amount of debt you want to pay off, or close to it. Consolidation loan rates in Canada generally range from 8% to 35% APR, so the amount you can consolidate depends on what you qualify for based on income and credit.",
+            "Generally, you apply for a loan covering the total (or close to it) of what you want to pay off. Rates in Canada typically run 8%-35% APR, so what you qualify for depends on income and credit.",
         },
         {
           question: "Should I close credit cards after consolidating?",
           answer:
-            "Not necessarily. The guide's critical step is to resist charging the cards back up, not to close them. Keeping paid-off cards open (and unused) can help preserve your credit utilization ratio and credit history length, while closing them isn't required for consolidation to work.",
+            "Not necessarily — the real risk is charging them back up, not keeping them open. Leaving old, unused cards open can actually help your utilization ratio and credit history length.",
         },
         {
           question: "Is a consumer proposal better than a consolidation loan?",
           answer:
-            "They serve different purposes. A debt consolidation loan pays off your existing debts in full using new borrowed funds at a hopefully lower rate. A consumer proposal is a formal debt settlement process that reduces what you owe but has a more significant, longer-lasting impact on your credit. Consolidation is generally preferable if you can qualify for a lower rate.",
+            "They solve different problems. Consolidation pays off what you owe in full via a new, hopefully cheaper loan. A consumer proposal is a formal settlement that reduces the amount owed but causes more lasting credit damage. Consolidation is generally the better option if you can qualify for a lower rate.",
         },
       ],
     },

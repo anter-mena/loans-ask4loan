@@ -135,7 +135,7 @@ const GuideArticleClient = ({
             <a
               href="https://cmi.rocks/go/6a0768c8e9dee?affiliate_sub1=ask4loan"
               target="_blank"
-              rel="noopener noreferrer"
+              rel="sponsored noopener noreferrer"
               onClick={() => trackClick("Guide Article Ready to Apply", entry.slug)}
             >
               Check Your Rates Now

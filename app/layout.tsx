@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import { Toaster } from 'sonner';
 import Script from 'next/script';
+import dynamic from 'next/dynamic';
 import { Geist, Geist_Mono } from "next/font/google";
 
 const geistSans = Geist({
@@ -19,9 +20,12 @@ import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import CountdownBanner from '@/components/layout/CountdownBanner';
 import CookieBanner from '@/components/layout/CookieBanner';
-import ChatBot from '@/components/layout/ChatBot';
 import LoanApprovalToasts from '@/components/layout/LoanApprovalToasts';
 import ScrollToTop from '@/components/layout/ScrollToTop';
+
+// Pure client-side widget with no SSR-critical content — code-split so it
+// doesn't add to the initial JS bundle every page has to load and hydrate.
+const ChatBot = dynamic(() => import('@/components/layout/ChatBot'));
 
 export const viewport: Viewport = {
   themeColor: "#588157",
@@ -170,6 +174,10 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
       suppressHydrationWarning
     >
+      <head>
+        <link rel="preconnect" href="https://www.googletagmanager.com" />
+        <link rel="preconnect" href="https://images.unsplash.com" crossOrigin="anonymous" />
+      </head>
       <body className="min-h-full flex flex-col font-sans" suppressHydrationWarning>
         {/* Google Analytics */}
         <Script

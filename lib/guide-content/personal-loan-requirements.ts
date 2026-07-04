@@ -2,62 +2,62 @@ import type { GuideContent } from "@/lib/guides";
 
 const content: GuideContent = {
   subtitle:
-    "Understand exactly what Canadian lenders look for so you can prepare a strong application and maximize your approval chances.",
+    "What Canadian lenders actually check before approving a personal loan, and how to prepare a genuinely strong application.",
   blocks: [
-    { type: "heading", level: 2, text: "What Do You Need for a Personal Loan?" },
+    { type: "heading", level: 2, text: "The Core Criteria" },
     {
       type: "paragraph",
-      text: "Personal loan requirements vary by lender, but most evaluate the same core criteria: identity verification, income, credit history, and existing debt obligations. Understanding these requirements helps you prepare and increases your chances of approval.",
+      text: "Requirements differ lender to lender, but nearly all of them evaluate the same four things: your identity, your income, your credit history, and your existing debt load. Knowing these ahead of time is what lets you prepare properly.",
     },
     {
       type: "paragraph",
-      text: "Canadian lenders must comply with federal and provincial consumer lending regulations, which include verifying borrower identity and assessing ability to repay. These regulations protect you from irresponsible lending while setting clear standards for eligibility.",
+      text: "Canadian lenders operate under federal and provincial consumer lending rules that require identity verification and a real assessment of your ability to repay — protections that work in your favour, not just paperwork.",
     },
 
-    { type: "heading", level: 2, text: "Identity and Residency Requirements" },
+    { type: "heading", level: 2, text: "Identity and Residency" },
     {
       type: "paragraph",
-      text: "Lenders must verify your identity as part of anti-money laundering and fraud prevention obligations.",
+      text: "Identity verification is mandatory under anti-fraud and anti-money-laundering rules.",
     },
     {
       type: "list",
       items: [
-        "Must be at least 18 or 19 years old (depending on province)",
+        "18 or 19+ depending on province",
         "Canadian citizen or permanent resident",
-        "Valid government-issued photo ID (driver's licence, passport, or provincial ID)",
-        "Proof of current address (utility bill, bank statement, or lease)",
-        "Valid Social Insurance Number (SIN) for credit check purposes",
+        "Valid government photo ID",
+        "Proof of current address",
+        "A valid SIN for the credit check",
       ],
     },
 
-    { type: "heading", level: 2, text: "Income Requirements" },
+    { type: "heading", level: 2, text: "Income" },
     {
       type: "paragraph",
-      text: "Income verification is one of the most critical requirements. Lenders need to confirm you earn enough to make loan payments without financial hardship.",
+      text: "Income verification is arguably the single most important piece — lenders need to know you can make the payments without strain.",
     },
     {
       type: "paragraph",
-      text: "Most Canadian lenders require a minimum monthly income between $800 and $1,500. Accepted income types include employment wages, self-employment income (with CRA NOA), government benefits (EI, CPP, OAS), disability income, pension payments, and in some cases child or spousal support.",
+      text: "Most Canadian lenders set a minimum monthly income somewhere between $800 and $1,500. Accepted sources include employment wages, self-employment income (with a CRA NOA), EI, CPP, OAS, disability income, pensions, and sometimes support payments.",
     },
     {
       type: "list",
       items: [
-        "Recent pay stubs (typically last 2-4 pay periods)",
+        "Recent pay stubs, usually the last 2-4 periods",
         "CRA Notice of Assessment for self-employed applicants",
-        "Bank statements showing regular income deposits (last 2-3 months)",
+        "2-3 months of bank statements showing regular deposits",
         "Benefit award letters for government income",
-        "Employment verification letter (some lenders require this)",
+        "An employment verification letter, if the lender asks for one",
       ],
     },
 
-    { type: "heading", level: 2, text: "Credit Score Requirements" },
+    { type: "heading", level: 2, text: "Credit Score" },
     {
       type: "paragraph",
-      text: "Your credit score is a major factor in both approval decisions and the interest rate you receive. However, there is no single universal minimum score.",
+      text: "Your score influences both approval and rate, though there's no single universal cutoff.",
     },
     {
       type: "paragraph",
-      text: "In Canada, credit scores range from 300 to 900 (Equifax and TransUnion). Most major banks require scores of 650+ for personal loans. Online lenders and alternative finance companies often accept scores as low as 500-550, with some evaluating applications with no minimum score at all.",
+      text: "Canadian scores run 300-900. Major banks generally want 650+; online and alternative lenders will often go down to 500-550, and some evaluate applications with no strict minimum at all.",
     },
     {
       type: "table",
@@ -73,48 +73,48 @@ const content: GuideContent = {
     { type: "heading", level: 2, text: "Debt-to-Income Ratio" },
     {
       type: "paragraph",
-      text: "Your debt-to-income (DTI) ratio measures how much of your monthly income goes toward debt payments. It is calculated by dividing your total monthly debt payments by your gross monthly income.",
+      text: "Your DTI is total monthly debt payments divided by gross monthly income.",
     },
     {
       type: "paragraph",
-      text: "Most lenders prefer a DTI of 40% or less, including the new loan payment. For example, if you earn $3,000 per month and have $800 in existing debt payments, your DTI is approximately 27%. A new loan payment of $150 would bring it to 32%—still within most lenders' acceptable range.",
+      text: "Most lenders want 40% or below, new loan included. Earning $3,000/month with $800 in existing debt puts you around 27% — add a $150 payment and you're at roughly 32%, still comfortably within range for most lenders.",
     },
     {
       type: "paragraph",
-      text: "If your DTI is too high, you can improve it by paying down existing debts, increasing your income, or applying for a smaller loan amount.",
-    },
-
-    { type: "heading", level: 2, text: "Bank Account Requirements" },
-    {
-      type: "paragraph",
-      text: "Almost all lenders require an active bank account for two purposes: depositing the loan funds and setting up automatic repayments.",
-    },
-    {
-      type: "paragraph",
-      text: "The account should be in your name and have been open for at least one to three months. Some lenders review your bank account activity to assess financial behavior—regular deposits, no frequent overdrafts, and responsible spending patterns all strengthen your application.",
+      text: "If your DTI runs too high, paying down existing debt, boosting income, or requesting a smaller loan can all bring it back in range.",
     },
 
-    { type: "heading", level: 2, text: "Complete Application Checklist" },
+    { type: "heading", level: 2, text: "Bank Account" },
     {
       type: "paragraph",
-      text: "Having everything ready before you apply speeds up the process and prevents delays due to missing information.",
+      text: "You'll need an active account, both for receiving funds and for automatic repayment.",
+    },
+    {
+      type: "paragraph",
+      text: "It should be in your name and open at least 1-3 months. Some lenders look at your recent activity — regular deposits, no frequent overdrafts — as part of the assessment.",
+    },
+
+    { type: "heading", level: 2, text: "What to Have Ready" },
+    {
+      type: "paragraph",
+      text: "Assembling everything in advance saves real time.",
     },
     {
       type: "list",
       items: [
-        "Government-issued photo ID",
-        "Social Insurance Number (SIN)",
-        "Proof of current address (utility bill, bank statement, or lease)",
-        "Recent pay stubs or income documentation",
-        "Bank statements from the past 2-3 months",
-        "List of current debts and monthly payments",
-        "Contact information for your employer (some lenders verify employment)",
-        "CRA Notice of Assessment (if self-employed)",
+        "Government photo ID",
+        "SIN",
+        "Proof of current address",
+        "Recent pay stubs or income documents",
+        "2-3 months of bank statements",
+        "A list of current debts and payments",
+        "Your employer's contact info, if requested",
+        "CRA Notice of Assessment, if self-employed",
       ],
     },
     {
       type: "callout",
-      text: "Preparation Tip: Scan or photograph all documents before starting the application. Having them ready to upload can reduce processing time from days to hours.",
+      text: "Scan or photograph everything before you start the application — it can cut processing from days to hours.",
     },
 
     {
@@ -123,27 +123,27 @@ const content: GuideContent = {
         {
           question: "What is the most important requirement for a personal loan?",
           answer:
-            "Income verification is one of the most critical requirements — lenders need to confirm you earn enough to make loan payments without financial hardship. Most Canadian lenders require a minimum monthly income between $800 and $1,500.",
+            "Income verification — lenders need confidence you can make the payments. Most set a minimum monthly income between $800 and $1,500.",
         },
         {
           question: "Can I get a personal loan without a credit check?",
           answer:
-            "There's no single universal minimum score, and some online and alternative lenders evaluate applications with no minimum score at all. Even so, most lenders still perform some form of credit inquiry to determine your rate, so a full check-free loan is uncommon.",
+            "Some online and alternative lenders evaluate applications with no strict minimum score, but most still run some form of credit inquiry to set your rate, so a fully check-free loan is uncommon.",
         },
         {
           question: "Do I need a SIN to apply?",
           answer:
-            "Yes. A valid Social Insurance Number is required for credit check purposes as part of identity verification.",
+            "Yes — a valid SIN is required for the credit check as part of identity verification.",
         },
         {
           question: "How long does the approval process take?",
           answer:
-            "It varies by lender, but having your documents ready — ID, income proof, and bank statements — can reduce processing time from days to hours. Many online applications receive a decision within minutes to a few business days.",
+            "It varies, but having documents ready beforehand can shrink it from days to hours. Many online applications decide within minutes to a few business days.",
         },
         {
           question: "Can I apply if I recently changed jobs?",
           answer:
-            "Yes, but be ready to provide extra documentation. Some lenders require an employment verification letter, and having recent pay stubs or bank statements showing regular deposits helps demonstrate income stability even with a short work history at your current job.",
+            "Yes, though be ready with extra documentation — some lenders want an employment verification letter, and recent pay stubs or bank statements showing regular deposits help even with a short tenure.",
         },
       ],
     },

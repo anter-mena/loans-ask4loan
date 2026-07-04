@@ -2,63 +2,63 @@ import type { GuideContent } from "@/lib/guides";
 
 const content: GuideContent = {
   subtitle:
-    "What to know before cosigning a personal loan in Canada — the real risks, legal obligations, and alternatives worth considering first.",
+    "Cosigning a loan in Canada is a bigger commitment than most people realize — here's what you're actually agreeing to before you sign.",
   blocks: [
-    { type: "heading", level: 2, text: "Step-by-Step Guide" },
+    { type: "heading", level: 2, text: "Understanding the Commitment" },
 
-    { type: "heading", level: 3, text: "1. What Cosigning Actually Means" },
+    { type: "heading", level: 3, text: "1. What You're Actually Signing Up For" },
     {
       type: "paragraph",
-      text: "When you cosign a loan, you're not just vouching for the borrower — you're legally agreeing to repay the full loan yourself if they don't. The debt appears on your credit report as if it were your own, and it counts against your own debt-to-income ratio for any future borrowing.",
+      text: "Cosigning isn't a character reference — it's a legal promise to repay the entire loan if the primary borrower doesn't. The debt shows up on your credit report exactly as if you'd taken it out yourself, and it counts against your own future borrowing capacity.",
     },
     {
       type: "callout",
-      text: "Pro Tip: A cosigner is not the same as a co-applicant — a cosigner typically has no right to the loan funds or the item purchased with them, only the obligation to repay.",
+      text: "A cosigner isn't the same as a co-applicant — you typically get none of the loan funds or the item it bought, only the obligation to repay it.",
     },
 
-    { type: "heading", level: 3, text: "2. Why Lenders Ask for a Cosigner" },
+    { type: "heading", level: 3, text: "2. Why a Lender Wants One" },
     {
       type: "paragraph",
-      text: "Lenders request a cosigner when the primary applicant has limited credit history, a lower income, or a credit score below their approval threshold. Adding a cosigner with stronger credit reduces the lender's risk and can also secure a better interest rate for the primary borrower.",
+      text: "Lenders ask for a cosigner when the applicant's credit history is thin, income is modest, or the score sits below their cutoff. A cosigner with stronger credit lowers the lender's risk and can unlock a better rate for the borrower.",
     },
 
-    { type: "heading", level: 3, text: "3. The Real Risks You're Taking On" },
+    { type: "heading", level: 3, text: "3. The Risk You're Genuinely Taking On" },
     {
       type: "paragraph",
-      text: "If the primary borrower misses a payment, it shows up on your credit report too, even if you were never told. If they default entirely, you become fully responsible for the remaining balance, and the lender can pursue collections against you directly, not just the borrower.",
+      text: "Miss a payment and it lands on your credit report too — sometimes without any notice to you. A full default makes you responsible for the entire remaining balance, and collections can come after you directly, not just the original borrower.",
     },
     {
       type: "callout",
-      text: "Pro Tip: Ask the lender whether they'll notify you directly if a payment is missed — many won't automatically, so you could be blindsided months later.",
+      text: "Ask upfront whether the lender will notify you if a payment is missed — many won't automatically, leaving you to find out much later.",
     },
 
-    { type: "heading", level: 3, text: "4. How It Affects Your Own Borrowing Power" },
+    { type: "heading", level: 3, text: "4. The Effect on Your Own Finances" },
     {
       type: "paragraph",
-      text: "The full loan balance and monthly payment count against your debt-to-income ratio, even though you're not the one using the funds. This can make it harder for you to qualify for your own mortgage, car loan, or line of credit while the cosigned loan is outstanding.",
+      text: "The entire loan balance and payment count toward your own debt-to-income ratio, even though someone else is using the money. That can make it harder for you to qualify for your own mortgage, auto loan, or line of credit while the cosigned loan is still open.",
     },
 
-    { type: "heading", level: 3, text: "5. Can You Be Removed as a Cosigner?" },
+    { type: "heading", level: 3, text: "5. Getting Off the Loan Later" },
     {
       type: "paragraph",
-      text: "Some lenders offer a cosigner release once the primary borrower has made a set number of consecutive on-time payments and can qualify on their own credit. This isn't automatic or universal — ask the lender in writing before signing whether a release option exists and what it requires.",
+      text: "Some lenders will release a cosigner once the borrower has a track record of on-time payments and can qualify solo. It's not standard across the industry — get it in writing before you sign whether a release option exists and what it takes to qualify.",
     },
 
-    { type: "heading", level: 3, text: "6. Alternatives Worth Considering First" },
+    { type: "heading", level: 3, text: "6. What to Consider Instead" },
     {
       type: "paragraph",
-      text: "Before cosigning, consider whether a smaller loan amount, a secured loan backed by the borrower's own collateral, or simply helping them build credit with a secured credit card first might reduce the risk to both of you.",
+      text: "Before agreeing to cosign, weigh whether a smaller loan, a secured loan against the borrower's own asset, or simply helping them build credit through a secured card might lower the risk for both of you.",
     },
 
-    { type: "heading", level: 2, text: "Additional Tips for Success" },
+    { type: "heading", level: 2, text: "A Few Practical Safeguards" },
     {
       type: "list",
       items: [
-        "Only cosign an amount you could comfortably repay yourself if needed",
-        "Get payment notifications set up so you're not blindsided by a missed payment",
-        "Ask about a cosigner release option in writing before signing",
-        "Keep a copy of the loan agreement for your own records",
-        "Reassess your own borrowing plans while the cosigned loan is outstanding",
+        "Only cosign an amount you could cover yourself if it came to that",
+        "Set up payment alerts so a missed payment doesn't blindside you",
+        "Get any cosigner-release terms in writing before signing",
+        "Hold onto your own copy of the loan agreement",
+        "Factor the cosigned loan into your own borrowing plans while it's outstanding",
       ],
     },
 
@@ -68,27 +68,27 @@ const content: GuideContent = {
         {
           question: "What am I responsible for if I cosign a loan?",
           answer:
-            "You're legally agreeing to repay the full loan yourself if the primary borrower doesn't. The debt appears on your own credit report as if it were yours, and it counts against your own debt-to-income ratio for any future borrowing.",
+            "The full loan, if the primary borrower stops paying. It appears on your own credit report as if it were your debt, and counts against your own debt-to-income ratio going forward.",
         },
         {
           question: "Will cosigning affect my ability to get my own loan?",
           answer:
-            "Yes. The full loan balance and monthly payment count against your debt-to-income ratio, even though you're not the one using the funds. This can make it harder to qualify for your own mortgage, car loan, or line of credit while the cosigned loan is outstanding.",
+            "Yes — the balance and payment count against your debt-to-income ratio even though you're not using the funds, which can make qualifying for your own mortgage or auto loan harder while the cosigned loan remains open.",
         },
         {
           question: "Can I be removed as a cosigner later?",
           answer:
-            "Some lenders offer a cosigner release once the primary borrower has made a set number of consecutive on-time payments and can qualify on their own credit. This isn't automatic or offered by every lender—ask in writing before signing whether a release option exists and what it requires.",
+            "Some lenders allow a release once the borrower has a solid on-time payment history and can qualify independently — but it's not universal, so confirm in writing before signing whether it's an option.",
         },
         {
           question: "What happens if the primary borrower misses a payment?",
           answer:
-            "A missed payment shows up on your credit report too, even if you were never told. If the borrower defaults entirely, you become fully responsible for the remaining balance and the lender can pursue collections against you directly.",
+            "It shows up on your credit report too, sometimes without any notice. A full default makes you responsible for the remaining balance, and the lender can pursue you directly for it.",
         },
         {
           question: "Are there alternatives to cosigning?",
           answer:
-            "Before cosigning, consider whether a smaller loan amount, a secured loan backed by the borrower's own collateral, or helping them build credit with a secured credit card first might reduce the risk to both of you.",
+            "Consider a smaller loan amount, a secured loan against the borrower's own collateral, or helping them build credit with a secured card first — any of which can lower the risk you're both taking on.",
         },
       ],
     },

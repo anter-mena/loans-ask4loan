@@ -2,117 +2,105 @@ import type { GuideContent } from "@/lib/guides";
 
 const content: GuideContent = {
   subtitle:
-    "Being between jobs does not necessarily disqualify you from borrowing. Learn what options are available and how to apply successfully.",
+    "Between jobs doesn't automatically mean no loan. Here's what income actually counts in Canada, and how to apply if you're currently unemployed.",
   blocks: [
-    { type: "heading", level: 2, text: "Can You Get a Loan While Unemployed?" },
+    { type: "heading", level: 2, text: "Can You Borrow Without a Job?" },
     {
       type: "paragraph",
-      text: "Getting a personal loan without traditional employment is challenging but not impossible. Lenders primarily want assurance that you can repay the loan, and employment income is just one way to demonstrate that.",
+      text: "It's harder without traditional employment, but far from impossible. Lenders mainly want confidence you can repay — a paycheque is one way to show that, but not the only one.",
     },
     {
       type: "paragraph",
-      text: "In Canada, many lenders accept alternative income sources including Employment Insurance (EI), Canada Pension Plan (CPP), Old Age Security (OAS), disability benefits, rental income, spousal support, and investment income. The key is proving consistent, verifiable income.",
+      text: "Many Canadian lenders accept EI, CPP, OAS, disability benefits, rental income, spousal support, or investment income as valid proof of ability to pay. What matters is that it's consistent and verifiable.",
     },
     {
       type: "paragraph",
-      text: "Your approval chances increase if you can show that your alternative income is sufficient to cover the loan payment plus your existing living expenses, with a reasonable buffer.",
+      text: "Your odds improve considerably if you can show your alternative income covers both the new payment and your existing living costs, with some room to spare.",
     },
 
-    { type: "heading", level: 2, text: "Income Sources That Lenders May Accept" },
-    {
-      type: "paragraph",
-      text: "Understanding which income sources lenders recognize helps you prepare a stronger application and target the right lenders.",
-    },
+    { type: "heading", level: 2, text: "Income Sources Lenders Often Accept" },
     {
       type: "list",
       items: [
         "Employment Insurance (EI) benefits",
-        "Canada Pension Plan (CPP) or Quebec Pension Plan (QPP)",
+        "CPP or QPP",
         "Old Age Security (OAS)",
         "Provincial disability benefits or CPPD",
-        "Workers' compensation payments",
-        "Child support or spousal support (if court-ordered)",
-        "Rental income from owned property",
-        "Investment dividends or interest income",
-        "Freelance or gig economy income (with documentation)",
+        "Workers' compensation",
+        "Court-ordered child or spousal support",
+        "Rental income from property you own",
+        "Investment dividends or interest",
+        "Freelance or gig income, with documentation",
       ],
     },
 
-    { type: "heading", level: 2, text: "How to Apply Without Traditional Employment" },
+    { type: "heading", level: 2, text: "How to Apply Without a Traditional Job" },
     {
       type: "paragraph",
-      text: "The application process for unemployed borrowers is similar to standard loan applications, but with extra emphasis on proving your income and ability to repay.",
+      text: "The application looks similar to any other, just with more weight on proving your income.",
     },
     {
       type: "paragraph",
-      text: "Gather documentation of your income source before applying. This might include benefit award letters, bank statements showing regular deposits, tax returns, or court orders for support payments. The more documentation you can provide, the stronger your application.",
+      text: "Gather whatever documents back up your income — benefit letters, bank statements showing regular deposits, tax returns, or support-payment court orders. More documentation generally means a stronger application.",
     },
     {
       type: "paragraph",
-      text: "Be honest on your application. Misrepresenting your employment status or income is fraud and will result in immediate denial if discovered—and potentially legal consequences. Many lenders have specific fields for non-employment income.",
+      text: "Be straightforward on the application — misrepresenting your employment or income is fraud, and it gets caught. Most applications have a field specifically for non-employment income.",
     },
     {
       type: "callout",
-      text: "Application Tip: List all income sources on your application, not just the primary one. Combined income from multiple sources (e.g., EI plus freelance work) can be enough to qualify.",
+      text: "List every income source, not just the main one — EI plus freelance work combined can be enough to qualify even if neither alone would be.",
     },
 
-    { type: "heading", level: 2, text: "Factors That Help or Hurt Your Application" },
-    {
-      type: "paragraph",
-      text: "Beyond income, several factors influence whether an unemployed borrower gets approved.",
-    },
+    { type: "heading", level: 2, text: "What Helps and What Hurts" },
     {
       type: "list",
       items: [
-        "Strong credit history improves chances significantly",
-        "Low existing debt (debt-to-income ratio below 40%)",
-        "Savings or assets that demonstrate financial stability",
+        "A strong credit history goes a long way",
+        "Low existing debt (under roughly 40% debt-to-income)",
+        "Savings or other assets that show financial stability",
         "A co-signer with stable employment and good credit",
-        "Collateral for a secured loan (vehicle, savings account)",
-        "Short gap in employment (recently unemployed vs. long-term)",
+        "Collateral for a secured loan",
+        "A recent, short employment gap reads better than long-term unemployment",
       ],
     },
 
-    { type: "heading", level: 2, text: "Expected Rates and Terms" },
+    { type: "heading", level: 2, text: "Rates and Amounts to Expect" },
     {
       type: "paragraph",
-      text: "Loans for unemployed borrowers typically carry higher interest rates because lenders view them as higher risk. The exact rate depends on your overall financial profile and the type of income you receive.",
+      text: "Lenders view unemployed borrowers as higher risk, so rates run higher — typically 25% to 35% APR. A secured loan or a co-signer can bring that down.",
     },
     {
       type: "paragraph",
-      text: "In Canada, expect rates between 25% and 35% APR for most unemployed borrowers. Secured loans or loans with a co-signer may qualify for lower rates. Loan amounts are typically smaller, ranging from $300 to $3,000.",
+      text: "Amounts also tend to be smaller, generally $300 to $3,000.",
     },
 
-    { type: "heading", level: 2, text: "Alternatives to Personal Loans for Unemployed Borrowers" },
-    {
-      type: "paragraph",
-      text: "If a personal loan is not accessible or affordable, other resources may help bridge the financial gap during unemployment.",
-    },
+    { type: "heading", level: 2, text: "Other Options Worth Checking First" },
     {
       type: "list",
       items: [
-        "Employment Insurance (EI) provides up to 55% of previous earnings",
+        "EI, which covers up to 55% of previous earnings",
         "Provincial social assistance programs",
-        "Provincial emergency assistance and social services",
-        "Food banks and community support organizations",
-        "Non-profit credit counselling (free advice)",
-        "Negotiating payment deferrals with existing creditors",
+        "Emergency assistance and social services",
+        "Food banks and community organizations",
+        "Free non-profit credit counselling",
+        "Negotiating a payment deferral directly with existing creditors",
         "Community micro-loan programs",
       ],
     },
 
-    { type: "heading", level: 2, text: "Risks of Borrowing While Unemployed" },
+    { type: "heading", level: 2, text: "The Real Risk of Borrowing While Unemployed" },
     {
       type: "paragraph",
-      text: "Borrowing while unemployed carries additional risks that require careful consideration. Without stable income, the risk of defaulting on the loan is higher, which would further damage your credit and financial situation.",
+      text: "Without stable income, default risk is genuinely higher, and a default would set your credit back further at exactly the wrong time.",
     },
     {
       type: "paragraph",
-      text: "Only borrow if you have a clear plan to repay—whether through expected re-employment, ongoing benefit income, or other means. Borrowing money to cover basic expenses during extended unemployment can lead to a debt spiral.",
+      text: "Only borrow with a clear repayment plan in mind — re-employment on the horizon, ongoing benefits, or another concrete path. Using debt to cover basic living costs during extended unemployment can spiral quickly.",
     },
     {
       type: "paragraph",
-      text: "If you are struggling with multiple debts and unemployment, a non-profit credit counsellor can help you evaluate options like debt management plans, negotiating with creditors, or in severe cases, insolvency options.",
+      text: "If unemployment and existing debt are colliding, a non-profit credit counsellor can help map out options — a debt management plan, creditor negotiation, or, in serious cases, formal insolvency options.",
     },
 
     {
@@ -121,27 +109,27 @@ const content: GuideContent = {
         {
           question: "Can I get a loan on unemployment benefits?",
           answer:
-            "Yes. Many Canadian lenders accept alternative income sources including Employment Insurance (EI), CPP/QPP, OAS, and disability benefits. The key is proving consistent, verifiable income that's sufficient to cover the loan payment plus your existing living expenses.",
+            "Yes — many lenders accept EI, CPP/QPP, OAS, and disability benefits as valid income, as long as it's consistent and sufficient to cover the payment plus your existing expenses.",
         },
         {
           question: "Do I need a co-signer?",
           answer:
-            "Not necessarily, but it helps. A co-signer with stable employment and good credit is one of several factors that can strengthen your application, alongside a strong credit history, low existing debt, and any savings or collateral you can offer.",
+            "Not necessarily, but it strengthens your application considerably, alongside a solid credit history, low existing debt, and any savings or collateral you can offer.",
         },
         {
           question: "How much can I borrow while unemployed?",
           answer:
-            "Loan amounts for unemployed borrowers are typically smaller, generally ranging from $300 to $3,000, with expected rates between 25% and 35% APR. Secured loans or loans with a co-signer may qualify for lower rates and potentially larger amounts.",
+            "Generally $300 to $3,000, at rates typically between 25% and 35% APR. A co-signer or secured loan can improve both the amount and the rate.",
         },
         {
           question: "What if I just lost my job?",
           answer:
-            "A recent, short gap in employment is viewed more favourably than long-term unemployment. In the meantime, EI benefits can provide up to 55% of your previous earnings, which many lenders will recognize as verifiable income.",
+            "A short, recent gap is viewed far more favourably than long-term unemployment. EI covering up to 55% of prior earnings is often recognized as verifiable income in the meantime.",
         },
         {
           question: "Will borrowing while unemployed hurt my credit?",
           answer:
-            "It can, if you're unable to keep up with payments. Without stable income, the risk of defaulting is higher, which would damage your credit further. Only borrow if you have a clear repayment plan, whether through expected re-employment or ongoing benefit income.",
+            "It can if you can't keep up with payments — default risk is higher without stable income. Only borrow with a genuine repayment plan in place.",
         },
       ],
     },

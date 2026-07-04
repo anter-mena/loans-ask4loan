@@ -63,7 +63,13 @@ function AccordionContent({
   return (
     <AccordionPrimitive.Content
       data-slot="accordion-content"
-      className="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
+      // Keep collapsed content mounted instead of unmounting it, so answer text is
+      // present in the server-rendered HTML for crawlers instead of only appearing
+      // after a user click. forceMount disables Radix's own `hidden`-attribute
+      // toggle (which previously did the collapsing), so `data-closed:h-0` takes
+      // over enforcing the resting collapsed height.
+      forceMount
+      className="overflow-hidden text-sm data-closed:h-0 data-open:animate-accordion-down data-closed:animate-accordion-up"
       {...props}
     >
       <div

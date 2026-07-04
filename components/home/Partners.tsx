@@ -39,6 +39,7 @@ const Partners = () => {
             <Marquee
               className={`[--duration:35s] marquee-fade ${isPaused ? 'paused' : ''}`}
               pauseOnHover={false}
+              repeat={2}
             >
               {partnerLogos.map((partner, index) => (
                 <div

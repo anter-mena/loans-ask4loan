@@ -2,61 +2,61 @@ import type { GuideContent } from "@/lib/guides";
 
 const content: GuideContent = {
   subtitle:
-    "Learn what credit utilization is, how it's calculated, and why keeping it low is one of the fastest ways to improve your credit score and loan approval odds in Canada.",
+    "Credit utilization quietly drives a big chunk of your score. Here's what it is, how it's measured, and the fastest ways to bring it down.",
   blocks: [
-    { type: "heading", level: 2, text: "Step-by-Step Guide" },
+    { type: "heading", level: 2, text: "Getting Utilization Under Control" },
 
-    { type: "heading", level: 3, text: "1. What Is Credit Utilization?" },
+    { type: "heading", level: 3, text: "1. What This Number Actually Measures" },
     {
       type: "paragraph",
-      text: "Credit utilization is the percentage of your available revolving credit — mainly credit cards and lines of credit — that you're currently using. If you have a credit card with a $5,000 limit and carry a $1,500 balance, your utilization on that card is 30%.",
+      text: "Utilization is simply how much of your available revolving credit — cards and lines of credit — you're currently carrying as a balance. A $1,500 balance on a $5,000-limit card puts that card's utilization at 30%.",
     },
     {
       type: "callout",
-      text: "Pro Tip: Utilization is calculated both per card and across all your revolving accounts combined, so one maxed-out card can hurt you even if others are near zero.",
+      text: "It's calculated per card and across everything combined, so one maxed-out card drags down your overall number even if your others sit near zero.",
     },
 
-    { type: "heading", level: 3, text: "2. Why It Matters to Lenders" },
+    { type: "heading", level: 3, text: "2. Why Lenders Care So Much" },
     {
       type: "paragraph",
-      text: "Credit utilization is one of the biggest factors in your credit score, second only to payment history. High utilization signals to lenders that you may be relying heavily on credit, which increases perceived risk. This applies to both your credit score and how personal loan lenders assess your application.",
+      text: "After payment history, utilization is the single biggest factor in your credit score. A high number tells lenders you're leaning heavily on credit, which reads as elevated risk — and that shapes both your score and how a personal loan lender evaluates you.",
     },
 
-    { type: "heading", level: 3, text: "3. What Counts as a Good Ratio" },
+    { type: "heading", level: 3, text: "3. What Counts as a Healthy Ratio" },
     {
       type: "paragraph",
-      text: "Most Canadian credit scoring models reward keeping utilization below 30% of your total available credit. Borrowers aiming for the best rates typically keep it under 10%. A ratio near or above 90% is treated as a red flag and can significantly lower your score.",
+      text: "Canadian scoring models generally reward staying under 30% of your total available credit. If you're chasing the best possible rates, aim for under 10%. Anything near or above 90% is a genuine red flag that can drag your score down hard.",
     },
     {
       type: "callout",
-      text: "Pro Tip: Utilization is recalculated every time your statement balance is reported, so paying down a card even a few days before the statement date can measurably improve your score.",
+      text: "Your utilization resets every time a statement balance gets reported — paying down a card a few days before that date, not just the due date, can meaningfully move the number.",
     },
 
-    { type: "heading", level: 3, text: "4. How It Affects Personal Loan Applications" },
+    { type: "heading", level: 3, text: "4. The Effect on a Personal Loan Application" },
     {
       type: "paragraph",
-      text: "When you apply for a personal loan, lenders look at your credit report and your existing revolving debt load. High utilization can lower your credit score enough to push you into a higher rate tier, or in some cases affect approval altogether — even if your income comfortably supports the new payment.",
+      text: "A lender reviewing your loan application looks at both your credit report and your existing revolving balances. High utilization can push your score into a worse rate tier — or affect approval outright — even when your income would otherwise easily cover the new payment.",
     },
 
-    { type: "heading", level: 3, text: "5. Practical Ways to Lower Your Utilization" },
+    { type: "heading", level: 3, text: "5. How to Actually Bring It Down" },
     {
       type: "paragraph",
-      text: "Pay down revolving balances before your statement date, ask your card issuer for a credit limit increase (without adding new spending), spread balances across multiple cards instead of maxing one out, and avoid closing old cards, since closing a card reduces your total available credit and can raise your overall ratio.",
+      text: "Pay down balances before your statement closes rather than waiting for the due date, ask your issuer for a limit increase without adding new spending, spread balances across cards instead of concentrating on one, and think twice before closing an old card — doing so shrinks your total available credit and can push your ratio up.",
     },
     {
       type: "callout",
-      text: "Pro Tip: Making two smaller payments a month instead of one large payment at the due date can keep your reported balance consistently lower.",
+      text: "Splitting one big monthly payment into two smaller ones can keep your reported balance lower throughout the month.",
     },
 
-    { type: "heading", level: 2, text: "Additional Tips for Success" },
+    { type: "heading", level: 2, text: "Quick Reference" },
     {
       type: "list",
       items: [
-        "Check both your per-card and overall utilization — both matter",
-        "Aim for under 30%, and under 10% if you're optimizing for the best rates",
-        "Pay down balances before your statement closing date, not just the due date",
-        "Don't close old, unused cards — it can raise your overall ratio",
-        "Ask for a credit limit increase if your income and payment history support it",
+        "Check both per-card and total utilization — both matter to your score",
+        "Under 30% is the general target; under 10% if you want the best rates",
+        "Pay down balances before your statement date, not just the due date",
+        "Keep old, unused cards open rather than closing them",
+        "Ask for a limit increase if your income and history support it",
       ],
     },
 
@@ -66,27 +66,27 @@ const content: GuideContent = {
         {
           question: "What is a good credit utilization ratio?",
           answer:
-            "Most Canadian credit scoring models reward keeping utilization below 30% of your total available credit. If you're aiming for the best rates, try to keep it under 10%. A ratio near or above 90% is treated as a red flag and can significantly lower your score.",
+            "Under 30% of your total available credit is the general benchmark, with under 10% ideal if you're chasing the best rates. Anything near or above 90% is treated as a significant red flag.",
         },
         {
           question: "How is credit utilization calculated?",
           answer:
-            "It's calculated as your balance divided by your credit limit, both per card and across all your revolving accounts combined. That means one maxed-out card can hurt your score even if your other cards carry little to no balance.",
+            "Balance divided by limit, both per card and across all your revolving accounts together — which is why a single maxed-out card can hurt you even if the rest sit at zero.",
         },
         {
           question: "Does paying my card off by the due date lower my utilization?",
           answer:
-            "Not necessarily. Utilization is recalculated whenever your statement balance is reported to the credit bureau—not on the due date. Paying down your balance a few days before your statement date can measurably improve what gets reported.",
+            "Not necessarily. What gets reported to the bureau is your statement balance, not whatever it is on the due date. Paying down the balance a few days before the statement closes has a bigger effect.",
         },
         {
           question: "Should I close old credit cards to improve my score?",
           answer:
-            "No. Closing a card reduces your total available credit, which raises your overall utilization ratio even if your spending stays the same. It's generally better to keep old, unused cards open.",
+            "Generally no — closing a card shrinks your total available credit, which raises your overall ratio even if your spending doesn't change. Keeping old, unused cards open is usually the better move.",
         },
         {
           question: "How does credit utilization affect my personal loan application?",
           answer:
-            "Lenders review your existing revolving debt load alongside your credit report. High utilization can lower your credit score enough to push you into a higher rate tier, or in some cases affect approval, even if your income comfortably supports the new payment.",
+            "Lenders weigh your existing revolving debt alongside your credit report. High utilization can bump you into a worse rate tier, or affect approval entirely, even if your income comfortably supports the new payment.",
         },
       ],
     },

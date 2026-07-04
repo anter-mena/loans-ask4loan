@@ -2,71 +2,71 @@ import type { GuideContent } from "@/lib/guides";
 
 const content: GuideContent = {
   subtitle:
-    "Complete guide to Alberta lending regulations, payday loan caps under the Fair Trading Act, and consumer protections. Know your borrowing rights in AB.",
+    "What Alberta's lending rules actually mean for you — payday loan caps under the Fair Trading Act, APR limits, and where to turn if something goes wrong.",
   blocks: [
     {
       type: "paragraph",
-      text: "Alberta regulates consumer lending to ensure fair treatment. Understanding these rules protects you when borrowing in the province.",
+      text: "Alberta has its own layer of consumer lending rules on top of the federal framework. Knowing them protects you whether you're taking out a payday loan or a personal loan.",
     },
 
-    { type: "heading", level: 2, text: "Payday Lending in Alberta" },
+    { type: "heading", level: 2, text: "Payday Loans in Alberta" },
     {
       type: "paragraph",
-      text: "Alberta's Payday Loans Regulation caps costs at $15 per $100 borrowed. All payday lenders must be licensed by Service Alberta. The maximum payday loan is 50% of your net pay. Rollovers are prohibited — a lender cannot issue a new payday loan to pay off an existing one. Alberta also requires a 2-business-day cooling-off period.",
+      text: "The province's Payday Loans Regulation caps the cost at $15 per $100 borrowed, and every payday lender needs a Service Alberta license. A single payday loan can't exceed 50% of your net pay, rollovers are banned outright — a lender can't issue a new payday loan to clear an existing one — and Alberta gives you a 2-business-day cooling-off window to cancel.",
     },
     {
       type: "callout",
-      text: "Pro Tip: Alberta was one of the first provinces to regulate payday lending. If a lender isn't licensed, do not borrow from them.",
+      text: "Alberta was among the first provinces to regulate payday lending. If a lender isn't licensed, don't borrow from them.",
     },
 
-    { type: "heading", level: 2, text: "Criminal Rate and APR Caps" },
+    { type: "heading", level: 2, text: "The Federal Rate Cap Still Applies" },
     {
       type: "paragraph",
-      text: "The federal 35% APR criminal rate cap applies in Alberta. This includes all fees, charges, and interest expressed as an annual rate. Alberta's Consumer Protection Act further prohibits unfair practices including hidden fees and misleading cost disclosures in lending agreements.",
+      text: "The 35% APR criminal rate cap covers Alberta just like everywhere else in Canada, factoring in every fee and charge. On top of that, Alberta's Consumer Protection Act bans unfair practices like hidden fees and misleading cost disclosures.",
     },
     {
       type: "callout",
-      text: "Pro Tip: Ask for the total cost of borrowing in writing before signing any loan agreement. Compare the APR across multiple lenders.",
+      text: "Get the total cost of borrowing in writing before signing anything, and compare it across a few lenders.",
     },
 
-    { type: "heading", level: 2, text: "Consumer Protection Act Provisions" },
+    { type: "heading", level: 2, text: "What the Consumer Protection Act Covers" },
     {
       type: "paragraph",
-      text: "Alberta's Consumer Protection Act provides broad protections: lenders must provide clear cost disclosures, unfair contract terms can be challenged, misleading advertising is prohibited, and consumers have remedies for non-compliant lending. The Fair Trading Act also governs business practices.",
+      text: "Alberta's Act gives borrowers broad protection: clear cost disclosure is mandatory, unfair contract terms can be challenged, misleading advertising is prohibited, and there are formal remedies if a lender doesn't comply. The Fair Trading Act governs the broader business conduct around it.",
     },
     {
       type: "callout",
-      text: "Pro Tip: If you believe a lender has violated the Consumer Protection Act, file a complaint with Service Alberta.",
+      text: "If you believe a lender has broken the Consumer Protection Act, file a complaint with Service Alberta.",
     },
 
-    { type: "heading", level: 2, text: "Debt Collection in Alberta" },
+    { type: "heading", level: 2, text: "Rules Around Debt Collection" },
     {
       type: "paragraph",
-      text: "Alberta's Collection and Debt Repayment Practices Regulation limits collector behaviour. Collectors cannot contact you between 10 PM and 7 AM, cannot threaten legal action they don't intend to take, must identify themselves clearly, and cannot contact you more than 3 times per week. All collectors must be licensed.",
+      text: "Alberta's Collection and Debt Repayment Practices Regulation limits what a collector can do: no contact between 10 PM and 7 AM, no threats of legal action they don't actually intend to pursue, mandatory self-identification, and a cap of 3 contacts per week. Every collector operating in the province must be licensed.",
     },
     {
       type: "callout",
-      text: "Pro Tip: Alberta has a limitation period for debt collection. After 2 years of no payment or acknowledgement, most debts become statute-barred.",
+      text: "After roughly 2 years with no payment or acknowledgement, most Alberta debts become statute-barred.",
     },
 
-    { type: "heading", level: 2, text: "Alberta Resources" },
+    { type: "heading", level: 2, text: "Where to Get Help in Alberta" },
     {
       type: "paragraph",
-      text: "Service Alberta handles consumer complaints (1-877-427-4088). Money Mentors (formerly Credit Counselling Services of Alberta) offers free financial counselling. Legal Aid Alberta provides assistance for qualifying residents.",
+      text: "Service Alberta handles complaints at 1-877-427-4088. Money Mentors offers free financial counselling province-wide, and Legal Aid Alberta assists qualifying residents.",
     },
     {
       type: "callout",
-      text: "Pro Tip: Money Mentors is Alberta's only non-profit credit counselling organization and offers free, confidential financial guidance.",
+      text: "Money Mentors is Alberta's only non-profit credit counselling organization, and it's free and confidential.",
     },
 
-    { type: "heading", level: 2, text: "Additional Tips for Success" },
+    { type: "heading", level: 2, text: "Quick Reference" },
     {
       type: "list",
       items: [
-        "Payday loans cannot exceed 50% of net pay",
-        "2 business days available to cancel payday loans",
-        "Service Alberta maintains a registry of licensed lenders",
-        "Money Mentors provides free non-profit credit counselling",
+        "Payday loans capped at 50% of net pay",
+        "2 business days to cancel a payday loan",
+        "Service Alberta maintains a public registry of licensed lenders",
+        "Money Mentors offers free non-profit credit counselling",
       ],
     },
 
@@ -76,27 +76,27 @@ const content: GuideContent = {
         {
           question: "What's the maximum cost of a payday loan in Alberta?",
           answer:
-            "Alberta's Payday Loans Regulation caps costs at $15 per $100 borrowed, and a payday loan cannot exceed 50% of your net pay. All payday lenders must be licensed by Service Alberta.",
+            "$15 per $100 borrowed under the Payday Loans Regulation, and no more than 50% of your net pay. All payday lenders must be licensed by Service Alberta.",
         },
         {
           question: "Can I cancel a payday loan after signing in Alberta?",
           answer:
-            "Yes. Alberta requires a 2-business-day cooling-off period, during which you can cancel a payday loan. Lenders are also prohibited from issuing a new payday loan to pay off an existing one (rollovers).",
+            "Yes — Alberta gives you a 2-business-day cooling-off period to cancel. Rollovers, where a lender issues a new loan to pay off an existing one, are banned outright.",
         },
         {
           question: "Is there a cap on interest rates for personal loans in Alberta?",
           answer:
-            "Yes. The federal 35% APR criminal rate cap applies in Alberta, covering all fees, charges, and interest expressed as an annual rate. Alberta's Consumer Protection Act also prohibits hidden fees and misleading cost disclosures.",
+            "Yes — the federal 35% APR cap applies, covering all fees and charges as an annual rate. Alberta's Consumer Protection Act separately bans hidden fees and misleading cost disclosures.",
         },
         {
           question: "What are debt collectors allowed to do in Alberta?",
           answer:
-            "Under Alberta's Collection and Debt Repayment Practices Regulation, collectors cannot contact you between 10 PM and 7 AM, cannot threaten legal action they don't intend to take, must identify themselves, and cannot contact you more than 3 times per week. All collectors must be licensed.",
+            "They can't contact you between 10 PM and 7 AM, can't threaten legal action they don't intend to take, must identify themselves, and are capped at 3 contacts per week. Every collector must be licensed.",
         },
         {
           question: "Where can I get free help with debt in Alberta?",
           answer:
-            "Money Mentors is Alberta's only non-profit credit counselling organization and offers free, confidential financial guidance. You can also contact Service Alberta (1-877-427-4088) or Legal Aid Alberta for qualifying residents.",
+            "Money Mentors offers free, confidential financial counselling province-wide. Service Alberta (1-877-427-4088) and Legal Aid Alberta are also available for qualifying residents.",
         },
       ],
     },

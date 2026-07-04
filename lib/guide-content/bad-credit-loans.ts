@@ -2,61 +2,61 @@ import type { GuideContent } from "@/lib/guides";
 
 const content: GuideContent = {
   subtitle:
-    "Bad credit? No problem. Apply for bad credit loans in Canada with flexible approval criteria. Get $300-$5,000 regardless of credit history.",
+    "A low credit score doesn't have to be a dead end. Here's how bad credit loans actually work in Canada, what they cost, and how to use one to move forward.",
   blocks: [
-    { type: "heading", level: 2, text: "What Are Bad Credit Loans and How Do They Work in Canada?" },
+    { type: "heading", level: 2, text: "What a Bad Credit Loan Actually Is" },
     {
       type: "paragraph",
-      text: "Having a low credit score doesn't mean you can't access financing when you need it. Bad credit loans in Canada are specifically designed for borrowers whose credit history makes them ineligible for traditional bank loans. These loans provide a second chance for Canadians who have faced financial difficulties but need access to funds.",
+      text: "A weak credit score doesn't automatically shut you out of borrowing. Bad credit loans exist specifically for Canadians who wouldn't clear a traditional bank's approval bar but still need access to funds — a second look rather than a flat no.",
     },
     {
       type: "paragraph",
-      text: "In Canada, \"bad credit\" typically refers to a credit score below 600. This can result from various circumstances: missed payments, defaults, bankruptcies, consumer proposals, high credit utilization, or simply a limited credit history. While major banks may decline applications from borrowers with low scores, alternative lenders specialize in evaluating the whole financial picture.",
+      text: "\"Bad credit\" in the Canadian context generally means a score under 600, which can stem from missed payments, a past default or bankruptcy, a consumer proposal, heavy credit utilization, or simply not having much credit history to speak of yet. Where a bank might stop at the score, alternative lenders are built to look at the fuller picture.",
     },
     {
       type: "paragraph",
-      text: "Bad credit loans work similarly to regular personal loans—you receive a lump sum and repay it in fixed monthly installments over a set term. The key difference is that lenders focus less on your credit score and more on your current financial situation: your income stability, employment history, and ability to afford the payments.",
+      text: "Mechanically, these loans work the same way as any personal loan — a lump sum, repaid in fixed installments over an agreed term. What's different is the underwriting: less weight on the number itself, more on whether your current income can comfortably support the payment.",
     },
 
-    { type: "heading", level: 2, text: "Who Benefits Most from Bad Credit Loans in Canada?" },
+    { type: "heading", level: 2, text: "Who Tends to Use These Loans" },
     {
       type: "paragraph",
-      text: "Bad credit loans serve Canadians who find themselves excluded from traditional lending options. You might benefit if:",
+      text: "A few situations come up again and again among borrowers who turn to bad credit loans:",
     },
     {
       type: "list",
       items: [
-        "You've experienced past financial difficulties: Life events like job loss, divorce, illness, or other circumstances may have damaged your credit, but your current situation is stable.",
-        "You're recovering from bankruptcy or consumer proposal: After completing these processes, rebuilding credit takes time. Bad credit loans can help bridge the gap.",
-        "You have limited credit history: New Canadians, young adults, or anyone who hasn't used credit extensively may have low scores simply due to lack of history.",
-        "You need funds for essential expenses: When emergencies arise and traditional lenders say no, bad credit loans provide an alternative.",
-        "You want to rebuild your credit: Many bad credit lenders report to credit bureaus, meaning on-time payments can help improve your score over time.",
-        "Your income is stable despite past credit issues: If you have steady employment or reliable income, lenders may approve you based on your ability to repay rather than past mistakes.",
+        "A rough patch in the past: A layoff, illness, divorce, or similar event dented your credit, but your finances have since stabilized.",
+        "Coming out of bankruptcy or a consumer proposal: Credit takes time to rebuild after either process, and these loans can help bridge that stretch.",
+        "A thin credit file: Newcomers to Canada, younger borrowers, or anyone who simply hasn't used credit much can have a low score without any history of trouble.",
+        "An expense that can't wait: When a bank says no and the bill is due anyway, this becomes the practical alternative.",
+        "Wanting to actively rebuild: Many lenders in this space report to the credit bureaus, so consistent on-time payments can move your score in the right direction.",
+        "Stable income despite past issues: Steady employment can carry more weight than old mistakes for lenders evaluating your ability to repay.",
       ],
     },
     {
       type: "paragraph",
-      text: "It's important to understand that bad credit loans are a tool for rebuilding, not a long-term borrowing strategy. The goal should be to use them responsibly, make timely payments, and gradually qualify for better lending products as your credit improves.",
+      text: "Worth keeping in mind: these loans work best as a rebuilding tool, not a habit. Use them deliberately, pay on time, and treat qualifying for better terms down the road as the actual goal.",
     },
 
-    { type: "heading", level: 2, text: "Understanding Your Credit Score in Canada" },
+    { type: "heading", level: 2, text: "How Your Credit Score Is Actually Built" },
     {
       type: "paragraph",
-      text: "Your credit score in Canada ranges from 300 to 900 and is calculated by Equifax and TransUnion based on:",
+      text: "Canadian scores run 300 to 900, calculated by Equifax and TransUnion from five weighted factors:",
     },
     {
       type: "list",
       items: [
-        "Payment History (35%): Whether you pay bills on time",
-        "Credit Utilization (30%): How much of your available credit you're using",
-        "Credit History Length (15%): How long you've had credit accounts",
-        "Credit Mix (10%): Variety of credit types (loans, credit cards, etc.)",
-        "New Credit (10%): Recent credit applications and new accounts",
+        "Payment history (35%): whether bills get paid on time",
+        "Credit utilization (30%): how much of your available credit is in use",
+        "Length of credit history (15%): how long your accounts have been open",
+        "Credit mix (10%): the variety of credit types you carry",
+        "New credit (10%): how many recent applications and new accounts you have",
       ],
     },
     {
       type: "paragraph",
-      text: "Here's how scores are generally categorized:",
+      text: "The tiers break down roughly like this:",
     },
     {
       type: "list",
@@ -70,148 +70,144 @@ const content: GuideContent = {
     },
     {
       type: "paragraph",
-      text: "If your score falls below 600, traditional lenders view you as high-risk. However, alternative lenders have developed models that look beyond this single number.",
+      text: "A score under 600 reads as high-risk to a traditional bank, but alternative lenders have built underwriting models that don't stop at that single number.",
     },
 
-    { type: "heading", level: 2, text: "Typical Interest Rates and Terms for Bad Credit Loans in Canada" },
+    { type: "heading", level: 2, text: "What These Loans Cost" },
     {
       type: "paragraph",
-      text: "Bad credit loans carry higher interest rates than prime lending products because lenders are taking on more risk. Here's what to expect:",
+      text: "Because lenders are taking on more risk, rates run higher than prime products. Roughly, expect:",
     },
     {
       type: "list",
       items: [
-        "Interest Rates: Typically 29.99% to 35% APR, though rates vary by lender and individual circumstances",
-        "Loan Amounts: Usually $500 to $5,000, with some lenders offering up to $10,000 for qualified borrowers",
-        "Repayment Terms: Generally 6 to 36 months, allowing for manageable monthly payments",
-        "Fees: Some lenders charge origination fees or administrative costs",
+        "Rates: usually 29.99% to 35% APR, varying by lender and file",
+        "Amounts: typically $500 to $5,000, with a handful of lenders going up to $10,000 for stronger applicants",
+        "Terms: generally 6 to 36 months",
+        "Fees: some lenders charge origination or admin costs on top",
       ],
     },
     {
       type: "paragraph",
-      text: "While these rates are higher than bank loans, they're significantly lower than payday loans (which can exceed 400% APR). When evaluating bad credit loan options, focus on the total cost of borrowing and whether the monthly payments fit your budget.",
+      text: "Higher than a bank loan, yes — but nowhere near a payday loan, which can run past 400% APR. The number that actually matters is the total cost of borrowing and whether the monthly payment fits your budget without strain.",
     },
     {
       type: "paragraph",
-      text: "Under Canadian law, lenders must disclose all costs and cannot charge more than 35% annual interest. Provincial regulations may provide additional protections depending on where you live.",
+      text: "Canada's Criminal Code caps annual interest at 35% and requires lenders to disclose the full cost upfront; some provinces layer on additional protections on top of that federal floor.",
     },
 
-    { type: "heading", level: 2, text: "How to Qualify and Apply for Bad Credit Loans in Canada" },
+    { type: "heading", level: 2, text: "Qualifying and Applying" },
     {
       type: "paragraph",
-      text: "Bad credit lenders use different criteria than traditional banks. To qualify, you typically need:",
+      text: "The bar for bad credit lenders looks different from a bank's checklist. Generally you'll need:",
     },
     {
       type: "list",
       items: [
-        "Age: 18 or 19+ (depending on province)",
-        "Residency: Canadian citizen or permanent resident",
-        "Income: Verifiable regular income (employment, self-employment, benefits, pension)",
-        "Bank Account: Active Canadian bank account",
-        "Ability to Repay: Monthly income sufficient to cover loan payments plus existing expenses",
+        "Age 18 or 19+, depending on your province",
+        "Canadian citizenship or permanent residency",
+        "Verifiable income — employment, self-employment, benefits, or pension",
+        "An active Canadian bank account",
+        "Enough monthly income to cover the payment plus your existing bills",
       ],
     },
     {
       type: "paragraph",
-      text: "The application process focuses on your current situation:",
+      text: "The process itself is straightforward:",
     },
     {
       type: "list",
       ordered: true,
       items: [
-        "Complete the online application: Provide accurate information about your income, employment, and financial situation. Most applications take 10-15 minutes.",
-        "Submit supporting documents: Lenders may request recent pay stubs, bank statements, or proof of identity. Having these ready speeds up the process.",
-        "Receive your decision: Many bad credit lenders provide decisions within hours or by the next business day.",
-        "Review the loan offer: If approved, carefully review the interest rate, fees, payment schedule, and total repayment amount.",
-        "Accept and receive funds: After signing electronically, funds are typically deposited within 1-2 business days.",
+        "Fill out the online application — most take 10-15 minutes and just need accurate income and employment details.",
+        "Send in supporting documents if asked: recent pay stubs, bank statements, or ID. Having these ready speeds things along.",
+        "Get your decision — often within hours, sometimes by the next business day.",
+        "Go over the offer carefully: rate, fees, schedule, and total repayment.",
+        "Sign and get funded, usually within one to two business days after acceptance.",
       ],
     },
 
-    { type: "heading", level: 2, text: "How Bad Credit Loans Can Help Rebuild Your Score" },
+    { type: "heading", level: 2, text: "Using One to Actually Rebuild Your Credit" },
     {
       type: "paragraph",
-      text: "One of the most valuable aspects of bad credit loans is their potential to help improve your credit over time. Here's how:",
+      text: "Done right, a bad credit loan can move your score in the right direction:",
     },
     {
       type: "list",
       items: [
-        "Payment History: Making on-time payments builds positive credit history—the most important factor in your score.",
-        "Credit Mix: Adding an installment loan to your credit profile diversifies your credit mix, which can positively impact your score.",
-        "Demonstrating Responsibility: Consistent, timely payments show future lenders you can manage credit responsibly.",
-        "Reducing Debt: Using a bad credit loan for debt consolidation can lower your credit utilization ratio if you pay off credit card balances.",
+        "Payment history: on-time payments build the single biggest input into your score.",
+        "Credit mix: adding an installment loan diversifies your file, which can help.",
+        "Track record: consistent payments signal to future lenders that you manage credit responsibly.",
+        "Lower utilization: if you use the loan to pay off card balances, your utilization ratio drops.",
       ],
     },
     {
       type: "paragraph",
-      text: "To maximize credit-building benefits:",
+      text: "A few things that maximize the benefit:",
     },
     {
       type: "list",
       items: [
-        "Choose lenders that report to Equifax and TransUnion Canada",
-        "Never miss a payment—set up automatic payments if possible",
-        "Pay more than the minimum when you can afford it",
-        "Avoid taking on additional debt while repaying the loan",
+        "Pick a lender that actually reports to Equifax and TransUnion",
+        "Set up autopay so you never miss a due date",
+        "Pay above the minimum whenever you can",
+        "Hold off on taking on more debt while this one's still outstanding",
       ],
     },
 
-    { type: "heading", level: 2, text: "Pros and Cons of Bad Credit Loans Compared to Other Options" },
-    { type: "heading", level: 3, text: "Pros of Bad Credit Loans" },
+    { type: "heading", level: 2, text: "How These Loans Stack Up Against Other Options" },
+    { type: "heading", level: 3, text: "In favour" },
     {
       type: "list",
       items: [
-        "Accessibility: Available to borrowers rejected by traditional lenders",
-        "Opportunity to rebuild credit: On-time payments improve your score",
-        "Fixed payments: Predictable monthly costs for easier budgeting",
-        "Fast approval: Many lenders offer same-day or next-day decisions",
-        "Structured repayment: Unlike credit cards, there's a clear payoff date",
+        "Open to borrowers a bank would turn away",
+        "A real path to rebuilding credit through on-time payments",
+        "Fixed payments make budgeting predictable",
+        "Decisions often come same-day or next-day",
+        "A defined payoff date, unlike revolving credit",
       ],
     },
-    { type: "heading", level: 3, text: "Cons of Bad Credit Loans" },
+    { type: "heading", level: 3, text: "Trade-offs" },
     {
       type: "list",
       negative: true,
       items: [
-        "Higher interest rates: Expect to pay more than borrowers with good credit",
-        "Smaller loan amounts: May not cover very large financial needs",
-        "Potential for predatory lenders: Important to research lenders carefully",
+        "Rates run well above what good credit gets you",
+        "Loan ceilings tend to be lower",
+        "The space attracts predatory operators, so vetting the lender matters",
       ],
     },
     {
       type: "paragraph",
-      text: "Compared to Payday Loans: Bad credit installment loans are far superior, offering lower rates, longer terms, and credit-building potential. Avoid payday loans whenever possible.",
+      text: "Versus payday loans: no contest — installment loans for bad credit beat payday loans on rate, term length, and credit-building potential every time.",
     },
     {
       type: "paragraph",
-      text: "Compared to Secured Loans: If you have assets (car, savings, home equity), secured loans may offer lower rates. However, you risk losing your collateral if you can't repay.",
+      text: "Versus secured loans: if you've got an asset to pledge, a secured loan usually beats an unsecured bad-credit loan on rate — at the cost of risking that asset if repayment goes sideways.",
     },
     {
       type: "paragraph",
-      text: "Compared to Credit Cards: If you can qualify for a secured credit card, using it responsibly may help build credit. However, credit cards don't provide the lump sum needed for larger expenses.",
+      text: "Versus credit cards: a secured credit card used responsibly can also rebuild credit, but it won't hand you the lump sum a bigger expense might require.",
     },
     {
       type: "paragraph",
-      text: "Compared to Borrowing from Family: Family loans may be interest-free but can damage relationships. Bad credit loans keep your finances private.",
+      text: "Versus borrowing from family: interest-free, sure, but it comes with relationship risk that a private, arm's-length loan avoids.",
     },
 
-    { type: "heading", level: 2, text: "Tips for Getting the Best Bad Credit Loan in Canada" },
+    { type: "heading", level: 2, text: "Getting the Best Deal You Can" },
     {
       type: "list",
       ordered: true,
       items: [
-        "Know your credit score: Get free copies of your credit reports from Equifax and TransUnion to understand where you stand.",
-        "Avoid payday lenders: Even with bad credit, you have better options than payday loans with their extreme interest rates.",
-        "Compare multiple offers: Different lenders have different criteria and rates. Apply to several to find the best terms.",
-        "Watch for red flags: Avoid lenders who guarantee approval, pressure you to sign quickly, or ask for upfront fees.",
-        "Read all terms carefully: Understand the interest rate, fees, payment schedule, and what happens if you miss a payment.",
-        "Only borrow what you need: Higher amounts mean more interest paid. Borrow the minimum necessary.",
-        "Have a repayment plan: Ensure the monthly payment fits comfortably in your budget before accepting the loan.",
-        "Use the loan for credit building: Choose a lender that reports to credit bureaus and make every payment on time.",
+        "Pull your free credit reports from Equifax and TransUnion before you start shopping",
+        "Skip payday lenders — even with bad credit, better options exist",
+        "Get quotes from more than one lender; criteria and pricing vary a lot",
+        "Watch for red flags — guaranteed approval, rushed signing, upfront fees",
+        "Read every term, including what happens if a payment is missed",
+        "Borrow only the amount you actually need",
+        "Confirm the payment fits your budget before you accept",
+        "Choose a bureau-reporting lender and pay on time, every time",
       ],
-    },
-    {
-      type: "paragraph",
-      text: "At 365 Loans Canada, we work with lenders who specialize in helping Canadians with credit challenges. Our network offers second-chance lending options designed to help you access funds today while building toward a better financial future.",
     },
     {
       type: "callout",
@@ -224,27 +220,27 @@ const content: GuideContent = {
         {
           question: "What credit score counts as \"bad credit\" in Canada?",
           answer:
-            "In Canada, a credit score below 600 is generally considered bad or poor credit. This can result from missed payments, defaults, bankruptcy, a consumer proposal, high credit utilization, or simply a limited credit history.",
+            "Generally, anything below 600. That can come from missed payments, a bankruptcy or consumer proposal, high utilization, or just a short credit history.",
         },
         {
           question: "How much can I borrow with bad credit?",
           answer:
-            "Most bad credit loans in Canada range from $500 to $5,000, though some lenders offer up to $10,000 for qualified borrowers. Repayment terms generally run from 6 to 36 months.",
+            "Most bad credit loans in Canada fall between $500 and $5,000, with some lenders extending up to $10,000 for stronger applicants. Terms typically run 6 to 36 months.",
         },
         {
           question: "What interest rate will I pay on a bad credit loan?",
           answer:
-            "Expect rates roughly between 29.99% and 35% APR, since Canadian law caps annual interest at 35% under the Criminal Code. While higher than prime bank rates, this is still far lower than payday loans, which can exceed 400% APR.",
+            "Usually somewhere between 29.99% and 35% APR — the ceiling set by the Criminal Code. Higher than a bank rate, but far below payday loans, which can top 400% APR.",
         },
         {
           question: "Can a bad credit loan help rebuild my credit score?",
           answer:
-            "Yes, if you choose a lender that reports to Equifax and TransUnion Canada. Making every payment on time builds positive payment history — the most important factor in your credit score — and can help you qualify for better rates in the future.",
+            "It can, provided the lender reports to Equifax and TransUnion. On-time payments build the payment-history factor, the single biggest input into your score, and can open the door to better rates later.",
         },
         {
           question: "How quickly can I get approved and funded?",
           answer:
-            "Many bad credit lenders provide a decision within hours or by the next business day. Once you accept your offer, funds are typically deposited within 1-2 business days.",
+            "Many lenders decide within hours or by the next business day. Once you accept, funds usually arrive within one to two business days.",
         },
       ],
     },

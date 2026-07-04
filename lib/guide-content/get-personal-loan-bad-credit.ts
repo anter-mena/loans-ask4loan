@@ -2,104 +2,104 @@ import type { GuideContent } from "@/lib/guides";
 
 const content: GuideContent = {
   subtitle:
-    "Learn exactly how to get approved for a personal loan with bad credit. Follow our step-by-step guide to improve your chances of approval.",
+    "A practical walkthrough for getting approved for a personal loan even with a score under 600 — what to check, what to gather, and how to apply.",
   blocks: [
     {
       type: "paragraph",
-      text: "Having bad credit doesn't mean you can't get a personal loan. While traditional banks may turn you away, many lenders specialize in working with borrowers who have less-than-perfect credit. This guide will walk you through exactly how to secure a loan, even with a credit score below 600.",
+      text: "A bank turning you down isn't the end of the road. Plenty of lenders specialize in working with borrowers who don't have clean credit histories. Here's the practical path to getting approved, even below a 600 score.",
     },
 
-    { type: "heading", level: 2, text: "Step-by-Step Guide" },
+    { type: "heading", level: 2, text: "Working Through It" },
 
-    { type: "heading", level: 3, text: "Step 1: Check your credit score" },
+    { type: "heading", level: 3, text: "Step 1: Know your actual number" },
     {
       type: "paragraph",
-      text: "Before applying, know exactly where you stand. Get your free credit report from AnnualCreditReport.com and check your score through a free service like Credit Karma. Understanding your score helps you target the right lenders.",
+      text: "Pull your free credit report and check your score before you apply anywhere. Knowing exactly where you stand helps you target lenders who actually work in your range instead of wasting applications.",
     },
     {
       type: "callout",
-      text: "Pro Tip: Look for errors on your credit report that could be hurting your score. Disputing inaccuracies can sometimes boost your score quickly.",
+      text: "Scan your report for errors — disputing something inaccurate can sometimes bump your score up quickly.",
     },
 
-    { type: "heading", level: 3, text: "Step 2: Calculate how much you need" },
+    { type: "heading", level: 3, text: "Step 2: Figure out the real number you need" },
     {
       type: "paragraph",
-      text: "Only borrow what you actually need. Smaller loan amounts are easier to get approved for and cheaper to repay. Make a list of your expenses and stick to that number.",
+      text: "Borrow only what covers the actual expense. Smaller amounts are both easier to get approved for and cheaper to pay back — list out what you actually need and stick to it.",
     },
     {
       type: "callout",
-      text: "Pro Tip: Remember that interest and fees add to your total cost. A $3,000 loan might cost $3,500+ to repay.",
+      text: "Remember interest and fees add to the total — a $3,000 loan might actually cost $3,500+ by the time it's paid off.",
     },
 
-    { type: "heading", level: 3, text: "Step 3: Research bad credit lenders" },
+    { type: "heading", level: 3, text: "Step 3: Target lenders who work with bad credit" },
     {
       type: "paragraph",
-      text: "Look for lenders that specifically work with bad credit borrowers. Online lenders, credit unions, and peer-to-peer platforms often have more flexible requirements than traditional banks.",
+      text: "Online lenders, credit unions, and peer-to-peer platforms tend to have more flexible criteria than a traditional bank.",
     },
     {
       type: "callout",
-      text: "Pro Tip: Avoid payday lenders at all costs. Their rates (300-500% APR) can trap you in debt.",
+      text: "Steer clear of payday lenders entirely — rates of 300-500% APR can trap you in a cycle you don't need.",
     },
 
-    { type: "heading", level: 3, text: "Step 4: Gather required documents" },
+    { type: "heading", level: 3, text: "Step 4: Get your paperwork together" },
     {
       type: "paragraph",
-      text: "Prepare proof of identity (driver's license), proof of income (pay stubs or bank statements), proof of address (utility bill), and your Social Security number.",
+      text: "Have ID, proof of income (pay stubs or bank statements), proof of address, and your SIN ready before you start.",
     },
     {
       type: "callout",
-      text: "Pro Tip: Having documents ready speeds up approval and shows lenders you're organized.",
+      text: "Showing up organized with documents ready genuinely speeds up approval.",
     },
 
     { type: "heading", level: 3, text: "Step 5: Consider a co-signer or collateral" },
     {
       type: "paragraph",
-      text: "A co-signer with good credit can significantly improve your approval odds and get you better rates. Alternatively, offering collateral (like a car or savings) for a secured loan can help.",
+      text: "A co-signer with solid credit can meaningfully improve both your approval odds and your rate. Offering collateral — a car, savings — for a secured loan is another route.",
     },
     {
       type: "callout",
-      text: "Pro Tip: Only ask someone to co-sign if you're confident you can make all payments—their credit is on the line too.",
+      text: "Only ask someone to co-sign if you're genuinely confident you'll make every payment — their credit is riding on it too.",
     },
 
-    { type: "heading", level: 3, text: "Step 6: Pre-qualify with multiple lenders" },
+    { type: "heading", level: 3, text: "Step 6: Pre-qualify with several lenders" },
     {
       type: "paragraph",
-      text: "Many lenders offer pre-qualification with a soft credit check that won't hurt your score. Compare offers from at least 3-5 lenders to find the best rates and terms.",
+      text: "Most offer soft-check pre-qualification that doesn't touch your score. Compare at least 3-5 before deciding.",
     },
     {
       type: "callout",
-      text: "Pro Tip: Focus on APR (not just interest rate) and total cost of the loan when comparing.",
+      text: "Compare on APR and total cost, not just the headline interest rate.",
     },
 
-    { type: "heading", level: 3, text: "Step 7: Submit your application" },
+    { type: "heading", level: 3, text: "Step 7: Submit the full application" },
     {
       type: "paragraph",
-      text: "Once you've found the best offer, complete the full application. Be honest about your income and employment—lenders verify this information.",
+      text: "Once you've picked the best offer, fill out the complete application honestly — lenders verify income and employment, so accuracy matters.",
     },
     {
       type: "callout",
-      text: "Pro Tip: Apply during business hours for potentially faster processing.",
+      text: "Applying during business hours can mean faster processing.",
     },
 
-    { type: "heading", level: 3, text: "Step 8: Review and accept your loan" },
+    { type: "heading", level: 3, text: "Step 8: Review before you sign" },
     {
       type: "paragraph",
-      text: "Carefully read all loan terms before signing. Understand your monthly payment, total interest, any fees, and the payoff date. Once accepted, funds typically arrive in 1-3 business days.",
+      text: "Go over the payment, total interest, fees, and payoff date carefully before accepting. Once you do, funds usually land within 1-3 business days.",
     },
     {
       type: "callout",
-      text: "Pro Tip: Set up automatic payments to avoid missed payments and potentially get a rate discount.",
+      text: "Set up autopay — it helps you avoid missed payments and sometimes qualifies you for a small rate discount.",
     },
 
-    { type: "heading", level: 2, text: "Additional Tips for Success" },
+    { type: "heading", level: 2, text: "A Few More Things to Try" },
     {
       type: "list",
       items: [
-        "Start with smaller loan amounts—they're easier to get approved",
-        "Credit unions often have better rates for members with bad credit",
-        "Building a relationship with a bank can help future applications",
-        "Consider a credit-builder loan to improve your score for future borrowing",
-        "Avoid multiple hard credit inquiries in a short period",
+        "Start smaller — smaller amounts approve more easily",
+        "Credit unions often treat members with bad credit better than banks do",
+        "An existing banking relationship can help with future applications",
+        "A credit-builder loan can strengthen your file for next time",
+        "Avoid stacking up multiple hard inquiries in a short window",
       ],
     },
 
@@ -109,27 +109,27 @@ const content: GuideContent = {
         {
           question: "Can I get a personal loan with bad credit?",
           answer:
-            "Yes. While traditional banks may turn you away, many lenders specialize in working with borrowers who have less-than-perfect credit, including scores below 600. Online lenders, credit unions, and peer-to-peer platforms often have more flexible requirements than traditional banks.",
+            "Yes. Many lenders specialize in borrowers with less-than-perfect credit, including scores below 600 — online lenders, credit unions, and peer-to-peer platforms tend to be more flexible than a traditional bank.",
         },
         {
           question: "Will checking my rate hurt my credit score?",
           answer:
-            "No. Many lenders offer pre-qualification with a soft credit check that won't affect your score. A hard inquiry only happens when you formally submit a full application, so pre-qualifying with several lenders first lets you compare offers without the credit hit.",
+            "No — pre-qualification typically uses a soft check that doesn't affect your score. A hard inquiry only happens once you submit the full application, so pre-qualifying with several lenders first is a safe way to compare.",
         },
         {
           question: "What documents do I need to apply?",
           answer:
-            "You'll typically need proof of identity (driver's license), proof of income (pay stubs or bank statements), proof of address (a utility bill), and your Social Security number. Having these ready in advance speeds up approval.",
+            "ID, proof of income, proof of address, and your SIN. Having all of it ready before you start speeds up the whole process.",
         },
         {
           question: "Does having a co-signer improve my chances?",
           answer:
-            "Yes, a co-signer with good credit can significantly improve your approval odds and help you secure better rates. Just be sure you're confident you can make every payment — your co-signer's credit is on the line too.",
+            "Yes — a co-signer with good credit can meaningfully improve both approval odds and rate. Just make sure you can realistically make every payment, since their credit is affected too.",
         },
         {
           question: "How fast can I get funded after approval?",
           answer:
-            "Once you accept your loan agreement, funds typically arrive within 1-3 business days. Applying during business hours can help speed up processing.",
+            "Usually within 1-3 business days of accepting the offer. Applying during business hours can help things move a bit faster.",
         },
       ],
     },

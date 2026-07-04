@@ -2,66 +2,66 @@ import type { GuideContent } from "@/lib/guides";
 
 const content: GuideContent = {
   subtitle:
-    "Understand Quebec lending regulations under the Consumer Protection Act, the effective payday loan ban, and strong borrower protections in Quebec.",
+    "Why payday loans are effectively illegal in Quebec, and what the province's uniquely strong Consumer Protection Act means for borrowers.",
   blocks: [
-    { type: "heading", level: 2, text: "Quebec's Payday Loan Ban" },
+    { type: "heading", level: 2, text: "The De Facto Payday Loan Ban" },
     {
       type: "paragraph",
-      text: "Quebec effectively bans payday lending by capping all consumer credit at 35% APR through the Consumer Protection Act (CPA). Since payday loans typically charge much higher rates, they cannot legally operate in Quebec. This makes Quebec unique among Canadian provinces and provides significantly stronger borrower protection.",
+      text: "Quebec's Consumer Protection Act (CPA) caps all consumer credit at 35% APR — and since payday loans typically run far higher than that, they simply can't operate legally in the province. That makes Quebec's borrower protection unusually strong compared to the rest of Canada.",
     },
     {
       type: "callout",
-      text: "Pro Tip: If you encounter a payday lender operating in Quebec, they are likely operating illegally. Report them to the OPC.",
+      text: "A payday lender operating in Quebec is very likely doing so illegally — report them to the OPC.",
     },
 
-    { type: "heading", level: 2, text: "Consumer Protection Act (CPA) Provisions" },
+    { type: "heading", level: 2, text: "What the CPA Actually Covers" },
     {
       type: "paragraph",
-      text: "Quebec's CPA is among the strongest in North America. Key provisions include: maximum credit rate of 35% APR, mandatory French-language contracts, strict advertising rules for lending products, prohibition on certain penalty clauses, and strong protections against unfair contract terms. The Office de la protection du consommateur (OPC) enforces these rules.",
+      text: "Quebec's CPA is among the strongest consumer credit frameworks in North America: a 35% APR ceiling, mandatory French-language contracts, strict rules on lending advertisements, bans on certain penalty clauses, and firm protection against unfair contract terms. The Office de la protection du consommateur (OPC) enforces all of it.",
     },
     {
       type: "callout",
-      text: "Pro Tip: All lending contracts in Quebec must be available in French. If a lender only provides English-language agreements, this may be a compliance issue.",
+      text: "Every lending contract in Quebec must be available in French — an English-only agreement may signal a compliance problem.",
     },
 
-    { type: "heading", level: 2, text: "Unique Credit Protections" },
+    { type: "heading", level: 2, text: "Protections You Won't Find Elsewhere" },
     {
       type: "paragraph",
-      text: "Quebec offers protections not found in other provinces: lenders cannot charge penalties for early repayment of personal loans under $7,000, consumers can cancel certain credit contracts within 10 days, and the CPA limits the total cost of credit including all fees and charges.",
+      text: "Quebec goes further than other provinces: no early-repayment penalties on personal loans under $7,000, a 10-day cancellation right on many credit contracts, and a cap on the total cost of credit that includes every fee and charge.",
     },
     {
       type: "callout",
-      text: "Pro Tip: The 10-day cancellation right applies to many consumer credit contracts in Quebec. Always check if this right applies to your loan.",
+      text: "Check whether the 10-day cancellation right applies to your specific loan — it covers many, but not all, consumer credit contracts.",
     },
 
     { type: "heading", level: 2, text: "Debt Collection in Quebec" },
     {
       type: "paragraph",
-      text: "Quebec's debt collection rules are enforced by the OPC. Collectors cannot use harassment, threats, or intimidation. They must respect reasonable contact hours and cannot misrepresent the legal consequences of non-payment. Quebec's Civil Code also provides debtor protections not found in common-law provinces.",
+      text: "The OPC enforces collection rules too: no harassment, threats, or intimidation, contact restricted to reasonable hours, and no misrepresenting the legal consequences of not paying. Quebec's Civil Code adds further debtor protections not present in the rest of Canada's common-law provinces.",
     },
     {
       type: "callout",
-      text: "Pro Tip: Quebec uses a civil law system unlike the rest of Canada. This provides different (often stronger) consumer protections.",
+      text: "Quebec's civil law system gives borrowers protections that often differ — and go further — than common-law Canada.",
     },
 
-    { type: "heading", level: 2, text: "Quebec Resources" },
+    { type: "heading", level: 2, text: "Where to Turn in Quebec" },
     {
       type: "paragraph",
-      text: "The Office de la protection du consommateur (OPC) at opc.gouv.qc.ca handles lending complaints. Option consommateurs and Union des consommateurs are non-profit advocacy groups. Justice Québec provides legal information.",
+      text: "The Office de la protection du consommateur (opc.gouv.qc.ca) handles lending complaints. Option consommateurs and Union des consommateurs are non-profit advocacy groups, and Justice Québec offers general legal information.",
     },
     {
       type: "callout",
-      text: "Pro Tip: The OPC website (opc.gouv.qc.ca) has comprehensive tools including a credit cost calculator in French and English.",
+      text: "The OPC's website includes a bilingual credit cost calculator worth using before you sign anything.",
     },
 
-    { type: "heading", level: 2, text: "Additional Tips for Success" },
+    { type: "heading", level: 2, text: "Quick Reference" },
     {
       type: "list",
       items: [
-        "Quebec effectively bans payday loans through its 35% APR cap",
-        "Lending contracts must be available in French in Quebec",
-        "You may have a 10-day cancellation right on consumer credit contracts",
-        "The OPC provides free assistance for consumer lending complaints",
+        "Quebec's 35% APR cap effectively bans payday loans",
+        "Lending contracts must be available in French",
+        "Many consumer credit contracts carry a 10-day cancellation right",
+        "The OPC provides free assistance for lending complaints",
       ],
     },
 
@@ -71,27 +71,27 @@ const content: GuideContent = {
         {
           question: "Are payday loans legal in Quebec?",
           answer:
-            "Effectively, no. Quebec's Consumer Protection Act (CPA) caps all consumer credit at 35% APR, and since payday loans typically charge far higher rates, they cannot legally operate in the province. Any payday lender operating in Quebec is likely doing so illegally.",
+            "Effectively no — the CPA's 35% APR cap on all consumer credit is below what payday loans typically charge, so they can't operate legally in the province.",
         },
         {
           question: "What is the maximum interest rate a lender can charge in Quebec?",
           answer:
-            "The CPA sets a maximum credit rate of 35% APR, which applies to all consumer credit in Quebec. This makes Quebec's cap among the strongest consumer protections in North America.",
+            "35% APR under the CPA, applying to all consumer credit — among the strongest rate caps in North America.",
         },
         {
           question: "Do lending contracts have to be in French in Quebec?",
           answer:
-            "Yes. Quebec's CPA requires mandatory French-language contracts for lending agreements. If a lender only provides English-language agreements, this may be a compliance issue.",
+            "Yes — the CPA requires lending agreements to be available in French. An English-only contract may point to a compliance issue.",
         },
         {
           question: "Can I cancel a loan after signing in Quebec?",
           answer:
-            "Many consumer credit contracts in Quebec come with a 10-day cancellation right. Always check whether this right applies to your specific loan agreement.",
+            "Many consumer credit contracts come with a 10-day cancellation right — check whether it applies to your specific agreement.",
         },
         {
           question: "Where can I report a lending issue in Quebec?",
           answer:
-            "The Office de la protection du consommateur (OPC) at opc.gouv.qc.ca handles lending complaints and offers a credit cost calculator in French and English. Option consommateurs and Union des consommateurs are non-profit advocacy groups that can also help.",
+            "The Office de la protection du consommateur (opc.gouv.qc.ca) handles complaints and offers a bilingual credit cost calculator. Option consommateurs and Union des consommateurs can also help.",
         },
       ],
     },

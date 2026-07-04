@@ -2,63 +2,63 @@ import type { GuideContent } from "@/lib/guides";
 
 const content: GuideContent = {
   subtitle:
-    "How to spot predatory lenders and loan scams targeting Canadian borrowers, and what to do if you think you've encountered one.",
+    "Loan scams targeting Canadian borrowers follow a handful of predictable patterns — here's how to recognize them and what to do if you've been targeted.",
   blocks: [
-    { type: "heading", level: 2, text: "Step-by-Step Guide" },
+    { type: "heading", level: 2, text: "Warning Signs to Watch For" },
 
-    { type: "heading", level: 3, text: "1. Watch for Guaranteed Approval Claims" },
+    { type: "heading", level: 3, text: "1. \"Guaranteed Approval\" Advertising" },
     {
       type: "paragraph",
-      text: "No legitimate lender can guarantee approval before reviewing your credit and income. \"Guaranteed approval, any credit\" advertising is one of the most common scam signals, since real lenders always assess risk before offering terms.",
+      text: "A real lender reviews your credit and income before making any promises — there's no way around that step. If an ad promises approval regardless of your history before you've even applied, treat it as a red flag rather than good news.",
     },
     {
       type: "callout",
-      text: "Pro Tip: Legitimate lenders can pre-qualify you with a soft credit check, but final approval always depends on verification.",
+      text: "A legitimate lender can pre-qualify you with a soft credit check, but the final yes always comes after verification.",
     },
 
-    { type: "heading", level: 3, text: "2. Never Pay an Upfront Fee to Receive a Loan" },
+    { type: "heading", level: 3, text: "2. Any Fee Requested Before Funds Arrive" },
     {
       type: "paragraph",
-      text: "A request for an \"insurance fee,\" \"processing fee,\" or \"collateral fee\" paid by e-transfer, gift card, or cryptocurrency before you receive your loan is one of the clearest signs of a scam. Legitimate Canadian lenders deduct any fees from the loan proceeds — they never ask you to send money first.",
+      text: "If someone asks you to wire money, load a gift card, or send crypto for an \"insurance,\" \"processing,\" or \"collateral\" fee before releasing your loan, walk away. Real Canadian lenders take their fees out of the loan itself — they never ask you to pay in first.",
     },
     {
       type: "callout",
-      text: "Pro Tip: If a lender asks you to pay by gift card or crypto, stop immediately — no legitimate lender uses these payment methods.",
+      text: "Gift cards and cryptocurrency are the two payment methods no legitimate lender will ever ask you to use.",
     },
 
-    { type: "heading", level: 3, text: "3. Verify the Lender Is Licensed" },
+    { type: "heading", level: 3, text: "3. No Provincial License" },
     {
       type: "paragraph",
-      text: "All lenders operating in Canada must be licensed in the provinces where they do business. Check your provincial consumer protection office (such as Consumer Protection Ontario, Consumer Protection BC, or the Office de la protection du consommateur in Quebec) to confirm a lender is registered before applying.",
+      text: "Every lender doing business in Canada needs to be licensed in the provinces where they operate. Before you apply anywhere, look them up with your provincial regulator — Consumer Protection Ontario, Consumer Protection BC, or Quebec's Office de la protection du consommateur, depending on where you live.",
     },
 
-    { type: "heading", level: 3, text: "4. Read the Loan Agreement Before Signing" },
+    { type: "heading", level: 3, text: "4. Pressure to Sign Without Reading the Terms" },
     {
       type: "paragraph",
-      text: "Any lender that pressures you to sign immediately, discourages you from reading the terms, or won't provide a written agreement showing the APR, total cost of borrowing, and repayment schedule is not operating legitimately. Canadian law requires full disclosure of these terms before you sign.",
+      text: "Canadian lending law requires full written disclosure — the APR, total borrowing cost, and repayment schedule — before you sign anything. A lender who rushes you past that, or won't produce it in writing at all, isn't operating within the rules.",
     },
 
-    { type: "heading", level: 3, text: "5. Protect Your Personal Information" },
+    { type: "heading", level: 3, text: "5. Requests for Sensitive Information" },
     {
       type: "paragraph",
-      text: "Be cautious with lenders who ask for your online banking login credentials, a blank void cheque with no context, or your SIN before explaining why it's needed. Legitimate lenders can verify income and set up payments without requiring your actual banking password.",
+      text: "Be wary of anyone asking for your online banking password, a signed blank cheque, or your SIN without a clear explanation of why. A legitimate lender can confirm your income and set up repayment without ever needing your actual banking login.",
     },
 
-    { type: "heading", level: 3, text: "6. What to Do If You've Been Targeted" },
+    { type: "heading", level: 3, text: "6. If You Think You've Already Been Targeted" },
     {
       type: "paragraph",
-      text: "If you've been approached by a suspected scam, do not send any money or personal documents. Report it to the Canadian Anti-Fraud Centre, your provincial consumer protection office, and your bank if you've already shared account information. If you've lost money, file a police report as well.",
+      text: "Stop sending money or documents immediately. Report it to the Canadian Anti-Fraud Centre and your provincial consumer protection office, and contact your bank right away if you've shared any account details. If money has already changed hands, file a police report as well.",
     },
 
-    { type: "heading", level: 2, text: "Additional Tips for Success" },
+    { type: "heading", level: 2, text: "Quick Reference" },
     {
       type: "list",
       items: [
-        "No legitimate lender guarantees approval before checking your credit",
-        "Never pay an upfront fee to receive a loan, by any payment method",
-        "Confirm the lender is licensed in your province before applying",
-        "Get all terms in writing, including APR and total cost, before signing",
-        "Report suspected scams to the Canadian Anti-Fraud Centre",
+        "A real lender never guarantees approval sight unseen",
+        "No legitimate loan requires an upfront fee, in any form",
+        "Confirm provincial licensing before you apply anywhere",
+        "Insist on written terms — APR and total cost included — before signing",
+        "Report anything suspicious to the Canadian Anti-Fraud Centre",
       ],
     },
 
@@ -68,27 +68,27 @@ const content: GuideContent = {
         {
           question: "Is it a red flag if a lender guarantees approval?",
           answer:
-            "Yes. No legitimate lender can guarantee approval before reviewing your credit and income. \"Guaranteed approval, any credit\" advertising is one of the most common scam signals, since real lenders always assess risk before offering terms.",
+            "Yes. Legitimate lenders always review your credit and income first, so a promise of approval before that review is one of the clearest scam signals out there.",
         },
         {
           question: "Should I ever pay a fee to receive a loan?",
           answer:
-            "No. A request for an \"insurance fee,\" \"processing fee,\" or \"collateral fee\" paid by e-transfer, gift card, or cryptocurrency before you receive your loan is one of the clearest signs of a scam. Legitimate Canadian lenders deduct any fees from the loan proceeds—they never ask you to send money first.",
+            "No — not by e-transfer, gift card, or crypto. Real Canadian lenders subtract any applicable fees from the loan itself rather than asking you to send money before you're funded.",
         },
         {
           question: "How can I verify a lender is legitimate in Canada?",
           answer:
-            "Check your provincial consumer protection office—such as Consumer Protection Ontario, Consumer Protection BC, or the Office de la protection du consommateur in Quebec—to confirm the lender is licensed to operate in your province before applying.",
+            "Check with your provincial consumer protection office — Ontario, BC, and Quebec each maintain their own registries — to confirm the lender is licensed to operate where you live before you apply.",
         },
         {
           question: "What information should I never give a lender?",
           answer:
-            "Be cautious about sharing your online banking login credentials, a blank void cheque with no context, or your SIN before the lender explains why it's needed. Legitimate lenders can verify income and set up payments without your actual banking password.",
+            "Your online banking password, a blank signed cheque, or your SIN without a clear reason. A legitimate lender can verify your income and arrange payments without needing your actual login credentials.",
         },
         {
           question: "What should I do if I think I've been scammed?",
           answer:
-            "Don't send any more money or personal documents. Report it to the Canadian Anti-Fraud Centre, your provincial consumer protection office, and your bank if you've already shared account information. If you've lost money, file a police report as well.",
+            "Stop sending money or documents right away, report it to the Canadian Anti-Fraud Centre and your provincial regulator, and contact your bank if you've shared account details. File a police report too if you've already lost money.",
         },
       ],
     },

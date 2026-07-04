@@ -2,22 +2,22 @@ import type { GuideContent } from "@/lib/guides";
 
 const content: GuideContent = {
   subtitle:
-    "Benchmark your loan offers against current Canadian averages broken down by credit score, lender type, and purpose.",
+    "See where your offer stacks up against what other Canadian borrowers are actually paying, broken down by credit tier, lender type, and loan purpose.",
   blocks: [
-    { type: "heading", level: 2, text: "National Average Rates in Canada" },
+    { type: "heading", level: 2, text: "Where National Averages Sit Right Now" },
     {
       type: "paragraph",
-      text: "As of 2026, the average personal loan interest rate in Canada sits between 9% and 12% APR for borrowers with good credit. This encompasses offerings from major banks, credit unions, and online lenders across provinces and territories.",
+      text: "Heading into 2026, a borrower with good credit is typically quoted somewhere in the 9%-12% APR range across Canadian banks, credit unions, and online lenders. That's the baseline most comparison shopping starts from.",
     },
     {
       type: "paragraph",
-      text: "Averages represent only part of the picture, as individual rates depend on personal financial profiles, lender selection, and specific loan terms. Tracking rate trends over time helps borrowers determine optimal borrowing windows, particularly when consolidating higher-interest debt.",
+      text: "An average is just a starting point, though — your actual number depends heavily on your own profile and which lender you go with. Watching how rates shift over time can help you judge whether now is a reasonable moment to consolidate higher-cost debt or whether waiting makes more sense.",
     },
 
-    { type: "heading", level: 2, text: "Average Rates by Credit Score" },
+    { type: "heading", level: 2, text: "How Rates Break Down by Credit Score" },
     {
       type: "paragraph",
-      text: "Credit scores (ranging from 300–900 via Equifax and TransUnion) are the single most important factor determining the rate you receive.",
+      text: "Of everything a lender looks at, your credit score (300-900 on the Equifax/TransUnion scale) moves your rate the most.",
     },
     {
       type: "table",
@@ -30,10 +30,10 @@ const content: GuideContent = {
       ],
     },
 
-    { type: "heading", level: 2, text: "Average Rates by Lender Type" },
+    { type: "heading", level: 2, text: "Rates by Type of Lender" },
     {
       type: "paragraph",
-      text: "Major Canadian banks offer some of the lowest rates but often have the strictest approval criteria. Credit unions provide member-owned alternatives with potential flexibility, while online lenders serve broader credit profiles.",
+      text: "Banks tend to offer the sharpest pricing but are also the pickiest about who qualifies. Credit unions sit in the middle, often giving members some flexibility a bank wouldn't. Online lenders cast the widest net, which is why their published range spans so much further.",
     },
     {
       type: "table",
@@ -45,34 +45,34 @@ const content: GuideContent = {
       ],
     },
 
-    { type: "heading", level: 2, text: "How Loan Purpose Affects Your Rate" },
+    { type: "heading", level: 2, text: "Does What You're Borrowing For Change the Rate?" },
     {
       type: "paragraph",
-      text: "Debt consolidation loans may come with lower rates because lenders view borrowers who are actively managing their debt as responsible. Home improvements may similarly qualify for preferential pricing. Medical expenses, vacations, and weddings typically carry standard rates, with creditworthiness remaining the primary determinant.",
+      text: "Somewhat. Lenders sometimes price debt consolidation slightly better, on the theory that a borrower actively tackling debt is a lower-risk bet, and home improvement loans can get similar treatment. For things like a vacation, a wedding, or a medical bill, your credit profile — not the purpose — is really what sets the price.",
     },
 
-    { type: "heading", level: 2, text: "How to Use Average Rates to Your Advantage" },
+    { type: "heading", level: 2, text: "Making the Averages Work for You" },
     {
       type: "paragraph",
-      text: "Borrowers should compare offered rates against tier averages, prequalify with multiple lenders without credit impact, and inquire about rate-driving factors. If your offered rate is more than 3-5 percentage points above the average for your credit tier, consider improving your credit before borrowing.",
+      text: "Line your quote up against the average for your tier, get pre-qualified with a few lenders (a soft check won't cost you anything), and ask directly what's pushing your number up. If you're more than 3-5 points above the average for your tier, it may be worth spending a few months improving your credit before you borrow.",
     },
 
-    { type: "heading", level: 2, text: "Rate Trends in Canada" },
+    { type: "heading", level: 2, text: "Why Rates Move Over Time" },
     {
       type: "paragraph",
-      text: "Personal loan rates correlate with the Bank of Canada's policy rate. When the overnight rate rises, lenders typically increase borrowing costs. Competitive dynamics among lenders, particularly growth in online lending, have generally maintained competitive rates.",
+      text: "Personal loan pricing tends to follow the Bank of Canada's overnight rate — when that goes up, borrowing costs generally follow. That said, competition between lenders, especially the growing online segment, has kept a lid on how far rates drift.",
     },
 
-    { type: "heading", level: 2, text: "Tips for Getting Below-Average Rates" },
+    { type: "heading", level: 2, text: "How to Land Below Average" },
     {
       type: "list",
       items: [
-        "Build credit to \"good\" tier status",
-        "Compare 3–5 lender offers across institution types",
-        "Inquire about autopay discounts",
-        "Consider shorter terms",
-        "Apply with co-signers",
-        "Explore relationship discounts from primary banking institutions",
+        "Get your credit into the \"good\" tier before you shop",
+        "Collect quotes from 3-5 lenders across different institution types",
+        "Ask specifically about autopay discounts",
+        "Consider a shorter repayment term",
+        "Bring in a co-signer if it strengthens your application",
+        "Check whether your primary bank offers a relationship discount",
       ],
     },
 
@@ -82,27 +82,27 @@ const content: GuideContent = {
         {
           question: "What is the average personal loan interest rate in Canada right now?",
           answer:
-            "As of 2026, the average personal loan interest rate in Canada sits between 9% and 12% APR for borrowers with good credit, based on offerings from major banks, credit unions, and online lenders across the country.",
+            "Heading into 2026, borrowers with good credit are typically seeing 9%-12% APR across banks, credit unions, and online lenders nationwide.",
         },
         {
           question: "Why is my offered rate higher than the average?",
           answer:
-            "Averages only tell part of the story — your actual rate depends on your credit tier, income, and the lender you choose. For example, borrowers in the Fair (640-699) tier typically see 15%-24% APR, and those in the Poor (below 640) tier see 24%-35%, both well above the overall average.",
+            "The overall average blends every credit tier together. Your specific rate depends on where you actually fall — Fair-tier borrowers (640-699) typically see 15%-24%, and Poor-tier borrowers (below 640) see 24%-35%, both above the blended average.",
         },
         {
           question: "Are online lender rates higher than bank rates?",
           answer:
-            "Not necessarily at the low end. Major banks range from about 6%-14% APR, credit unions 7%-16%, and online lenders 8%-35%. Online lenders have a wider range because they serve a broader spectrum of credit profiles, not because they're inherently pricier for well-qualified borrowers.",
+            "Not at the top end. Banks run roughly 6%-14%, credit unions 7%-16%, and online lenders 8%-35%. The wider online range reflects that they serve a broader range of credit profiles, not that they're pricier for strong applicants.",
         },
         {
           question: "How often do average rates change?",
           answer:
-            "Personal loan rates track the Bank of Canada's policy rate — when the overnight rate rises, lenders typically increase borrowing costs, and vice versa. Competitive dynamics among lenders, especially the growth of online lending, have generally helped keep rates competitive between adjustments.",
+            "They move with the Bank of Canada's policy rate — up when it rises, down (or at least steady) when it doesn't. Competition among lenders, particularly online ones, has kept swings relatively modest.",
         },
         {
           question: "Should I wait for rates to drop before borrowing?",
           answer:
-            "It depends on your timeline and credit profile. Your credit tier has a much bigger impact on your rate than short-term market movements, so if you have an immediate need, it's usually better to shop 3-5 lenders now and compare offers than to delay borrowing in hopes of a rate drop.",
+            "Usually not worth it. Your credit tier affects your rate far more than short-term market shifts, so if you need funds now, it typically makes more sense to compare 3-5 lenders today than to delay in hopes of a rate cut.",
         },
       ],
     },

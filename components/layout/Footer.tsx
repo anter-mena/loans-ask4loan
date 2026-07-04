@@ -1,5 +1,3 @@
-'use client';
-
 import Image from "next/image";
 import Link from "next/link";
 
@@ -8,18 +6,18 @@ const Footer = () => {
     "loanTypes": {
       title: "Loan Types",
       links: [
-        { name: "Personal Loans", to: "/loans/personal" },
-        { name: "Bad Credit Loans", to: "/loans/bad-credit" },
-        { name: "Emergency Loans", to: "/loans/emergency" },
-        { name: "Debt Consolidation", to: "/loans/debt-consolidation" },
+        { name: "Personal Loans", to: "/loans/by-type/personal-loans" },
+        { name: "Bad Credit Loans", to: "/loans/by-type/bad-credit-loans" },
+        { name: "Emergency Loans", to: "/loans/by-type/emergency-loans" },
+        { name: "Debt Consolidation", to: "/loans/by-type/debt-consolidation-loans" },
       ]
     },
     "resources": {
       title: "Resources",
       links: [
-        { name: "Loan Calculator", to: "/resources/calculator" },
-        { name: "Credit Score Guide", to: "/resources/credit-guide" },
-        { name: "How Loans Work", to: "/resources/how-loans-work" },
+        { name: "Loan Calculator", to: "/resources/tools" },
+        { name: "Credit Score Guide", to: "/loans/by-credit-score" },
+        { name: "How Loans Work", to: "/resources/guides/personal-loans" },
         { name: "FAQ", to: "/resources/faq" },
       ]
     },
@@ -63,8 +61,7 @@ const Footer = () => {
                 href="https://facebook.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="social-icon transition-all duration-200"
-                style={{ color: '#9CA3AF' }}
+                className="transition-all duration-200 text-[#9CA3AF] hover:text-[#FFFFFF] hover:-translate-y-0.5"
                 aria-label="Facebook (opens in a new tab)"
               >
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -75,8 +72,7 @@ const Footer = () => {
                 href="https://twitter.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="social-icon transition-all duration-200"
-                style={{ color: '#9CA3AF' }}
+                className="transition-all duration-200 text-[#9CA3AF] hover:text-[#FFFFFF] hover:-translate-y-0.5"
                 aria-label="Twitter (opens in a new tab)"
               >
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -87,8 +83,7 @@ const Footer = () => {
                 href="https://linkedin.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="social-icon transition-all duration-200"
-                style={{ color: '#9CA3AF' }}
+                className="transition-all duration-200 text-[#9CA3AF] hover:text-[#FFFFFF] hover:-translate-y-0.5"
                 aria-label="LinkedIn (opens in a new tab)"
               >
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -99,8 +94,7 @@ const Footer = () => {
                 href="https://instagram.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="social-icon transition-all duration-200"
-                style={{ color: '#9CA3AF' }}
+                className="transition-all duration-200 text-[#9CA3AF] hover:text-[#FFFFFF] hover:-translate-y-0.5"
                 aria-label="Instagram (opens in a new tab)"
               >
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
@@ -126,11 +120,7 @@ const Footer = () => {
                   <li key={link.name}>
                     <Link
                       href={link.to}
-                      className="footer-link text-sm transition-colors duration-200"
-                      style={{
-                        color: '#9CA3AF',
-                        textDecoration: 'none'
-                      }}
+                      className="text-sm no-underline transition-colors duration-200 text-[#9CA3AF] hover:text-[#FFFFFF]"
                     >
                       {link.name}
                     </Link>
@@ -164,16 +154,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-
-      <style jsx>{`
-        .footer-link:hover {
-          color: #FFFFFF !important;
-        }
-        .social-icon:hover {
-          color: #FFFFFF !important;
-          transform: translateY(-2px);
-        }
-      `}</style>
     </footer>
   );
 };

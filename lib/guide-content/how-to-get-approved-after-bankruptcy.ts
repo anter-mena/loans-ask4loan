@@ -2,78 +2,78 @@ import type { GuideContent } from "@/lib/guides";
 
 const content: GuideContent = {
   subtitle:
-    "Step-by-step guide to getting approved for a personal loan after bankruptcy in Canada. Learn timelines, lender options, and credit rebuilding strategies.",
+    "Bankruptcy doesn't close the door on borrowing forever. Here's the realistic timeline for getting approved again in Canada, and how to rebuild along the way.",
   blocks: [
-    { type: "heading", level: 2, text: "Step-by-Step Guide" },
+    { type: "heading", level: 2, text: "Working Your Way Back" },
 
-    { type: "heading", level: 3, text: "1. Understand Your Bankruptcy Timeline" },
+    { type: "heading", level: 3, text: "1. Know Where You Stand on the Timeline" },
     {
       type: "paragraph",
-      text: "In Canada, a first-time bankruptcy stays on your credit report for 6 years after discharge (7 years in some provinces). A second bankruptcy remains for 14 years. During this period, your credit score is significantly impacted, but it improves over time as the bankruptcy ages. The key milestone is your discharge date — that's when your legal obligation to creditors ends and rebuilding can begin in earnest.",
+      text: "A first bankruptcy sits on your Canadian credit report for 6 years after discharge (7 in some provinces); a second stays for 14. The impact fades as it ages, but the real turning point is your discharge date — that's when your legal obligation to creditors ends and rebuilding can genuinely start.",
     },
     {
       type: "callout",
-      text: "Pro Tip: Your discharge date is the most important date in your credit rebuilding journey.",
+      text: "Your discharge date is the single most important marker in this whole process.",
     },
 
-    { type: "heading", level: 3, text: "2. Get Your Discharge Certificate" },
+    { type: "heading", level: 3, text: "2. Get Your Discharge Certificate First" },
     {
       type: "paragraph",
-      text: "You cannot apply for most loans until you've been officially discharged from bankruptcy. Your Licensed Insolvency Trustee (LIT) will provide your Certificate of Discharge. Some lenders require you to be discharged for at least 1–2 years before considering your application. If you completed a consumer proposal instead of bankruptcy, you may have an easier time getting approved as proposals are viewed more favourably by lenders.",
+      text: "Most lenders won't even consider you before you're officially discharged. Your Licensed Insolvency Trustee issues the Certificate of Discharge, and some lenders want 1-2 years of distance from that date before they'll look at an application.",
     },
     {
       type: "callout",
-      text: "Pro Tip: If you completed a consumer proposal instead of bankruptcy, you may have an easier time getting approved as proposals are viewed more favourably by lenders.",
+      text: "If you went through a consumer proposal instead of bankruptcy, you're likely in a somewhat better position — lenders tend to view proposals more favourably.",
     },
 
-    { type: "heading", level: 3, text: "3. Start Rebuilding Credit Immediately" },
+    { type: "heading", level: 3, text: "3. Start Rebuilding Right Away" },
     {
       type: "paragraph",
-      text: "After discharge, begin rebuilding with secured credit products. A secured credit card with a $500 deposit is the most common starting point. Some credit unions offer 'fresh start' programs specifically for discharged bankrupts. Make small purchases monthly and pay the full balance on time. After 12–18 months, you should see meaningful credit score improvement.",
+      text: "Once discharged, a secured card — typically a $500 deposit — is the most common starting point. Some credit unions run \"fresh start\" programs specifically for this. Make small purchases, pay them off fully and on time, and expect real movement in your score after 12-18 months.",
     },
     {
       type: "callout",
-      text: "Pro Tip: Capital One, Home Trust, and Refresh Financial offer secured cards designed for Canadians rebuilding after bankruptcy.",
+      text: "Several Canadian issuers offer secured cards built specifically for post-bankruptcy rebuilding.",
     },
 
-    { type: "heading", level: 3, text: "4. Research Lenders That Work with Post-Bankruptcy Borrowers" },
+    { type: "heading", level: 3, text: "4. Look for Lenders That Specialize in This" },
     {
       type: "paragraph",
-      text: "Not all lenders reject post-bankruptcy applicants. Alternative and online lenders in Canada often specialize in 'second chance' lending. They evaluate your current financial situation — income, expenses, and recent credit behaviour — rather than focusing solely on past bankruptcy. Expect higher interest rates (typically 19.99%–34.99% APR), but these decrease as your credit improves. Credit unions are often more understanding of past bankruptcy than big banks.",
+      text: "Not every lender writes you off. Online and alternative lenders often focus on second-chance lending, weighing your current income and spending rather than dwelling on the bankruptcy itself. Expect a higher rate at first — typically 19.99%-34.99% APR — dropping as your record improves. Credit unions tend to be more understanding than the big banks here too.",
     },
     {
       type: "callout",
-      text: "Pro Tip: Credit unions are often more understanding of past bankruptcy than big banks.",
+      text: "Credit unions generally show more flexibility toward a past bankruptcy than the major banks do.",
     },
 
-    { type: "heading", level: 3, text: "5. Prepare a Strong Application" },
+    { type: "heading", level: 3, text: "5. Put Together a Strong Application" },
     {
       type: "paragraph",
-      text: "Post-bankruptcy applications require extra preparation. Required documentation includes Certificate of Discharge, proof of stable employment (minimum 6 months preferred), recent pay stubs and bank statements, explanation letter for the bankruptcy, and evidence of responsible financial behaviour since discharge. The stronger your documentation, the better your chances. An explanation letter that briefly describes what caused the bankruptcy and what you've changed since can positively influence a lender's decision.",
+      text: "Bring more than the basics: your Certificate of Discharge, proof of stable employment (six months or more preferred), recent pay stubs and bank statements, and ideally a short explanation of what led to the bankruptcy and what's different now. The more complete the picture, the better your odds.",
     },
     {
       type: "callout",
-      text: "Pro Tip: An explanation letter that briefly describes what caused the bankruptcy and what you've changed since can positively influence a lender's decision.",
+      text: "A brief, honest explanation letter about the bankruptcy and what's changed since can genuinely sway a lender's decision.",
     },
 
-    { type: "heading", level: 3, text: "6. Start Small and Build Up" },
+    { type: "heading", level: 3, text: "6. Start Small" },
     {
       type: "paragraph",
-      text: "Don't apply for a large loan immediately after discharge. Start with a smaller amount ($1,000–$3,000) that you can comfortably repay. Successful repayment of smaller loans builds a positive track record. After 1–2 successful loans, you'll qualify for larger amounts at better rates. The FCAC recommends keeping total debt payments below 40% of gross income.",
+      text: "Skip the big loan right out of the gate. A $1,000-$3,000 amount you can comfortably handle builds a track record — after one or two of those, you'll typically qualify for more at better rates. The FCAC recommends keeping total debt payments under 40% of gross income throughout.",
     },
     {
       type: "callout",
-      text: "Pro Tip: Each successfully repaid loan strengthens your credit profile.",
+      text: "Every loan you repay successfully strengthens the next application.",
     },
 
-    { type: "heading", level: 2, text: "Additional Tips for Success" },
+    { type: "heading", level: 2, text: "A Few More Things to Keep in Mind" },
     {
       type: "list",
       items: [
-        "Wait at least 12 months after discharge before applying for unsecured loans",
-        "Keep all debt payments under 40% of your gross income",
-        "Monitor your credit report monthly through Equifax or TransUnion for accuracy",
-        "Consider credit counselling through a non-profit agency for ongoing guidance",
+        "Give it at least 12 months post-discharge before applying for unsecured credit",
+        "Keep all debt payments under 40% of gross income",
+        "Check your Equifax or TransUnion report monthly for accuracy",
+        "A non-profit credit counsellor can provide ongoing guidance if you want it",
       ],
     },
 
@@ -83,27 +83,27 @@ const content: GuideContent = {
         {
           question: "How soon after bankruptcy can I get approved for a loan?",
           answer:
-            "You typically cannot apply for most loans until you've received your Certificate of Discharge from your Licensed Insolvency Trustee. Some lenders require you to be discharged for at least 1-2 years before considering your application, so it's generally wise to wait at least 12 months and build credit in the meantime.",
+            "You generally need your Certificate of Discharge first, and some lenders want 1-2 years of distance from that date. Waiting at least 12 months while rebuilding credit is a reasonable approach.",
         },
         {
           question: "What interest rate should I expect after bankruptcy?",
           answer:
-            "Alternative and online lenders that specialize in post-bankruptcy borrowers typically charge 19.99%-34.99% APR. Rates decrease as your credit improves through consistent on-time payments after discharge.",
+            "Lenders specializing in post-bankruptcy borrowers typically charge 19.99%-34.99% APR at first, dropping as consistent on-time payments rebuild your record.",
         },
         {
           question: "Do I need a Certificate of Discharge to apply?",
           answer:
-            "Yes. Your Licensed Insolvency Trustee provides this document once your bankruptcy is complete, and most lenders will require it as proof before considering your application.",
+            "Yes — your Licensed Insolvency Trustee issues it once your bankruptcy is complete, and most lenders will ask for it before considering an application.",
         },
         {
           question: "Is a consumer proposal better than bankruptcy for future borrowing?",
           answer:
-            "If you completed a consumer proposal instead of bankruptcy, you may have an easier time getting approved, since proposals are generally viewed more favourably by lenders than a full bankruptcy.",
+            "Generally, yes — proposals tend to be viewed more favourably by lenders than a completed bankruptcy, which can make approval somewhat easier.",
         },
         {
           question: "How much should I borrow for my first loan after bankruptcy?",
           answer:
-            "Start small — a $1,000 to $3,000 loan that you can comfortably repay. Successfully repaying smaller loans builds a positive track record, and after one or two successful loans you'll typically qualify for larger amounts at better rates. Keep total debt payments below 40% of your gross income.",
+            "Start small — $1,000 to $3,000, an amount you can comfortably repay. Success there opens the door to larger amounts at better rates down the line.",
         },
       ],
     },

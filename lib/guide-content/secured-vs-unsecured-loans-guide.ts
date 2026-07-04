@@ -2,65 +2,65 @@ import type { GuideContent } from "@/lib/guides";
 
 const content: GuideContent = {
   subtitle:
-    "Compare secured vs unsecured loans. Learn which loan type is right for you based on collateral, rates, and risk factors.",
+    "Collateral or no collateral? Here's how secured and unsecured loans actually differ, and which one fits your situation.",
   blocks: [
-    { type: "heading", level: 2, text: "Secured Loan" },
-    { type: "heading", level: 3, text: "Advantages" },
+    { type: "heading", level: 2, text: "Secured Loans" },
+    { type: "heading", level: 3, text: "What Works in Their Favour" },
     {
       type: "list",
       items: [
         "Lower interest rates",
         "Higher borrowing limits",
-        "Easier approval with bad credit",
-        "Longer repayment terms available",
+        "Easier approval with weaker credit",
+        "Longer terms available",
         "Can help build credit",
       ],
     },
-    { type: "heading", level: 3, text: "Disadvantages" },
+    { type: "heading", level: 3, text: "Trade-offs" },
     {
       type: "list",
       negative: true,
       items: [
-        "Requires collateral (car, home, savings)",
-        "Risk of losing asset if you default",
-        "Longer approval process",
-        "Asset valuation required",
+        "Requires collateral — a car, home, or savings",
+        "You risk losing that asset if you default",
+        "Approval takes longer",
+        "The asset needs to be valued first",
       ],
     },
     {
       type: "paragraph",
-      text: "Best For: Large purchases, bad credit borrowers, and those seeking the lowest rates.",
+      text: "Best for: large purchases, weaker credit, and borrowers chasing the lowest possible rate.",
     },
 
-    { type: "heading", level: 2, text: "Unsecured Loan" },
-    { type: "heading", level: 3, text: "Advantages" },
+    { type: "heading", level: 2, text: "Unsecured Loans" },
+    { type: "heading", level: 3, text: "What Works in Their Favour" },
     {
       type: "list",
       items: [
-        "No collateral required",
-        "Faster approval process",
-        "No risk of losing assets",
-        "Simpler application",
-        "Good for smaller amounts",
+        "No collateral needed",
+        "Faster approval",
+        "No asset at risk",
+        "A simpler application",
+        "Well-suited to smaller amounts",
       ],
     },
-    { type: "heading", level: 3, text: "Disadvantages" },
+    { type: "heading", level: 3, text: "Trade-offs" },
     {
       type: "list",
       negative: true,
       items: [
-        "Higher interest rates",
+        "Higher interest rate",
         "Lower borrowing limits",
         "Stricter credit requirements",
-        "Shorter terms typically",
+        "Usually shorter terms",
       ],
     },
     {
       type: "paragraph",
-      text: "Best For: Those with good credit, smaller loan amounts, and quick funding needs.",
+      text: "Best for: good credit, smaller amounts, and anyone who wants funding quickly.",
     },
 
-    { type: "heading", level: 2, text: "Side-by-Side Comparison" },
+    { type: "heading", level: 2, text: "Side by Side" },
     {
       type: "table",
       headers: ["Feature", "Secured Loan", "Unsecured Loan"],
@@ -81,22 +81,22 @@ const content: GuideContent = {
         {
           question: "What can be used as collateral for a secured loan?",
           answer:
-            "Common forms of collateral include a vehicle, a home or other real estate, or savings accounts and other financial assets.",
+            "A vehicle, a home or other real estate, or savings and other financial assets are the most common forms.",
         },
         {
           question: "What happens if I default on a secured loan?",
           answer:
-            "If you default on a secured loan, the lender has the right to seize the asset you pledged as collateral to recover the outstanding balance.",
+            "The lender can seize the pledged asset to recover what's owed.",
         },
         {
           question: "Are personal loans typically secured or unsecured?",
           answer:
-            "Most personal loans in Canada are unsecured, though some lenders offer secured personal loan options backed by a vehicle or savings account, often at lower rates.",
+            "Most personal loans in Canada are unsecured, though some lenders offer secured versions backed by a vehicle or savings account, usually at a better rate.",
         },
         {
           question: "Which loan type is better for debt consolidation?",
           answer:
-            "Most borrowers use an unsecured loan for debt consolidation since no asset is put at risk. A secured loan can be worth considering if you need a larger amount or a lower rate and are comfortable pledging collateral.",
+            "Most borrowers go unsecured for consolidation, since no asset is at risk. A secured loan is worth considering if you need a larger amount or a lower rate and are comfortable pledging collateral.",
         },
       ],
     },
