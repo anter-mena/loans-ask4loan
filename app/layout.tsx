@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     title: "Ask4Loan - Quick & Easy Personal Loans Canada",
     description: "Get instant personal loans with competitive rates and fast approval. Simple online application, secure process, and trusted lending solutions.",
   },
-  manifest: "/site.webmanifest",
+  manifest: "/manifest.webmanifest",
   other: {
     "revisit-after": "7 days",
     "contact": "info@ask4loan.ca",
