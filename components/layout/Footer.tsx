@@ -26,6 +26,8 @@ const Footer = () => {
       links: [
         { name: "About Us", to: "/about" },
         { name: "Contact", to: "/contact" },
+        { name: "Blog", to: "/blog" },
+        { name: "News", to: "/news" },
         { name: "Financial Guides", to: "/resources/guides" },
       ]
     },

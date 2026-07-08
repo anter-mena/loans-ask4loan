@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
 
 @custom-variant data-open (&[data-state="open"]);
 @custom-variant data-closed (&[data-state="closed"]);
@@ -153,4 +154,84 @@
 .marquee-fade {
   mask: linear-gradient(to right, transparent 0%, #FFF 10%, #FFF 90%, transparent 100%);
   -webkit-mask: linear-gradient(to right, transparent 0%, #FFF 10%, #FFF 90%, transparent 100%);
+}
+
+/* ------------------------------------------------------------------ */
+/* Blog + News article body — maps @tailwindcss/typography onto the     */
+/* Ask4Loan palette (emerald accent, slate text) so MDX renders like    */
+/* the rest of the marketing site.                                      */
+/* ------------------------------------------------------------------ */
+.blog-prose {
+  --tw-prose-body: #374151;
+  --tw-prose-headings: #1F2937;
+  --tw-prose-lead: #64748B;
+  --tw-prose-links: #10B981;
+  --tw-prose-bold: #1F2937;
+  --tw-prose-counters: #64748B;
+  --tw-prose-bullets: #6EE7B7;
+  --tw-prose-hr: #E2E8F0;
+  --tw-prose-quotes: #1F2937;
+  --tw-prose-quote-borders: #10B981;
+  --tw-prose-captions: #64748B;
+  --tw-prose-code: #1F2937;
+  --tw-prose-pre-code: #E5E7EB;
+  --tw-prose-pre-bg: #1F2937;
+  --tw-prose-th-borders: #E2E8F0;
+  --tw-prose-td-borders: #E2E8F0;
+  color: #374151;
+}
+.blog-prose :is(h1, h2, h3, h4) {
+  font-family: var(--font-geist-sans), var(--font-sans), sans-serif;
+  letter-spacing: -0.01em;
+}
+.blog-prose a {
+  font-weight: 600;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+.blog-prose a:hover {
+  color: #059669;
+}
+.blog-prose thead th {
+  font-weight: 700;
+}
+.blog-prose :is(code)::before,
+.blog-prose :is(code)::after {
+  content: "";
+}
+
+/* Rich media (WordPress-like): photos, video, YouTube/Vimeo iframes, embeds.
+   Raw HTML in .mdx is enabled via rehype-raw in the article renderer. */
+.blog-prose img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.75rem;
+}
+.blog-prose :is(iframe, video) {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  height: auto;
+  border: 0;
+  border-radius: 0.75rem;
+  margin: 1.75rem 0;
+}
+.blog-prose figure {
+  margin: 1.75rem 0;
+}
+.blog-prose figure img {
+  margin-inline: auto;
+}
+.blog-prose figcaption {
+  margin-top: 0.5rem;
+  text-align: center;
+  font-size: 0.85em;
+  color: #64748B;
+}
+/* Offset heading anchors so table-of-contents jumps clear the sticky navbar */
+.blog-prose :is(h2, h3, h4) {
+  scroll-margin-top: 6rem;
+}
+html {
+  scroll-behavior: smooth;
 }

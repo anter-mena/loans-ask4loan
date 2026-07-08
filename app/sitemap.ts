@@ -6,6 +6,8 @@ import { loanPurposes } from '@/lib/loan-purposes';
 import { loanTypes } from '@/lib/loan-types';
 import { creditScoreRanges } from '@/lib/credit-scores';
 import { canadaLocations } from '@/lib/canada-locations';
+import { getAllPosts } from '@/lib/blog';
+import { getAllNews } from '@/lib/news';
 
 const host = 'https://ask4loan.ca';
 
@@ -70,15 +72,33 @@ const pages: PageConfig[] = [
     priority: 0.5,
     changeFrequency: 'monthly',
   })),
+  { path: '/blog', priority: 0.8, changeFrequency: 'weekly' },
+  { path: '/news', priority: 0.8, changeFrequency: 'weekly' },
   { path: '/privacy-policy', priority: 0.4, changeFrequency: 'yearly' },
   { path: '/terms-of-use', priority: 0.4, changeFrequency: 'yearly' },
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  return pages.map((page) => ({
+  const staticEntries: MetadataRoute.Sitemap = pages.map((page) => ({
     url: `${host}${page.path}`,
     lastModified,
     changeFrequency: page.changeFrequency,
     priority: page.priority,
   }));
+
+  const blogEntries: MetadataRoute.Sitemap = getAllPosts().map((post) => ({
+    url: `${host}/blog/${post.slug}`,
+    lastModified: post.updated || lastModified,
+    changeFrequency: 'weekly',
+    priority: 0.7,
+  }));
+
+  const newsEntries: MetadataRoute.Sitemap = getAllNews().map((item) => ({
+    url: `${host}/news/${item.slug}`,
+    lastModified: item.updated || lastModified,
+    changeFrequency: 'weekly',
+    priority: 0.7,
+  }));
+
+  return [...staticEntries, ...blogEntries, ...newsEntries];
 }

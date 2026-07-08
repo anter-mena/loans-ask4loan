@@ -200,6 +200,24 @@ const Header = () => {
                 About Us
               </Link>
 
+              {/* Blog Link */}
+              <Link
+                href="/blog"
+                className="text-sm font-medium transition-colors py-2 hover:text-[#1F2937]"
+                style={{ color: '#64748B' }}
+              >
+                Blog
+              </Link>
+
+              {/* News Link */}
+              <Link
+                href="/news"
+                className="text-sm font-medium transition-colors py-2 hover:text-[#1F2937]"
+                style={{ color: '#64748B' }}
+              >
+                News
+              </Link>
+
               {/* Contact Link */}
               <Link
                 href="/contact"
@@ -370,6 +388,30 @@ const Header = () => {
                 onClick={() => setIsMenuOpen(false)}
               >
                 About Us
+              </Link>
+            </div>
+
+            {/* Mobile Blog */}
+            <div className="py-2 border-t" style={{ borderColor: '#F1F5F9' }}>
+              <Link
+                href="/blog"
+                className="w-full flex items-center justify-between px-2 py-2 text-sm font-semibold rounded-md transition-colors hover:bg-[#F8FAFC]"
+                style={{ color: '#1F2937', textDecoration: 'none' }}
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Blog
+              </Link>
+            </div>
+
+            {/* Mobile News */}
+            <div className="py-2 border-t" style={{ borderColor: '#F1F5F9' }}>
+              <Link
+                href="/news"
+                className="w-full flex items-center justify-between px-2 py-2 text-sm font-semibold rounded-md transition-colors hover:bg-[#F8FAFC]"
+                style={{ color: '#1F2937', textDecoration: 'none' }}
+                onClick={() => setIsMenuOpen(false)}
+              >
+                News
               </Link>
             </div>
 
