@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import rehypeSlug from "rehype-slug";
+import { PostImage } from "@/components/blog/post-image";
 import rehypeRaw from "rehype-raw";
 import { ArrowUpRight, ArrowLeft } from "lucide-react";
 import Breadcrumb from "@/components/shared/Breadcrumb";
@@ -103,7 +104,7 @@ export default async function BlogPost({ params }: { params: Params }) {
   const external = meta.related.filter((l) => l.href.startsWith("http"));
 
   return (
-    <div className="relative overflow-hidden" style={{ backgroundColor: "#FFFFFF" }}>
+    <div className="relative overflow-x-clip" style={{ backgroundColor: "#FFFFFF" }}>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
@@ -163,7 +164,7 @@ export default async function BlogPost({ params }: { params: Params }) {
             <div className="blog-prose prose prose-lg max-w-none">
               <ReactMarkdown
                 remarkPlugins={[remarkGfm]}
-                rehypePlugins={[rehypeRaw, rehypeSlug]}
+                rehypePlugins={[rehypeRaw, rehypeSlug]} components={{ img: PostImage }}
               >
                 {content}
               </ReactMarkdown>
