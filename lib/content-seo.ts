@@ -22,7 +22,7 @@ export function buildContentMetadata({
     description,
     keywords,
     alternates: {
-      canonical: path,
+      canonical: url,
     },
     openGraph: {
       title,
