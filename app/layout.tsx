@@ -38,7 +38,13 @@ export const metadata: Metadata = {
   description: "Ask4Loan: Get instant personal loans in Canada with competitive rates and fast approval. Simple online application, secure process, and trusted lending solutions for all your financial needs.",
   keywords: ["ask4loan", "personal loans Canada", "quick loans", "fast approval", "competitive rates", "online loan application", "instant loans", "Canadian lending", "financial solutions", "secure loans"],
   authors: [{ name: "Ask4Loan" }],
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    "max-image-preview": "large",
+    "max-snippet": -1,
+    "max-video-preview": -1,
+  },
   metadataBase: new URL("https://ask4loan.ca"),
   openGraph: {
     type: "website",
