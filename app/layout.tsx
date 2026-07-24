@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     "max-video-preview": -1,
   },
   metadataBase: new URL("https://ask4loan.ca"),
-  openGraph: {
+  openGraph: { images: [{ url: "/opengraph-image.png", width: 1200, height: 630 }],
     type: "website",
     url: "https://ask4loan.ca/",
     title: "Ask4Loan - Quick & Easy Personal Loans Canada",

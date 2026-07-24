@@ -31,7 +31,7 @@ export async function generateMetadata({
     alternates: {
       canonical: `/resources/guides/${entry.slug}`,
     },
-    openGraph: {
+    openGraph: { images: [{ url: "/opengraph-image.png", width: 1200, height: 630 }],
       type: "article",
       url,
       title,
