@@ -133,9 +133,7 @@ const GuideArticleClient = ({
             style={{ backgroundColor: "#10B981", color: "#FFFFFF" }}
           >
             <a
-              href="https://cmi.rocks/go/6a0768c8e9dee?affiliate_sub1=ask4loan"
-              target="_blank"
-              rel="sponsored noopener noreferrer"
+              href="/application-form"
               onClick={() => trackClick("Guide Article Ready to Apply", entry.slug)}
             >
               Check Your Rates Now

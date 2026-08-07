@@ -30,7 +30,7 @@ const RateCheckCard = () => {
       });
     }
     window.open(
-      "https://cmi.rocks/go/6a0768c8e9dee?affiliate_sub1=ask4loan",
+      "/application-form",
       "_blank",
       "noopener,noreferrer"
     );

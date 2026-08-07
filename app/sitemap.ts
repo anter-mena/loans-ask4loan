@@ -56,6 +56,7 @@ const pages: PageConfig[] = [
     priority: 0.5,
     changeFrequency: 'monthly',
   })),
+  { path: '/application-form', priority: 0.9, changeFrequency: 'monthly' },
   { path: '/contact', priority: 0.7, changeFrequency: 'monthly' },
   { path: '/resources', priority: 0.6, changeFrequency: 'monthly' },
   { path: '/resources/tools', priority: 0.6, changeFrequency: 'monthly' },

@@ -150,9 +150,7 @@ const LoanTypeArticleClient = ({
               style={{ backgroundColor: "#10B981", color: "#FFFFFF" }}
             >
               <a
-                href="https://cmi.rocks/go/6a0768c8e9dee?affiliate_sub1=ask4loan"
-                target="_blank"
-                rel="sponsored noopener noreferrer"
+                href="/application-form"
                 onClick={() => trackClick("Loan Type Page Top CTA", entry.slug)}
               >
                 Apply Now

@@ -212,9 +212,7 @@ const AmountLoanClient = ({ entry }: { entry: LoanAmountEntry }) => {
               style={{ backgroundColor: "#10B981", color: "#FFFFFF" }}
             >
               <a
-                href="https://cmi.rocks/go/6a0768c8e9dee?affiliate_sub1=ask4loan"
-                target="_blank"
-                rel="sponsored noopener noreferrer"
+                href="/application-form"
                 onClick={() => trackClick("Amount Page Top CTA", slug)}
               >
                 Apply Now
@@ -476,9 +474,7 @@ const AmountLoanClient = ({ entry }: { entry: LoanAmountEntry }) => {
             style={{ backgroundColor: "#10B981", color: "#FFFFFF" }}
           >
             <a
-              href="https://cmi.rocks/go/6a0768c8e9dee?affiliate_sub1=ask4loan"
-              target="_blank"
-              rel="sponsored noopener noreferrer"
+              href="/application-form"
               onClick={() => trackClick("Amount Page Ready to Apply", slug)}
             >
               Check Your Rate Now
