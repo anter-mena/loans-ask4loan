@@ -1,4 +1,4 @@
-@import "tailwindcss";
+﻿@import "tailwindcss";
 @plugin "@tailwindcss/typography";
 
 @custom-variant data-open (&[data-state="open"]);
@@ -157,7 +157,7 @@
 }
 
 /* ------------------------------------------------------------------ */
-/* Blog + News article body — maps @tailwindcss/typography onto the     */
+/* Blog + News article body â€” maps @tailwindcss/typography onto the     */
 /* Ask4Loan palette (emerald accent, slate text) so MDX renders like    */
 /* the rest of the marketing site.                                      */
 /* ------------------------------------------------------------------ */
@@ -234,7 +234,7 @@
 }
 html {
   scroll-behavior: smooth;
-}/* Blog/News tables — bordered, padded, zebra (desktop) + horizontal scroll (mobile) */
+}/* Blog/News tables â€” bordered, padded, zebra (desktop) + horizontal scroll (mobile) */
 .blog-prose table {
   width: 100%;
   border-collapse: collapse;
@@ -257,4 +257,11 @@ html {
 }
 @media (max-width: 640px) {
   .blog-prose table { display: block; overflow-x: auto; }
+}
+
+/* Reserve the scrollbar gutter so any overlay that locks body scroll can't
+   make the scrollbar vanish and shift the page sideways. The contact form's
+   topic field uses a native <select> precisely so it never locks scroll. */
+html {
+  scrollbar-gutter: stable;
 }

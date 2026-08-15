@@ -1,7 +1,8 @@
-'use client';
+﻿'use client';
 
 import { Mail, ChevronRight } from "lucide-react";
 import Link from "next/link";
+import { ContactForm } from "@/components/contact/contact-form";
 
 const ContactClient = () => {
   return (
@@ -62,118 +63,11 @@ const ContactClient = () => {
         {/* Contact Form */}
         <section className="py-8 sm:py-16 -mt-8 sm:-mt-12">
           <div className="max-w-xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div
-              className="rounded-2xl p-6 sm:p-8 shadow-lg border"
-              style={{
-                backgroundColor: '#FFFFFF',
-                borderColor: '#E2E8F0'
-              }}
-            >
-              <h2
-                className="text-xl sm:text-2xl font-bold mb-6"
-                style={{ color: '#1F2937' }}
-              >
-                Send us a message
-              </h2>
-
-              <form className="space-y-5">
-                <div>
-                  <label
-                    className="block text-sm font-medium mb-2"
-                    style={{ color: '#1F2937' }}
-                  >
-                    Name
-                  </label>
-                  <input
-                    type="text"
-                    placeholder="Your name"
-                    className="w-full h-12 px-4 rounded-md border transition-colors focus:outline-none focus:ring-2 focus:ring-emerald-500/10 focus:border-emerald-500"
-                    style={{
-                      backgroundColor: '#FFFFFF',
-                      borderColor: '#E2E8F0',
-                      color: '#1F2937'
-                    }}
-                  />
-                </div>
-
-                <div>
-                  <label
-                    className="block text-sm font-medium mb-2"
-                    style={{ color: '#1F2937' }}
-                  >
-                    Email
-                  </label>
-                  <input
-                    type="email"
-                    placeholder="your@email.com"
-                    className="w-full h-12 px-4 rounded-md border transition-colors focus:outline-none focus:ring-2 focus:ring-emerald-500/10 focus:border-emerald-500"
-                    style={{
-                      backgroundColor: '#FFFFFF',
-                      borderColor: '#E2E8F0',
-                      color: '#1F2937'
-                    }}
-                  />
-                </div>
-
-                <div>
-                  <label
-                    className="block text-sm font-medium mb-2"
-                    style={{ color: '#1F2937' }}
-                  >
-                    Subject
-                  </label>
-                  <input
-                    type="text"
-                    placeholder="How can we help?"
-                    className="w-full h-12 px-4 rounded-md border transition-colors focus:outline-none focus:ring-2 focus:ring-emerald-500/10 focus:border-emerald-500"
-                    style={{
-                      backgroundColor: '#FFFFFF',
-                      borderColor: '#E2E8F0',
-                      color: '#1F2937'
-                    }}
-                  />
-                </div>
-
-                <div>
-                  <label
-                    className="block text-sm font-medium mb-2"
-                    style={{ color: '#1F2937' }}
-                  >
-                    Message
-                  </label>
-                  <textarea
-                    placeholder="Tell us more about your inquiry..."
-                    rows={6}
-                    className="w-full px-4 py-3 rounded-md border transition-colors focus:outline-none focus:ring-2 resize-none focus:ring-emerald-500/10 focus:border-emerald-500"
-                    style={{
-                      backgroundColor: '#FFFFFF',
-                      borderColor: '#E2E8F0',
-                      color: '#1F2937'
-                    }}
-                  />
-                </div>
-
-                <button
-                  type="submit"
-                  className="w-full px-6 py-3 text-base font-medium rounded-md transition-all duration-300 ease-out focus:outline-none focus:ring-2 focus:ring-emerald-200 focus:ring-offset-2 ring-2 ring-emerald-200 ring-offset-2 ring-offset-white hover:scale-105 active:scale-95"
-                  style={{
-                    backgroundColor: '#10B981',
-                    color: '#FFFFFF'
-                  }}
-                >
-                  Send Message
-                </button>
-              </form>
-            </div>
+            <ContactForm />
           </div>
         </section>
       </div>
 
-      <style jsx>{`
-        button:hover {
-          background-color: #059669 !important;
-        }
-      `}</style>
     </div>
   );
 };
