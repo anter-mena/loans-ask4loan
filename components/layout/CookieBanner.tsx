@@ -62,9 +62,11 @@ const CookieBanner = () => {
 
   if (!isVisible) return null;
 
+  // z-[90] keeps the consent banner above the ChatBot widget (z-[80]), which
+  // sits in the same bottom-right corner and would otherwise cover it.
   return (
     <div
-      className="fixed bottom-0 left-0 right-0 p-3 sm:p-4 z-50 shadow-lg animate-in slide-in-from-bottom duration-500"
+      className="fixed bottom-0 left-0 right-0 p-3 sm:p-4 z-[90] shadow-lg animate-in slide-in-from-bottom duration-500"
       style={{
         backgroundColor: '#FFFFFF',
         borderTop: '1px solid #E2E8F0'

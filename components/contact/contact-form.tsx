@@ -141,6 +141,21 @@ export function ContactForm() {
       </div>
 
       <div className="space-y-2">
+        <Label htmlFor="phone" className={STYLES.label}>
+          Phone <span className="font-normal text-[#64748B]">(optional)</span>
+        </Label>
+        <Input
+          id="phone"
+          name="phone"
+          type="tel"
+          autoComplete="tel"
+          placeholder="(555) 000-0000"
+          disabled={submitting}
+          className={STYLES.field}
+        />
+      </div>
+
+      <div className="space-y-2">
         <Label htmlFor="subject" className={STYLES.label}>
           Subject
         </Label>

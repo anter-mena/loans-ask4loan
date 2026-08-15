@@ -6,7 +6,7 @@ import Link from "next/link";
 import {
   Menu, X, ChevronDown, ChevronRight, DollarSign, Target,
   CreditCard, FileText, MapPin, List, Calculator, Scale,
-  BookOpen, HelpCircle, Grid3x3
+  BookOpen, HelpCircle, Grid3x3, Newspaper, Rss
 } from "lucide-react";
 
 const Header = () => {
@@ -52,6 +52,8 @@ const Header = () => {
     { icon: Calculator, title: "Tools", description: "Calculators & helpful tools", to: "/resources/tools" },
     { icon: Scale, title: "Comparisons", description: "Compare borrowing options", to: "/resources/comparisons" },
     { icon: BookOpen, title: "Guides", description: "Step-by-step loan guides", to: "/resources/guides" },
+    { icon: Newspaper, title: "Blog", description: "Rate news & borrowing tips", to: "/blog" },
+    { icon: Rss, title: "News", description: "Loan & interest-rate updates", to: "/news" },
     { icon: HelpCircle, title: "FAQ", description: "Common questions answered", to: "/resources/faq" },
     { icon: Grid3x3, title: "All Resources", description: "Browse all tools & guides", to: "/resources" }
   ];
@@ -200,23 +202,7 @@ const Header = () => {
                 About Us
               </Link>
 
-              {/* Blog Link */}
-              <Link
-                href="/blog"
-                className="text-sm font-medium transition-colors py-2 hover:text-[#1F2937]"
-                style={{ color: '#64748B' }}
-              >
-                Blog
-              </Link>
-
-              {/* News Link */}
-              <Link
-                href="/news"
-                className="text-sm font-medium transition-colors py-2 hover:text-[#1F2937]"
-                style={{ color: '#64748B' }}
-              >
-                News
-              </Link>
+              {/* Blog and News now live inside the Resources dropdown. */}
 
               {/* Contact Link */}
               <Link
@@ -389,29 +375,7 @@ const Header = () => {
               </Link>
             </div>
 
-            {/* Mobile Blog */}
-            <div className="py-2 border-t" style={{ borderColor: '#F1F5F9' }}>
-              <Link
-                href="/blog"
-                className="w-full flex items-center justify-between px-2 py-2 text-sm font-semibold rounded-md transition-colors hover:bg-[#F8FAFC]"
-                style={{ color: '#1F2937', textDecoration: 'none' }}
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Blog
-              </Link>
-            </div>
-
-            {/* Mobile News */}
-            <div className="py-2 border-t" style={{ borderColor: '#F1F5F9' }}>
-              <Link
-                href="/news"
-                className="w-full flex items-center justify-between px-2 py-2 text-sm font-semibold rounded-md transition-colors hover:bg-[#F8FAFC]"
-                style={{ color: '#1F2937', textDecoration: 'none' }}
-                onClick={() => setIsMenuOpen(false)}
-              >
-                News
-              </Link>
-            </div>
+            {/* Blog and News now live inside the mobile Resources accordion. */}
 
             {/* Mobile Contact */}
             <div className="py-2 border-t" style={{ borderColor: '#F1F5F9' }}>
