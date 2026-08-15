@@ -1,4 +1,4 @@
-﻿'use client';
+'use client';
 
 import { Mail, ChevronRight } from "lucide-react";
 import Link from "next/link";
