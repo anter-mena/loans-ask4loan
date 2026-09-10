@@ -146,15 +146,6 @@ const HeroSection = () => {
           <div className="mt-10 sm:mt-12">
             <a
               href="/application-form"
-              onClick={() => {
-                if (typeof window !== 'undefined' && window.gtag) {
-                  window.gtag('event', 'loan_application_click', {
-                    event_category: 'engagement',
-                    event_label: 'Hero CTA Button',
-                    event_source: 'hero_section'
-                  });
-                }
-              }}
               className="inline-block"
             >
               <button

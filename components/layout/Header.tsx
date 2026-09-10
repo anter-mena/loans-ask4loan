@@ -221,15 +221,6 @@ const Header = () => {
             {/* Desktop Apply Button */}
             <a
               href="/application-form"
-              onClick={() => {
-                if (typeof window !== 'undefined' && window.gtag) {
-                  window.gtag('event', 'loan_application_click', {
-                    event_category: 'engagement',
-                    event_label: 'Header Apply Button Desktop',
-                    event_source: 'header_navigation'
-                  });
-                }
-              }}
               className="primary-cta hidden lg:inline-flex items-center px-4 py-2 text-sm font-medium rounded-md transition-all focus:outline-none focus:ring-2 focus:ring-emerald-200 focus:ring-offset-1 ring-1 ring-emerald-200 ring-offset-1 ring-offset-white hover:scale-105 active:scale-95"
               style={{
                 backgroundColor: '#10B981',
@@ -393,16 +384,7 @@ const Header = () => {
             <div className="pt-4 border-t" style={{ borderColor: '#F1F5F9' }}>
               <a
                 href="/application-form"
-                onClick={() => {
-                  if (typeof window !== 'undefined' && window.gtag) {
-                    window.gtag('event', 'loan_application_click', {
-                      event_category: 'engagement',
-                      event_label: 'Header Apply Button Mobile',
-                      event_source: 'mobile_menu'
-                    });
-                  }
-                  setIsMenuOpen(false);
-                }}
+                onClick={() => setIsMenuOpen(false)}
                 className="primary-cta block w-full px-6 py-3 text-sm font-medium rounded-md transition-all text-center focus:outline-none focus:ring-2 focus:ring-emerald-200 focus:ring-offset-1 ring-1 ring-emerald-200 ring-offset-1 ring-offset-white hover:scale-105 active:scale-95"
                 style={{
                   backgroundColor: '#10B981',

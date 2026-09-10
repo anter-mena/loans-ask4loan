@@ -22,13 +22,6 @@ const RateCheckCard = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (typeof window !== "undefined" && window.gtag) {
-      window.gtag("event", "loan_application_click", {
-        event_category: "engagement",
-        event_label: "Rate Check Card",
-        event_source: "rate_check_card",
-      });
-    }
     window.open(
       "/application-form",
       "_blank",

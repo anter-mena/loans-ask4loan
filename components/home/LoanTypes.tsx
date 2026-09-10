@@ -173,15 +173,6 @@ const LoanTypes = () => {
           </p>
           <a
             href="/application-form"
-            onClick={() => {
-              if (typeof window !== 'undefined' && window.gtag) {
-                window.gtag('event', 'loan_application_click', {
-                  event_category: 'engagement',
-                  event_label: 'Loan Types CTA Button',
-                  event_source: 'loan_types_section'
-                });
-              }
-            }}
             className="inline-block"
           >
             <button

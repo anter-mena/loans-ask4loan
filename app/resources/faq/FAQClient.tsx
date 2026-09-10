@@ -318,18 +318,7 @@ const FAQClient = () => {
             className="ring-2 ring-emerald-200 ring-offset-2 ring-offset-white shadow-lg shadow-emerald-200/50 hover:bg-[#059669]! hover:scale-105 active:scale-95"
             style={{ backgroundColor: "#10B981", color: "#FFFFFF" }}
           >
-            <a
-              href="/application-form"
-              onClick={() => {
-                if (typeof window !== 'undefined' && window.gtag) {
-                  window.gtag('event', 'loan_application_click', {
-                    event_category: 'engagement',
-                    event_label: 'FAQ Page CTA Button',
-                    event_source: 'faq_page',
-                  });
-                }
-              }}
-            >
+            <a href="/application-form">
               Apply Now
               <ArrowRight />
             </a>

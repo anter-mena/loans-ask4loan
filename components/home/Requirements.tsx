@@ -84,15 +84,6 @@ const Requirements = () => {
             {/* Desktop CTA Button */}
             <a
               href="/application-form"
-              onClick={() => {
-                if (typeof window !== 'undefined' && window.gtag) {
-                  window.gtag('event', 'loan_application_click', {
-                    event_category: 'engagement',
-                    event_label: 'Requirements CTA Button Desktop',
-                    event_source: 'requirements_section_desktop'
-                  });
-                }
-              }}
               className="hidden lg:inline-block"
             >
               <button
@@ -160,15 +151,6 @@ const Requirements = () => {
         <div className="mt-8 lg:hidden flex justify-center">
           <a
             href="/application-form"
-            onClick={() => {
-              if (typeof window !== 'undefined' && window.gtag) {
-                window.gtag('event', 'loan_application_click', {
-                  event_category: 'engagement',
-                  event_label: 'Requirements CTA Button',
-                  event_source: 'requirements_section'
-                });
-              }
-            }}
             className="inline-block"
           >
             <button

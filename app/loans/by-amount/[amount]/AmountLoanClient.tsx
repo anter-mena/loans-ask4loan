@@ -91,16 +91,6 @@ const comparisonLinks = [
 
 const cityLinks = ["Toronto, ON", "Montreal, QC", "Calgary, AB", "Ottawa, ON", "Edmonton, AB", "Vancouver, BC"];
 
-const trackClick = (label: string, slug: string) => {
-  if (typeof window !== "undefined" && window.gtag) {
-    window.gtag("event", "loan_application_click", {
-      event_category: "engagement",
-      event_label: label,
-      event_source: `loan_amount_${slug}`,
-    });
-  }
-};
-
 const AmountLoanClient = ({ entry }: { entry: LoanAmountEntry }) => {
   const { amount, slug } = entry;
   const otherAmounts = getOtherLoanAmounts(slug);
@@ -211,10 +201,7 @@ const AmountLoanClient = ({ entry }: { entry: LoanAmountEntry }) => {
               className="rounded-full ring-2 ring-emerald-200 ring-offset-2 ring-offset-white shadow-lg shadow-emerald-200/50 hover:bg-[#059669]! hover:scale-105 active:scale-95"
               style={{ backgroundColor: "#10B981", color: "#FFFFFF" }}
             >
-              <a
-                href="/application-form"
-                onClick={() => trackClick("Amount Page Top CTA", slug)}
-              >
+              <a href="/application-form">
                 Apply Now
                 <ArrowRight />
               </a>
@@ -253,7 +240,6 @@ const AmountLoanClient = ({ entry }: { entry: LoanAmountEntry }) => {
               minAmount={100}
               maxAmount={5000}
               disclaimer="Estimate at 19.99% APR. Actual rate may vary (5%-35% APR)."
-              guideSlug={`amount-${slug}`}
             />
           </div>
         </div>
@@ -473,10 +459,7 @@ const AmountLoanClient = ({ entry }: { entry: LoanAmountEntry }) => {
             className="rounded-full ring-2 ring-emerald-200 ring-offset-2 ring-offset-white shadow-lg shadow-emerald-200/50 hover:bg-[#059669]! hover:scale-105 active:scale-95"
             style={{ backgroundColor: "#10B981", color: "#FFFFFF" }}
           >
-            <a
-              href="/application-form"
-              onClick={() => trackClick("Amount Page Ready to Apply", slug)}
-            >
+            <a href="/application-form">
               Check Your Rate Now
               <ArrowRight />
             </a>

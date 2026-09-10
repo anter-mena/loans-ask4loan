@@ -131,15 +131,6 @@ const Benefits = () => {
         <div className="text-center mt-12 sm:mt-16 lg:mt-20">
           <a
             href="/application-form"
-            onClick={() => {
-              if (typeof window !== 'undefined' && window.gtag) {
-                window.gtag('event', 'loan_application_click', {
-                  event_category: 'engagement',
-                  event_label: 'Benefits CTA Button',
-                  event_source: 'benefits_section'
-                });
-              }
-            }}
             className="inline-block"
           >
             <button

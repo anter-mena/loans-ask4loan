@@ -76,18 +76,7 @@ const ComparisonArticleClient = ({ entry }: { entry: ComparisonEntry }) => {
               className="rounded-full ring-2 ring-emerald-200 ring-offset-2 ring-offset-white shadow-lg shadow-emerald-200/50 hover:bg-[#059669]! hover:scale-105 active:scale-95"
               style={{ backgroundColor: "#10B981", color: "#FFFFFF" }}
             >
-              <a
-                href="/application-form"
-                onClick={() => {
-                  if (typeof window !== 'undefined' && window.gtag) {
-                    window.gtag('event', 'loan_application_click', {
-                      event_category: 'engagement',
-                      event_label: 'Comparison Article Top CTA',
-                      event_source: `comparison_${entry.slug}`,
-                    });
-                  }
-                }}
-              >
+              <a href="/application-form">
                 Check {entry.optionA.name} Rates
                 <ArrowRight />
               </a>
