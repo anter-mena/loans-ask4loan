@@ -1,5 +1,7 @@
 import { MetadataRoute } from 'next';
 
+import { BASE_URL } from '@/lib/seo';
+
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: [
@@ -8,6 +10,6 @@ export default function robots(): MetadataRoute.Robots {
       { userAgent: 'Bingbot', allow: '/' },
       { userAgent: 'Slurp', allow: '/' },
     ],
-    sitemap: 'https://ask4loan.ca/sitemap.xml',
+    sitemap: `${BASE_URL}/sitemap.xml`,
   };
 }
